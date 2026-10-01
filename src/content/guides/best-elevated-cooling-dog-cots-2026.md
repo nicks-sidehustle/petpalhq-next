@@ -14,7 +14,7 @@ keywords:
   - "chew resistant raised dog bed"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-elevated-cooling-dog-cots-2026.webp"
@@ -238,7 +238,7 @@ picks:
         accessed: "2026-07-06"
 
   - rank: 5
-    label: "WIDELY AVAILABLE PICK"
+    label: "HOUSE-BRAND PICK"
     name: "Amazon Basics Cooling Breathable Elevated Dog Bed, Large (51 x 31 x 8 in)"
     brand: "Amazon Basics"
     score: 7.9
@@ -256,13 +256,13 @@ picks:
       - "Cleans with tap water"
       - "Assembles with the included screws and hex tool"
     body: |
-      The Amazon Basics elevated bed is the pick for buyers who want a widely-stocked, budget-friendly cot from a house brand they can reorder in two clicks. It is built on the same proven template as the rest of this roster: an iron frame under a breathable mesh deck that lifts the dog off the ground so air moves underneath. For an owner who wants a straightforward raised cot without paying a premium, and who values easy availability and replacement, this is a no-drama choice.
+      The Amazon Basics elevated bed is the pick for buyers who want a budget-friendly cot from a house brand. It is built on the same proven template as the rest of this roster: an iron frame under a breathable mesh deck that lifts the dog off the ground so air moves underneath. For an owner who wants a straightforward raised cot without paying a premium, this is a no-drama choice.
 
       It covers the format's essentials without pretending to more. The iron frame is what stops a cot sagging in the middle after a season, the mesh deck lets heat carry away rather than pooling against the dog, and the off-ground lift keeps it above warm decking and cold tile alike. At 51 by 31 by 8 inches this is the large size, which Amazon sizes for medium and large breeds — poodles, huskies, shepherds, boxers. It cleans with plain tap water, and it ships flat with the screws and hex tool needed to put it together.
 
-      The honest framing holds here as everywhere in this guide. It cools by airflow and elevation — real passive cooling — but it is a breathable comfort bed, not a gel or refrigerated surface, so it keeps a dog cooler than warm ground rather than chilling one. As with any mesh cot, a determined chewer or digger can open the deck, so it suits calm resters best, and unlike the Coolaroo above there is no separate replacement cover for this one, so damage means a new bed. Buy it for the value and the availability, and use it with shade and water in real heat like every cot here.
+      The honest framing holds here as everywhere in this guide. It cools by airflow and elevation — real passive cooling — but it is a breathable comfort bed, not a gel or refrigerated surface, so it keeps a dog cooler than warm ground rather than chilling one. As with any mesh cot, a determined chewer or digger can open the deck, so it suits calm resters best, and unlike the Coolaroo above there is no separate replacement cover for this one, so damage means a new bed. Buy it for the value, and use it with shade and water in real heat like every cot here.
     pros:
-      - "Widely available house brand that is trivial to reorder and replace"
+      - "House-brand cot with a simple, proven build"
       - "Iron frame and breathable mesh deck follow the proven cot template"
       - "Off-ground lift delivers the core airflow cooling and joint relief"
       - "Cleans with tap water, and assembles with the included tool"
@@ -270,7 +270,7 @@ picks:
       - "Passive cooling only — ventilates the dog, does not refrigerate it"
       - "No separate replacement deck sold, unlike the Coolaroo above"
       - "Mesh deck can be damaged by a determined chewer or digger"
-    verdict: "If you want a cheap, always-in-stock raised cot from a familiar house brand, the Amazon Basics large at about $32.25 is a practical everyday pick. Passive airflow cooling — pair it with shade and water."
+    verdict: "If you want a cheap raised cot from a familiar house brand, the Amazon Basics large at about $32.25 is a practical everyday pick. Passive airflow cooling — pair it with shade and water."
     authoritySources:
       - outlet: "Amazon Basics (manufacturer listing)"
         url: "https://www.amazon.com/dp/B076VXVB2L"
@@ -297,7 +297,7 @@ comparison:
     - pickRef: r4
       cells: ["Coolaroo Original", "Large 51 x 31.5 in", "Category benchmark", "8.1"]
     - pickRef: r5
-      cells: ["Amazon Basics", "Large 51 x 31 in", "Widest availability", "7.9"]
+      cells: ["Amazon Basics", "Large 51 x 31 in", "House brand", "7.9"]
 
 methodology:
   formula: "PetPal Cooling-Cot Score = (Airflow / Off-Ground Lift × 0.30) + (Frame Stability & Weight Capacity × 0.25) + (Weather & Chew Durability × 0.20) + (Setup & Portability × 0.15) + (Value × 0.10)"

@@ -16,13 +16,13 @@ keywords:
 species: ["fish"]
 guideType: "spoke"
 publishDate: "2026-07-27"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-30"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/best-complete-reef-aquarium-systems-2026.webp"
 heroImage: "/images/guides/best-complete-reef-aquarium-systems-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis bundling six previously-reviewed equipment categories (protein skimmers, reef LED lighting, sumps/refugiums, calcium reactors, dosing pumps, and automatic top-off systems) into one system-level buying framework. Every pick is a manufacturer-documented product cross-checked against the Amazon Creators API for live pricing and buyability at time of publish. Sources include CoralVue/Reef Octopus, Kessil, Fiji Cube, Tunze, Chihiros/Glass Aqua, and Bulk Reef Supply reef-keeping education. PetPalHQ does not run a reef-testing lab."
+reviewMethod: "Editorial synthesis bundling six previously-reviewed equipment categories (protein skimmers, reef LED lighting, sumps/refugiums, calcium reactors, dosing pumps, and automatic top-off systems) into one system-level buying framework. Every pick is a manufacturer-documented product cross-checked against the Amazon Creators API for live pricing at time of publish. Sources include CoralVue/Reef Octopus, Kessil, Fiji Cube, Tunze, Chihiros/Glass Aqua, and Bulk Reef Supply reef-keeping education. PetPalHQ does not run a reef-testing lab."
 lastProductCheck: "2026-07-27"
 expertSourceCount: 6
 
@@ -126,7 +126,7 @@ picks:
       - outlet: "Amazon"
         url: "https://www.amazon.com/dp/B0DGQS4NBC"
         stat: "Kessil A360XE Tuna Blue Saltwater Aquarium LED Light, listed at $499.00, live new-condition offer confirmed at our July 27, 2026 check, on a different listing than the one previously tracked"
-        claim: "Current, live Amazon street price and a buyable listing for the A360XE Tuna Blue, re-verified for this system build."
+        claim: "Current, live Amazon street price for the A360XE Tuna Blue, re-verified for this system build."
         supports: "value"
         accessed: "2026-07-27"
     aliases:
@@ -301,21 +301,17 @@ picks:
       - "Low-liquid volume monitoring and notifications"
       - "Compact single-channel design that mounts into the sump's dedicated dosing holes"
     body: |
-      Honest note on this pick before the review: the higher-end multi-channel dosing pump this build originally anchored on — a Kamoer X1 PRO T2 with the high-flow KPAS100 head, previously priced around $813 — had no live new-condition Amazon offer at our July 27, 2026 check for either the KPAS100 bundle or a genuine 4-channel Kamoer or Chihiros system at that tier. Rather than list a pick you can't currently buy, this system's dosing-pump slot goes to the single-channel Chihiros doser, which is real, in stock, and verified at $166.09 today. If you need multi-channel automatic dosing for a full two-part-plus-trace-elements routine, expect to add a second or third unit, or check current availability on a higher-capacity system before committing your dosing budget.
-
       What the single-channel Chihiros doser does well: Glass Aqua and Buce Plant both confirm 0.2ml precision in 0.1ml increments, controlled through the MY CHIHIROS app with low-liquid notifications. That's precise enough for a single supplement — alkalinity, calcium, or a trace-element blend — dosed on a schedule instead of by hand. It mounts directly into the dosing holes Fiji Cube built into the sump this system uses, so no aftermarket drilling is needed to add it.
 
-      The honest limit is capacity, not precision: this is one channel. A reef running the full two-part-plus-trace routine most SPS-heavy tanks need will want two or three of these, or a genuine multi-channel system if one becomes reliably available. Budget accordingly rather than assuming one unit covers the whole dosing job.
+      The honest limit is capacity, not precision: this is one channel. A reef running the full two-part-plus-trace routine most SPS-heavy tanks need will want two or three of these. Budget accordingly rather than assuming one unit covers the whole dosing job.
     pros:
       - "0.2ml precision in 0.1ml increments, confirmed by two independent retailer listings"
       - "Mounts directly into the sump's built-in dosing holes"
       - "App-based scheduling with low-liquid notifications"
-      - "Currently live and buyable, unlike the higher-tier multi-channel system this slot originally targeted"
     cons:
       - "Single channel — a full two-part-plus-trace routine needs two or three units"
-      - "Not the $800-plus high-flow pump this build's price band originally targeted; substituted honestly because that tier had no live offer at check"
       - "Tubing wears over time on any peristaltic doser and needs periodic replacement"
-    verdict: "The honest, currently-buyable dosing pick for this build — add a second or third unit if your reef's supplement routine needs more than one channel."
+    verdict: "The honest dosing pick for this build — add a second or third unit if your reef's supplement routine needs more than one channel."
 
   - rank: 6
     label: "AUTOMATIC TOP-OFF — THE REDUNDANCY LAYER"
@@ -417,7 +413,7 @@ bottomLine:
   - "Buy the skimmer second — it sets the real bioload ceiling everything else gets sized against. Size it by the manufacturer's heavy-bioload rating, never the light-bioload figure on the box, and choose the model from our standalone protein skimmer guide, linked below."
   - "Buy the Kessil A360XE LED at $499.00 to match — one fixture covers a standard 24x24-inch mixed-reef footprint; budget for a second unit only if your tank runs wider."
   - "Add the Reef Octopus CR220 calcium reactor at $1,027.94 only if your coral mix is genuinely SPS-heavy and demanding — it's the single most expensive piece and the first one to cut if budget is tight."
-  - "Add the Chihiros single-head doser at $166.09 for daily trace-element automation, and plan on a second unit if you need a full two-part-plus-trace routine — the higher-capacity system this slot targeted wasn't live and buyable at our check, so we substituted honestly rather than list a dead link."
+  - "Add the Chihiros single-head doser at $166.09 for daily trace-element automation, and plan on a second unit if you need a full two-part-plus-trace routine."
   - "Buy the Tunze Osmolator 3 ATO at $249.99 last, and size its freshwater reservoir to your system's real evaporation rate before trusting it to run unattended."
 
 sources:
@@ -447,7 +443,7 @@ related:
 
 A complete reef build is a handful of separate purchases that only work as a system if they're sized against each other: a sump and refugium to filter and stabilize the water, LED lighting to grow coral, a protein skimmer to export nutrients, a calcium reactor to automate alkalinity and calcium, a dosing pump for trace elements, and an automatic top-off system to replace evaporation without you standing over the tank daily. Buy any one of those in isolation and you've bought a component. Buy the set sized against the same bioload target and you've bought a system.
 
-This guide doesn't introduce {{pickCountWord}} new products. Every pick here has already been reviewed individually on this site, re-checked against its live Amazon listing and price, and sequenced into a buying order: sump first, because it's where everything else physically mounts; skimmer second, because it sets the real bioload ceiling; lighting third, to match; then the automation layer — calcium reactor, dosing pump, and ATO — last, because none of it matters until the first three pieces are running and you know your tank's actual demand. The skimmer slot is the one piece this guide no longer prices directly — our standalone skimmer guide carries the current picks, and the sizing rule below is what matters more than the model. One honest substitution happened during this re-verification: the higher-capacity multi-channel dosing pump this build originally priced at roughly $813 had no live new-condition Amazon offer at check, so the dosing slot goes to a real, in-stock single-channel unit instead, with a plain note that a second channel may be needed.
+This guide doesn't introduce {{pickCountWord}} new products. Every pick here has already been reviewed individually on this site, re-checked against its live Amazon listing and price, and sequenced into a buying order: sump first, because it's where everything else physically mounts; skimmer second, because it sets the real bioload ceiling; lighting third, to match; then the automation layer — calcium reactor, dosing pump, and ATO — last, because none of it matters until the first three pieces are running and you know your tank's actual demand. The skimmer slot is the one piece this guide no longer prices directly — our standalone skimmer guide carries the current picks, and the sizing rule below is what matters more than the model.
 
 ## Frequently Asked Questions
 
@@ -464,7 +460,7 @@ A: It depends on your coral mix. A soft-coral- or LPS-leaning reef can usually r
 A: Yes, with one cut. The calcium reactor is the piece to drop first if the coral mix doesn't demand it — at $1,027.94 it is more than 40 percent of what this guide prices, and removing it brings the priced pieces to about $1,320 before the skimmer. The dosing pump can also start as a single channel (as priced here) rather than a multi-channel system, and you can run one Kessil A360XE rather than two if your tank is at or under the standard 24-inch width.
 
 **Q: Why does this guide use different products than the individual skimmer, LED, and sump guides on this site?**
-A: It doesn't — every product priced in this build is the same premium-tier pick reviewed in this site's standalone [protein skimmer](/guides/best-protein-skimmers-saltwater-reef-2026), [LED lighting](/guides/best-reef-aquarium-led-lighting-2026), [sump](/guides/best-reef-aquarium-sumps-refugiums-2026), [calcium reactor](/guides/best-reef-calcium-reactors-2026), [dosing pump](/guides/best-reef-dosing-pumps-2026), and [ATO](/guides/best-automatic-aquarium-ato-systems-2026) guides, re-verified for live buyability and assembled into one system-level buying order. Two slots differ: the dosing pump was substituted honestly when the originally-priced unit had no live offer at check, and the skimmer is now sized here but chosen in the skimmer guide itself.
+A: It doesn't — every product priced in this build is the same premium-tier pick reviewed in this site's standalone [protein skimmer](/guides/best-protein-skimmers-saltwater-reef-2026), [LED lighting](/guides/best-reef-aquarium-led-lighting-2026), [sump](/guides/best-reef-aquarium-sumps-refugiums-2026), [calcium reactor](/guides/best-reef-calcium-reactors-2026), [dosing pump](/guides/best-reef-dosing-pumps-2026), and [ATO](/guides/best-automatic-aquarium-ato-systems-2026) guides, assembled into one system-level buying order. One slot differs: the skimmer is now sized here but chosen in the skimmer guide itself.
 
 **Q: Is this system overkill for a first reef tank?**
 A: Almost certainly, yes. This guide is built for reef-curious upgraders moving beyond a single-piece purchase, not first-tank buyers. If you're setting up your first saltwater tank, start with our [beginner reef setup guide](/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026), which explicitly recommends skipping protein skimmers and reef lighting rigs until you've run water tests and stocked a smaller system successfully first.

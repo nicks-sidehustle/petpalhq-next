@@ -10,7 +10,6 @@ keywords:
   - "Kurgo Tru-Fit dog harness"
   - "FMVSS 213 dog car safety"
   - "dog seat belt harness crash test"
-  - "Gunner G1 dog crate car travel"
   - "dog car restraint safety certification"
   - "crash tested cat car seat"
   - "CPS certified cat carrier car"
@@ -22,7 +21,7 @@ featured: true
 image: "/images/guides/best-crash-tested-dog-car-harnesses-2026.webp"
 heroImage: "/images/guides/best-crash-tested-dog-car-harnesses-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of Center for Pet Safety certification records, manufacturer FMVSS 213-based crash-test documentation, AVMA, AAHA, AKC, and Merck Veterinary Manual travel guidance, plus hobbyist consensus from r/dogs — no first-hand crash testing or product testing. Prices, availability, condition, and the seller on the listing were re-verified for all {{pickCountWord}} picks by live Amazon product-page reads on September 7, 2026, and every price on this page held."
+reviewMethod: "Editorial synthesis of Center for Pet Safety certification records, manufacturer FMVSS 213-based crash-test documentation, AVMA, AAHA, AKC, and Merck Veterinary Manual travel guidance, plus hobbyist consensus from r/dogs — no first-hand crash testing or product testing. Prices, condition, and the seller on the listing were re-verified for all {{pickCountWord}} picks by live Amazon product-page reads on September 7, 2026, and every price on this page held."
 lastProductCheck: "2026-09-07"
 expertSourceCount: 12
 
@@ -38,13 +37,8 @@ topPicks:
     keyFeature: "Center for Pet Safety-certified five-star harness with published weight bands by size."
     sources: ["Center for Pet Safety certification records", "Sleepypod manufacturer documentation", "AKC Dog Car Safety guidance"]
     verifiedDate: "2026-05-05"
-  - name: "Gunner G1 Small Kennel"
-    pickRef: "r2"
-    keyFeature: "Five-star CPS-certified hard crate tested with a 30 lb crash dog — the hard-shell benchmark."
-    sources: ["Center for Pet Safety certification records", "Gunner manufacturer documentation"]
-    verifiedDate: "2026-07-10"
   - name: "Sleepypod Mobile Pet Bed"
-    pickRef: "r3"
+    pickRef: "r2"
     keyFeature: "CPS-certified carrier that doubles as a crash-tested in-car restraint for dogs and cats up to 15 lb."
     sources: ["Center for Pet Safety certification records", "Sleepypod manufacturer documentation"]
     verifiedDate: "2026-07-10"
@@ -83,38 +77,6 @@ picks:
     verdict: "If you can buy one CPS-certified harness, this is the one. Editorial consensus across CPS certification records, AKC Dog Car Safety guidance, and r/dogs hobbyist accounts converges on the Clickit Sport Plus as the default starting point for dog car restraint."
 
   - rank: 2
-    label: "BEST HARD CRATE — CPS CERTIFIED"
-    name: "Gunner G1 Small Kennel"
-    brand: "Gunner"
-    score: 9.3
-    price: "$600.00"
-    image: "https://m.media-amazon.com/images/I/41IGnc1pX0L._SL500_.jpg"
-    asin: "B0GVG9W85Y"
-    keyFeatures:
-      - "Center for Pet Safety-certified at five stars with a 30 lb crash dog"
-      - "Double-wall rotomolded construction"
-      - "Anchored to the vehicle via integrated tie-down points"
-      - "Covers the slot CPS-certified harnesses do not — full containment"
-    body: |
-      The Gunner G1 Small is the hard-shell benchmark when vehicle space, budget, and use case justify it. The Center for Pet Safety certifies the G1 Small at five stars, tested with a 30 lb crash dog. Hard crates protect differently from harnesses — they contain the dog within a structural shell rather than restraining the dog against the seat — and for SUV cargo areas and pickup beds, that containment is often the safer choice.
-
-      Where this earns inclusion: hunting dogs, working dogs that travel in cargo areas, multi-dog households where a harness on the back seat is not workable, and any owner who has internalized the AVMA and AKC posture that a properly anchored crate is the gold standard for dog car safety when the vehicle can accommodate one.
-
-      What the spec sheet does not tell you: the G1 Small only certifies at five stars when it is anchored to the vehicle. Hobbyist threads on r/dogs about crash-safe travel kennels are clear on this — an unanchored crate, even a Gunner, can become a projectile in a serious crash. Read Gunner's tie-down documentation before the first trip, not after.
-
-      The trade-off is price and footprint. At several hundred dollars, the G1 Small is the most expensive product on this list. It only fits in vehicles with cargo capacity to spare, and it is heavy enough that the owner-loading workflow needs to be planned, not improvised.
-    pros:
-      - "Five-star CPS certification — tied with the Clickit Sport Plus on independent evidence"
-      - "Containment-based protection rather than restraint-based"
-      - "Built for working-dog and SUV-cargo use cases"
-      - "Documented tie-down methodology"
-    cons:
-      - "Premium price puts it out of reach for many buyers"
-      - "Only certifies as tested when anchored to the vehicle"
-      - "Footprint and weight rule out small cars and most sedans"
-    verdict: "Buy this if you have the vehicle space, the budget, and a use case — hunting, working dog, multi-dog cargo travel — that justifies containment over restraint. For everyone else, the Clickit Sport Plus delivers CPS certification at a fraction of the price."
-
-  - rank: 3
     label: "BEST FOR SMALL DOGS AND CATS — DUAL-USE"
     name: "Sleepypod Mobile Pet Bed"
     brand: "Sleepypod"
@@ -146,7 +108,7 @@ picks:
       - "Not airline-rated for every carrier; check airline rules separately"
     verdict: "Buy this if you have a cat or a small dog and you want a single product that handles carrier duty and crash safety. For dogs over 15 lb, move to a seat-belt-routed harness — the Kurgo Tru-Fit up to 75 lb, the Kurgo Impact above it."
 
-  - rank: 4
+  - rank: 3
     label: "BEST FOR LARGE DOGS — FMVSS 213-TESTED"
     name: "Kurgo Impact Dog Car Harness"
     brand: "Kurgo"
@@ -178,7 +140,7 @@ picks:
       - "Higher price than the Tru-Fit, lower than Sleepypod"
     verdict: "Get this if your dog is over 75 lb and a hard crate is impractical. Pair with a separate walking harness for daily use."
 
-  - rank: 5
+  - rank: 4
     label: "BEST BUDGET HARNESS — FMVSS 213-TESTED"
     name: "Kurgo Enhanced Strength Tru-Fit"
     brand: "Kurgo"
@@ -210,7 +172,7 @@ picks:
       - "Padding can wear at high-friction points after heavy use"
     verdict: "Get this if your dog is under 75 lb and you want the cheapest restraint on this page with real published test methodology behind it. Recognize that manufacturer-declared testing is a step below independent certification — but it is several steps above a generic seat-belt clip."
 
-  - rank: 6
+  - rank: 5
     label: "BEST ENCLOSED PICK FOR CATS — CPS 5-STAR LINE"
     name: "PawsInCar Crash-Tested Small Dog Car Seat"
     brand: "Pawsincar"
@@ -231,7 +193,7 @@ picks:
         accessed: "2026-07-27"
       - outlet: "Amazon listing (verified live 2026-07-27 via Creators API)"
         url: "https://www.amazon.com/dp/B0DT15X3LB"
-        stat: "$148.99, in-stock offer, sold by Pawsincar directly, condition New"
+        stat: "$148.99, sold by Pawsincar directly, condition New"
         supports: "spec"
         accessed: "2026-07-27"
     aliases:
@@ -262,13 +224,13 @@ picks:
 comparison:
   rows:
     - label: "Restraint type"
-      values: ["Harness (3-point)", "Hard crate", "Carrier as restraint", "Harness (5-point)", "Harness (5-point)", "Enclosed carrier as restraint"]
+      values: ["Harness (3-point)", "Carrier as restraint", "Harness (5-point)", "Harness (5-point)", "Enclosed carrier as restraint"]
     - label: "Independent certification"
-      values: ["CPS 5-star", "CPS 5-star", "CPS certified", "Manufacturer FMVSS 213-style", "Manufacturer FMVSS 213-style", "CPS 5-star (line-level)"]
+      values: ["CPS 5-star", "CPS certified", "Manufacturer FMVSS 213-style", "Manufacturer FMVSS 213-style", "CPS 5-star (line-level)"]
     - label: "Weight rating"
-      values: ["Per size band", "Tested at 30 lb", "Up to 15 lb", "Up to 108 lb", "Up to 75 lb", "Cats and small dogs, ~15-20 lb"]
+      values: ["Per size band", "Up to 15 lb", "Up to 108 lb", "Up to 75 lb", "Cats and small dogs, ~15-20 lb"]
     - label: "Best vehicle fit"
-      values: ["Sedan to SUV back seat", "SUV/truck cargo area", "Sedan to SUV back seat", "Any vehicle back seat", "Any vehicle back seat", "Sedan to SUV back seat"]
+      values: ["Sedan to SUV back seat", "Sedan to SUV back seat", "Any vehicle back seat", "Any vehicle back seat", "Sedan to SUV back seat"]
 
 methodology:
   formula: "PetPal Gear Score = (Independent Crash Evidence × 0.40) + (Expert Consensus × 0.25) + (Fit and Sizing Methodology × 0.20) + (Vehicle Fit and Workflow × 0.15)"

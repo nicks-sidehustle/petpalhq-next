@@ -14,7 +14,7 @@ keywords:
   - "remineralize water for cherry shrimp"
 pillar: "aquarium-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026.webp"
@@ -373,7 +373,7 @@ picks:
 
       Where it fits the setup: this is the tool that gives you total control, and whether you need it is the honest fork of the whole build. If your tap water is already suitably hard and copper-free, you can condition it and skip remineralizing entirely. If your tap runs very soft, or you choose RO water for control, this salt is what turns near-empty water into shrimp habitat. The decision is not taste — it is a test result, which is why the hardness kit above comes first. Measure your tap, then choose the route it points to.
 
-      The honest caveats are precision, stock, and consistency. Remineralizing asks you to dose to a number and check it with the test kit, so it adds a step to every water change. This particular tin can also run scarce, so it is worth ordering ahead rather than at the last minute. And you have to mix consistently, because swinging hardness between changes is exactly the instability shrimp hate. As the water-builder, it is optional power for anyone whose tap water will not do the job on its own.
+      The honest caveats are precision and consistency. Remineralizing asks you to dose to a number and check it with the test kit, so it adds a step to every water change. And you have to mix consistently, because swinging hardness between changes is exactly the instability shrimp hate. As the water-builder, it is optional power for anyone whose tap water will not do the job on its own.
     pros:
       - "Turns RO or soft water into shrimp-ready habitat"
       - "Adds trace elements shrimp use to molt"
@@ -382,8 +382,7 @@ picks:
     cons:
       - "Unnecessary if your tap water is already suitably hard"
       - "Adds a measured mixing step to every water change"
-      - "This tin can run scarce, so order ahead"
-    verdict: "Remineralize when your tap water is too soft or you run RO for control, and skip it when hard tap already does the job. Let the hardness test, not habit, make the call, and mix to the same target every time. Confirm the current price and availability before buying, since this tin can run scarce."
+    verdict: "Remineralize when your tap water is too soft or you run RO for control, and skip it when hard tap already does the job. Let the hardness test, not habit, make the call, and mix to the same target every time."
 
   - rank: 9
     label: "BIOFILM FURNITURE — CHOLLA WOOD"

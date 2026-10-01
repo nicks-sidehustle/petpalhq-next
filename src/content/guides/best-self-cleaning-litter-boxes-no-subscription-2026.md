@@ -15,7 +15,7 @@ keywords:
   - "best self-cleaning litter box no app fee"
 pillar: "expert-care"
 publishDate: "2026-06-25"
-updatedDate: "2026-08-18"
+updatedDate: "2026-09-30"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/best-self-cleaning-litter-boxes-no-subscription-2026.webp"
@@ -82,7 +82,7 @@ picks:
 
       PetSnowy supports clumping clay as well as tofu, pine, and crystal litters, and that flexibility helps you meet the AAFP preference for unscented clumping litter. The waste bin lasts up to 14 days for a single cat per PetSnowy. An independent Cats.com roundup rates the box 8.8 out of 10. That same roundup actually scores Whisker's Litter-Robot models higher overall, so the no-subscription framing here is our own editorial call: those higher-ranked boxes reserve their full feature set for the paid Whisker+ plan, which is the exact paywall this guide is built to avoid.
 
-      Two things the listing leaves out. The enclosed globe geometry can feel snug for very large cats, and the 3.3 lb minimum rules out automatic mode for tiny kittens. On our August 10, 2026 check the Amazon listing was priced at $559.99 and quoting a future ship date rather than immediate dispatch, so treat it as a plan-ahead purchase and confirm the delivery estimate before you order. Treat any transition slowly, keeping the old box nearby during acclimation exactly as the ASPCA advises. For a strong all-rounder with documented odor control and no ongoing software cost, the SNOW+ is the box to beat in this guide. Even a strong in-box odor system leaves some litter-area smell behind, so an [enzyme odor remover](/guides/best-pet-odor-removers-2026) is the usual companion buy.
+      Two things the listing leaves out. The enclosed globe geometry can feel snug for very large cats, and the 3.3 lb minimum rules out automatic mode for tiny kittens. Treat any transition slowly, keeping the old box nearby during acclimation exactly as the ASPCA advises. For a strong all-rounder with documented odor control and no ongoing software cost, the SNOW+ is the box to beat in this guide. Even a strong in-box odor system leaves some litter-area smell behind, so an [enzyme odor remover](/guides/best-pet-odor-removers-2026) is the usual companion buy.
     pros:
       - "No recurring software fee — monitoring and scheduling are free"
       - "Documented TiO₂ odor control with high ammonia removal"
@@ -94,7 +94,6 @@ picks:
       - "3.3 lb minimum rules out automatic mode for tiny kittens"
       - "Premium price band near $560 — the second-highest here"
       - "Long-term reliability record is shorter than older category leaders"
-      - "Amazon listing showed a future ship date on our Aug 10, 2026 check — not same-week delivery"
     verdict: "Pick the PetSnowy SNOW+ if you want documented odor control and a complete feature set with no monthly fee."
 
   - rank: 2
@@ -211,7 +210,7 @@ picks:
 
       The Casa Leo app is free, so you can start cycles, watch waste levels, and track activity at no charge, and the app also integrates with Alexa and Google Assistant. There is no mandatory subscription for monitoring. AAHA/AAFP and the Cornell Feline Health Center both stress quiet, low-stress litter-box locations, so a box that cycles loudly undercuts that goal and the sub-30 dB claim becomes a genuine welfare point.
 
-      A few trade-offs balance that quiet operation. This is an enclosed drum, so the geometry can feel cramped for very large cats, and Casa Leo recommends 100% clay-clumping litter for best performance, which is a narrower litter window than some rivals offer. On Amazon it was $599.00 on our August 10, 2026 check, with stock running thin, so confirm price and availability before checkout. The Leo's Loo Too is the quiet pick because its low-noise cycle and layered sensors arrive with a free, subscription-free app.
+      A few trade-offs balance that quiet operation. This is an enclosed drum, so the geometry can feel cramped for very large cats, and Casa Leo recommends 100% clay-clumping litter for best performance, which is a narrower litter window than some rivals offer. On Amazon it was $599.00 on our August 10, 2026 check. The Leo's Loo Too is the quiet pick because its low-noise cycle and layered sensors arrive with a free, subscription-free app.
     pros:
       - "Sub-30 dB cycle suits bedrooms and apartments"
       - "Free app — no subscription for monitoring"
@@ -221,7 +220,7 @@ picks:
     cons:
       - "Enclosed drum can feel cramped for very large cats"
       - "Recommends 100% clay-clumping litter — narrower litter window"
-      - "$599.00 on Amazon (Aug 10, 2026) — the highest price here, with stock running thin"
+      - "$599.00 on Amazon (Aug 10, 2026) — the highest price here"
     verdict: "Buy the Leo's Loo Too if quiet operation is the deciding factor and your cat already accepts an enclosed box."
 
   - rank: 5
@@ -291,7 +290,7 @@ whenNotToBuy: |
 bottomLine:
   - "Get the PETKIT PuraMax 2 at $389.99 — the best all-round no-subscription box here, with free health tracking and a mechanical anti-pinch failsafe. The Care+ plan is optional rather than required, and keeping a backup box during the transition is exactly what the ASPCA recommends."
   - "Get the Neakasa M1 Plus if your cat refuses enclosed globes, since its open-top tray, documented sensors, and free app fit the ASPCA preference for large, easily entered boxes."
-  - "Get the Casa Leo Leo's Loo Too if quiet operation matters most, because it runs near 30 dB with a layered safety stack and a free app — just confirm price and stock on the day, since it was running thin on our August 10, 2026 check."
+  - "Get the Casa Leo Leo's Loo Too if quiet operation matters most, because it runs near 30 dB with a layered safety stack and a free app."
   - "Get the Meowant SC09 if you need the most capacity, since its 106L interior and ultra-low entry suit large, senior, or multi-cat homes while keeping core cleaning and monitoring free."
 
 ownerVoice: []

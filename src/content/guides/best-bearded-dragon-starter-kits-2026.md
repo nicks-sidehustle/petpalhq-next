@@ -14,7 +14,7 @@ keywords:
   - "halogen basking bulb bearded dragon"
 pillar: "reptile-habitat"
 publishDate: "2026-06-21"
-updatedDate: "2026-09-09"
+updatedDate: "2026-09-30"
 readTime: "13 min read"
 featured: true
 image: "/images/guides/best-bearded-dragon-starter-kits-2026.webp"
@@ -182,7 +182,7 @@ picks:
 
       Mounting height is where this fixture demands respect rather than trust. Arcadia publishes its own UVI table for the ProT5, measured on a Solarmeter 6.5 at the strongest point with nothing in the beam: the 12% tube reads 8.50 UVI at 12 inches, 6.50 at 15 inches, 3.80 at 20 inches and 2.40 at 24 inches, and Arcadia sets a minimum lamp-to-animal distance of 10 inches. A bearded dragon wants roughly 4.0 to 4.5 UVI at the basking surface, so hung inside an enclosure with clear air between bar and dragon this tube belongs nearer 18 to 20 inches up, not 12. Rested on a mesh screen the reading drops — by how much depends on the mesh — which is why a Solarmeter beats any published distance. As with any T5 HO tube, plan to replace the bulb at roughly 12 months even though it still appears to work, because output fades before the light does.
 
-      It sits below the enclosure in this guide's order because lighting is one component of a setup, not the setup — but it is the component most kits get wrong, and it is the one we would not compromise on. At $159.99 it is $80 more than the ReptiSun hood above it and buys no heat, so the value case rests on the reflector, the protected electronics, the app dimming and the coverage. For a keeper building the best possible large enclosure, the Arcadia LumenIZE ProT5 is the lighting we would choose. Sold by Reptile Basics and fulfilled by Amazon rather than by Amazon itself, with only 14 units showing in stock on the day we checked.
+      It sits below the enclosure in this guide's order because lighting is one component of a setup, not the setup — but it is the component most kits get wrong, and it is the one we would not compromise on. At $159.99 it is $80 more than the ReptiSun hood above it and buys no heat, so the value case rests on the reflector, the protected electronics, the app dimming and the coverage. For a keeper building the best possible large enclosure, the Arcadia LumenIZE ProT5 is the lighting we would choose. Sold by Reptile Basics and fulfilled by Amazon rather than by Amazon itself.
     pros:
       - "Protected electronics and a removable curved reflector Arcadia states carries no UV-absorbing coating"
       - "12% Desert tube is a gold-standard desert UVB, alongside 10.0 Desert strength"
@@ -213,7 +213,7 @@ picks:
       - "Bundles a basking fixture and decor so a beginner gets a working enclosure in one box"
       - "40-breeder footprint meets the adult minimum our sources set"
       - "Convenient single-purchase entry point for first-time keepers"
-      - "Widely available and competitively priced for a complete kit"
+      - "Competitively priced for a complete kit"
     body: |
       The Zilla Deluxe Bearded Dragon Kit is the one true all-in-one we include, and we include it with clear flags. The appeal is real: it is a single box that gets a beginner from nothing to a working enclosure at the 40-gallon-breeder footprint that the Merck Veterinary Manual-aligned sources accept as the adult minimum. For a keeper who wants one purchase and a tank that is the right size, that convenience has value.
 
@@ -226,7 +226,7 @@ picks:
       - "Single-box convenience gets a beginner to a working enclosure fast"
       - "40-breeder footprint meets the adult minimum"
       - "Includes a basking fixture and decor, reducing separate purchases"
-      - "Widely available and competitively priced for a full kit"
+      - "Competitively priced for a full kit"
       - "Solid value when treated as a tank-and-decor base"
     cons:
       - "Historically ships a coil or compact UVB bulb that is inadequate as the main UVB source"
@@ -376,7 +376,7 @@ Nighttime is where the last component comes in. The sources we read note that a 
 
 A few products and bundles did not make the final list, and the reasons are instructive.
 
-We passed on the **Zoo Med 40 Gallon ReptiHabitat Bearded Dragon Kit**. It is a widely available budget entry kit at the 40-breeder minimum footprint, but the configuration we reviewed ships a compact or coil UVB, an analog thermometer that the source set considers inaccurate, and sand — a substrate the keeper community cautions against for juveniles because of impaction risk. As a sealed kit it requires too many immediate swaps to recommend over building from the right components.
+We passed on the **Zoo Med 40 Gallon ReptiHabitat Bearded Dragon Kit**. It is a budget entry kit at the 40-breeder minimum footprint, but the configuration we reviewed ships a compact or coil UVB, an analog thermometer that the source set considers inaccurate, and sand — a substrate the keeper community cautions against for juveniles because of impaction risk. As a sealed kit it requires too many immediate swaps to recommend over building from the right components.
 
 We passed on the **Exo Terra Bearded Dragon Starter Kit** built around a 36"x18"x12" terrarium. At only 12 inches tall it is undersized in height, and it relies on a single Solar Glo self-ballasted mercury-vapor combination bulb that makes basking-temperature control harder and is not a linear T5 HO. It is the clearest example of the all-in-one category we steer beginners away from.
 

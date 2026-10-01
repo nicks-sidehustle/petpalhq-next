@@ -18,7 +18,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-27"
-updatedDate: "2026-09-26"
+updatedDate: "2026-09-30"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-gps-dog-containment-total-cost-comparison-2026.webp"
@@ -273,7 +273,7 @@ picks:
     authoritySources:
       - outlet: "Garmin (Amazon product listing)"
         url: "https://www.amazon.com/dp/B0DK2J5MKV"
-        stat: "Alpha 300i handheld tracks up to 20 dogs at up to 9 miles line-of-sight via VHF radio to the paired Alpha TT25 collar, with 18 stimulation levels plus tone and vibration for training; inReach satellite technology included on the handheld; listed at $1,223.98 at time of check; its verified Buy Box is a third-party Amazon marketplace seller (6ave) rather than shipped-and-sold-by Amazon or Garmin directly, New and in stock on our check date"
+        stat: "Alpha 300i handheld tracks up to 20 dogs at up to 9 miles line-of-sight via VHF radio to the paired Alpha TT25 collar, with 18 stimulation levels plus tone and vibration for training; inReach satellite technology included on the handheld; listed at $1,223.98 at time of check; its verified Buy Box is a third-party Amazon marketplace seller (6ave) rather than shipped-and-sold-by Amazon or Garmin directly, New on our check date"
         claim: "The Garmin system tracks and trains a dog via a direct handheld-to-collar radio link, a different mechanism than the cellular or satellite GPS used by the fence systems above, and it requires no subscription for that core function."
         supports: "spec"
         accessed: "2026-07-27"
@@ -301,7 +301,7 @@ picks:
 
       The one honest asterisk is the built-in inReach satellite technology, and it's worth naming precisely because Garmin's own documentation is clear about it: two-way satellite messaging, SOS alerts, and weather all require a separate, active Garmin inReach subscription to function. That is a real cost if you want those human-safety features on a remote hunting trip — but it has nothing to do with tracking or training the dog, and skipping it changes nothing about the collar's core function.
 
-      The honest trade-off is the number itself. $1,223.98 is about 22 percent above SpotOn's flat cost and roughly three times PetSafe Guardian's, and it's aimed at a genuinely different buyer — this site's existing coverage frames it correctly as a four-figure working-dog system for hunting and field use, not a backyard containment upgrade. It's the right total-cost story only for someone who was already shopping in that category; it is not a like-for-like substitute for the three fence systems above. One more disclosure: its verified Buy Box is a third-party Amazon marketplace seller (6ave) rather than shipped-and-sold-by Amazon or Garmin directly, New and in stock on our check date — worth knowing before you buy, even though the listing itself is genuine.
+      The honest trade-off is the number itself. $1,223.98 is about 22 percent above SpotOn's flat cost and roughly three times PetSafe Guardian's, and it's aimed at a genuinely different buyer — this site's existing coverage frames it correctly as a four-figure working-dog system for hunting and field use, not a backyard containment upgrade. It's the right total-cost story only for someone who was already shopping in that category; it is not a like-for-like substitute for the three fence systems above. One more disclosure: its verified Buy Box is a third-party Amazon marketplace seller (6ave) rather than shipped-and-sold-by Amazon or Garmin directly, New on our check date — worth knowing before you buy, even though the listing itself is genuine.
     pros:
       - "Zero required subscription for the dog-tracking and training function, at any time horizon"
       - "Tracks up to 20 dogs at up to 9 miles line-of-sight — a different scale of system entirely"
@@ -362,7 +362,7 @@ whenNotToBuy: |
 
   **Don't buy the Garmin Alpha 300i for a backyard.** It is built and priced for hunting and working dogs at real range, not as a premium fence upgrade.
 
-  Prices and plan terms change — confirm both on each brand's own site before buying.
+  Prices and plan terms change — confirm both before buying.
 
 bottomLine:
   - "All three fences now have a knowable final cost, and that is a change from our last update. The PetSafe Guardian is $389.99 forever and the SpotOn Nova is $999.00 forever, because neither requires a plan. The Halo Collar 5 requires a plan to work at all, and Halo now publishes the rate — Bronze from $9.99 a month per collar, re-fetched 2026-08-21 — which totals $1,198.40 over five years at its $599.00 list price."

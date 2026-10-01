@@ -14,7 +14,7 @@ keywords:
   - "reef tank salinity maintenance"
 pillar: "aquarium-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-07-16"
+updatedDate: "2026-09-30"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/saltwater-reef-tank-maintenance-schedule-2026.webp"
@@ -77,17 +77,16 @@ picks:
 
       Where it fits the schedule: this is the daily layer, and it runs on its own between every other task on the list. The physics are the reason it earns the first slot. When water evaporates from a reef, only the fresh water leaves and the salt stays behind. So salinity creeps upward a little every day until fresh RO/DI is added back. An automatic top-off replaces that loss continuously with fresh water. That keeps salinity flat instead of sawtoothing between manual refills. It is also the piece that makes a short trip away from the tank possible, because the most frequent task is the one already covered. For the full field of top-off units and float-versus-optical sensor trade-offs, see [our roundup of the best automatic top-off systems](/guides/best-automatic-aquarium-ato-systems-2026).
 
-      The honest caveats start with stock and sensors. This unit sees strong demand and stock runs thin at third-party reef retailers, so availability is worth checking before counting on it. An automatic top-off is also only as safe as its reservoir and its sensor. A dry reservoir tops off nothing. A stuck sensor is the classic way a tank gets flooded or a pump runs dry. So the reservoir is refilled on its own small rhythm and the sensor is wiped clean of salt creep. And it tops off with fresh water only. It does not change water, dose, or test. It is one automated layer under a schedule, not the schedule itself. As the daily anchor, it removes the single most repetitive job and holds salinity steadier than a human hand ever will.
+      The honest caveats start with sensors. An automatic top-off is only as safe as its reservoir and its sensor. A dry reservoir tops off nothing. A stuck sensor is the classic way a tank gets flooded or a pump runs dry. So the reservoir is refilled on its own small rhythm and the sensor is wiped clean of salt creep. And it tops off with fresh water only. It does not change water, dose, or test. It is one automated layer under a schedule, not the schedule itself. As the daily anchor, it removes the single most repetitive job and holds salinity steadier than a human hand ever will.
     pros:
       - "Automates the most frequent daily task on the schedule"
       - "Holds salinity flat instead of drifting between manual top-offs"
       - "Configuration-free setup with built-in overfill safety"
       - "Covers the daily job during a short trip away"
     cons:
-      - "Stock runs thin at third-party reef retailers"
       - "A dry reservoir or a salt-crept sensor defeats the automation"
       - "Tops off fresh water only — it does not change, dose, or test"
-    verdict: "Automate the daily top-off first, because it is the task the schedule demands most often and the one a person skips soonest. It holds salinity steady and buys a little freedom from the tank — just keep the reservoir filled and the sensor clean, and confirm stock before you rely on it."
+    verdict: "Automate the daily top-off first, because it is the task the schedule demands most often and the one a person skips soonest. It holds salinity steady and buys a little freedom from the tank — just keep the reservoir filled and the sensor clean."
 
   - rank: 2
     label: "WEEKLY WATER — RO/DI SYSTEM"
@@ -203,7 +202,7 @@ picks:
 
       Where it fits the schedule: this is the measurement half of test-then-dose, and it comes before any supplement goes into the tank. The three foundation elements sit in commonly published ranges near 8 to 9 dKH alkalinity, 400 to 450 ppm calcium, and 1250 to 1350 ppm magnesium. Corals draw them down as they grow, and alkalinity moves fastest. That is why it is the one tested weekly at a minimum and twice weekly by many reefers. Testing first is the discipline that separates a stable reef from a crashed one, because it reveals how much each element has actually been consumed. To compare titration kits against digital monitors and continuous controllers, [our roundup of the best reef test kits and monitors](/guides/best-reef-test-kits-monitors-2026) covers the range.
 
-      The honest caveats are about method, freshness, and stock. Titration takes attention. A drop counted wrong or an endpoint color read hastily throws the result. So the test is run in good light with a steady hand. Reagents also degrade with age and heat. A kit that has sat warm for a couple of years reads less reliably than a fresh one. This kit also tends to sell through quickly, so stock runs thin at third-party reef retailers and is worth checking. As the measurement stage, it is the instrument the whole dosing routine reads from. Dose without it and the reef is flying blind.
+      The honest caveats are about method and freshness. Titration takes attention. A drop counted wrong or an endpoint color read hastily throws the result. So the test is run in good light with a steady hand. Reagents also degrade with age and heat. A kit that has sat warm for a couple of years reads less reliably than a fresh one. As the measurement stage, it is the instrument the whole dosing routine reads from. Dose without it and the reef is flying blind.
     pros:
       - "Titration accuracy fit for real reef dosing decisions"
       - "Covers all three foundation elements in one kit"
@@ -212,7 +211,6 @@ picks:
     cons:
       - "Titration is slower and needs careful, well-lit technique"
       - "Reagents degrade with age and heat and must stay fresh"
-      - "Stock runs thin at third-party reef retailers"
     verdict: "Test before you dose, always, because a reef's calcium, alkalinity, and magnesium only mean something as measured numbers. This titration kit is accurate enough to dose from and carries the most reagent for the alkalinity you will check most — just run it carefully and keep the reagents fresh."
 
   - rank: 5
@@ -245,7 +243,7 @@ picks:
 
       Where it fits the schedule: this is the dose in test-then-dose, and it is only ever added in the amount the test kit called for. A reef consumes calcium and alkalinity continuously as corals build skeleton. A two-part supplement replaces exactly that, in the same proportion it was used. The rule that governs it is simple: measure first, then dose to the measurement. Never pour in a standard amount on a calendar alone. A tank with low coral demand needs far less than a stony-dominant one, and overdosing alkalinity is one of the faster ways to stress corals. Kept in step with weekly testing, the two parts hold the foundation elements flat between water changes.
 
-      The honest caveats are about balance, precision, and stock. The two components have to stay in step. Dosing one without the other pushes the ratio out and undoes the point of a balanced system. So they are added together and tracked together. Doses are small and demand-driven, so a graduated syringe or a pump does the measuring better than an eyeballed cap. This system also sees uneven availability and stock runs thin at third-party reef retailers, so it is worth confirming before relying on it. As the dosing stage, it is the hand that steadies the numbers the test kit reads. It is powerful in balance and risky when guessed.
+      The honest caveats are about balance and precision. The two components have to stay in step. Dosing one without the other pushes the ratio out and undoes the point of a balanced system. So they are added together and tracked together. Doses are small and demand-driven, so a graduated syringe or a pump does the measuring better than an eyeballed cap. As the dosing stage, it is the hand that steadies the numbers the test kit reads. It is powerful in balance and risky when guessed.
     pros:
       - "Replaces consumed calcium and alkalinity in balanced parts"
       - "No powder mixing and no ionic-balance disruption"
@@ -254,7 +252,6 @@ picks:
     cons:
       - "The two parts must be dosed together or the ratio drifts"
       - "Overdosing alkalinity can stress corals quickly"
-      - "Availability is uneven at third-party reef retailers"
     verdict: "Dose two-part only to the number the test kit gives you, and always add both components in step. B-Ionic replaces the calcium and alkalinity a growing reef consumes without powders or ionic disruption — just measure the dose precisely, because blind or unbalanced dosing does more harm than good."
 
   - rank: 6
@@ -499,7 +496,7 @@ whenNotToBuy: |
 
   Restraint and rhythm rule out the usual shortcuts. The most common way a reef goes wrong is not too little equipment but too little consistency. That means dosing blind on a calendar instead of testing first, chasing a perfect number instead of holding a steady one, or skipping the small weekly change until a big corrective one is needed. Test-then-dose is the discipline that prevents it. Measure alkalinity, calcium, and magnesium, then add only what the reading shows is missing, in balance. And some tasks this bench does not cover still belong to the same weekly rhythm. The protein skimmer's collection cup is emptied and wiped weekly so a dirty neck never kills skim performance, and [our roundup of the best protein skimmers for saltwater reef tanks](/guides/best-protein-skimmers-saltwater-reef-2026) is the reference for the skimmer itself. If your instinct is to buy every automation at once and stop paying attention, that instinct is the warning sign, because automation executes judgment rather than replacing it.
 
-  Finally, the honest budget note: this bench is the equipment, not the cost of running a reef. Salt, test reagents, two-part supplement, DI resin, replacement filter socks, and electricity are the ongoing bill, and it does not stop. The full bench costs under a thousand dollars and most reefers already own half of it, but the consumables are forever. There is also gear this schedule assumes but does not list, from a heater and controller to a mixing container and a spare pump, that a stocked reef already has. Confirm current price and availability on every item before buying, since prices, sellers, and stock on reef equipment move constantly.
+  Finally, the honest budget note: this bench is the equipment, not the cost of running a reef. Salt, test reagents, two-part supplement, DI resin, replacement filter socks, and electricity are the ongoing bill, and it does not stop. The full bench costs under a thousand dollars and most reefers already own half of it, but the consumables are forever. There is also gear this schedule assumes but does not list, from a heater and controller to a mixing container and a spare pump, that a stocked reef already has. Confirm current price and availability on every item before buying, since prices and sellers on reef equipment move constantly.
 
 bottomLine:
   - "Run the reef on a schedule, not on rescue missions — the rhythm is the product, and consistency keeps a healthy tank healthy far better than any single purchase does. The Tunze Osmolator 3 automates the daily top-off so salinity never drifts while you sleep."

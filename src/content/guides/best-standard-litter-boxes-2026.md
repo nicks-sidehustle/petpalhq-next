@@ -14,7 +14,7 @@ keywords:
   - "hooded litter box odor"
 pillar: "expert-care"
 publishDate: "2026-09-13"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-standard-litter-boxes-2026.webp"
@@ -282,8 +282,6 @@ picks:
     body: |
       Odor is the reason most people shop for a covered box, and a dome handles it more convincingly than a flat hood does, because Petmate describes an enclosure that closes the box on all sides and a charcoal filter built into the dome itself. Petmate pairs that with the clean-step entrance — a grooved threshold that dislodges litter from the paws as the cat leaves — so the design attacks smell and tracking with one shape.
 
-      Call the stock situation plainly first. On our September 13, 2026 price check this box read as low stock rather than freely available. The Buy Box was live, but thin stock is not something to build a plan on, so do not assume you will find a second one next month.
-
       The design tradeoffs are the ones the veterinary sources keep raising. VCA warns that a fully enclosed box gives a cat only one exit, which becomes an ambush risk in multi-cat homes where one cat guards doorways. AAFP/ISFM's posture warning is aimed specifically at small covered boxes, and with no dimensions published there is no way to tell which side of that line this dome falls on — the two-cat claim cannot be checked either. What is visible in the shape is that a curved roof takes headroom away toward the edges, exactly where a big cat would stand. The stepped threshold also rules the box out for the arthritic cats served by the second pick here.
     pros:
       - "A dome that encloses the cat on all sides plus a built-in charcoal filter is the most thorough odor design on this page"
@@ -291,12 +289,11 @@ picks:
       - "Petmate states the box holds two cats"
       - "No motor, sensor or subscription — the odor control is a passive charcoal filter"
     cons:
-      - "Read as low stock rather than freely available at our September 13, 2026 check"
       - "Full enclosure creates the single-exit ambush geometry VCA warns about in multi-cat homes"
       - "A curved roof steals headroom at the edges, where a large cat needs to posture"
       - "The clean-step entrance is a raised threshold, which rules it out for arthritic cats"
       - "No dimensions published, so the two-cat capacity claim cannot be verified"
-    verdict: "Choose the dome if odor is the deciding factor, your household has one confident cat, and you accept the enclosure trade the veterinary sources describe. Check availability before you commit, because stock on this model is thin and it is not a design you can substitute easily."
+    verdict: "Choose the dome if odor is the deciding factor, your household has one confident cat, and you accept the enclosure trade the veterinary sources describe."
 
   - rank: 7
     label: "BUDGET TOP-ENTRY — CHECK THE INTERIOR SPEC"
@@ -370,7 +367,7 @@ bottomLine:
   - "Get the Modkat XL if tracked litter is the fight you are losing. It ships as both a top-entry and a front-entry box, so a lid refusal costs you nothing but a reconfiguration — worth the premium price only if tracking is genuinely your problem."
   - "Get the Nature's Miracle Advanced Hooded Corner box when floor space, not preference, dictates the shape. Accept that a corner cut plus a hood is a compromise against the sizing and open-box guidance, not an upgrade."
   - "Get the Van Ness Large Sifting box at $30.22 if you want to stop scooping and your cat is small and tidy. Its 19-inch outer footprint will not serve a large cat, and the sifter only works with clumping litter."
-  - "Get the Petmate Booda dome for odor control in a calm single-cat home, and check stock first — it read as low stock on our September 13, 2026 check."
+  - "Get the Petmate Booda dome for odor control in a calm single-cat home."
   - "Get the IRIS USA Top Entry box only for a small, agile cat in a home with a litter-raiding dog. The interior floor is 17\"L x 11.5\"W despite the 'Large' label, which is why it finishes last."
 
 sources:

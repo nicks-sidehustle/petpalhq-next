@@ -15,7 +15,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-03"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-dog-bathing-tubs-wash-stations-2026.webp"
@@ -39,7 +39,7 @@ topPicks:
     verifiedDate: "2026-07-03"
   - name: "Garvee 46-inch Walk-In Stainless Washing Station (Right Door)"
     pickRef: "r3"
-    keyFeature: "A 46-inch brushed-stainless basin with integrated access stairs, so medium-to-large and senior dogs step in rather than being hoisted over the rim. Garvee builds the station in left-door and right-door versions; the right-door station is the one buyable on Amazon today, so match it to your room before you order. The mid-size back-saver for an aging dog that can still climb a few steps — and the only pick here that ships as a bare tub, with no faucet or showerhead in the box."
+    keyFeature: "A 46-inch brushed-stainless basin with integrated access stairs, so medium-to-large and senior dogs step in rather than being hoisted over the rim. Garvee builds the station in left-door and right-door versions; this pick is the right-door station, so match it to your room before you order. The mid-size back-saver for an aging dog that can still climb a few steps — and the only pick here that ships as a bare tub, with no faucet or showerhead in the box."
     sources: ["Garvee manufacturer specifications (right-door station, PPS_33JDUQRQ)", "Direct Animal — grooming-tub metal guidance", "PetEdge — professional grooming tub category"]
     verifiedDate: "2026-07-03"
 
@@ -196,14 +196,14 @@ picks:
     keyFeatures:
       - "46-inch brushed-stainless basin — a practical mid-size footprint for a laundry room or garage corner"
       - "Integrated access stairs so senior and large dogs step in instead of being hoisted over the rim"
-      - "Right-door layout — Garvee builds a left-door twin, but the right-door station is what is buyable on Amazon today"
+      - "Right-door layout — Garvee also builds a left-door twin"
       - "Brushed stainless that wipes clean after every bath; Garvee does not publish the steel grade"
       - "Ships as the tub alone — the listing's included components are the bathtub only, so budget for a faucet, sprayer and drain kit"
       - "12-month manufacturer warranty with free US shipping and 30-day returns, per Garvee"
     body: |
       The Garvee 46-inch is the pick for the dog that used to jump into the tub and cannot anymore. Its defining feature is the integrated access stairs rather than a ramp — steps are easier than an incline for arthritic hips and hesitant older dogs, letting them climb in a stride at a time. PetEdge names walk-in stair or ramp entry as the standard back-saving feature for bathing large or arthritic dogs who cannot be lifted, and Garvee's own documentation says the stairs help pets step in with less lifting and are meant for medium-to-large dogs. If your bathing problem is a heavy senior, this is the honest answer to it.
 
-      The 46-inch basin is a deliberate middle ground. Amazon's own spec table puts the assembled station at 43.98 by 21.85 by 50.28 inches and 92.4 pounds — long enough for most medium-to-large dogs, and a footprint that fits a normal laundry room or garage corner where a 62-inch salon tub would not. Material is where this pick asks for more trust than the others: Direct Animal's guidance is that 304 stainless handles the heaviest and most active dogs without denting or cracking, but Garvee's own page and the Amazon listing both say only "brushed stainless steel" and never name a grade, so we score it as ungraded stainless rather than crediting it with 304. Garvee builds the station in mirror-image left-door and right-door versions; the right-door one is the version currently buyable on Amazon, so confirm your room's layout suits a right-side entry before you order.
+      The 46-inch basin is a deliberate middle ground. Amazon's own spec table puts the assembled station at 43.98 by 21.85 by 50.28 inches and 92.4 pounds — long enough for most medium-to-large dogs, and a footprint that fits a normal laundry room or garage corner where a 62-inch salon tub would not. Material is where this pick asks for more trust than the others: Direct Animal's guidance is that 304 stainless handles the heaviest and most active dogs without denting or cracking, but Garvee's own page and the Amazon listing both say only "brushed stainless steel" and never name a grade, so we score it as ungraded stainless rather than crediting it with 304. Garvee builds the station in mirror-image left-door and right-door versions; the right-door one is the version covered here, so confirm your room's layout suits a right-side entry before you order.
 
       The trade-offs are geometry, plumbing and track record. At 46 inches, this is genuinely mid-size — a Great Dane, a Mastiff, or another giant breed is better served by a 50-to-62-inch tub, and the built-in stairs claim floor space you do not get back. It is also the only station on this page that arrives bare: the Amazon listing's included components are "professional pet bathtub," full stop, where both VEVOR picks and the KANIS ship a hot-and-cold faucet and a showerhead in the box. Budget for fittings and the gap to the VEVOR 50-inch narrows. Brushed stainless is not immune to the failure that haunts this entire class either: welds and hardware still rust if left wet, so the same dry-it-after-every-bath discipline applies. And there are fewer published owner reviews of the Garvee station than of the VEVOR line — 16 on Garvee's own product page — so its long-run durability is less proven.
 
@@ -383,11 +383,11 @@ A wash station changes two risk pictures at once — the dog's and yours — so 
 
 ## What We Passed On
 
-**PawBest 50-inch Stainless Steel Grooming Bath Tub (about $1,189).** This is a genuinely well-built tub — fully welded one-piece 304 stainless with a self-retracting ramp and an overhead grooming arm, per PawBest and The Goody Pet. We left it off the main list on positioning, not quality: at $1,189 it sits between the Garvee walk-in and the more fully equipped KANIS without a feature that clearly wins its price tier, and The Goody Pet flags that some units have steel sheets flimsy enough to bend, with post-use leakage. It is verifiably buyable — just redundant against our premium pick, so we kept it off the roster rather than padding the list.
+**PawBest 50-inch Stainless Steel Grooming Bath Tub (about $1,189).** This is a genuinely well-built tub — fully welded one-piece 304 stainless with a self-retracting ramp and an overhead grooming arm, per PawBest and The Goody Pet. We left it off the main list on positioning, not quality: at $1,189 it sits between the Garvee walk-in and the more fully equipped KANIS without a feature that clearly wins its price tier, and The Goody Pet flags that some units have steel sheets flimsy enough to bend, with post-use leakage. It is redundant against our premium pick, so we kept it off the roster rather than padding the list.
 
-**LOVMOR stainless grooming tub with storage.** A LOVMOR tub was considered for inclusion but could not be verified as a distinct product. During our buyability check the LOVMOR listing resolved to the same VEVOR 50-inch product we already rank first, matching as a suspect duplicate. Recommending it would have meant double-counting the VEVOR under a second brand name, so we excluded it on integrity grounds rather than guess at which product a buyer would actually receive.
+**LOVMOR stainless grooming tub with storage.** A LOVMOR tub was considered for inclusion but could not be verified as a distinct product. The LOVMOR listing resolved to the same VEVOR 50-inch product we already rank first, matching as a suspect duplicate. Recommending it would have meant double-counting the VEVOR under a second brand name, so we excluded it on integrity grounds rather than guess at which product a buyer would actually receive.
 
-**Flying Pig 50-inch Professional Grooming Bathtub.** This one shows up often in groomer roundups, including The Goody Pet, but it did not surface as a live, in-stock Amazon listing in our check, and The Goody Pet documents that on some units the welding is not properly done, causing leaks. It stays off the list pending a re-verified live listing.
+**Flying Pig 50-inch Professional Grooming Bathtub.** This one shows up often in groomer roundups, including The Goody Pet, which also documents that on some units the welding is not properly done, causing leaks. It stays off the list.
 
 ## Frequently Asked Questions
 

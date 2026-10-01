@@ -1,6 +1,6 @@
 ---
 title: "What Your Cat's Litter Box Can Catch Early: Smart Litter Health Monitoring (2026)"
-description: "A screening protocol built as a decision ladder — read the litter box as an early-warning surface, then match the tool to how much data you actually need. What a frequency spike, a rising urine volume, or a weight drift can mean early is attributed to the Cornell Feline Health Center and the 2021 AAHA/AAFP Feline Life Stage Guidelines; a straining male cat producing little urine is an emergency, not a data point. Five buyable rungs from a $21 color-change litter to a $749 smart box, each with its subscription and paywall stated plainly. Screening-grade, never diagnostic (2026)."
+description: "A screening protocol built as a decision ladder — read the litter box as an early-warning surface, then match the tool to how much data you actually need. What a frequency spike, a rising urine volume, or a weight drift can mean early is attributed to the Cornell Feline Health Center and the 2021 AAHA/AAFP Feline Life Stage Guidelines; a straining male cat producing little urine is an emergency, not a data point. Five rungs from a $21 color-change litter to a $749 smart box, each with its subscription and paywall stated plainly. Screening-grade, never diagnostic (2026)."
 excerpt: "Cats hide illness, and the litter box is usually where a change shows up first — a run of extra trips can flag a urinary problem, bigger urine volumes can be early kidney disease, and a straining male cat producing little urine is an emergency. You do not need a $700 box to notice: start free by watching frequency, volume, and weight, add a $21 color-change litter as a passive screen, slide a subscription-free Purina Petivity under the box you already own, or climb to an AI-camera or full smart-box tier where the useful trend graph is often rented. Whatever the tool says, it is screening, not a diagnosis — bring the trend to your vet."
 category: "Cats & Dogs"
 keywords:
@@ -15,7 +15,7 @@ keywords:
 pillar: "expert-care"
 guideType: "spoke"
 publishDate: "2026-07-16"
-updatedDate: "2026-09-03"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/cat-litter-box-health-monitoring-early-detection-2026.webp"
@@ -100,7 +100,7 @@ picks:
     authoritySources:
       - outlet: "PrettyLitter (Amazon product listing, Health Monitoring Cat Litter)"
         url: "https://www.amazon.com/dp/B0C9SKNV7S"
-        stat: "color-changing silica-gel crystal litter sold one-time on Amazon at $27.99; a roughly one-month supply per cat; New-condition buy-box, in stock"
+        stat: "color-changing silica-gel crystal litter sold one-time on Amazon at $27.99; a roughly one-month supply per cat; New-condition buy-box"
         supports: "spec"
         accessed: "2026-07-16"
       - outlet: "Cornell Feline Health Center (Chronic Kidney Disease)"
@@ -110,7 +110,7 @@ picks:
         accessed: "2026-07-16"
     keyFeatures:
       - "Color-changing crystal litter on the same screening principle as the budget rung"
-      - "Buyable one-time on Amazon at $27.99 — no subscription required to try it"
+      - "Sold one-time on Amazon at $27.99 — no subscription required to try it"
       - "A roughly one-month supply per cat, unscented and low-tracking"
       - "The recognizable name for readers who want the famous version"
       - "Still a visual screen — a prompt to call the vet, not a detector"
@@ -121,7 +121,7 @@ picks:
 
       The clinical framing is deliberately modest. A color change is a screen, not a diagnosis, and this guide does not repeat any brand detection statistic, because a visual crystal read is not an independently verified detection instrument — treat it as a reason to call the vet. Where it genuinely helps is the case Cornell describes for kidney disease: "in the early stages of CKD it is very common for cats to show no obvious clinical signs," so a passive screen that catches an off-color result before anything looks wrong buys you a reason to book a visit. It still needs the vet to interpret it.
     pros:
-      - "Buyable one-time on Amazon — skip the DTC subscription entirely"
+      - "Sold one-time on Amazon — skip the DTC subscription entirely"
       - "The recognizable name on the same passive color-change principle"
       - "Roughly a month per cat, unscented and low-tracking"
       - "No data paywall — the litter works the same however you buy it"
