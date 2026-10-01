@@ -5,11 +5,20 @@
  * instead of crawling each guide individually.
  *
  * Per guide, includes: title, URL, dates, excerpt, shortAnswer, top picks
- * (1-3 winners), methodology formula, all product picks (rank/name/brand/
- * score/price/asin/verdict + ownerVoice community quotes when present),
- * and bottom-line summary.
+ * (1-3 winners), methodology formula, every product pick the guide page
+ * renders — getGuideBySlug(slug).picks, same roster and order as the page
+ * (rank/name/brand/score/price/asin/verdict + ownerVoice community quotes
+ * when present), and bottom-line summary.
  *
- * Usage: npm run generate:llms-full-txt
+ * Usage: npm run generate:llms-full-txt  (runs under tsx: it imports the
+ * site's own pick resolution from src/lib/guides.ts)
+ *
+ * PRICES (W4 #210, owner 2026-09-29/30): a pick's `Price:` line is the figure
+ * the guide card renders, resolved by getGuideBySlug() — the same snapshot /
+ * live-read / dark-card precedence the page uses — followed by that figure's
+ * own dated "checked" stamp (`priceStamp`). A pick whose card shows no figure
+ * (dark, or no dated read) gets no Price line. Frontmatter `price` is never
+ * printed.
  *
  * Output is grouped by vertical → hub → spoke, mirroring llms.txt's
  * navigation order so an LLM that ingested both files sees consistent
@@ -19,109 +28,19 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
+import { getGuideBySlug } from "../src/lib/guides.ts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const GUIDES_DIR = path.join(ROOT, "src/content/guides");
 const OUT_PATH = path.join(ROOT, "public/llms-full.txt");
-const GUARD_PATH = path.join(ROOT, "data/dead-asins.json");
-const PRICE_PATH = path.join(ROOT, "data/amazon-prices.json");
-
-// §8m dead-ASIN guard / AI-surface parity (repo CLAUDE.md non-negotiable):
-// this generator reads guide frontmatter directly via gray-matter — it does
-// NOT go through parsePicks() in src/lib/guides.ts, so the runtime guard that
-// forces `available: false` never touches it. Read data/dead-asins.json
-// directly here so llms-full.txt can't emit a guarded ASIN in a buyable role
-// while the live site correctly gates it. See src/lib/dead-asin-guard.ts for
-// the same lookup used by the render path.
-const DEAD_ASINS = fs.existsSync(GUARD_PATH)
-  ? JSON.parse(fs.readFileSync(GUARD_PATH, "utf8"))
-  : {};
-
-// The render path suppresses on EITHER gate, so a mirror that reads only one of
-// them is weaker than the thing it mirrors. Reading dead-asins.json alone left
-// every snapshot-suppressed pick — the larger of the two sets — in the feed as a
-// full buyable card while the live site had removed it. Mirrors
-// UNBUYABLE_AVAILABILITY / isUnbuyableAvailability() in src/lib/price-cache.ts:
-// IN_STOCK_SCARCE and LEADTIME are deliberately NOT gated (the order is
-// placeable today), and a missing availability field is not evidence of
-// unavailability.
-const PRICE_SNAPSHOT = fs.existsSync(PRICE_PATH)
-  ? JSON.parse(fs.readFileSync(PRICE_PATH, "utf8"))
-  : {};
-const UNBUYABLE_AVAILABILITY = new Set(["AVAILABLE_DATE", "OUT_OF_STOCK", "UNAVAILABLE"]);
-// Owner ruling 2026-08-18 — backorder policy. Mirrors isDisclosableBackorder()
-// in src/lib/price-cache.ts: an AVAILABLE_DATE offer sold BY AMAZON with a live
-// price is a priced, orderable backorder and stays in the feed as a real pick.
-// Third-party and unknown-seller backorders stay suppressed. Absence of a
-// merchantId is UNKNOWN, never Amazon.
-const AMAZON_MERCHANT_ID = "ATVPDKIKX0DER";
-
-function isSnapshotUnbuyable(asin) {
-  if (!asin) return false;
-  const entry = PRICE_SNAPSHOT[asin];
-  const availability = entry?.availability;
-  if (!availability) return false;
-  const state = String(availability).trim().toUpperCase();
-  if (!UNBUYABLE_AVAILABILITY.has(state)) return false;
-  const amazonSold = String(entry?.merchantId ?? "").trim().toUpperCase() === AMAZON_MERCHANT_ID;
-  if (state === "AVAILABLE_DATE" && amazonSold && entry?.price) return false;
-  return true;
-}
-
-/**
- * Feed-side twin of backorderDisclosureLabel() in src/lib/price-cache.ts. Kept
- * worded the same as the on-page line so the feed and the page cannot drift
- * into telling a crawler two different stories about the same offer.
- */
-function backorderNoteFor(asin) {
-  if (!asin) return undefined;
-  const entry = PRICE_SNAPSHOT[asin];
-  if (!entry) return undefined;
-  if (String(entry.availability ?? "").trim().toUpperCase() !== "AVAILABLE_DATE") return undefined;
-  if (String(entry.merchantId ?? "").trim().toUpperCase() !== AMAZON_MERCHANT_ID) return undefined;
-  if (!entry.price) return undefined;
-  const date = String(entry.lastChecked ?? "").slice(0, 10);
-  const base =
-    "Availability: on backorder at Amazon — orderable now, ships later than in-stock items";
-  return date ? `${base} (checked ${date})` : base;
-}
-
-/**
- * Owner ruling 2026-08-12: a hard-gated pick is SUPPRESSED, not labelled — on
- * every surface, this one included. Emitting "Availability: currently
- * unavailable" into the AI-crawler feed is the same defect the site render just
- * stopped committing, aimed at the readers who cite us most.
- *
- * Keyed by ASIN, and by PICK REFERENCE ("<slug>#<rank>") for picks that have no
- * resolvable ASIN — mirrors getPickGuardEntry() in src/lib/dead-asin-guard.ts.
- */
-function isSuppressedPick(asin, slug, rank) {
-  const entry =
-    (asin ? DEAD_ASINS[asin] : undefined) ??
-    (typeof rank === "number" ? DEAD_ASINS[`${slug}#${rank}`] : undefined);
-  const hardGated =
-    !!entry && (entry.status === "dead" || entry.status === "no_offer" || entry.status === "no_listing");
-  return hardGated || isSnapshotUnbuyable(asin);
-}
-
-/** USED-BUYBOX -> ASIN kept + condition disclosure. undefined -> clean, unchanged output. */
-function guardNoteFor(asin) {
-  if (!asin) return undefined;
-  const entry = DEAD_ASINS[asin];
-  if (!entry) return undefined;
-  if (entry.status === "used_buybox") {
-    return {
-      omitAsin: false,
-      note: `Availability note: may ship from a used-condition listing — verify condition before buying (checked ${entry.lastVerified})`,
-    };
-  }
-  const label =
-    entry.status === "dead"
-      ? `no longer available — delisted (checked ${entry.lastVerified})`
-      : `currently unavailable (checked ${entry.lastVerified})`;
-  return { omitAsin: true, note: `Availability: ${label}` };
-}
+// ROSTER (critic review 2026-09-30, Major #1): the feed's pick list IS the page's
+// pick list — getGuideBySlug(slug).picks, the array FeaturedPicksGrid, the deep
+// dives and the JSON-LD ItemList render. This generator no longer runs its own
+// availability/dead-ASIN gates: under the buy-path floor the page keeps every
+// pick (a dark card renders with its buy path and no figure), and a separate
+// feed-side gate that ignored newer live reads dropped picks the page shows.
+// If the site ever removes a pick from Guide.picks again, the feed follows.
 
 const SITE_URL = "https://petpalhq.com";
 const SITE_NAME = "PetPalHQ";
@@ -168,6 +87,7 @@ function arr(v) {
 
 function renderGuide(g) {
   const { slug, data } = g;
+  const guide = getGuideBySlug(slug);
   const title = s(data.title, slug);
   const url = `${SITE_URL}/guides/${slug}`;
   const lines = [];
@@ -196,52 +116,9 @@ function renderGuide(g) {
     lines.push("");
   }
 
-  // "Top picks (winners)" is a SECOND recommendation surface authored separately
-  // from `picks`, so the roster filter above does not cover it — and its entries
-  // are routinely ABBREVIATED forms of the pick name, which is why an equality
-  // join leaks. Same best-affinity join parseGuide() uses (guides.ts topPicks
-  // filter): resolve each entry across the whole roster and drop it only when
-  // its best match is a suppressed pick.
-  const suppressedNames = arr(data.picks)
-    .filter((p) => isSuppressedPick(s(p?.asin), slug, typeof p?.rank === "number" ? p.rank : undefined))
-    .map((p) => s(p?.name));
-  const topPicks = arr(data.topPicks).filter((tp) => {
-    if (!suppressedNames.length) return true;
-    const norm = (v) => v.toLowerCase().replace(/\s+/g, " ").trim();
-    const prefixLen = (x, y) => {
-      const n = Math.min(x.length, y.length);
-      let i = 0;
-      while (i < n && x[i] === y[i]) i++;
-      return i;
-    };
-    const STOP = new Set([
-      "the", "and", "for", "with", "pet", "pets", "cat", "cats", "dog", "dogs",
-      "inch", "inches", "large", "small", "mini", "kit", "kits", "set", "sets",
-      "pack", "size", "sized", "black", "white", "gallon", "gal", "lbs", "oz",
-    ]);
-    const tokens = (v) => new Set(v.split(/[^a-z0-9]+/).filter((x) => x.length >= 3 && !STOP.has(x)));
-    const sharedCount = (x, y) => { let n = 0; for (const k of x) if (y.has(k)) n++; return n; };
-    const t = norm(s(tp?.name));
-    let best = null;
-    for (const p of arr(data.picks)) {
-      const rn = norm(s(p?.name));
-      const contains = t.includes(rn) || rn.includes(t);
-      const score = contains ? Math.min(t.length, rn.length) : prefixLen(t, rn);
-      if (score < 12) continue;
-      if (!best || score > best.score) best = { score, suppressed: suppressedNames.includes(s(p?.name)) };
-    }
-    if (best) return !best.suppressed;
-    // Token fallback, mirroring guides.ts: catches abbreviations that reorder
-    // the model detail inside the 12-character prefix window.
-    const tt = tokens(t);
-    let bestSup = 0, bestVis = 0;
-    for (const p of arr(data.picks)) {
-      const n = sharedCount(tt, tokens(norm(s(p?.name))));
-      if (suppressedNames.includes(s(p?.name))) bestSup = Math.max(bestSup, n);
-      else bestVis = Math.max(bestVis, n);
-    }
-    return !(bestSup >= 2 && bestSup > bestVis);
-  });
+  // "Top picks (winners)" = the page's "Evidence at a Glance" panel, read from
+  // the same parsed guide the page renders (guides.ts applies any removal).
+  const topPicks = guide?.topPicks ?? [];
   if (topPicks.length) {
     lines.push("### Top picks (winners)");
     topPicks.forEach((p, i) => {
@@ -268,11 +145,9 @@ function renderGuide(g) {
     lines.push("");
   }
 
-  // Suppressed picks are dropped BEFORE anything is emitted, so no name, price,
-  // verdict, ASIN or availability note for an unbuyable pick reaches the feed.
-  const picks = arr(data.picks).filter(
-    (p) => !isSuppressedPick(s(p?.asin), slug, typeof p?.rank === "number" ? p.rank : undefined),
-  );
+  // Every pick the page renders, in page order. Price line = the card's figure
+  // + that figure's own "checked" stamp; a card with no figure gets no line.
+  const picks = guide?.picks ?? [];
   if (picks.length) {
     lines.push("### Product picks");
     picks.forEach((p) => {
@@ -280,25 +155,24 @@ function renderGuide(g) {
       const label = s(p?.label);
       const name = s(p?.name);
       const brand = s(p?.brand);
-      const score = typeof p?.score === "number" ? `${p.score}/10` : "";
-      const price = s(p?.price);
-      const asin = s(p?.asin);
-      const guard = guardNoteFor(asin);
+      const score = typeof p?.score === "number" && p.score > 0 ? `${p.score}/10` : "";
+      const price = s(p?.price) && s(p?.priceStamp) ? `${s(p.price)} (${s(p.priceStamp)})` : "";
+      // Print the ASIN line only for a real ASIN (B0 + 8 alphanumerics) or an
+      // ISBN-10; a search term in the frontmatter field is linked as an Amazon
+      // search by the page, so it is not an ASIN and must not be labeled one.
+      const rawAsin = s(p?.asin);
+      const asin = /^(B0[A-Z0-9]{8}|\d{9}[\dX])$/.test(rawAsin) ? rawAsin : "";
       lines.push(`#### Rank ${rank}${label ? ` — ${label}` : ""}: ${name}`);
       const meta = [
         brand && `Brand: ${brand}`,
         score && `Score: ${score}`,
         price && `Price: ${price}`,
-        asin && !guard?.omitAsin && `ASIN: ${asin}`,
+        asin && `ASIN: ${asin}`,
       ].filter(Boolean);
       if (meta.length) lines.push(meta.join("  |  "));
-      if (guard?.note) lines.push(guard.note);
-      // Owner ruling 2026-08-18: a backorder that survives the gate must carry
-      // its disclosure HERE too. The feed's readers are the AI assistants that
-      // quote us — handing them a pick with no delay note is how a "buy it
-      // today" recommendation gets synthesised out of a backorder.
-      const backorderNote = backorderNoteFor(asin);
-      if (backorderNote) lines.push(backorderNote);
+      // Used-buybox disclosure the card itself renders (condition, not availability).
+      const cond = s(p?.guardDisclosure);
+      if (cond) lines.push(`Condition note: ${cond.charAt(0).toLowerCase()}${cond.slice(1)}`);
 
       const keyFeatures = arr(p?.keyFeatures);
       if (keyFeatures.length) {
@@ -322,10 +196,10 @@ function renderGuide(g) {
         lines.push(`Verdict: ${s(p.verdict)}`);
       }
 
-      // Community quotes (verbatim from forum threads — never AI-generated)
+      // Community quotes (verbatim from public owner threads — never AI-generated)
       const ownerVoice = arr(p?.ownerVoice);
       if (ownerVoice.length) {
-        lines.push("Community signal (verbatim quotes from public forum threads):");
+        lines.push("Community signal (verbatim quotes from public owner threads):");
         ownerVoice.forEach((q) => {
           const quote = s(q?.quote);
           const sourceLabel = s(q?.sourceLabel);
@@ -338,16 +212,6 @@ function renderGuide(g) {
         });
       }
 
-      // Active deals (auto-hidden when expired in the live render — included
-      // here as a snapshot at generation time)
-      if (p?.promo && typeof p.promo === "object") {
-        const promo = p.promo;
-        const expiry = s(promo.expiry);
-        const today = new Date().toISOString().split("T")[0];
-        if (expiry >= today) {
-          lines.push(`Active deal: ${s(promo.discount)}${s(promo.code) ? ` (code: ${s(promo.code)})` : ""}, valid through ${expiry} (verified ${s(promo.verifiedDate)})`);
-        }
-      }
 
       lines.push("");
     });
@@ -400,16 +264,16 @@ function buildLlmsFullTxt() {
   out.push(`# ${SITE_NAME} — Full Content Index`);
   out.push("");
   out.push(
-    "> Extended content variant of llms.txt for AI crawlers that prefer one consolidated full-content file. Each guide below includes the editorial synthesis (excerpt, methodology, top picks, all product picks with verdicts, community signals, sources)."
+    "> Extended content variant of llms.txt for AI crawlers that prefer one consolidated full-content file. Each guide below includes the editorial synthesis (excerpt, methodology, top picks, every product pick shown on the guide page in page rank order with its verdict, community signals where present, sources)."
   );
   out.push("");
   out.push(`Editorial synthesis of expert consensus for dog, cat, aquarium, reptile, and bird owners. We do not run a testing lab. We cite veterinary references, regulatory guidance, peer-reviewed studies, and manufacturer documentation by name, and date every refresh.`);
   out.push("");
   out.push(`Source stack: Merck Veterinary Manual, AAHA, AVMA, AAFP, ISFM, Cornell Feline Health Center, Tufts Cummings Petfoodology, FDA Center for Veterinary Medicine, EPA, CDC Healthy Pets/Healthy People, AAFCO, FAA/TSA, Center for Pet Safety, AVSAB, USDA APHIS, Lafeber Vet, ASPCA Animal Poison Control, peer-reviewed journals, manufacturer technical pages, and named hobbyist communities (signal, never authority).`);
   out.push("");
-  out.push(`Community quotes are verbatim from public forum threads (Reddit primarily). Quotes are sourced via a verbatim-only fetcher script — never paraphrased, summarized, or AI-generated. Each quote includes the source URL, date, and author handle (anonymized to "community member" by default).`);
+  out.push(`Community quotes, where present, are verbatim from public owner threads and each carries its source URL. They are never paraphrased, summarized, or AI-generated.`);
   out.push("");
-  out.push(`Active deals are manually verified against manufacturer/brand sites and auto-hidden after expiry. Snapshot date below reflects the file generation time, not a live state — verify current deals at ${SITE_URL}/deals.`);
+  out.push(`Each "Price:" line below is the figure that pick's guide card displays, followed by that figure's own dated "checked" stamp (the day the Amazon price record or live Amazon page read behind it was taken). Prices change; the stamp is the date of the read, not a guarantee of today's price. A pick whose card shows no figure is still listed, without a Price line. Card figures are Amazon figures, never maker- or brand-sourced.`);
   out.push("");
   out.push(`Contact: ${CONTACT_EMAIL}`);
   out.push("");

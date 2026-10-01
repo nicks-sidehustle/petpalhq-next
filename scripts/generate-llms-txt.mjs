@@ -5,7 +5,7 @@
  * Reads guide frontmatter directly from src/content/guides/ so the output
  * always reflects the live content set. Run after adding/updating guides:
  *
- *   npm run generate:llms-txt
+ *   npm run generate:llms-txt   (runs under tsx; imports src/lib/guides.ts)
  *
  * The output is grouped:
  *   1. Editorial hubs (the 10 cluster guides)
@@ -16,6 +16,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
+import { getGuideBySlug, isPromoActive } from "../src/lib/guides.ts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -197,7 +198,25 @@ function renderSpokesByVertical(spokes) {
   return lines;
 }
 
-function renderSupporting() {
+// /deals lists every visible pick whose promo is unexpired (isPromoActive,
+// same call src/app/deals/page.tsx makes). Count them the same way so the
+// Deals line describes the page as it renders at generation time (W4 #210).
+function countActivePromos(all) {
+  let n = 0;
+  for (const g of all) {
+    for (const pick of getGuideBySlug(g.slug)?.picks ?? []) {
+      if (isPromoActive(pick.promo)) n++;
+    }
+  }
+  return n;
+}
+
+function renderSupporting(all) {
+  const activePromos = countActivePromos(all);
+  const dealsNow =
+    activePromos === 0
+      ? "None active at generation."
+      : `${activePromos} active at generation.`;
   return [
     "## Supporting pages",
     "",
@@ -208,7 +227,7 @@ function renderSupporting() {
     bullet("Affiliate disclosure", "/affiliate-disclosure", `Amazon Associates Program participation, FTC compliance, and the full policy on commissions versus editorial recommendations. Tag: petpalhq08-20.`),
     bullet("Privacy policy", "/privacy-policy", "What we collect, how we use it, third-party processors (Google Analytics, Brevo, ImprovMX, Vercel, Amazon), and CCPA + GDPR rights."),
     bullet("Guides index", "/guides", "Browse all editorial hubs and buying guides."),
-    bullet("Active deals", "/deals", "Site-wide aggregator of currently-active manufacturer and Amazon promotions across all featured picks. Auto-hides expired codes; verified weekly."),
+    bullet("Deals", "/deals", `Guide picks with an unexpired promotion (coupon code or deal) recorded in guide data. ${dealsNow}`),
     "",
   ];
 }
@@ -235,7 +254,7 @@ function buildLlmsTxt() {
   );
   lines.push("");
   lines.push(
-    `${SITE_NAME} groups its content into editorial hubs and buying guides. Hubs synthesize the expert consensus on a topic; buying guides apply that consensus to specific products with the PetPal Gear Score (a transparent, weighted composite of expert opinion). Every claim is attributed to a named source. Every guide carries an updatedDate (editorial freshness) and lastProductCheck (pricing freshness).`
+    `${SITE_NAME} groups its content into editorial hubs and buying guides. Hubs synthesize the expert consensus on a topic; buying guides apply that consensus to specific products with the PetPal Gear Score (a transparent, weighted composite of expert opinion). Guides cite named sources (veterinary, regulatory, research and manufacturer references) for their key facts; rankings, scores and framing are PetPalHQ's own editorial synthesis. Every guide shows a published or updated date (editorial freshness). Every price on a product card carries its own dated "checked" stamp, the day the Amazon read behind that figure was taken; a card with no dated Amazon read shows no figure.`
   );
   lines.push("");
   lines.push(
@@ -247,6 +266,8 @@ function buildLlmsTxt() {
   );
   lines.push("");
   lines.push(`Contact: ${CONTACT_EMAIL}`);
+  lines.push("");
+  lines.push(`Generated: ${new Date().toISOString().split("T")[0]}`);
   lines.push("");
 
   lines.push(`## AI Agent API (Model Context Protocol)`);
@@ -264,7 +285,7 @@ function buildLlmsTxt() {
 
   lines.push(...renderHubsSection(hubs));
   lines.push(...renderSpokesByVertical(spokes));
-  lines.push(...renderSupporting());
+  lines.push(...renderSupporting(all));
 
   // Compact trailing blank lines.
   return lines.join("\n").replace(/\n{3,}/g, "\n\n").trimEnd() + "\n";
