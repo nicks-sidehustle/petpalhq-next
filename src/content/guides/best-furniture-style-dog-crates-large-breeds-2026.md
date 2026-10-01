@@ -348,13 +348,18 @@ methodology:
       description: "Price against what the crate publishes and includes, and whether the seller is Amazon itself or a third-party marketplace seller. Not a judgment about long-term durability, which nobody in this category publishes data on."
 
 comparison:
-  headers: ["Crate", "Price", "Exterior (L x W x H)", "Interior published?", "Frame", "Sold by"]
+  headers: ["Crate", "Exterior (L x W x H)", "Interior published?", "Frame", "Sold by"]
   rows:
-    - ["Yafylly 48\" XXL", "$249.99", "47.24 x 28.35 x 37.4 in", "No", "Thickened metal strip + wood", "Amazon.com"]
-    - ["HMHTCT 48\" End Table", "$209.99", "47.2 x 30.3 x 31.9 in", "Yes — 44.7 x 28.0 x 28.9 in", "Widened thickened iron tube", "Third-party seller"]
-    - ["SHUSHIM 48\" TV Stand", "$269.99", "Not published", "No", "Reinforced solid wood + metal", "Third-party seller"]
-    - ["MOLKEI 48\" XXL", "$229.99", "47.2 x 30.3 x 31.9 in", "No", "Corrosion-resistant steel + board", "Third-party seller"]
-    - ["FentyOE 48\" with tray", "$179.99", "48 x 29 x 34 in", "No", "Metal + wood, tray floor", "Third-party seller"]
+    - pickRef: r1
+      cells: ["Yafylly 48\" XXL", "47.24 x 28.35 x 37.4 in", "No", "Thickened metal strip + wood", "Amazon.com"]
+    - pickRef: r2
+      cells: ["HMHTCT 48\" End Table", "47.2 x 30.3 x 31.9 in", "Yes — 44.7 x 28.0 x 28.9 in", "Widened thickened iron tube", "Third-party seller"]
+    - pickRef: r3
+      cells: ["SHUSHIM 48\" TV Stand", "Not published", "No", "Reinforced solid wood + metal", "Third-party seller"]
+    - pickRef: r4
+      cells: ["MOLKEI 48\" XXL", "47.2 x 30.3 x 31.9 in", "No", "Corrosion-resistant steel + board", "Third-party seller"]
+    - pickRef: r5
+      cells: ["FentyOE 48\" with tray", "48 x 29 x 34 in", "No", "Metal + wood, tray floor", "Third-party seller"]
 
 whenNotToBuy: |
   Skip this entire category if your dog has separation anxiety. This is the clearest contraindication in the guide and it is not a matter of build quality. The ASPCA states that escape attempts by dogs with separation anxiety are often extreme and can result in self-injury and household destruction, and that a dog might attempt to dig and chew through doors or windows, resulting in broken teeth, cut and scraped front paws and damaged nails. Its instruction is direct: if a dog shows heavy panting, excessive salivation, frantic escape attempts or persistent howling, crate confinement is not the best option for him. VCA Animal Hospitals agrees — where destructive behavior is caused by separation anxiety, the crate is not the best solution, as these pets may harm themselves trying to escape. A wooden cabinet is not the crate to test that on. Our [Back-to-School Dog Separation Anxiety Routine](/guides/best-dog-separation-anxiety-routines-2026) guide covers what to do instead.

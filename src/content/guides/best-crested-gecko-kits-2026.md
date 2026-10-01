@@ -285,13 +285,18 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Size (W×D×H)", "Kit vs tank", "PetPal Crestie Habitat Score"]
+  headers: ["Product", "Size (W×D×H)", "Kit vs tank", "PetPal Crestie Habitat Score"]
   rows:
-    - ["Oiibo 18x18x24", "$178.99", "18 × 18 × 24 in", "Tank only", "8.3"]
-    - ["Clioran starter kit", "$79.99", "12 × 12 × 18 in", "9-piece kit", "8.1"]
-    - ["PROLEE 24x18x36", "", "24 × 18 × 36 in", "Tank only", "7.9"]
-    - ["Zilla kit", "$119.95", "12 × 12 × 18 in", "Complete kit", "7.6"]
-    - ["REPTI ZOO 34 gallon", "$149.99", "24 × 18 × 18 in", "Tank only", "7.2"]
+    - pickRef: r1
+      cells: ["Oiibo 18x18x24", "18 × 18 × 24 in", "Tank only", "8.3"]
+    - pickRef: r2
+      cells: ["Clioran starter kit", "12 × 12 × 18 in", "9-piece kit", "8.1"]
+    - pickRef: r3
+      cells: ["PROLEE 24x18x36", "24 × 18 × 36 in", "Tank only", "7.9"]
+    - pickRef: r4
+      cells: ["Zilla kit", "12 × 12 × 18 in", "Complete kit", "7.6"]
+    - pickRef: r5
+      cells: ["REPTI ZOO 34 gallon", "24 × 18 × 18 in", "Tank only", "7.2"]
 
 methodology:
   formula: "PetPal Crestie Habitat Score = (Arboreal Vertical Space × 0.30) + (Humidity & Ventilation Balance × 0.25) + (Front Access & Escape-Proofing × 0.20) + (Kit Completeness × 0.15) + (Value × 0.10)"

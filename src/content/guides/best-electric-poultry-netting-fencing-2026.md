@@ -284,13 +284,18 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Type", "Power", "PetPal Predator-Barrier Score"]
+  headers: ["Product", "Type", "Power", "PetPal Predator-Barrier Score"]
   rows:
-    - ["Starkline AC kit", "$379.99", "Complete system (net + energizer)", "0.8 J, AC", "8.6"]
-    - ["Starkline solar kit", "$494.99", "Complete system (net + energizer)", "S400 solar energizer", "8.5"]
-    - ["Premier 1 net", "$197.00", "Net only (add energizer)", "None — electrifiable", "7.4"]
-    - ["Gallagher S60", "$429.99", "Energizer only (add net)", "0.6 J, solar", "7.1"]
-    - ["Epoify charger", "$72.99", "Energizer only (add net)", "0.18 J, solar", "6.2"]
+    - pickRef: r1
+      cells: ["Starkline AC kit", "Complete system (net + energizer)", "0.8 J, AC", "8.6"]
+    - pickRef: r2
+      cells: ["Starkline solar kit", "Complete system (net + energizer)", "S400 solar energizer", "8.5"]
+    - pickRef: r3
+      cells: ["Premier 1 net", "Net only (add energizer)", "None — electrifiable", "7.4"]
+    - pickRef: r4
+      cells: ["Gallagher S60", "Energizer only (add net)", "0.6 J, solar", "7.1"]
+    - pickRef: r5
+      cells: ["Epoify charger", "Energizer only (add net)", "0.18 J, solar", "6.2"]
 
 methodology:
   formula: "PetPal Predator-Barrier Score = (Predator Deterrence & Shock Power × 0.30) + (Containment & Mesh Design × 0.25) + (Setup & Portability × 0.20) + (Completeness as a System × 0.15) + (Value × 0.10)"

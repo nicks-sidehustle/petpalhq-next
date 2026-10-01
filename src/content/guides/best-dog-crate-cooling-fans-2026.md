@@ -286,13 +286,18 @@ picks:
         accessed: "2026-07-06"
 
 comparison:
-  headers: ["Product", "Price", "Power", "Best for", "PetPal Crate-Cooling Score"]
+  headers: ["Product", "Power", "Best for", "PetPal Crate-Cooling Score"]
   rows:
-    - ["Treva 5-inch", "$19.99", "Battery or USB", "Best value / small–medium crates", "8.5"]
-    - ["Push Vortex", "$99.95", "Corded kennel-grade", "Large crates / chewers / hard use", "8.3"]
-    - ["Hoovy Tripod", "$17.99", "USB", "Awkward mounts / strollers", "8.1"]
-    - ["Koonie 8-inch", "$35.99", "Rechargeable battery", "Cordless / travel", "8.0"]
-    - ["Air King 9145", "$24.99", "Corded", "Toughest corded clip", "7.8"]
+    - pickRef: r1
+      cells: ["Treva 5-inch", "Battery or USB", "Best value / small–medium crates", "8.5"]
+    - pickRef: r2
+      cells: ["Push Vortex", "Corded kennel-grade", "Large crates / chewers / hard use", "8.3"]
+    - pickRef: r3
+      cells: ["Hoovy Tripod", "USB", "Awkward mounts / strollers", "8.1"]
+    - pickRef: r4
+      cells: ["Koonie 8-inch", "Rechargeable battery", "Cordless / travel", "8.0"]
+    - pickRef: r5
+      cells: ["Air King 9145", "Corded", "Toughest corded clip", "7.8"]
 
 methodology:
   formula: "PetPal Crate-Cooling Score = (Airflow vs Crate Size × 0.30) + (Safe Mounting & Chew-Guard × 0.25) + (Battery/Runtime & Power Options × 0.20) + (Noise × 0.15) + (Value × 0.10)"

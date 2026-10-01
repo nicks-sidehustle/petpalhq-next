@@ -302,13 +302,18 @@ picks:
     verdict: "The right-sized answer for a small or thin-coated breed, which AKC's own guidance says needs more winter protection, not a scaled-down copy of a large dog's setup. Not a fit for anything beyond a small breed."
 
 comparison:
-  headers: ["Product", "Price", "Heat source", "Structure included?", "Rated capacity", "Best for"]
+  headers: ["Product", "Heat source", "Structure included?", "Rated capacity", "Best for"]
   rows:
-    - ["GUTINNEEN Heated Dog House", "$359.99", "Built-in UL heating pad, 89-116°F auto", "Yes — full insulated house", "Up to 180 lb", "All-in-one buy for a household with no existing structure"]
-    - ["Akoma Hound Heater Deluxe", "$174.95", "400W thermostatic furnace, WiFi + camera", "No — retrofit into existing structure", "Most dog houses/kennels", "Adding real heat to a house or kennel you already own"]
-    - ["New Age Pet ECOFLEX Rustic Lodge", "$234.99", "None — unheated", "Yes — weatherproof composite house", "Up to 130 lb", "A durable base to pair with a separate furnace"]
-    - ["K&H Lectro-Kennel Heated Pad", "$106.99", "80W pad, activates only when occupied", "No — floor pad only", "Fits inside most houses", "Budget heat for an already-insulated house"]
-    - ["DRATO Small Breed House", "$89.99", "Included heated thermal mat", "Yes — small-breed resin house", "Small breeds", "The honest small-dog pick"]
+    - pickRef: r1
+      cells: ["GUTINNEEN Heated Dog House", "Built-in UL heating pad, 89-116°F auto", "Yes — full insulated house", "Up to 180 lb", "All-in-one buy for a household with no existing structure"]
+    - pickRef: r2
+      cells: ["Akoma Hound Heater Deluxe", "400W thermostatic furnace, WiFi + camera", "No — retrofit into existing structure", "Most dog houses/kennels", "Adding real heat to a house or kennel you already own"]
+    - pickRef: r3
+      cells: ["New Age Pet ECOFLEX Rustic Lodge", "None — unheated", "Yes — weatherproof composite house", "Up to 130 lb", "A durable base to pair with a separate furnace"]
+    - pickRef: r4
+      cells: ["K&H Lectro-Kennel Heated Pad", "80W pad, activates only when occupied", "No — floor pad only", "Fits inside most houses", "Budget heat for an already-insulated house"]
+    - pickRef: r5
+      cells: ["DRATO Small Breed House", "Included heated thermal mat", "Yes — small-breed resin house", "Small breeds", "The honest small-dog pick"]
 
 methodology:
   formula: "PetPal Cold-Weather Shelter Score = (Heat Delivery & Insulation × 0.35) + (Weatherproofing & Build Quality × 0.25) + (Safety Compliance × 0.20) + (Value × 0.20)"

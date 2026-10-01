@@ -340,14 +340,20 @@ picks:
     verdict: "The storage-shelf PetsCosset is the do-everything table, and it is worth choosing if integrated storage and an adjustable lamp stand matter more to you than maximizing floor area per dollar."
 
 comparison:
-  headers: ["Product", "Price", "Footprint & format", "TortoiseHabitat Score"]
+  headers: ["Product", "Footprint & format", "TortoiseHabitat Score"]
   rows:
-    - ["Zoo Med Tortoise House", "$139.99", "36 by 24 in, two-room, modular", "9.0"]
-    - ["Aivituvin Large", "$89.99", "~38 by 22 in open-top, acrylic sides", "8.6"]
-    - ["Aivituvin raised table", "$109.99", "~38 by 22 in on legs + lamp arm", "8.3"]
-    - ["VEVOR 4-room", "$134.90", "44.1 by 25.6 in, 4-room, 2-story", "8.0"]
-    - ["PawHut storage", "$94.99", "33 by 20 in + storage shelf", "7.9"]
-    - ["PetsCosset storage build", "$112.99", "elevated table + lamp + storage shelf", "7.8"]
+    - pickRef: r1
+      cells: ["Zoo Med Tortoise House", "36 by 24 in, two-room, modular", "9.0"]
+    - pickRef: r2
+      cells: ["Aivituvin Large", "~38 by 22 in open-top, acrylic sides", "8.6"]
+    - pickRef: r3
+      cells: ["Aivituvin raised table", "~38 by 22 in on legs + lamp arm", "8.3"]
+    - pickRef: r4
+      cells: ["VEVOR 4-room", "44.1 by 25.6 in, 4-room, 2-story", "8.0"]
+    - pickRef: r5
+      cells: ["PawHut storage", "33 by 20 in + storage shelf", "7.9"]
+    - pickRef: r6
+      cells: ["PetsCosset storage build", "elevated table + lamp + storage shelf", "7.8"]
 
 methodology:
   formula: "TortoiseHabitat Score = (Floor Space & Thermal Gradient × 0.30) + (Ventilation vs Humidity × 0.25) + (Material Safety & Cleaning × 0.25) + (Substrate Depth Capacity × 0.20)"
