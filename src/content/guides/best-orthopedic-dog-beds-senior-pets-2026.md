@@ -265,7 +265,7 @@ picks:
       - "Removes to a crate/kennel-fit pad sized for 42- and 48-inch crates"
       - "Machine-washable covers with reinforced seams and an L-shaped zipper"
     body: |
-      Honest framing before the pick: what exists at that combined-function claim is passive, not electric — a reversible bed you flip by season rather than a thermostatically controlled unit — and it tops out well under $200. This is that bed, and it's an honest, real answer to "heated and cooling," not the $400-plus electric hybrid the premium framing implies.
+      Honest framing before the pick: the closest thing to a heated-plus-cooling bed is passive, not electric — a reversible bed you flip by season rather than a thermostatically controlled unit — and it tops out well under $200. This is that bed, and it's an honest, real answer to "heated and cooling," not the $400-plus electric hybrid the premium framing implies.
 
       Tail&Tale's construction claim is that both the bolster and center cushion are fully reversible: a self-warming sherpa side for cold-weather comfort and a smooth, breathable cooling side for warmer months, on the same one-piece CertiPUR-US memory-foam base this guide already looks for per AKC's solid-foam preference over thin padding. The TPU waterproof liner and machine-washable covers meet the same hygiene baseline AAHA and Cornell's senior-pet materials call for. The crate-fit removable cushion is a genuine bonus for a senior dog that travels or spends kennel time.
 

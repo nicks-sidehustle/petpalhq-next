@@ -29,7 +29,7 @@ expertSourceCount: 10
 hub: "reptile-habitat-environmental-control"
 guideType: "spoke"
 
-shortAnswer: "If you are building one bioactive enclosure, material choice is the first decision. PVC panels seal humidity, retain heat, and accept screw-mount fixtures for branches and lighting. All of those properties matter more in a bioactive build than in a bare-substrate setup. For a terrestrial species (bearded dragon, ball python, blue-tongue skink, leopard gecko), the Zen Habitats 4x2x2 PVC enclosure is the synthesis pick. It appears consistently across r/reptiles and r/bioactive threads, the PVC panels do the humidity-retention job. For an arboreal species (crested gecko, chameleon, green tree python), the REPTI ZOO Tall glass terrarium is the entry pick that the keeper community accepts for bioactive use at a lower price."
+shortAnswer: "If you are building one bioactive enclosure, material choice is the first decision. PVC panels seal humidity, retain heat, and accept screw-mount fixtures for branches and lighting. All of those properties matter more in a bioactive build than in a bare-substrate setup. For a terrestrial species (bearded dragon, ball python, blue-tongue skink, leopard gecko), the Zen Habitats 4x2x2 PVC enclosure is the synthesis pick. It appears consistently across r/reptiles and r/bioactive threads, and the PVC panels do the humidity-retention job. For an arboreal species (crested gecko, chameleon, green tree python), the REPTI ZOO Tall glass terrarium is the entry pick that the keeper community accepts for bioactive use at a lower price."
 
 topPicks:
   - name: "Zen Habitats (Reptile Habitats) 4x2x2 PVC Enclosure"
