@@ -433,7 +433,7 @@ export default async function GuidePage({ params }: PageProps) {
   if (guide.topPicks?.length) tocItems.push({ id: "evidence-at-a-glance", label: "Evidence at a Glance" });
   if (guide.picks?.length) tocItems.push({ id: "featured-picks", label: "Our Picks" });
   if (guide.shortAnswer) tocItems.push({ id: "short-answer", label: "The Short Answer" });
-  if (guide.comparison?.rows?.length && guide.picks?.length) {
+  if ((guide.comparison?.rows?.length || guide.comparison?.table?.rows.length) && guide.picks?.length) {
     tocItems.push({ id: "comparison", label: "Head-to-Head Comparison" });
   }
   guide.picks?.forEach((p) => {
