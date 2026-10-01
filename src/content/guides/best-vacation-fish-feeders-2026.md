@@ -275,13 +275,19 @@ picks:
         accessed: "2026-09-08"
 
 comparison:
-  headers: ["Product", "Price", "Type", "Best for", "PetPal Fish-Feeder Score"]
+  headers: ["Product", "Type", "Best for", "PetPal Fish-Feeder Score"]
+  nameColumn: 0
   rows:
-    - ["Eheim Feed-Air", "$72.00", "Programmable auto-feeder", "Regular travel, trusted brand", "8.6"]
-    - ["DXOPHIEX WiFi", "$35.98", "WiFi app feeder", "Checking in from your phone", "8.3"]
-    - ["Aoyar 200ml", "$15.99", "Budget timer", "Short trips, spare feeder", "8.1"]
-    - ["Fish Mate F14", "$19.99", "Pre-portioned drum", "Distrust of hopper feeders", "7.9"]
-    - ["DXOPHIEX dual-power", "$22.98", "Battery + USB timer", "Backup / power-outage insurance", "7.7"]
+    - pickRef: r1
+      cells: ["Eheim Feed-Air", "Programmable auto-feeder", "Regular travel, trusted brand", "8.6"]
+    - pickRef: r2
+      cells: ["DXOPHIEX WiFi", "WiFi app feeder", "Checking in from your phone", "8.3"]
+    - pickRef: r3
+      cells: ["Aoyar 200ml", "Budget timer", "Short trips, spare feeder", "8.1"]
+    - pickRef: r4
+      cells: ["Fish Mate F14", "Pre-portioned drum", "Distrust of hopper feeders", "7.9"]
+    - pickRef: r5
+      cells: ["DXOPHIEX dual-power", "Battery + USB timer", "Backup / power-outage insurance", "7.7"]
 
 methodology:
   formula: "PetPal Fish-Feeder Score = (Dosing Accuracy & Portion Control × 0.30) + (Reliability / Jam Resistance × 0.25) + (Programmability: WiFi/timer × 0.20) + (Humidity Protection × 0.15) + (Value × 0.10)"

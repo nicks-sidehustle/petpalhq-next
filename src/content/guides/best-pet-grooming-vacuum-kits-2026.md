@@ -262,13 +262,19 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Tools", "Listed suction / cup", "PetPal Grooming Vacuum Score"]
+  headers: ["Product", "Tools", "Listed suction / cup", "PetPal Grooming Vacuum Score"]
+  nameColumn: 0
   rows:
-    - ["Neakasa P1 Pro", "$84.99", "6-in-1", "9000Pa / 1L", "8.6"]
-    - ["oneisall", "$84.99", "7-in-1", "3 levels / 1.5L", "8.3"]
-    - ["Afloia", "$76.99", "6-in-1", "3 levels / 1.5L", "8.0"]
-    - ["buenkee", "$69.99", "clipper + brush", "15000Pa / 2L", "7.8"]
-    - ["Rywell", "$54.99", "3-in-1", "12000Pa / 1.5L", "7.5"]
+    - pickRef: r1
+      cells: ["Neakasa P1 Pro", "6-in-1", "9000Pa / 1L", "8.6"]
+    - pickRef: r2
+      cells: ["oneisall", "7-in-1", "3 levels / 1.5L", "8.3"]
+    - pickRef: r3
+      cells: ["Afloia", "6-in-1", "3 levels / 1.5L", "8.0"]
+    - pickRef: r4
+      cells: ["buenkee", "clipper + brush", "15000Pa / 2L", "7.8"]
+    - pickRef: r5
+      cells: ["Rywell", "3-in-1", "12000Pa / 1.5L", "7.5"]
 
 methodology:
   formula: "PetPal Grooming Vacuum Score = (Suction & Hair Capture × 0.30) + (Grooming Versatility × 0.25) + (Pet Comfort / Low Noise × 0.20) + (Cleaning & Maintenance × 0.15) + (Value × 0.10)"

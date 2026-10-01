@@ -290,13 +290,19 @@ picks:
         accessed: "2026-07-08"
 
 comparison:
-  headers: ["Checklist priority", "Product", "Price", "Role on the trip", "PetPal Road-Trip Readiness Score"]
+  headers: ["Checklist priority", "Product", "Role on the trip", "PetPal Road-Trip Readiness Score"]
+  nameColumn: 1
   rows:
-    - ["1. Containment — carrier", "Henkelion Soft-Sided Carrier (up to 15 lb)", "$23.48", "Keeps a small pet contained at rest stops", "8.5"]
-    - ["2. Protect the car — liner", "PETICON SUV Cargo Liner (600D Oxford)", "$34.98", "Shields upholstery from fur, mud, and messes", "8.2"]
-    - ["3. Beat the heat — cooling vest", "Spark Paws Cooling Vest, SPF 50 (XL)", "$24.24", "Evaporative cooling for breaks in the sun", "8.0"]
-    - ["4. Find the pet — GPS tracker", "GPS Dog Tracker, No Monthly Fee (IP68)", "$21.99", "Locates a pet that bolts at a rest stop", "7.9"]
-    - ["5. Stay hydrated — water bottle", "Kalimdor Leak-Proof Travel Bottle (19 oz)", "$9.99", "On-the-go water a reluctant pet will drink", "7.8"]
+    - pickRef: r1
+      cells: ["1. Containment — carrier", "Henkelion Soft-Sided Carrier (up to 15 lb)", "Keeps a small pet contained at rest stops", "8.5"]
+    - pickRef: r2
+      cells: ["2. Protect the car — liner", "PETICON SUV Cargo Liner (600D Oxford)", "Shields upholstery from fur, mud, and messes", "8.2"]
+    - pickRef: r3
+      cells: ["3. Beat the heat — cooling vest", "Spark Paws Cooling Vest, SPF 50 (XL)", "Evaporative cooling for breaks in the sun", "8.0"]
+    - pickRef: r4
+      cells: ["4. Find the pet — GPS tracker", "GPS Dog Tracker, No Monthly Fee (IP68)", "Locates a pet that bolts at a rest stop", "7.6"]
+    - pickRef: r5
+      cells: ["5. Stay hydrated — water bottle", "Kalimdor Leak-Proof Travel Bottle (19 oz)", "On-the-go water a reluctant pet will drink", "7.8"]
 
 methodology:
   formula: "PetPal Road-Trip Readiness Score = (Heat & Safety Protection × 0.30) + (Containment Reliability × 0.25) + (Ease of Use × 0.20) + (Durability × 0.15) + (Value × 0.10)"

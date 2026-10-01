@@ -271,13 +271,19 @@ picks:
         accessed: "2026-09-08"
 
 comparison:
-  headers: ["Product", "Price", "Type", "Best for", "PetPal Parrot-Enrichment Score"]
+  headers: ["Product", "Type", "Best for", "PetPal Parrot-Enrichment Score"]
+  nameColumn: 0
   rows:
-    - ["LUCKITTY 35in", "$49.99", "Foraging toy", "Direct mental challenge", "8.6"]
-    - ["MEWTOGO natural wood", "$23.99", "Natural-wood chew", "Big natural chew outlet", "8.3"]
-    - ["HZDZ LCPAW", "$23.99", "Large chew toy", "Building a rotation cheaply", "8.1"]
-    - ["Planet Pleasures XL pinata", "$19.56", "Natural foraging", "Specialist foraging brand", "7.9"]
-    - ["Super Bird Humdinger", "$42.99", "Chew / activity", "Textured variety from a known brand", "7.7"]
+    - pickRef: r1
+      cells: ["LUCKITTY 35in", "Foraging toy", "Direct mental challenge", "8.6"]
+    - pickRef: r2
+      cells: ["MEWTOGO natural wood", "Natural-wood chew", "Big natural chew outlet", "8.3"]
+    - pickRef: r3
+      cells: ["HZDZ LCPAW", "Large chew toy", "Building a rotation cheaply", "8.1"]
+    - pickRef: r4
+      cells: ["Planet Pleasures XL pinata", "Natural foraging", "Specialist foraging brand", "7.9"]
+    - pickRef: r5
+      cells: ["Super Bird Humdinger", "Chew / activity", "Textured variety from a known brand", "7.7"]
 
 methodology:
   formula: "PetPal Parrot-Enrichment Score = (Foraging / Mental Challenge × 0.30) + (Chew Safety: bird-safe materials × 0.25) + (Beak-Size Durability × 0.20) + (Variety / Rotation Value × 0.15) + (Value × 0.10)"

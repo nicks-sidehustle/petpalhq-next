@@ -276,13 +276,19 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Usable space", "Run / floor", "PetPal Hutch Score"]
+  headers: ["Product", "Usable space", "Run / floor", "PetPal Hutch Score"]
+  nameColumn: 0
   rows:
-    - ["GUTINNEEN 62-inch metal-frame", "$169.99", "10.93 sq ft, 2 levels", "Enclosed, trays", "8.7"]
-    - ["COZIWOW 92-inch, 3 runs", "$161.49", "92 in long, 2 runs", "Open-bottom grazing", "8.5"]
-    - ["Ketive 48-inch 2-story", "$79.99", "~8 sq ft, 2 levels", "Enclosed lower run", "8.3"]
-    - ["mayugardening 36-inch, wheels", "$79.99", "~5.8 sq ft, 2 levels", "Enclosed, mobile", "7.9"]
-    - ["Rockever hutch with run", "$129.99", "Low, ~14 in tall", "Open run floor", "7.6"]
+    - pickRef: r1
+      cells: ["GUTINNEEN 62-inch metal-frame", "10.93 sq ft, 2 levels", "Enclosed, trays", "8.7"]
+    - pickRef: r2
+      cells: ["COZIWOW 92-inch, 3 runs", "92 in long, 2 runs", "Open-bottom grazing", "8.5"]
+    - pickRef: r3
+      cells: ["Ketive 48-inch 2-story", "~8 sq ft, 2 levels", "Enclosed lower run", "8.3"]
+    - pickRef: r4
+      cells: ["mayugardening 36-inch, wheels", "~5.8 sq ft, 2 levels", "Enclosed, mobile", "7.9"]
+    - pickRef: r5
+      cells: ["Rockever hutch with run", "Low, ~14 in tall", "Open run floor", "7.6"]
 
 methodology:
   formula: "PetPal Hutch Score = (Predator & Escape Security × 0.25) + (Usable Space & Run × 0.25) + (Weatherproofing & Durability × 0.20) + (Cleaning & Maintenance × 0.15) + (Value × 0.15)"

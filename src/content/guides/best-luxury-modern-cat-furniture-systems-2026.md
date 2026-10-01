@@ -318,13 +318,19 @@ methodology:
       description: "Whether each pick has a live, new-condition Amazon offer at time of publish, checked against the Creators API, and whether the price reflects genuine premium features rather than a markup with no functional difference."
 
 comparison:
-  headers: ["Product", "Price", "Height", "Enclosed resting spaces", "Best for"]
+  headers: ["Product", "Height", "Enclosed resting spaces", "Best for"]
+  nameColumn: 0
   rows:
-    - ["KAMABOKO 90.5\" Luxury (6-condo)", "$559.87", "90.5 in", "6 enclosed condos", "Multi-cat stress separation"]
-    - ["Xiamiao Magic Forest Tower", "$499.00", "90 in", "1 plush cave", "Height in a small footprint"]
-    - ["The Refined Feline Lotus Tower", "$399.99", "69 in", "1 cushioned cubby", "Decor-matching design"]
-    - ["KAMABOKO 90.5\" Luxury (sisal/platforms)", "$357.98", "90.5 in", "Open platforms only", "Active climbing/scratching on a budget"]
-    - ["Homiflex 16-in-1 wall kit", "$89.99", "Wall-mounted, variable", "1 cat house + tunnel", "Corridor add-on to a centerpiece tower"]
+    - pickRef: r1
+      cells: ["KAMABOKO 90.5\" Luxury (6-condo)", "90.5 in", "6 enclosed condos", "Multi-cat stress separation"]
+    - pickRef: r2
+      cells: ["Xiamiao Magic Forest Tower", "90 in", "1 plush cave", "Height in a small footprint"]
+    - pickRef: r3
+      cells: ["The Refined Feline Lotus Tower", "69 in", "1 cushioned cubby", "Decor-matching design"]
+    - pickRef: r4
+      cells: ["KAMABOKO 90.5\" Luxury (sisal/platforms)", "90.5 in", "Open platforms only", "Active climbing/scratching on a budget"]
+    - pickRef: r5
+      cells: ["Homiflex 16-in-1 wall kit", "Wall-mounted, variable", "1 cat house + tunnel", "Corridor add-on to a centerpiece tower"]
 
 whenNotToBuy: |
   Skip every pick in this guide if a single standalone cat tree or wall shelf kit already meets your household's needs. Our [Best Cat Trees for Large Cats](/guides/best-cat-trees-large-cats-2026) and [Best Cat Wall Shelf Systems](/guides/best-cat-wall-shelf-systems-2026) guides cover single-piece furniture at $123-242, and most single-cat and even many two-cat households don't need the multi-condo separation or corridor-building this guide is built around.

@@ -334,14 +334,21 @@ picks:
         accessed: "2026-07-08"
 
 comparison:
-  headers: ["Checklist category", "Product", "Price", "Role in the first weeks", "PetPal First-Weeks Kitten Score"]
+  headers: ["Checklist category", "Product", "Role in the first weeks", "PetPal First-Weeks Kitten Score"]
+  nameColumn: 1
   rows:
-    - ["Litter box", "Nature's Miracle Hooded Flip-Top Box", "$43.98", "A covered box a kitten will use", "8.3"]
-    - ["Cat tower", "Purrlato 31\" Tower with Condo & Sisal Posts", "$38.99", "Redirect scratching and climbing", "8.5"]
-    - ["Water fountain", "ORSDA 2L Stainless Steel Fountain", "$24.99", "Encourage a kitten to drink", "8.2"]
-    - ["Food & water bowls", "FlaggeZG Shallow Ceramic Bowls (8-pack)", "$21.99", "Whisker-friendly meals", "8.4"]
-    - ["Interactive toy", "MeoHui Wand Toy Set (2 wands, 9 refills)", "$9.78", "Burn off kitten energy", "8.0"]
-    - ["Carrier", "Top tasta Soft-Sided Carrier (up to 16 lb)", "$17.98", "Calm early vet visits", "8.1"]
+    - pickRef: r1
+      cells: ["Litter box", "Nature's Miracle Hooded Flip-Top Box", "A covered box a kitten will use", "8.3"]
+    - pickRef: r2
+      cells: ["Cat tower", "Purrlato 31\" Tower with Condo & Sisal Posts", "Redirect scratching and climbing", "8.5"]
+    - pickRef: r3
+      cells: ["Water fountain", "ORSDA 2L Stainless Steel Fountain", "Encourage a kitten to drink", "8.2"]
+    - pickRef: r4
+      cells: ["Food & water bowls", "FlaggeZG Shallow Ceramic Bowls (8-pack)", "Whisker-friendly meals", "8.4"]
+    - pickRef: r5
+      cells: ["Interactive toy", "MeoHui Wand Toy Set (2 wands, 9 refills)", "Burn off kitten energy", "8.0"]
+    - pickRef: r6
+      cells: ["Carrier", "Top tasta Soft-Sided Carrier (up to 16 lb)", "Calm early vet visits", "8.1"]
 
 methodology:
   formula: "PetPal First-Weeks Kitten Score = (Behavior Support × 0.30) + (Health & Hydration × 0.25) + (Durability × 0.20) + (Ease of Use × 0.15) + (Value × 0.10)"
