@@ -198,12 +198,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price (verified 2026-09-07)"
-      values:
-        - "$180.00"
-        - "$199.99"
-        - "$89.99"
-        - "$69.99"
     - label: "Pick category"
       values:
         - "Best overall"

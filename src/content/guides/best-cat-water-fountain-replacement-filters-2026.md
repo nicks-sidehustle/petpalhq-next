@@ -304,8 +304,8 @@ comparison:
       values: ["Cotton + carbon + ion-exchange, sponges included", "Coconut-shell carbon (foam sold separately)", "Carbon + ion-exchange + non-woven, sponges included", "Micropore + carbon + ion-exchange", "Mechanical + carbon + ion-exchange resin"]
     - label: "Compatible fountain models & fit"
       values: ["PETLIBRO PLWF003 / PLWF006 stainless", "Drinkwell 1/2-gal–2-gal, Avalon, Pagoda, Sedona", "Veken 50 / 84 / 95 oz fountains", "PETKIT Eversweet 2/3, Solo, Cybertail", "Flower, PIXI, Fresh & Clear"]
-    - label: "Pack size & cost-per-filter"
-      values: ["8 filters + 8 sponges — ~$2.28/filter", "12 filters — ~$1.17/filter", "8 filters + 8 sponges — ~$2.12/filter", "5 filters — ~$4.00/filter", "5 filters — ~$4.44/filter"]
+    - label: "Pack size"
+      values: ["8 filters + 8 sponges", "12 filters", "8 filters + 8 sponges", "5 filters", "5 filters"]
     - label: "Manufacturer replacement cadence"
       values: ["~Every 2 weeks", "Every 2–4 weeks", "Every 2–4 weeks", "Every 2–4 weeks", "Every 2–4 weeks"]
     - label: "Pre-filter sponge / pump protection included"

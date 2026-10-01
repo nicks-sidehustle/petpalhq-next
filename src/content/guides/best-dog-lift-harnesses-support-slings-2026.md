@@ -286,13 +286,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$119.95"
-        - ""
-        - "$42.99"
-        - "$19.99"
-        - "$9.49"
     - label: "Support type"
       values:
         - "Full-body, 4 handles"

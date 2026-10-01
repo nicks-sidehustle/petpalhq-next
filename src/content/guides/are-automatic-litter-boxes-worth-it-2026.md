@@ -220,12 +220,10 @@ comparison:
   rows:
     - label: "Best for"
       values: ["Multi-cat homes (up to 4 cats, 3 lb+) with real scooping fatigue", "One- or two-cat homes where odor is the deciding friction", "First-timers unsure their cat will accept an automatic box at all", "Single healthy cat, owner home daily, any real budget"]
-    - label: "3-yr est. total cost"
-      values: ["Plan for roughly $1,500–$1,700 (unit + litter + optional consumables)", "Plan for roughly $710–$760 (unit + your existing litter)", "Plan for roughly $500–$650 — disposable trays, not the $99 unit, dominate", "Plan for roughly $320–$350 (unit + unscented clumping litter)"]
     - label: "Friction it removes"
-      values: ["Daily scooping across several cats, plus per-cat usage and weight data", "Litter-box odor, via a sealed waste drawer", "The risk of spending $400–$700 before you know your cat complies", "None — it trades money for about five minutes of your day, twice"]
+      values: ["Daily scooping across several cats, plus per-cat usage and weight data", "Litter-box odor, via a sealed waste drawer", "The risk of spending before you know your cat complies", "None — it trades money for about five minutes of your day, twice"]
     - label: "When it is NOT worth it"
-      values: ["Single cat, home daily, or a budget under roughly $400", "Your real friction is scooping volume, not smell", "Your cat has already refused enclosed boxes; crystals add a substrate change", "You would genuinely neglect twice-daily scooping — then automation earns its price"]
+      values: ["Single cat, home daily", "Your real friction is scooping volume, not smell", "Your cat has already refused enclosed boxes; crystals add a substrate change", "You would genuinely neglect twice-daily scooping — then automation earns its price"]
 
 methodology:
   formula: "Worth-It Score = (Friction Removed × 0.35) + (3-Year Total Cost of Ownership × 0.25) + (Cat Suitability × 0.25) + (Reversibility / Risk × 0.15)"

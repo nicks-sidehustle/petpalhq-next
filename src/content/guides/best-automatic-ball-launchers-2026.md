@@ -286,13 +286,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$57.99"
-        - "$128.99"
-        - "$71.95"
-        - "$75.59"
-        - "$89.99"
     - label: "Dog size / balls"
       values:
         - "Small-medium / 2.3-in ETPU"
