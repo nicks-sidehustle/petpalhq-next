@@ -297,7 +297,7 @@ picks:
         accessed: "2026-09-08"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B07L41HW6W"
-        stat: "Maxspect XF330 Gyre Pump and Controller Package Wavemaker — $309.99, New, ships from Amazon, \"Only 5 left in stock - order soon.\""
+        stat: "Maxspect XF330 Gyre Pump and Controller Package Wavemaker — $309.99, New, ships from Amazon"
         claim: "The single-pump XF330 kit is the live configuration on Amazon; the two-pump bundle we previously listed no longer has a buyable offer."
         supports: "general"
         accessed: "2026-09-08"
@@ -318,7 +318,7 @@ picks:
 
       It earns its place on flow character. A gyre pump produces a wide curtain of water across the length of the tank, which many reef keepers prefer over point-source flow for clearing stagnant corners, and Maxspect's Gyre 300 series adds twin directional flow cages, clip-on directors and a waterproof silent suspension to shape it. The redesign also cut part count for easier rotor maintenance and ships a spare bushing set, which is the kind of detail that separates a serviceable pump from a disposable one.
 
-      What the spec sheet does not tell you is that gyre pumps are a different commitment than propeller pumps. They are larger and more visible along the back wall, they ask for more thought about placement to get the crossflow right, and 35 watts is the highest power ceiling on this page even though a gyre only draws that at full output. Wi-Fi and the free Syna-G app also need Maxspect's separate Connect ICV6 module — the controller in the box is a wired one. On a smaller or heavily aquascaped tank a single propeller pump is simpler. In the Reef Flow Score this kit still leads the page on gyre-style coverage and scores well on build and serviceability, but it gives back points on Ease of Setup and Tuning, and it gives back more than it used to on Flow Output now that the second pump is a separate purchase. Sold on Amazon by a third-party seller shipping from Amazon, with only five units showing in stock on our check date.
+      What the spec sheet does not tell you is that gyre pumps are a different commitment than propeller pumps. They are larger and more visible along the back wall, they ask for more thought about placement to get the crossflow right, and 35 watts is the highest power ceiling on this page even though a gyre only draws that at full output. Wi-Fi and the free Syna-G app also need Maxspect's separate Connect ICV6 module — the controller in the box is a wired one. On a smaller or heavily aquascaped tank a single propeller pump is simpler. In the Reef Flow Score this kit still leads the page on gyre-style coverage and scores well on build and serviceability, but it gives back points on Ease of Setup and Tuning, and it gives back more than it used to on Flow Output now that the second pump is a separate purchase. Sold on Amazon by a third-party seller shipping from Amazon.
     pros:
       - "Gyre design produces a broad linear curtain Maxspect says virtually eliminates dead spots"
       - "$100 less than the two-pump bundle it replaces, and the controller carries over to a second pump later"

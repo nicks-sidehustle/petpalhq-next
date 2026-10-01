@@ -5,7 +5,6 @@ excerpt: "A dog backpack is the rare pet product that the dog has actual opinion
 category: "Playground"
 keywords:
   - "dog hiking backpack saddlebag"
-  - "Ruffwear Approach Pack"
   - "Ruffwear Palisades Pack"
   - "dog trail pack load distribution"
   - "adventure dog hiking gear"
@@ -26,62 +25,22 @@ lastProductCheck: "2026-05-08"
 expertSourceCount: 6
 guideType: "spoke"
 
-shortAnswer: "If you keep one dog backpack, make it the Ruffwear Approach Pack. The weight-forward saddlebag design and Flopper Stoppers are the reason Ruffwear dominates trail-dog communities — the load stays stable when the dog moves, which is the whole job. For trail running or faster-paced hiking, the Ruffwear Trail Runner vest at $99.99 moves with the dog instead of bouncing against it. The Mountainsmith K-9 Cube is the structured-pannier specialist for hikers who want a human outdoor brand behind the engineering, and the Kurgo Big Baxter is the cheap way into real ripstop nylon and YKK buckles for anyone who would rather not carry the trailhead's most recognizable logo."
+shortAnswer: "For trail running or faster-paced hiking, the Ruffwear Trail Runner vest at $99.99 moves with the dog instead of bouncing against it. The Mountainsmith K-9 Cube is the structured-pannier specialist for hikers who want a human outdoor brand behind the engineering, and the Kurgo Big Baxter is the cheap way into real ripstop nylon and YKK buckles for anyone who would rather not carry the trailhead's most recognizable logo."
 
 topPicks:
-  - name: "Ruffwear Approach Pack"
-    pickRef: "r1"
-    keyFeature: "Weight-forward saddlebag design with Flopper Stoppers keeps load stable mid-stride. Five-point adjustable fit, padded handle, dual leash attachment points. The industry benchmark for dog hiking packs."
-    sources: ["Ruffwear manufacturer documentation and load-balance design notes", "r/CampingDogs and r/dogs community consensus on pack stability and fit"]
-    verifiedDate: "2026-05-08"
   - name: "Ruffwear Palisades Pack"
-    pickRef: "r2"
+    pickRef: "r1"
     keyFeature: "Multi-day pack with removable saddlebags, two 1-liter hydration bladders, cross-load compression, and a breathable chest harness. The only dog pack on this list designed for overnight trail use."
     sources: ["Ruffwear manufacturer documentation and Palisades product engineering notes", "r/CampingDogs community threads on multi-day dog packing setups"]
     verifiedDate: "2026-05-08"
   - name: "Kurgo Big Baxter Dog Backpack"
-    pickRef: "r4"
+    pickRef: "r3"
     keyFeature: "Adjustable saddlebag design with bright color options, YKK buckles, and ripstop nylon construction. The non-Ruffwear option for hikers who want proven materials."
     sources: ["Kurgo manufacturer documentation and Big Baxter product specifications", "r/hiking and r/dogs owner-review threads on Kurgo pack durability"]
     verifiedDate: "2026-05-08"
 
 picks:
   - rank: 1
-    label: "BEST OVERALL"
-    name: "Ruffwear Approach Pack"
-    brand: "Ruffwear"
-    score: 9.4
-    price: "$59.99"
-    image: "https://m.media-amazon.com/images/I/41csO2BaD1L._SL500_.jpg"
-    asin: "B09MSL1H21"
-    keyFeatures:
-      - "Weight-forward saddlebag design — load sits at the chest-shoulder area, not sagging toward the hips"
-      - "Flopper Stoppers keep loaded saddlebags from swinging during movement"
-      - "Five-point adjustable fit system with padded chest contact area"
-      - "Padded top handle for trail assists and car lifts"
-      - "Dual leash attachment points (front and back), reflective trim"
-    body: |
-      The Ruffwear Approach Pack earns the top slot because of a design detail most competing packs miss: the load is positioned weight-forward, toward the chest and shoulders rather than the hips. This is the same principle behind how human hiking backpacks are fitted — the heaviest items go high and close to the body's center of gravity. A pack that rides low on a dog's back shifts load onto the hindquarters, which is both less efficient and harder on joints over distance. Ruffwear publishes actual design notes on load positioning, which is something exactly zero of the knockoff brands do.
-
-      The Flopper Stoppers are the other detail that separates this pack from a costume with pockets. When a saddlebag loads 2 lbs of water bottles and the dog trots, the panels swing. Floating saddlebags that slap the dog's sides on every stride are a tolerance problem — the dog will shorten its gait, slow down, or stop entirely. The Flopper Stoppers are a belly strap system that locks the saddlebags flat against the dog's sides when the pack is loaded. They sound like a marketing term; they solve a real physics problem.
-
-      The five-point fit system adjusts at the neck, chest (two points), belly, and the connection between the saddlebags. r/CampingDogs threads on the Approach Pack converge on the same sizing note: the chest girth measurement matters more than the listed size, and Ruffwear's published size chart is accurate when followed. The XS fits small-to-medium dogs with chest girths under 22 inches; the XXL covers larger breeds. The medium (listed here) fits most 40–80 lb dogs.
-
-      The padded top handle is worth calling out separately. It is not decorative. It is how you lift the dog over a water crossing, help it up a rock scramble, or pull it out of a situation. Dog packs without a handle are packs for easy trails only.
-
-      What the spec sheet does not tell you: the Approach Pack is Ruffwear's day-hike design, and its saddlebags do not detach from the harness. On an overnight trip that means the dog wears the full rig at camp as well as on the trail. For trail running or faster-pace hiking where pack bounce is the problem, the Trail Runner is the correct step across.
-    pros:
-      - "Weight-forward load design is the industry benchmark — competes with human hiking gear principles"
-      - "Flopper Stoppers solve saddlebag swing"
-      - "Five-point adjustability"
-      - "Dual leash attachment and padded handle make this a functional harness, not just a pack"
-    cons:
-      - "Day-hike design only — no hydration bladder compatibility, limited carry volume"
-      - "Chest fit requires accurate measurement — guessing produces instability at load"
-      - "Campfire Orange is a love-it-or-hate-it colorway; other colors available in the listing"
-    verdict: "The default dog hiking backpack recommendation for any trail dog that goes out more than twice a year. It is the most versatile. If you buy one dog pack, this is the one."
-
-  - rank: 2
     label: "BEST MULTI-DAY"
     name: "Ruffwear Palisades Pack"
     brand: "Ruffwear"
@@ -96,13 +55,13 @@ picks:
       - "Breathable harness design with padded chest plate"
       - "Reflective trim, padded handle, dual leash points"
     body: |
-      The Palisades is the Ruffwear pack for people who take their dogs on actual backpacking trips, not just day hikes. The defining difference from the Approach Pack is the removable saddlebag system — the panniers detach from the harness, which means the dog can carry full gear on the uphill and run free on the descent, and the harness doubles as a working harness the rest of the year. That removability also means the pack washes correctly (detach, wash panels, air-dry the harness), which matters after a three-day trip.
+      The Palisades is the Ruffwear pack for people who take their dogs on actual backpacking trips, not just day hikes. The defining feature is the removable saddlebag system — the panniers detach from the harness, which means the dog can carry full gear on the uphill and run free on the descent, and the harness doubles as a working harness the rest of the year. That removability also means the pack washes correctly (detach, wash panels, air-dry the harness), which matters after a three-day trip.
 
-      The two included 1-liter hydration bladders are the other significant upgrade. A conditioned 50 lb dog can carry 2 liters of water — enough to stay ahead of its own hydration on a long day — without approaching its safe load limit. The bladders fit the dedicated pockets in the saddlebags, and the drinking tubes route forward so the dog drinks from the tube at a rest stop rather than from a collapsible bowl (which is slower and messier). This is a real quality-of-life improvement on longer days.
+      The two included 1-liter hydration bladders are the other significant feature. A conditioned 50 lb dog can carry 2 liters of water — enough to stay ahead of its own hydration on a long day — without approaching its safe load limit. The bladders fit the dedicated pockets in the saddlebags, and the drinking tubes route forward so the dog drinks from the tube at a rest stop rather than from a collapsible bowl (which is slower and messier). This is a real quality-of-life improvement on longer days.
 
       The cross-load compression straps are worth understanding: they run across the top of the saddlebags and cinch down, which prevents the load from shifting laterally when the dog scrambles over rocks. A pack without compression straps is fine on a maintained trail; it becomes a balance problem on off-trail terrain.
 
-      The cost is justified for anyone doing multi-day camping with a dog large enough to carry meaningful gear (roughly 50 lbs and up, conditioned). For day-hikers, the Approach Pack is the correct buy. The Palisades earns its price on the trips where the dog carries its own food.
+      The cost is justified for anyone doing multi-day camping with a dog large enough to carry meaningful gear (roughly 50 lbs and up, conditioned). The Palisades earns its price on the trips where the dog carries its own food.
 
       What the spec sheet does not tell you: size small (listed here) fits dogs with chest girths roughly 22–28 inches. Ruffwear's published Palisades size chart is the authoritative reference — the harness needs a snug fit for the saddlebag removal system to work correctly. A loose harness causes the panniers to shift when the dog bends.
     pros:
@@ -112,11 +71,10 @@ picks:
       - "Breathable harness design handles longer wear time than a standard padded pack"
     cons:
       - "$127.49 — invest only if multi-day trips are actually on the schedule"
-      - "More complex fit than the Approach — harness, panniers, and bladder tubes all require separate adjustment"
-      - "Heavier than the Approach when empty — marginal but real for trail-running applications"
-    verdict: "The pack for the dog that genuinely camps. If your trail dog has an overnight trip on the calendar in 2026, buy this. If not, buy the Approach Pack and get this when the overnight trips start."
+      - "Complex fit — harness, panniers, and bladder tubes all require separate adjustment"
+    verdict: "The pack for the dog that genuinely camps. If your trail dog has an overnight trip on the calendar in 2026, buy this."
 
-  - rank: 3
+  - rank: 2
     label: "BEST FOR TRAIL RUNNING"
     name: "Ruffwear Trail Runner Running Vest"
     brand: "Ruffwear"
@@ -135,23 +93,23 @@ picks:
 
       The Trail Runner's vest design distributes the load across a full-chest harness rather than two saddlebag panels. The fit is more like a compression garment than a traditional pack — it moves with the dog rather than against it. The soft flask pockets sit flush against the chest rather than hanging off the sides. There are no Flopper Stoppers here because the vest design does not have flopping to stop.
 
-      It is not the right choice for a dog that hikes at a leisurely pace — the saddlebag volume is lower than the Approach Pack, and the pack is optimized for movement efficiency rather than load capacity. It is the right choice for a border collie, Australian shepherd, vizsla, Weimaraner, or any high-drive dog breed that runs rather than hikes and is going to be moving fast enough that a traditional saddlebag creates friction.
+      It is not the right choice for a dog that hikes at a leisurely pace — the pack is optimized for movement efficiency rather than load capacity. It is the right choice for a border collie, Australian shepherd, vizsla, Weimaraner, or any high-drive dog breed that runs rather than hikes and is going to be moving fast enough that a traditional saddlebag creates friction.
 
       The reflective trim and dedicated light loop are worth noting for runners who go out early or late — a dog in a high-vis vest with a blinky attached is a meaningfully safer trail companion than one that blends into the trail edge.
 
-      What the spec sheet does not tell you: the Trail Runner is a harness that also carries things, not a backpack that also serves as a harness. The fit should be snug, not loose. If you measure your dog for the Approach Pack and it falls between sizes, size down on the Trail Runner. Bounce is a fit problem before it is a design problem.
+      What the spec sheet does not tell you: the Trail Runner is a harness that also carries things, not a backpack that also serves as a harness. The fit should be snug, not loose. If your dog falls between sizes, size down on the Trail Runner. Bounce is a fit problem before it is a design problem.
     pros:
       - "Bounce-free vest design solves the saddlebag-swing problem at running pace"
       - "Flask pockets accessible at speed — no stopping, no collapsible bowl"
       - "Reflective trim and light loop for safe low-light running"
       - "Ruffwear construction quality in a vest cut rather than a saddlebag"
     cons:
-      - "Lower saddlebag volume than the Approach Pack — not for dogs carrying significant load"
+      - "Lower saddlebag volume — not for dogs carrying significant load"
       - "Vest fit requires accurate chest measurement — loose vest bounces as badly as a saddlebag"
-      - "Overkill for dogs that hike at walking pace — Approach Pack is the better fit"
-    verdict: "Buy this if your dog runs, not just hikes. The Trail Runner vest is the correct Ruffwear pack for high-drive breeds that cover trail miles at speed. For hikers, the Approach Pack is the right call."
+      - "Overkill for dogs that hike at walking pace"
+    verdict: "Buy this if your dog runs, not just hikes. The Trail Runner vest is the correct Ruffwear pack for high-drive breeds that cover trail miles at speed."
 
-  - rank: 4
+  - rank: 3
     label: "BEST NON-RUFFWEAR ALTERNATIVE"
     name: "Kurgo Big Baxter Dog Backpack"
     brand: "Kurgo"
@@ -170,7 +128,7 @@ picks:
 
       Kurgo is that label. The Big Baxter uses ripstop nylon and YKK buckles, which are the two material specifications that separate real hiking gear from Amazon-brand knockoffs. Ripstop fabric holds its structure when it contacts a rock face or a thorny shrub; standard nylon does not. YKK buckles have a failure rate low enough that they are used on mountaineering gear; no-name buckles have a failure rate measurable in r/CampingDogs threads. Both of those details are in the Kurgo spec sheet.
 
-      The three-point adjustment system (chest, belly, neck) is solid but one point short of the Ruffwear Approach's five-point system. In practice, the difference shows on dogs with unusual body shapes — very deep-chested breeds (Greyhound, Whippet) or barrel-chested breeds (English Bulldog, Chow Chow) will fit more precisely in the Approach. For standard build dogs in the 55–85 lb range, the three-point system is sufficient.
+      The three-point adjustment system (chest, belly, neck) is solid. For standard build dogs in the 55–85 lb range, the three-point system is sufficient.
 
       The Coastal Blue colorway is the pack's most visible differentiator. Ruffwear's Campfire Orange, Slate Blue, and Trail Orange are instantly recognizable at the trailhead. The Kurgo Big Baxter Coastal Blue is different enough to read as a distinct choice. Both are legitimate gear aesthetics; neither is wrong.
 
@@ -181,12 +139,10 @@ picks:
       - "Three-point adjustment covers most standard-build dogs in the 55–85 lb range"
       - "Coastal Blue is a legitimate gear colorway — less trailhead-ubiquitous than Ruffwear orange"
     cons:
-      - "Five-point vs three-point adjustment — unusual body shapes (deep-chested, barrel-chested) fit better in the Approach"
-      - "No Flopper Stopper equivalent — saddlebag stability at trot pace is marginally behind the Approach"
       - "Chest buckle loosens over time — require active maintenance check at each trip start"
-    verdict: "The Kurgo Big Baxter is the correct buy if you want ripstop nylon and YKK buckles. For dogs in the 55–85 lb range with standard builds, it performs comparably. For unusual body shapes or five-point fit requirements, the Approach is the better call."
+    verdict: "The Kurgo Big Baxter is the correct buy if you want ripstop nylon and YKK buckles. For dogs in the 55–85 lb range with standard builds, it performs comparably."
 
-  - rank: 5
+  - rank: 4
     label: "BEST SPECIALIST ALTERNATIVE"
     name: "Mountainsmith K-9 Cube"
     brand: "Mountainsmith"
@@ -207,7 +163,7 @@ picks:
 
       The Mountainsmith brand pedigree is the other differentiator. The brand publishes load-distribution design documentation, uses proven hiking-pack materials, and has a warranty and customer service program built for outdoor gear, not a fulfillment operation. In the r/ultralight and r/hiking communities, Mountainsmith is a recognized brand name. The K-9 Cube inherits that credibility.
 
-      The K-9 Cube does not have hydration bladder capability, but it has better load-shape performance than the Approach at partial fill. For hikers who prefer a more traditional pack aesthetic and want the structured pannier look, this is the specialist pick.
+      The K-9 Cube does not have hydration bladder capability. For hikers who prefer a more traditional pack aesthetic and want the structured pannier look, this is the specialist pick.
 
       What the spec sheet does not tell you: the K-9 Cube is optimized for mid-to-large dogs. The pannier dimensions are sized for dogs in the 50 lb and up range — on smaller dogs, the cube proportions overwhelm the body. Mountainsmith recommends measuring chest girth before ordering; the pack is available in multiple sizes and the fit needs to be confirmed against their published chart.
     pros:
@@ -224,13 +180,13 @@ picks:
 comparison:
   rows:
     - label: "Best for"
-      values: ["Day hiking, all-purpose", "Multi-day backpacking", "Trail running", "Mid-premium alternative", "Structured pannier design"]
+      values: ["Multi-day backpacking", "Trail running", "Mid-premium alternative", "Structured pannier design"]
     - label: "Load design"
-      values: ["Weight-forward saddlebag + Flopper Stoppers", "Removable saddlebags + compression", "Vest / form-fitting", "Standard saddlebag", "Cube-structured panniers"]
+      values: ["Removable saddlebags + compression", "Vest / form-fitting", "Standard saddlebag", "Cube-structured panniers"]
     - label: "Hydration capable"
-      values: ["No", "Yes — 2x 1L bladders included", "Yes — soft flask pockets", "No", "No"]
+      values: ["Yes — 2x 1L bladders included", "Yes — soft flask pockets", "No", "No"]
     - label: "Handle"
-      values: ["Yes — padded", "Yes — padded", "No", "No", "Yes"]
+      values: ["Yes — padded", "No", "No", "Yes"]
 
 methodology:
   formula: "Trail-Ready Score = (Load Distribution & Balance × 0.30) + (Build Durability × 0.25) + (Adjustability & Fit × 0.25) + (Adventure-Worthy Cool Factor × 0.20)"
@@ -246,20 +202,19 @@ methodology:
       definition: "Multiple adjustment points (chest, belly, neck), padded contact areas, and breed-shape compatibility. A pack that fits a Labrador may not fit a Greyhound; the score weights brands that publish size charts with chest girth and length, deducts brands that just say 'M = medium dog.' Padding around the chest plate matters most for long-distance carry."
     - name: "Adventure-Worthy Cool Factor"
       weight: 20
-      definition: "We are who we are. The dog wearing a Ruffwear Approach Pack at the trailhead reads differently than the dog wearing a generic Amazon-brand saddlebag. Both can carry water bottles; only one looks like the dog volunteered for the trip. The score weights aesthetic legitimacy and brand pedigree without deducting for fun colors."
+      definition: "We are who we are. The dog wearing a Ruffwear pack at the trailhead reads differently than the dog wearing a generic Amazon-brand saddlebag. Both can carry water bottles; only one looks like the dog volunteered for the trip. The score weights aesthetic legitimacy and brand pedigree without deducting for fun colors."
 
 whenNotToBuy: |
   Skip dog backpacks entirely if your dog is under 18 months (growth plates are still developing — load-bearing at this age can affect joint development long-term), over 10 years old without a current vet clearance, or diagnosed with any condition affecting spinal, shoulder, or hip joints. That includes hip dysplasia, degenerative myelopathy, elbow dysplasia, and intervertebral disc disease — all common in the breeds most likely to be enthusiastic trail dogs (Labs, German Shepherds, Goldens, Huskies). A dog that hops at the end of the leash is not necessarily a dog that should carry weight, and a pack load that seems light to a human (3 lbs) is non-trivial on a 20 lb dog. Consult your veterinarian before starting any load-carrying program with a dog that has existing joint concerns or a recent orthopedic history. The [PetPalHQ senior pet mobility and preventive care guide](/guides/senior-pet-mobility-preventive-care) covers the underlying orthopedic considerations in more depth.
 
 bottomLine:
-  - "Get the Ruffwear Approach Pack if you want one dog hiking backpack that handles most trail situations. The load-forward design and Flopper Stoppers are the reason it's the standard."
   - "Get the Ruffwear Trail Runner if your dog runs trails rather than hikes them. The vest design eliminates saddlebag bounce at speed, which is the failure mode of every other pack on this list."
   - "Get the Kurgo Big Baxter if you want Ruffwear-tier construction under a different brand. Ripstop nylon and YKK buckles."
   - "Get the Mountainsmith K-9 Cube if you want structured panniers and a human outdoor gear brand behind the engineering. The cube design holds shape at partial load — a detail that matters on longer days."
 
 sources:
   expert:
-    - "Ruffwear — Approach Pack, Palisades Pack, and Trail Runner product documentation and load-distribution design notes"
+    - "Ruffwear — Palisades Pack and Trail Runner product documentation and load-distribution design notes"
     - "Kurgo — Big Baxter product documentation and material specifications"
     - "Mountainsmith — K-9 Cube product documentation"
     - "AKC Canine Health Foundation — guidelines for working dog conditioning and load-carrying capacity"
@@ -284,7 +239,7 @@ related:
   - "best-pet-pool-swim-summer-gear-2026"
 ---
 
-A dog backpack is the rare pet product that the dog has actual opinions about. Carrying its own water bottles, treats, and waste bags is a job, and dogs that have a job are dogs that act like they have one. Watch a Labrador at the trailhead without a pack, and then watch one with a properly fitted Ruffwear Approach Pack. The second dog is not the same dog. It stands differently. It walks differently. The pack engages something in working-breed neurology that an empty collar walk does not.
+A dog backpack is the rare pet product that the dog has actual opinions about. Carrying its own water bottles, treats, and waste bags is a job, and dogs that have a job are dogs that act like they have one. Watch a Labrador at the trailhead without a pack, and then watch one with a properly fitted pack. The second dog is not the same dog. It stands differently. It walks differently. The pack engages something in working-breed neurology that an empty collar walk does not.
 
 The Trail-Ready Score is built around whether the pack actually distributes load like a real piece of hiking gear, or whether it is a costume with pockets. Load Distribution & Balance (30%) is the most weighted factor because a saddlebag that rides low and swings during movement is not a hiking pack — it is a weight penalty on a dog that wanted to run. Build Durability (25%) measures whether the ripstop nylon and buckles survive the terrain they are marketed for. Adjustability & Fit (25%) measures whether the pack ships with a real size chart and enough adjustment points to fit the actual dog, not a hypothetical medium dog. Adventure-Worthy Cool Factor (20%) is what it says: we are who we are, and the dog at the trailhead in Ruffwear gear reads differently than the dog in an off-brand saddlebag. Both carry water. Only one looks like it volunteered.
 
@@ -310,7 +265,7 @@ The honest rule: start lower than you think is safe, build slowly, watch the dog
 
 The saddlebag design that most dog hiking packs use — two panniers hanging from a chest harness — is mechanically sound when the harness positions the weight correctly. Weight-forward (toward the chest and shoulders) follows the same principle that human pack fitting uses: the heaviest items go high and close to the body's center of gravity. Weight-backward (toward the hips and tail) shifts load onto the hindquarters, which increases joint stress and fatigues the dog faster on long descents.
 
-The second construction variable is saddlebag stability at movement speed. A pannier that distributes load correctly at standing rest can destabilize at a trot — the panels swing outward and then slap back against the dog's sides on each stride. This is not a minor annoyance. It shortens the dog's gait, creates chafing at the contact points, and eventually produces a dog that refuses to trot at pace because the pack hurts. The Ruffwear Flopper Stopper system (Approach Pack) addresses this via belly straps that lock the saddlebags flat against the sides when loaded. Competing designs that lack this feature are fine on easy terrain at walking pace; they are a tolerance problem at trot pace on rougher ground.
+The second construction variable is saddlebag stability at movement speed. A pannier that distributes load correctly at standing rest can destabilize at a trot — the panels swing outward and then slap back against the dog's sides on each stride. This is not a minor annoyance. It shortens the dog's gait, creates chafing at the contact points, and eventually produces a dog that refuses to trot at pace because the pack hurts. The Ruffwear Flopper Stopper system addresses this via belly straps that lock the saddlebags flat against the sides when loaded. Competing designs that lack this feature are fine on easy terrain at walking pace; they are a tolerance problem at trot pace on rougher ground.
 
 The third variable is belly strap placement relative to the sternum. A belly strap placed too far forward compresses the sternum and restricts breathing. Too far back and the saddlebags ride rearward toward the hips regardless of how the chest harness is fitted. The correct position is just behind the sternum, which allows full ribcage expansion during exertion. Brands that publish strap placement diagrams and adjustment instructions are brands that understand this; brands that say "adjust for comfort" and provide one strap are brands that have not.
 
@@ -349,11 +304,8 @@ A: Sometimes yes, with caveats. Many backcountry water sources are safe for dogs
 **Q: How do I introduce the pack so my dog doesn't hate it?**
 A: The same way you introduce any new piece of equipment: incrementally and with positive reinforcement. Day one: let the dog sniff the pack, treat, done. Day two: put the pack on empty for five minutes at home, treat, off. Day three: ten minutes at home, then a short neighborhood walk. Day four: a familiar short trail. The dog that hates the pack on the first trail day is usually a dog that was introduced to the pack, the harness, the load, and the new terrain simultaneously. Split those variables.
 
-**Q: My dog is 25 lbs. Are any of these packs right for it?**
-A: The Ruffwear Approach Pack comes in XS and S sizes that fit dogs down to approximately 15–20 lbs chest girth. The Trail Runner vest fits smaller dogs similarly. The Mountainsmith K-9 Cube and Kurgo Big Baxter are designed for larger dogs and the pannier proportions are not right for dogs under roughly 40 lbs. For smaller trail dogs, Ruffwear is the correct starting brand — check the published Approach Pack XS and S size charts against your specific dog's chest girth measurement.
-
 **Q: How do I know if the pack fits correctly once it's on the dog?**
 A: You should be able to fit two fingers under every strap without the straps going slack. The saddlebags should hang parallel to the dog's sides, not angled forward or backward. When the dog walks, the bags should move with the dog's body, not swing independently. The belly strap (or Flopper Stoppers, in the Ruffwear case) should hold the bags against the sides — if you can slide your hand between the bag and the dog's flank while loaded, the belly attachment needs tightening. And the top handle should sit above the spine, not twisted to one side, which would indicate the chest harness is not centered.
 
 **Q: Is it safe to use the backpack as the dog's leash attachment on the trail?**
-A: The Ruffwear Approach Pack includes dual leash attachment points (front and back ring), and Ruffwear specifically rates these as functional leash points. This is not true of all dog packs — many saddlebag designs are not structurally rated for leash tension, and using them as a leash attachment can torque the harness in ways that shift load and stress the stitching. Check the manufacturer's documentation before using any pack as a leash harness, and always use a dedicated leash ring if one is provided rather than clipping to a grab handle or strap loop that was not designed for leash loads.
+A: Many saddlebag designs are not structurally rated for leash tension, and using them as a leash attachment can torque the harness in ways that shift load and stress the stitching. Check the manufacturer's documentation before using any pack as a leash harness, and always use a dedicated leash ring if one is provided rather than clipping to a grab handle or strap loop that was not designed for leash loads.
