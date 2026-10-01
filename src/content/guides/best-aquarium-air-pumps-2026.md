@@ -18,7 +18,7 @@ hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 species: []
 publishDate: "2026-06-23"
-updatedDate: "2026-06-23"
+updatedDate: "2026-09-03"
 readTime: "12 min read"
 featured: false
 heroImage: "/images/guides/best-aquarium-air-pumps-2026.webp"
@@ -320,14 +320,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$48.99"
-        - "$34.62"
-        - "$85.10"
-        - "$39.28"
-        - "$40.69"
-        - "$14.99"
     - label: "Pick category"
       values:
         - "Best overall"

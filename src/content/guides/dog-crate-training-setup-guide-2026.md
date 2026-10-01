@@ -351,8 +351,6 @@ comparison:
       values: ["Right-sized den, aids housetraining", "Comfortable resting surface", "Darkens into a calm den", "Keeps a covered crate airy", "Builds the positive association", "A mild helper, not a fix", "Secured, familiar car travel"]
     - label: "PetPal Crate-Readiness Score"
       values: ["8.7", "8.3", "8.2", "8.0", "8.1", "7.7", "7.9"]
-    - label: "Approx. price"
-      values: ["$61.93", "$16.99", "$32.99", "$19.99", "$5.99", "$27.97", "$122.97"]
     - label: "Ongoing cost after purchase"
       values: ["Larger crate if needed", "Washing and replacement", "Occasional washing", "Batteries", "Toppings and cleaning", "Refills if used", "None after purchase"]
 

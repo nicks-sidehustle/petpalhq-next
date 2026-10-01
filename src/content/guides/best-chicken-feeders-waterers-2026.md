@@ -14,7 +14,7 @@ keywords:
   - "rodent proof chicken feeder"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-25"
 readTime: "13 min"
 featured: false
 heroImage: "/images/guides/best-chicken-feeders-waterers-2026.webp"
@@ -285,13 +285,18 @@ picks:
         accessed: "2026-07-06"
 
 comparison:
-  headers: ["Product", "Price", "Type", "Capacity", "PetPal Feeder-Waterer Score"]
+  headers: ["Product", "Type", "Capacity", "PetPal Feeder-Waterer Score"]
   rows:
-    - ["HAYOHRT no-waste", "$36.99", "Port feeder", "25 lb", "8.6"]
-    - ["FARM-TUFF hanging", "$57.99", "Hanging waterer", "5 gal", "8.4"]
-    - ["RentACoop port kit", "$19.95", "DIY port feeder", "Bucket-varies", "8.1"]
-    - ["Little Giant deep base", "$36.99", "Gravity waterer", "2 gal", "7.9"]
-    - ["Harris Farms galvanized", "$51.21", "Hanging ring feeder", "15 lb", "7.7"]
+    - pickRef: r1
+      cells: ["HAYOHRT no-waste", "Port feeder", "25 lb", "8.6"]
+    - pickRef: r2
+      cells: ["FARM-TUFF hanging", "Hanging waterer", "5 gal", "8.4"]
+    - pickRef: r3
+      cells: ["RentACoop port kit", "DIY port feeder", "Bucket-varies", "8.1"]
+    - pickRef: r4
+      cells: ["Little Giant deep base", "Gravity waterer", "2 gal", "7.9"]
+    - pickRef: r5
+      cells: ["Harris Farms galvanized", "Hanging ring feeder", "15 lb", "7.7"]
 
 methodology:
   formula: "PetPal Feeder-Waterer Score = (No-Waste / Spill Control × 0.30) + (Capacity vs Refill Frequency × 0.25) + (Weather & Freeze Resistance × 0.20) + (Cleaning & Pest Resistance × 0.15) + (Value × 0.10)"

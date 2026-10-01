@@ -15,7 +15,7 @@ keywords:
   - "multi-pet automatic feeder RFID"
 pillar: "expert-care"
 publishDate: "2026-07-24"
-updatedDate: "2026-08-18"
+updatedDate: "2026-09-26"
 readTime: "15 min read"
 featured: false
 image: "/images/guides/best-auto-replenishing-pet-station-2026.webp"
@@ -268,14 +268,12 @@ picks:
       - "Pump and reservoir still need periodic full cleaning, not just filter swaps"
     verdict: "The water tier's workhorse — a durable multi-pet fountain whose cheap, on-cadence filter subscription is the clearest proof that the station's cost lives in the consumables, not the hardware."
 comparison:
-  headers: ["Product", "Price", "Key Feature", "Rating"]
+  headers: ["Product", "Key Feature", "Rating"]
   rows:
     - label: "Station role"
       values: ["Litter — anchor", "Litter — value", "Feeding — schedule", "Feeding — separation", "Water — fountain"]
-    - label: "Verified price (2026-08-18)"
-      values: ["$749.00", "$599.00", "$139.99", "$139.99", "$75.99"]
     - label: "Recurring consumable"
-      values: ["Litter + OdorTrap/liners/filters", "Litter + carbon filters/liners", "Food (Subscribe & Save)", "Food (Subscribe & Save)", "Carbon filters (~$14/12-pack)"]
+      values: ["Litter + OdorTrap/liners/filters", "Litter + carbon filters/liners", "Food (Subscribe & Save)", "Food (Subscribe & Save)", "Carbon filters"]
     - label: "Multi-pet handling"
       values: ["Up to 4 cats, weight-tracked", "Single box, one-per-cat-plus-one still applies", "Same-diet pets only", "Selective access via collar tag", "Multi-stream, up to 5 streams"]
     - label: "Fail-safe / power"

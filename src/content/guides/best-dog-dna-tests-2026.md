@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-07"
+updatedDate: "2026-09-03"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-dog-dna-tests-2026.webp"
@@ -275,12 +275,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price (checked September 3, 2026)"
-      values:
-        - "$125.00, down from $139.00"
-        - "$159.99, no list price shown"
-        - "$98.10, against a $109.00 list price"
-        - "$109.00, no list price shown"
     - label: "Sold by on Amazon"
       values:
         - "Embark, the brand itself"

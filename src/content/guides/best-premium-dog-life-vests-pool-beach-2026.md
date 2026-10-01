@@ -15,7 +15,7 @@ keywords:
   - "dog life vest fit sizing"
   - "premium dog flotation device"
 publishDate: "2026-05-08"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-27"
 readTime: "10 min read"
 featured: true
 image: "/images/guides/best-premium-dog-life-vests-pool-beach-2026.webp"
@@ -218,8 +218,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values: ["$99.99", "$85.00", "", "$75.00", ""]
     - label: "Foam placement"
       values: ["Back + sides, contoured", "Back + sides + neck continuous", "Back + sides, contoured", "Front-weighted, brachycephalic", "Back + chest + belly wraparound"]
     - label: "Rescue handle"

@@ -14,7 +14,7 @@ keywords:
   - "retrofit automatic coop door"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-26"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-automatic-chicken-coop-doors-2026.webp"
@@ -285,13 +285,18 @@ picks:
         accessed: "2026-07-06"
 
 comparison:
-  headers: ["Product", "Price", "Trigger Modes", "Power", "PetPal Coop-Door Score"]
+  headers: ["Product", "Trigger Modes", "Power", "PetPal Coop-Door Score"]
   rows:
-    - ["NyPots", "$59.99", "Solar + timer + light", "Solar", "8.6"]
-    - ["nolonly Solar LCD", "$79.99", "Timer / light (LCD)", "Solar", "8.3"]
-    - ["ZenxyHoC remote", "$47.99", "Timer + remote", "Solar", "8.1"]
-    - ["ChickenGuard PRO", "", "Timer / light / dual-safe", "Batteries (solar optional)", "8.0"]
-    - ["RUN-CHICKEN T50", "$129.99", "App / timer / light sensor", "Rechargeable battery", "7.8"]
+    - pickRef: r1
+      cells: ["NyPots", "Solar + timer + light", "Solar", "8.6"]
+    - pickRef: r2
+      cells: ["nolonly Solar LCD", "Timer / light (LCD)", "Solar", "8.3"]
+    - pickRef: r3
+      cells: ["ZenxyHoC remote", "Timer + remote", "Solar", "8.1"]
+    - pickRef: r4
+      cells: ["ChickenGuard PRO", "Timer / light / dual-safe", "Batteries (solar optional)", "8.0"]
+    - pickRef: r5
+      cells: ["RUN-CHICKEN T50", "App / timer / light sensor", "Rechargeable battery", "7.8"]
 
 methodology:
   formula: "PetPal Coop-Door Score = (Predator-Timing Reliability × 0.30) + (Trigger Flexibility × 0.25) + (Weather & Power Resilience × 0.20) + (Install & Retrofit Ease × 0.15) + (Value × 0.10)"

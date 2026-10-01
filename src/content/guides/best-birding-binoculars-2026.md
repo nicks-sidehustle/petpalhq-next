@@ -16,7 +16,7 @@ keywords:
 species: ["bird"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-06-10"
+updatedDate: "2026-09-26"
 readTime: "10 min"
 featured: false
 heroImage: "/images/guides/best-birding-binoculars-2026.webp"
@@ -266,12 +266,16 @@ picks:
     verdict: "The TrailSeeker ED is the best glass in this guide and Cornell Lab's top affordable pick — worth it if the budget stretches. Most backyard birders will be just as happy saving the difference."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Backyard Optics Score"]
+  headers: ["Product", "Pick category", "Backyard Optics Score"]
   rows:
-    - ["Vortex Diamondback HD 8x42", "$239.00", "Best overall", "8.7"]
-    - ["Celestron Nature DX ED 8x42", "", "Best value", "8.1"]
-    - ["Nikon Monarch M5 8x42", "$296.95", "Eyeglass wearers", "8.3"]
-    - ["Celestron TrailSeeker ED 8x42", "", "Premium upgrade", "8.6"]
+    - pickRef: r1
+      cells: ["Vortex Diamondback HD 8x42", "Best overall", "8.7"]
+    - pickRef: r2
+      cells: ["Celestron Nature DX ED 8x42", "Best value", "8.1"]
+    - pickRef: r3
+      cells: ["Nikon Monarch M5 8x42", "Eyeglass wearers", "8.3"]
+    - pickRef: r4
+      cells: ["Celestron TrailSeeker ED 8x42", "Premium upgrade", "8.6"]
 
 methodology:
   formula: "Backyard Optics Score = (Optical Clarity × 0.35) + (Birding Usability × 0.25) + (Build & Weather Protection × 0.20) + (Warranty & Value × 0.20)"

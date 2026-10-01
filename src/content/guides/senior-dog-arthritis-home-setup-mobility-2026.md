@@ -14,7 +14,7 @@ keywords:
   - "aging dog home modifications"
 pillar: "dog-essentials"
 publishDate: "2026-07-08"
-updatedDate: "2026-07-08"
+updatedDate: "2026-09-08"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/senior-dog-arthritis-home-setup-mobility-2026.webp"
@@ -347,14 +347,6 @@ comparison:
         - "At the bowl"
         - "The hardest transitions"
         - "When legs give out"
-    - label: "Price"
-      values:
-        - "$39.99"
-        - "$59.99"
-        - "$5.99"
-        - "$19.99"
-        - "$19.99"
-        - "$69.93"
     - label: "Painful movement it removes"
       values:
         - "The painful down-and-up off a hard floor"

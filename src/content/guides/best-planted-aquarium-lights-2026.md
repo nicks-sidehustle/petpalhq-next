@@ -17,7 +17,7 @@ keywords:
 species: ["fish"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-09"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-planted-aquarium-lights-2026.webp"
@@ -272,12 +272,17 @@ picks:
     verdict: "The ceiling of the category for injected, heavily planted showpiece tanks — exceptional color rendering with serious power. Most planted tanks neither need it nor should pay for it."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Planted Light Score"]
+  headers: ["Product", "Pick category", "Planted Light Score"]
+  nameColumn: 0
   rows:
-    - ["Fluval Plant 3.0", "$149.99", "PAR-test winner", "8.8"]
-    - ["Hygger 957", "$52.24", "Budget with built-in timer", "7.9"]
-    - ["Chihiros WRGB II Slim 45", "$189.19", "Red-plant color specialist", "8.6"]
-    - ["Chihiros WRGB II Pro 45", "$316.79", "High-tech premium", "8.4"]
+    - pickRef: r1
+      cells: ["Fluval Plant 3.0", "PAR-test winner", "8.8"]
+    - pickRef: r2
+      cells: ["Hygger 957", "Budget with built-in timer", "7.9"]
+    - pickRef: r3
+      cells: ["Chihiros WRGB II Slim 45", "Red-plant color specialist", "8.6"]
+    - pickRef: r4
+      cells: ["Chihiros WRGB II Pro 45", "High-tech premium", "8.4"]
 
 methodology:
   formula: "Planted Light Score = (PAR Output & Headroom × 0.30) + (Spectrum & Color Rendering × 0.25) + (Control & Programmability × 0.25) + (Coverage Fit & Value × 0.20)"

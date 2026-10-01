@@ -14,7 +14,7 @@ keywords:
   - "PETLIBRO cat fountain"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-27"
 readTime: "13 min read"
 featured: true
 image: "/images/guides/best-pet-water-fountains-dogs-cats-2026.webp"
@@ -203,8 +203,8 @@ comparison:
       values: ["Stainless steel reservoir", "304 stainless basin", "18/8 stainless basin", "Plastic", "Plastic with visible window"]
     - label: "Capacity"
       values: ["128 oz / 3.8 L", "108 oz / 3.2 L", "60 oz", "3 L (~101 oz)", "2.1 L (~71 oz)"]
-    - label: "Filter type and cost"
-      values: ["PetSafe carbon + foam ($)", "Veken brand filters ($)", "Pioneer charcoal ($)", "Catit triple-action ($)", "PETLIBRO brand ($, 4 in box)"]
+    - label: "Filter type"
+      values: ["PetSafe carbon + foam", "Veken brand filters", "Pioneer charcoal", "Catit triple-action", "PETLIBRO brand (4 in box)"]
     - label: "Multi-cat support"
       values: ["Strong — five streams", "Strong — large capacity", "Single or pair", "Single or pair", "Single cat or secondary station"]
 

@@ -15,7 +15,7 @@ keywords:
 species: ["bird"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "11 min"
 featured: false
 heroImage: "/images/guides/best-squirrel-proof-bird-feeders-2026.webp"
@@ -284,12 +284,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$129.25"
-        - "$59.02"
-        - "$84.48"
-        - "$99.99"
     - label: "Defense mechanism"
       values:
         - "Weight-closing shroud, adjustable"

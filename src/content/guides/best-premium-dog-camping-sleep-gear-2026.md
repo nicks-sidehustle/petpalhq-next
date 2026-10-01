@@ -15,7 +15,7 @@ keywords:
   - "dog bed for backpacking"
   - "premium dog outdoor gear"
 publishDate: "2026-05-08"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-25"
 readTime: "10 min read"
 featured: false
 image: "/images/guides/best-premium-dog-camping-sleep-gear-2026.webp"
@@ -209,8 +209,6 @@ comparison:
   rows:
     - label: "Gear type"
       values: ["Sleeping bag", "Elevated cot", "Flat travel bed", "Elevated cot with bolsters (Medium deck)", "Packable roll bed"]
-    - label: "Price"
-      values: ["", "$179.95", "$174.99", "$36.70", ""]
     - label: "Use case"
       values: ["Backpacking + cold nights", "Backpacking or car-camping, joint-issue dogs", "Car-camping or base-camp", "Car-camping, medium breeds", "Car-camping, van-life, travel"]
     - label: "Camp-Ready Score"

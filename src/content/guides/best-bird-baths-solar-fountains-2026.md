@@ -15,7 +15,7 @@ keywords:
 species: ["bird"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-06-10"
+updatedDate: "2026-09-07"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-bird-baths-solar-fountains-2026.webp"
@@ -283,12 +283,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$55.99"
-        - "$19.99"
-        - "$31.99"
-        - "$73.00"
     - label: "Pick category"
       values:
         - "Best overall"

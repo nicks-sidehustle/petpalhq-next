@@ -14,7 +14,7 @@ keywords:
   - "are dog booster seats crash tested"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-dog-car-booster-seats-2026.webp"
@@ -289,13 +289,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$46.99"
-        - "$49.99"
-        - "$76.88"
-        - "$84.99"
-        - "$49.99"
     - label: "Weight fit"
       values:
         - "Up to 35 lb"

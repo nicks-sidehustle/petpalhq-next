@@ -15,7 +15,7 @@ keywords:
   - "infrared reptile heat"
 pillar: "reptile-habitat"
 publishDate: "2026-05-07"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-26"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/best-reptile-heat-panels-radiant-heat-2026.webp"

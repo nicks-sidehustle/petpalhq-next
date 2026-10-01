@@ -15,7 +15,7 @@ keywords:
 species: ["reptile"]
 guideType: "spoke"
 publishDate: "2026-07-03"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-27"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-large-arboreal-terrariums-paludariums-2026.webp"
@@ -274,12 +274,17 @@ picks:
     verdict: "The PROLEE 65 gallon is best for a crested or gargoyle gecko, and a defensible dry-climate glass column if you first check your chameleon's published minimum against its 24x18x36. It ships as the enclosure only, so plan a rated stand or cabinet before it arrives, and inspect the glass and hinges on arrival."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Arboreal Habitat Score"]
+  headers: ["Product", "Pick category", "Arboreal Habitat Score"]
+  nameColumn: 0
   rows:
-    - ["REPTIZOO 67 gallon paludarium", "$319.99", "Paludarium (land + water)", "9.0"]
-    - ["Zoo Med ReptiBreeze XL", "", "Screen — chameleons", "8.8"]
-    - ["REPTIZOO 45 gallon", "$199.99", "Value glass — crested gecko", "8.4"]
-    - ["PROLEE 65 gallon", "", "Glass tower (no stand)", "8.0"]
+    - pickRef: r1
+      cells: ["REPTIZOO 67 gallon paludarium", "Paludarium (land + water)", "9.0"]
+    - pickRef: r2
+      cells: ["Zoo Med ReptiBreeze XL", "Screen — chameleons", "8.8"]
+    - pickRef: r3
+      cells: ["REPTIZOO 45 gallon", "Value glass — crested gecko", "8.4"]
+    - pickRef: r4
+      cells: ["PROLEE 65 gallon", "Glass tower (no stand)", "8.0"]
 
 methodology:
   formula: "Arboreal Habitat Score = (Species-Fit & Height × 0.30) + (Humidity–Ventilation Balance × 0.25) + (Access & Escape-Proofing × 0.20) + (Build & Value × 0.25)"

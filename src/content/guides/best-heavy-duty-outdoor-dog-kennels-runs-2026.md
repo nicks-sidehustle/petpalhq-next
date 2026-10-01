@@ -15,7 +15,7 @@ keywords:
   - "expandable outdoor dog kennel"
 pillar: "dog-essentials"
 publishDate: "2026-06-25"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-25"
 readTime: "~11 min read"
 featured: false
 image: "/images/guides/best-heavy-duty-outdoor-dog-kennels-runs-2026.webp"
@@ -324,14 +324,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$439.99"
-        - "$289.99"
-        - "$379.00"
-        - "$409.99"
-        - "$439.99"
-        - "$313.60"
     - label: "Pick category"
       values:
         - "Best overall"

@@ -15,7 +15,7 @@ keywords:
   - "dog hiking pack fit"
   - "trail running dog vest"
 publishDate: "2026-05-08"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-27"
 readTime: "10 min read"
 featured: true
 image: "/images/guides/best-premium-dog-hiking-backpacks-2026.webp"
@@ -231,8 +231,6 @@ comparison:
       values: ["No", "Yes — 2x 1L bladders included", "Yes — soft flask pockets", "No", "No"]
     - label: "Handle"
       values: ["Yes — padded", "Yes — padded", "No", "No", "Yes"]
-    - label: "Price"
-      values: ["", "$127.49", "$99.99", "", ""]
 
 methodology:
   formula: "Trail-Ready Score = (Load Distribution & Balance × 0.30) + (Build Durability × 0.25) + (Adjustability & Fit × 0.25) + (Adventure-Worthy Cool Factor × 0.20)"

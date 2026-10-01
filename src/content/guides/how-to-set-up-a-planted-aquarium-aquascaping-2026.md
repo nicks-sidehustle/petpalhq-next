@@ -14,7 +14,7 @@ keywords:
   - "planted tank cycling"
 pillar: "aquarium-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-08-07"
+updatedDate: "2026-09-25"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-set-up-a-planted-aquarium-aquascaping-2026.webp"
@@ -393,8 +393,6 @@ comparison:
       values: ["Roots and buffers", "Feeds root-feeders", "Filters and circulates", "Removes chlorine", "Seeds the biofilter", "Drives photosynthesis", "Adds carbon", "Feeds the water column"]
     - label: "PetPal Planted-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
-    - label: "Approx. price"
-      values: ["$16.99", "$17.64", "$256.99", "$16.62", "$8.99", "$37.99", "$47.99", "$10.52"]
     - label: "Ongoing cost after purchase"
       values: ["More bags to plant deep", "Re-dosed every months", "Media and electricity", "Used every water change", "Perishable, buy fresh", "Electricity", "Cartridge refills", "Dosed continually"]
 

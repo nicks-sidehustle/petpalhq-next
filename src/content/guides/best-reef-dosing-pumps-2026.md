@@ -15,7 +15,7 @@ keywords:
   - "reef trace element dosing"
 pillar: "aquarium-care"
 publishDate: "2026-06-22"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-reef-dosing-pumps-2026.webp"
@@ -288,8 +288,6 @@ comparison:
       values: ["WiFi app, free download", "MY CHIHIROS app, optional WiFi upgrade", "Smart app, four channels in one place", "WiFi app, free download"]
     - label: "What ships in the box"
       values: ["Single-head pump, replaceable PharMed tube", "Single-head pump, tube", "Pump, 4 containers, holder, organizers, 10m tube", "Single-head pump, replaceable tube"]
-    - label: "Listed price at time of check"
-      values: ["$135.45", "$166.09", "$219.99", "$165.00"]
 
 methodology:
   formula: "Dosing Precision Score = (Dose Accuracy & Resolution × 0.35) + (Control & Scheduling × 0.25) + (Reliability & Build Quality × 0.20) + (Ease of Setup & Calibration × 0.20)"

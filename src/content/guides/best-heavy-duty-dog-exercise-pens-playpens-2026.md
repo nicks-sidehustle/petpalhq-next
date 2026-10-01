@@ -295,13 +295,18 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Panel height", "Door / access", "PetPal Containment Score"]
+  headers: ["Product", "Panel height", "Door / access", "PetPal Containment Score"]
   rows:
-    - ["MidWest 48-Inch Exercise Pen", "$68.99", "48 in (tallest)", "Slide-bolt Paw Block door", "8.9"]
-    - ["VISCOO 8-Panel 40-inch pen", "$99.99", "40 in", "Auto gravity-locking door", "8.6"]
-    - ["DUMOS 8-Panel pen", "$57.38", "24 / 32 / 40 in", "Lockable door", "8.2"]
-    - ["MidWest 30-Inch No-Door pen", "$43.99", "30 in", "No door (step over)", "8.4"]
-    - ["FXW Homeplus (indoor small-dog)", "$59.99", "24 in (shortest)", "Walk-in gate", "8.0"]
+    - pickRef: r1
+      cells: ["MidWest 48-Inch Exercise Pen", "48 in (tallest)", "Slide-bolt Paw Block door", "8.9"]
+    - pickRef: r2
+      cells: ["VISCOO 8-Panel 40-inch pen", "40 in", "Auto gravity-locking door", "8.6"]
+    - pickRef: r3
+      cells: ["DUMOS 8-Panel pen", "24 / 32 / 40 in", "Lockable door", "8.2"]
+    - pickRef: r4
+      cells: ["MidWest 30-Inch No-Door pen", "30 in", "No door (step over)", "8.4"]
+    - pickRef: r5
+      cells: ["FXW Homeplus (indoor small-dog)", "24 in (shortest)", "Walk-in gate", "8.0"]
 
 methodology:
   formula: "PetPal Containment Score = (Escape Resistance × 0.30) + (Build Durability × 0.25) + (Stability & Anchoring × 0.20) + (Versatility × 0.15) + (Value × 0.10)"

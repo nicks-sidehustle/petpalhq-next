@@ -15,7 +15,7 @@ keywords:
   - "Green Pet Shop cooling pad"
 guideType: "spoke"
 publishDate: "2026-05-09"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-26"
 readTime: "8 min"
 heroImage: "/images/guides/best-pet-pool-swim-summer-gear-2026.webp"
 featured: false
@@ -247,8 +247,6 @@ methodology:
 
 comparison:
   rows:
-    - label: "Price"
-      values: ["", "$269.95", "", "$59.99", ""]
     - label: "Sub-category"
       values: ["Backyard pool", "In-ground exit ramp", "Lake/boat dock ramp", "Poolside shade", "Heat recovery mat"]
     - label: "Setup time"

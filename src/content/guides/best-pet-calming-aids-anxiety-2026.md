@@ -18,7 +18,7 @@ species: ["dog", "cat"]
 guideType: "spoke"
 hub: "cat-dog-behavior-anxiety-enrichment"
 publishDate: "2026-06-19"
-updatedDate: "2026-06-19"
+updatedDate: "2026-09-26"
 readTime: "13 min read"
 featured: false
 heroImage: "/images/guides/best-pet-calming-aids-anxiety-2026.webp"

@@ -266,13 +266,18 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Size & levels", "Bar spacing", "PetPal Habitat Score"]
+  headers: ["Product", "Size & levels", "Bar spacing", "PetPal Habitat Score"]
   rows:
-    - ["Critter Nation Double Unit", "$319.99", "36 x 24 x 63 in, 2 full levels", "1/2 in horizontal", "9.3"]
-    - ["Ferret Nation Single Unit", "$184.99", "36 x 25 x 38.5 in, 1 level (stackable)", "1 in vertical", "9.0"]
-    - ["PeakPursuit 60\" Mansion", "$229.99", "60 in tall, multi-level + storage", "Verify on arrival", "8.4"]
-    - ["Prevue Feisty Ferret", "$229.99", "31 x 20 x 41.5 in (54 in on stand)", "7/8 in", "8.2"]
-    - ["Yaheetech 54\" Rolling", "$142.99", "54 in tall, 4 tiers", "7/8 in", "8.0"]
+    - pickRef: r1
+      cells: ["Critter Nation Double Unit", "36 x 24 x 63 in, 2 full levels", "1/2 in horizontal", "9.3"]
+    - pickRef: r2
+      cells: ["Ferret Nation Single Unit", "36 x 25 x 38.5 in, 1 level (stackable)", "1 in vertical", "9.0"]
+    - pickRef: r3
+      cells: ["PeakPursuit 60\" Mansion", "60 in tall, multi-level + storage", "Verify on arrival", "8.4"]
+    - pickRef: r4
+      cells: ["Prevue Feisty Ferret", "31 x 20 x 41.5 in (54 in on stand)", "7/8 in", "8.2"]
+    - pickRef: r5
+      cells: ["Yaheetech 54\" Rolling", "54 in tall, 4 tiers", "7/8 in", "8.0"]
 
 methodology:
   formula: "PetPal Habitat Score = (Space & Layout × 0.30) + (Safety & Containment × 0.25) + (Build Quality × 0.20) + (Ease of Cleaning × 0.15) + (Value × 0.10)"

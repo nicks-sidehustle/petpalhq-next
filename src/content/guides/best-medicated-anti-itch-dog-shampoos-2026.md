@@ -19,7 +19,7 @@ guideType: "spoke"
 pillar: expert-care
 hub: cat-dog-grooming-dental-shedding
 publishDate: "2026-06-23"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "13 min read"
 featured: false
 heroImage: "/images/guides/best-medicated-anti-itch-dog-shampoos-2026.webp"
@@ -478,14 +478,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$19.54"
-        - "$9.92"
-        - "$41.99"
-        - "$19.48"
-        - "$9.92"
-        - "$35.24"
     - label: "Best for"
       values:
         - "Mild undiagnosed flare (combo)"

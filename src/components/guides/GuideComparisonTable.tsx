@@ -1,5 +1,6 @@
 import { AffiliateLink } from "@/components/affiliate/AffiliateLink";
 import { type GuideComparison, type GuidePick } from "@/lib/guides";
+import { type ResolvedComparisonTable } from "@/lib/comparison-table";
 import { buildGoHref } from "@/lib/affiliate-href";
 
 interface GuideComparisonTableProps {
@@ -13,7 +14,10 @@ export default function GuideComparisonTable({
   comparison,
   guideSlug,
 }: GuideComparisonTableProps) {
-  if (!picks?.length || !comparison?.rows?.length) return null;
+  if (!picks?.length || !comparison) return null;
+  if (!comparison.rows?.length) {
+    return comparison.table?.rows.length ? <HeadersComparisonTable table={comparison.table} /> : null;
+  }
 
   return (
     <section id="comparison" className="mb-16 scroll-mt-24">
@@ -122,6 +126,67 @@ export default function GuideComparisonTable({
                 </td>
               ))}
             </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  );
+}
+
+/**
+ * Headers table — one row per product (src/lib/comparison-table.ts). It
+ * carries NO prices (owner decision 2026-09-30: charts compare quality,
+ * longevity and general use; prices live only on the cards with their dated
+ * stamps). The name column of a keyed row renders the card's product name.
+ * Unkeyed rows render verbatim.
+ */
+export function HeadersComparisonTable({ table }: { table: ResolvedComparisonTable }) {
+  const width = Math.max(table.headers.length, ...table.rows.map((r) => r.cells.length));
+  const cols = Array.from({ length: width }, (_, i) => i);
+  return (
+    <section id="comparison" className="mb-16 scroll-mt-24">
+      <h2
+        className="font-serif text-2xl md:text-3xl font-bold mb-6"
+        style={{ color: "var(--color-navy)" }}
+      >
+        Head-to-Head Comparison
+      </h2>
+      <div className="overflow-x-auto rounded-lg border" style={{ borderColor: "var(--color-cream-deep)" }}>
+        <table className="w-full text-sm bg-white" data-comparison-shape="headers">
+          <thead>
+            <tr style={{ backgroundColor: "var(--color-cream-deep)" }}>
+              {cols.map((c) => (
+                <th
+                  key={c}
+                  className="text-left p-3 font-semibold"
+                  style={{ color: "var(--color-navy)" }}
+                  scope="col"
+                >
+                  {table.headers[c] ?? ""}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {table.rows.map((row, rIdx) => (
+              <tr
+                key={rIdx}
+                className="border-t"
+                style={{ borderColor: "var(--color-cream-deep)" }}
+                data-pick-rank={row.pickRank}
+              >
+                {cols.map((c) => (
+                  <td
+                    key={c}
+                    className="p-3"
+                    style={{ color: "var(--color-text)" }}
+                    data-name-cell={row.pickRank !== undefined && c === table.nameColumn ? "" : undefined}
+                  >
+                    {row.cells[c] || "–"}
+                  </td>
+                ))}
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>

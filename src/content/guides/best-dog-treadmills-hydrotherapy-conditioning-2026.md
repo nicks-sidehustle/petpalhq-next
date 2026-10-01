@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-27"
-updatedDate: "2026-08-10"
+updatedDate: "2026-09-26"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.webp"
@@ -332,13 +332,18 @@ methodology:
       description: "Whether each pick has a live, new-condition Amazon offer at time of publish, checked against the Creators API."
 
 comparison:
-  headers: ["Product", "Price", "Role", "Motorized/Self-Paced", "Evidence tier"]
+  headers: ["Product", "Role", "Motorized/Self-Paced", "Evidence tier"]
   rows:
-    - ["GoPet PetRun PR720F", "$1,542.21", "Structured motorized conditioning", "Motorized, fixed pace", "Manufacturer + Cornell treadmill-training guidance"]
-    - ["petspemf RollnRest", "", "Passive PEMF recovery bed", "N/A (rest/recovery)", "Modality has peer-reviewed support; device untested independently"]
-    - ["HotFeed slat mill", "$499.99", "Self-paced incline conditioning", "Non-motorized, dog-driven", "Manufacturer + Cornell treadmill-training guidance"]
-    - ["GOVW cold laser", "$208.00", "At-home photobiomodulation", "N/A (recovery device)", "AAHA-recognized modality; device untested independently"]
-    - ["FitPAWS K9FITbone", "$86.95", "Proprioception/core stability", "N/A (balance training)", "Manufacturer + AAHA therapeutic-exercise framing"]
+    - pickRef: r1
+      cells: ["GoPet PetRun PR720F", "Structured motorized conditioning", "Motorized, fixed pace", "Manufacturer + Cornell treadmill-training guidance"]
+    - pickRef: r2
+      cells: ["petspemf RollnRest", "Passive PEMF recovery bed", "N/A (rest/recovery)", "Modality has peer-reviewed support; device untested independently"]
+    - pickRef: r3
+      cells: ["HotFeed slat mill", "Self-paced incline conditioning", "Non-motorized, dog-driven", "Manufacturer + Cornell treadmill-training guidance"]
+    - pickRef: r4
+      cells: ["GOVW cold laser", "At-home photobiomodulation", "N/A (recovery device)", "AAHA-recognized modality; device untested independently"]
+    - pickRef: r5
+      cells: ["FitPAWS K9FITbone", "Proprioception/core stability", "N/A (balance training)", "Manufacturer + AAHA therapeutic-exercise framing"]
 
 whenNotToBuy: |
   Skip every pick in this guide if your dog hasn't been cleared for exercise by a veterinarian, especially if this is a post-surgical or post-injury recovery situation. Nothing here — including the PEMF bed and the cold laser device — substitutes for a veterinarian's or a certified canine rehabilitation practitioner's direction on an actual injury or surgical recovery. For the acute, first-two-weeks post-surgery period specifically, see our [Dog Post-Surgery Recovery Station Setup](/guides/dog-post-surgery-recovery-station-setup-2026) guide instead — that's a different scope than the ongoing-conditioning equipment covered here.

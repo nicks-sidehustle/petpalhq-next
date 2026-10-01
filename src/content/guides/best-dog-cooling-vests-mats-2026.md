@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "hub"
 publishDate: "2026-06-19"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "13 min read"
 featured: false
 heroImage: "/images/guides/best-dog-cooling-vests-mats-2026.webp"

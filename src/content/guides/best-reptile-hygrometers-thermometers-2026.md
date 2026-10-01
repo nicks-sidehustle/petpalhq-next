@@ -16,7 +16,7 @@ keywords:
 species: ["reptile"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-03"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-reptile-hygrometers-thermometers-2026.webp"
@@ -263,12 +263,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$11.69"
-        - "$8.99"
-        - "$23.99"
-        - "$18.99"
     - label: "Pick category"
       values:
         - "Best overall"

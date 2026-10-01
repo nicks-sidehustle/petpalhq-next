@@ -16,7 +16,7 @@ keywords:
   - "dog separation anxiety chew toy"
 pillar: "expert-care"
 publishDate: "2026-06-19"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-25"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-dog-chew-toys-anxiety-2026.webp"

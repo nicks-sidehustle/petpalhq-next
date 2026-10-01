@@ -301,8 +301,6 @@ comparison:
       values: ["Phase one, unplugged", "Phase one, unplugged", "Before and throughout", "Only if the cat hesitates", "A few days ahead", "Kept in service throughout", "From day one, as needed"]
     - label: "Substrate impact"
       values: ["Crystal — a substrate change", "Works with standard clumping", "The trusted clumping default", "Herbal cue in clumping clay", "None — environmental", "Owner's chosen litter", "None — cleaning agent"]
-    - label: "Approx. price"
-      values: ["$99.00", "$399.99", "$22.99", "$15.99", "$24.99", "$35.99", "$13.57"]
     - label: "Can it override a medical avoidance?"
       values: ["No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first"]
 

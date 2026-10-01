@@ -374,13 +374,6 @@ comparison:
         - "Omega-3 from named protein for skin and coat"
         - "Omega-3 and fiber in a simplified deck"
         - "Minimal deck with single-protein omega-3"
-    - label: "Form, price & value"
-      values:
-        - "Dry — $72.98, strong value"
-        - "Dry — $77.48, mainstream value"
-        - "Dry — $79.98, premium of the LIDs"
-        - "Dry — $74.97, mid-tier value"
-        - "Dry — $84.99 for 20 lb, $4.25/lb; highest sticker on this page"
 methodology:
   formula: "PetPal Gear Score = (Expert Consensus × 0.35) + (Ingredient Transparency & Suitability × 0.25) + (Palatability & Tolerance × 0.20) + (Value × 0.20)"
   factors:

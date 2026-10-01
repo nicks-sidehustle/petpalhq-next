@@ -17,7 +17,7 @@ keywords:
 species: ["fish"]
 pillar: "aquarium-care"
 publishDate: "2026-06-22"
-updatedDate: "2026-08-10"
+updatedDate: "2026-09-25"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-reef-aquarium-led-lighting-2026.webp"
@@ -326,13 +326,19 @@ picks:
     verdict: "The most reef-usable light per dollar here, well suited to budget builds, grow-out tanks, and second systems. Spend up for a Red Sea or AI if you want a polished, known-quantity fixture you never think about."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Reef PAR & Spectrum Score"]
+  headers: ["Product", "Pick category", "Reef PAR & Spectrum Score"]
+  nameColumn: 0
   rows:
-    - ["Kessil A360XE Tuna Blue", "$499.00", "Best overall / premium", "9.1"]
-    - ["AI Hydra 32 HD", "$479.99", "Best for large reef tanks", "9.0"]
-    - ["Red Sea ReefLED G2 60", "$299.99", "Best app-controlled all-in-one", "8.7"]
-    - ["AI Prime 16 HD (White)", "$264.99", "Best for nano / small tanks", "8.5"]
-    - ["NICREW HyperReef 150 Gen 2", "$249.99", "Best value", "8.0"]
+    - pickRef: r1
+      cells: ["Kessil A360XE Tuna Blue", "Best overall / premium", "9.1"]
+    - pickRef: r2
+      cells: ["AI Hydra 32 HD", "Best for large reef tanks", "9.0"]
+    - pickRef: r3
+      cells: ["Red Sea ReefLED G2 60", "Best app-controlled all-in-one", "8.7"]
+    - pickRef: r4
+      cells: ["AI Prime 16 HD (White)", "Best for nano / small tanks", "8.5"]
+    - pickRef: r5
+      cells: ["NICREW HyperReef 150 Gen 2", "Best value", "8.0"]
 
 methodology:
   formula: "Reef PAR & Spectrum Score = (PAR Output & Penetration × 0.35) + (Spectrum & Coral Coloration × 0.25) + (Control & Programmability × 0.20) + (Coverage Fit & Build × 0.20)"

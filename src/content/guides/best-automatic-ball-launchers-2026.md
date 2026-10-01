@@ -15,7 +15,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-05"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-automatic-ball-launchers-2026.webp"
@@ -286,13 +286,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$57.99"
-        - "$128.99"
-        - "$71.95"
-        - "$75.59"
-        - "$89.99"
     - label: "Dog size / balls"
       values:
         - "Small-medium / 2.3-in ETPU"

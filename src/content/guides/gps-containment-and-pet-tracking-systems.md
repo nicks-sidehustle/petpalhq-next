@@ -14,7 +14,7 @@ keywords:
   - "static correction welfare"
 pillar: "expert-care"
 publishDate: "2026-08-21"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-26"
 readTime: "14 min"
 featured: false
 products: []
@@ -296,14 +296,10 @@ picks:
 
 comparison:
   rows:
-    - label: "Price (verified 2026-08-21)"
-      values: ["$999.00", "$524.00", "$79.00", "$389.99", "$49.99"]
     - label: "What it actually does"
       values: ["Containment", "Containment and tracking", "Tracking only", "Containment only", "Tracking only"]
     - label: "Subscription required to do that job"
       values: ["No", "Yes", "Yes", "No", "Yes"]
-    - label: "Published subscription rates"
-      values: ["Tracking only: $9.95/mo, $8.49/mo yearly, $7.49/mo two-year", "From $9.99/mo Bronze, $14.99 Silver, $19.99 Gold, per collar", "$9/mo one-year Basic to $5/mo five-year Premium", "None, ever", "$9/mo one-year Basic to $5/mo five-year Premium"]
     - label: "Published fit floor"
       values: ["15 lb, 10-26 in neck", "10 lb, 8-30 in neck", "No published floor - collar-mounted", "Over 25 lb, 13-28 in neck", "6.5 lb, per this variant's listing"]
     - label: "Delivers static correction"

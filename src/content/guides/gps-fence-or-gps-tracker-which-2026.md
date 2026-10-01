@@ -15,7 +15,7 @@ species: ["dog"]
 guideType: "spoke"
 hub: "gps-containment-and-pet-tracking-systems"
 publishDate: "2026-08-21"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-26"
 readTime: "12 min"
 featured: false
 products: []
@@ -288,18 +288,12 @@ picks:
 
 comparison:
   rows:
-    - label: "Price (verified 2026-08-21)"
-      values: ["$999.00", "$524.00", "$79.00", "$389.99", "$189.00"]
     - label: "Prevents an escape"
       values: ["Yes", "Yes", "No", "Yes", "No"]
     - label: "Tells you where the dog went"
       values: ["With a paid plan", "With the required plan", "Yes", "No", "Yes"]
     - label: "Works with no subscription"
       values: ["Fence yes, tracking no", "No", "No", "Yes", "No"]
-    - label: "Published subscription rate"
-      values: ["$9.95/mo, $101.88/yr, or $179.76 for two years", "From $9.99/mo Bronze, per collar", "$9/mo one-year Basic to $5/mo five-year Premium", "None, ever", "$19/mo published in Fi's site title; no term discounts published"]
-    - label: "Five-year cost, arithmetic on published rates"
-      values: ["$1,508.40 with annual tracking", "$1,198.40 on Bronze monthly at the $599.00 list price", "$379.00 with a five-year plan", "$389.99", "$1,101.00 at Fi's published $19/mo"]
     - label: "Delivers static correction"
       values: ["Yes", "Yes", "No", "Yes", "No"]
     - label: "Escape-Risk Coverage Score"

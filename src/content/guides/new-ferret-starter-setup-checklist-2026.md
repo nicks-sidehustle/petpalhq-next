@@ -330,8 +330,6 @@ comparison:
       values: ["Day one, first", "Day one", "Day one", "Day one", "Day one", "First week", "Day one", "With the cart, use once bonded"]
     - label: "Grounded in the listing"
       values: ["0.5\" wire spacing, 4 tiers", "16\" x 14\" hanging fleece", "Chicken-first, 38% protein", "High back, low front entry", "99% dust-free paper", "0.86\" spacing, 8 panels", "32 oz, tip-proof mount", "3/8\" nylon, 48\" lead"]
-    - label: "Approx. price"
-      values: ["$309.99", "$16.99", "$29.99", "$19.96", "$22.99", "$53.51", "$7.99", "$12.99"]
     - label: "Escape / safety note"
       values: ["Under-inch spacing contains", "Inspect for claw-catching holes", "Dry food needs constant water", "Add a mat for near misses", "Nest layer, not the litter", "Supervise — open top", "Verify flow daily", "Snug fit or a ferret backs out"]
 

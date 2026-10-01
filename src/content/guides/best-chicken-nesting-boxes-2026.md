@@ -14,7 +14,7 @@ keywords:
   - "stop hens sleeping in nesting boxes"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-chicken-nesting-boxes-2026.webp"
@@ -286,13 +286,18 @@ picks:
         accessed: "2026-07-06"
 
 comparison:
-  headers: ["Product", "Price", "Type", "Material", "PetPal Nesting-Box Score"]
+  headers: ["Product", "Type", "Material", "PetPal Nesting-Box Score"]
   rows:
-    - ["Tiflev roll-away", "$99.99", "Roll-away single", "Metal", "8.6"]
-    - ["ZenxyHoC metal boxes", "$69.99", "Multi-box", "Metal", "8.3"]
-    - ["ZUCIRE roll-away", "$63.99", "Roll-away multi", "Mixed", "8.1"]
-    - ["RentACoop reversible", "$99.99", "Roll-out single", "Metal", "7.9"]
-    - ["Little Giant single pen", "$32.99", "Single nest", "Galvanized steel", "7.7"]
+    - pickRef: r1
+      cells: ["Tiflev roll-away", "Roll-away single", "Metal", "8.6"]
+    - pickRef: r2
+      cells: ["ZenxyHoC metal boxes", "Multi-box", "Metal", "8.3"]
+    - pickRef: r3
+      cells: ["ZUCIRE roll-away", "Roll-away multi", "Mixed", "8.1"]
+    - pickRef: r4
+      cells: ["RentACoop reversible", "Roll-out single", "Metal", "7.9"]
+    - pickRef: r5
+      cells: ["Little Giant single pen", "Single nest", "Galvanized steel", "7.7"]
 
 methodology:
   formula: "PetPal Nesting-Box Score = (Egg Cleanliness & Roll-Away Design × 0.30) + (Durability & Mite Resistance × 0.25) + (Capacity / Hens Served × 0.20) + (Ease of Cleaning × 0.15) + (Value × 0.10)"

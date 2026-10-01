@@ -17,7 +17,7 @@ species: ["cat", "dog"]
 guideType: "spoke"
 pillar: "expert-care"
 publishDate: "2026-09-13"
-updatedDate: "2026-09-13"
+updatedDate: "2026-09-26"
 readTime: "14 min"
 featured: false
 heroImage: "/images/guides/best-robot-vacuums-pet-hair-litter-2026.webp"
@@ -429,8 +429,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values: ["$599.99", "$1,399.99", "$799.99", "$1,099.99", "$999.99", "$799.99", "", "$299.99"]
     - label: "Stated suction"
       values: ["30,000 Pa", "30,000 Pa", "30,000 Pa", "22,000 Pa", "20,000 Pa", "20,000 Pa", "8,000 Pa", "10,000 Pa"]
     - label: "Self-empty interval"

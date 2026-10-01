@@ -14,7 +14,7 @@ keywords:
   - "pet ramp for cats"
 pillar: "expert-care"
 publishDate: "2026-09-14"
-updatedDate: "2026-09-14"
+updatedDate: "2026-09-25"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/best-cat-ramps-steps-senior-mobility-2026.webp"
@@ -358,8 +358,6 @@ comparison:
       values: ["150 lb", "120 lb", "None published", "25 lb", "80 lb", "None published", "None published"]
     - label: "Footprint and storage"
       values: ["62\"L x 16\"W; folds in half and latches", "70\"L x 16\"W x 25\"H; no fold described", "2-step unit; snaps together easily", "16\"L x 15\"W x 12\"H", "11.8\" tall, 2 steps; carry handle", "15.7\" x 23.6\" x 15.7\"", "None published"]
-    - label: "Amazon price"
-      values: ["$59.99", "$139.95", "$45.43", "$30.10", "$32.99", "$29.99", "$35.99"]
 
 methodology:
   formula: "PetPal Cat Mobility Score = (Rise Height × 0.22) + (Surface Traction × 0.20) + (Incline Continuity × 0.18) + (Stability and Tip Resistance × 0.18) + (Published Weight Capacity × 0.12) + (Footprint and Storage × 0.10)"

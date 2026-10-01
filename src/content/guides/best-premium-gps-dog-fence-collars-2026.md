@@ -15,7 +15,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-20"
-updatedDate: "2026-08-18"
+updatedDate: "2026-09-26"
 readTime: "16 min"
 featured: false
 image: "/images/guides/best-premium-gps-dog-fence-collars-2026.webp"
@@ -205,8 +205,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price (verified 2026-08-07)"
-      values: ["$999.00", "$524.00", "$389.99"]
     - label: "Subscription for containment"
       values: ["Not required (cellular plan optional)", "Required — fence off without an active plan", "Not required"]
     - label: "Tracking / portability"

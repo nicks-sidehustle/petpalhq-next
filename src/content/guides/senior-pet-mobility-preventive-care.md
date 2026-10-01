@@ -15,7 +15,7 @@ keywords:
   - "senior pet cognitive dysfunction"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-05-05"
+updatedDate: "2026-09-02"
 readTime: "16 min read"
 featured: true
 image: "/images/guides/senior-pet-mobility-preventive-care.webp"

@@ -15,7 +15,7 @@ keywords:
   - "premium pet tech gifts"
   - "adventure gear for dog dads"
 publishDate: "2026-05-09"
-updatedDate: "2026-08-18"
+updatedDate: "2026-09-27"
 readTime: "10 min"
 heroImage: "/images/guides/best-fathers-day-gifts-pet-dads-2026.webp"
 products: []
@@ -362,12 +362,10 @@ methodology:
 
 comparison:
   rows:
-    - label: "Price"
-      values: ["$749", "$139.99", "$99", "$127.99", "$200.99", "$127.49", "$524", "$1,223.98"]
     - label: "Best for"
       values: ["Cat dad (1-4 cats)", "Multi-cat feeding", "Outdoor dog dad", "Rescue dog dad", "DIY yard dad", "Adventure hiker dad", "GPS fence dad", "Hunting / field dad"]
     - label: "Subscription required?"
-      values: ["Optional", "No", "Yes (6 mo included)", "No", "No", "No", "Yes (~$10-30/mo)", "Yes (satellite plan)"]
+      values: ["Optional", "No", "Yes (6 mo included)", "No", "No", "No", "Yes", "Yes (satellite plan)"]
     - label: "Prime delivery for June 21"
       values: ["Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
     - label: "Species"

@@ -1,0 +1,54 @@
+name: Content gates
+
+# Owner decision 2026-09-28 (gate audit): only "Dead-ASIN guard" and "Vale
+# prose lint" were required checks, so validate:content (prebuild) and the
+# postbuild tests (schema, buy-path floor, price-stamp render) ran only in the
+# Vercel build AFTER merge. This job runs the same `npm run build` on every PR
+# so gate failures surface before merge instead of as a failed deploy.
+#
+# VERCEL_ENV is deliberately NOT set: the two preview-skipped gates then run,
+# as they do in a production build. No secrets and no env vars are needed.
+#
+# NO paths filter: a required check that never reports on a PR blocks it
+# forever (see dead-asin-guard.yml / vale-lint.yml). The owner must add
+# "Build + content gates" to required status checks in branch protection for
+# it to block merges.
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: content-gates-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build + content gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history: git-date-based scripts need it.
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build (prebuild validate:content + next build + postbuild tests)
+        env:
+          NEXT_TELEMETRY_DISABLED: '1'
+        run: npm run build

@@ -15,7 +15,7 @@ keywords:
 species: ["bird"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-25"
 readTime: "11 min"
 featured: false
 heroImage: "/images/guides/best-hummingbird-feeders-2026.webp"
@@ -282,12 +282,16 @@ picks:
     verdict: "Buy the Spring Rain feeder as functional garden art and check the glass the day it arrives. For pure feeding utility per dollar, the Big Gulp above does the same job for less money and with fewer caveats."
 
 comparison:
-  headers: ["Product", "Price", "Capacity & Style", "Nectar Station Score"]
+  headers: ["Product", "Capacity & Style", "Nectar Station Score"]
   rows:
-    - ["Aspects HummZinger HighView", "$37.92", "12 oz saucer, 4 ports", "9.2"]
-    - ["First Nature 3055", "$12.78", "32 oz plastic bottle, 10 ports", "7.8"]
-    - ["More Birds Big Gulp", "$24.22", "40 oz glass bottle, 5 ports", "8.3"]
-    - ["Nature's Way Spring Rain", "$23.97", "Hand-blown glass bottle", "7.6"]
+    - pickRef: r1
+      cells: ["Aspects HummZinger HighView", "12 oz saucer, 4 ports", "9.2"]
+    - pickRef: r2
+      cells: ["First Nature 3055", "32 oz plastic bottle, 10 ports", "7.8"]
+    - pickRef: r3
+      cells: ["More Birds Big Gulp", "40 oz glass bottle, 5 ports", "8.3"]
+    - pickRef: r4
+      cells: ["Nature's Way Spring Rain", "Hand-blown glass bottle", "7.6"]
 
 methodology:
   formula: "Nectar Station Score = (Expert Consensus × 0.30) + (Cleanability & Nectar Freshness × 0.25) + (Bird Safety & Pest Defense × 0.20) + (Durability × 0.15) + (Value × 0.10)"

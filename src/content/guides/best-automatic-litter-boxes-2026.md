@@ -213,8 +213,6 @@ comparison:
       values: ["Whisker-documented safety sensors", "PetSafe-documented safe-exit sensing", "360° safety sensors with anti-pinch logic", "Radar + weight + anti-pinch sensor stack", "Standard mechanical safety design"]
     - label: "Litter compatibility"
       values: ["Standard clumping litter", "Works with any litter per PetSafe", "Manufacturer-documented compatibility", "Casa Leo-documented compatibility", "Disposable crystal trays only"]
-    - label: "Amazon price (checked Sept 7, 2026)"
-      values: ["$749.00", "$340.00", "$399.99", "$599.00", "$99.00"]
 
 methodology:
   formula: "PetPal Gear Score = (Expert Consensus × 0.35) + (Welfare Fit × 0.25) + (Safety / Sensor Design × 0.20) + (Value × 0.20)"

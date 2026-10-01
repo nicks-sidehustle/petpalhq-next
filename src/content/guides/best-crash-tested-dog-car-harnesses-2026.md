@@ -16,7 +16,7 @@ keywords:
   - "CPS certified cat carrier car"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-09-07"
+updatedDate: "2026-09-09"
 readTime: "13 min read"
 featured: true
 image: "/images/guides/best-crash-tested-dog-car-harnesses-2026.webp"

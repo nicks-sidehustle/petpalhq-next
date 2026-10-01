@@ -393,8 +393,6 @@ comparison:
       values: ["Cushions the liner", "Holds the water", "Circulates the volume", "Filters and clears", "Adds oxygen", "Removes chlorine", "Proves the cycle", "Cradles the fish"]
     - label: "PetPal Pond-Build Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
-    - label: "Approx. price"
-      values: ["$119.99", "$311.99", "$723.90", "$367.99", "$299.99", "$12.48", "$34.98", "$35.99"]
     - label: "Ongoing cost after the build"
       values: ["One-time under-layer", "Decades of service", "Electricity, always on", "UV bulb and media", "Electricity", "Re-dosed per fill", "Reagents deplete", "One-time tool"]
 

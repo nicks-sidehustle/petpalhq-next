@@ -13,7 +13,7 @@ keywords:
   - "dog rear support sling"
   - "TPLO recovery timeline"
 publishDate: "2026-07-17"
-updatedDate: "2026-07-17"
+updatedDate: "2026-09-09"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/dog-post-surgery-recovery-station-setup-2026.webp"
@@ -460,8 +460,6 @@ comparison:
       values: ["Confined-Before-Home", "No-Slip Path", "No-Slip Path", "Barrier-to-Incision-Site", "Barrier-to-Incision-Site", "Rear-Lift Ready", "Supporting stage", "Supporting stage", "Supporting stage"]
     - label: "PetPal Station-Readiness Score"
       values: ["8.5", "8.2", "7.9", "8.6", "7.6", "8.8", "8.3", "7.8", "8.0"]
-    - label: "Approx. price"
-      values: ["$47.95", "$29.59", "$39.99", "$17.99", "$30.99", "$69.95", "$59.99", "$9.99", "$14.99"]
 
 methodology:
   formula: "PetPal Station-Readiness Score = (Zone Containment × 0.35) + (Traction Coverage × 0.25) + (Wound Barrier Fit × 0.20) + (Mobility Assist × 0.20)"

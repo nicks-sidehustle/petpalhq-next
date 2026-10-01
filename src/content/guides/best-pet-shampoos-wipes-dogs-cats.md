@@ -24,7 +24,7 @@ keywords:
   - "Veterinary Formula Clinical Care"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-08-07'
+updatedDate: '2026-09-26'
 readTime: 11 min read
 featured: true
 image: /images/guides/best-pet-shampoos-wipes-dogs-cats.webp

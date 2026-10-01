@@ -14,7 +14,7 @@ keywords:
   - "tortoise fence panels"
 guideType: "spoke"
 publishDate: "2026-07-05"
-updatedDate: "2026-07-05"
+updatedDate: "2026-09-07"
 readTime: "13 min"
 featured: false
 heroImage: "/images/guides/best-tortoise-outdoor-enclosures-pens-2026.webp"
@@ -285,12 +285,17 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Footprint / height", "Type", "PetPal Outdoor Tortoise Score"]
+  headers: ["Product", "Footprint / height", "Type", "PetPal Outdoor Tortoise Score"]
+  nameColumn: 0
   rows:
-    - ["Xilishpp tortoise house", "$132.99", "57.5 × 20.9 × 34.7 in", "Enclosed weatherproof house", "8.1"]
-    - ["Rockever house + run", "$129.99", "49 × 36 × 14 in", "Shelter plus wire run", "7.5"]
-    - ["Aivituvin house", "$89.99", "Compact, sealed floor", "Indoor-leaning hybrid house", "6.8"]
-    - ["Ipetboom fence panels", "$38.19", "~6 in tall, open top", "Daytime grazing pen (not secure)", "5.7"]
+    - pickRef: r1
+      cells: ["Xilishpp tortoise house", "57.5 × 20.9 × 34.7 in", "Enclosed weatherproof house", "8.1"]
+    - pickRef: r3
+      cells: ["Rockever house + run", "49 × 36 × 14 in", "Shelter plus wire run", "7.5"]
+    - pickRef: r4
+      cells: ["Aivituvin house", "Compact, sealed floor", "Indoor-leaning hybrid house", "6.8"]
+    - pickRef: r5
+      cells: ["Ipetboom fence panels", "~6 in tall, open top", "Daytime grazing pen (not secure)", "5.7"]
 
 methodology:
   formula: "PetPal Outdoor Tortoise Score = (Usable Floor Space × 0.25) + (Weather Protection × 0.25) + (Predator Exclusion × 0.25) + (Natural Substrate Access × 0.15) + (Value × 0.10)"

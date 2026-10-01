@@ -19,7 +19,7 @@ guideType: "spoke"
 hub: "pet-home-systems-cleanup-travel"
 pillar: "dog-essentials"
 publishDate: "2026-06-22"
-updatedDate: "2026-06-22"
+updatedDate: "2026-09-03"
 lastProductCheck: "2026-06-22"
 readTime: "~12 min read"
 featured: false
@@ -328,13 +328,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$200.99"
-        - "$474.99"
-        - "$524.99"
-        - "$579.99"
-        - "$659.99"
     - label: "Best-fit use case"
       values:
         - "Best overall / electronic value"

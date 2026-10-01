@@ -387,14 +387,21 @@ methodology:
       description: "Whether each pick has a live, new-condition Amazon offer at time of publish, checked against the Creators API rather than assumed from a prior review — the standard that forced the dosing-pump substitution in this guide."
 
 comparison:
-  headers: ["Component", "Product", "Price", "Rated Capacity", "Role in the build"]
+  headers: ["Component", "Product", "Rated Capacity", "Role in the build"]
+  nameColumn: 1
   rows:
-    - ["Protein skimmer", "Reef Octopus Regal 150SSS", "$716.09", "100 gal heavy bioload", "Nutrient export — sets the bioload ceiling"]
-    - ["LED lighting", "Kessil A360XE Tuna Blue", "$499.00", "24x24 in mixed-reef / 20x20 in SPS", "Growth engine for corals"]
-    - ["Sump/refugium", "Fiji Cube Fiji-20", "$404.99", "Built for up to ~100 gal display", "Filtration base + refugium + mounting for doser/ATO"]
-    - ["Calcium reactor", "Reef Octopus OCTO CR220", "$1,027.94", "400 gal heavy demand", "Hands-off calcium/alkalinity automation"]
-    - ["Dosing pump", "Chihiros single-head doser", "$166.09", "Single channel, 0.2ml precision", "Daily trace-element/supplement automation"]
-    - ["Automatic top-off", "Tunze Osmolator 3", "$249.99", "Dual-sensor redundancy", "Evaporation top-off, runs unattended"]
+    - pickRef: r1
+      cells: ["Protein skimmer", "Reef Octopus Regal 150SSS", "100 gal heavy bioload", "Nutrient export — sets the bioload ceiling"]
+    - pickRef: r2
+      cells: ["LED lighting", "Kessil A360XE Tuna Blue", "24x24 in mixed-reef / 20x20 in SPS", "Growth engine for corals"]
+    - pickRef: r3
+      cells: ["Sump/refugium", "Fiji Cube Fiji-20", "Built for up to ~100 gal display", "Filtration base + refugium + mounting for doser/ATO"]
+    - pickRef: r4
+      cells: ["Calcium reactor", "Reef Octopus OCTO CR220", "400 gal heavy demand", "Hands-off calcium/alkalinity automation"]
+    - pickRef: r5
+      cells: ["Dosing pump", "Chihiros single-head doser", "Single channel, 0.2ml precision", "Daily trace-element/supplement automation"]
+    - pickRef: r6
+      cells: ["Automatic top-off", "Tunze Osmolator 3", "Dual-sensor redundancy", "Evaporation top-off, runs unattended"]
 
 whenNotToBuy: |
   Skip a full multi-category system if you're still cycling your first tank or haven't kept a reef through its first year. Every piece in this build assumes you already know your tank's actual bioload, evaporation rate, and coral mix — buying a calcium reactor and a multi-role sump before you've run a smaller system long enough to know those numbers is how equipment ends up mis-sized or unused. Our [Getting Started With a Saltwater Reef Tank](/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026) guide is the right starting point instead, and it explicitly tells first-tank readers to skip protein skimmers and reef lighting rigs at the outset.

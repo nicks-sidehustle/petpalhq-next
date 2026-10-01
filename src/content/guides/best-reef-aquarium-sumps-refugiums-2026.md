@@ -15,7 +15,7 @@ keywords:
   - "best reef sump 2026"
 pillar: "aquarium-care"
 publishDate: "2026-06-25"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-25"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-reef-aquarium-sumps-refugiums-2026.webp"
@@ -303,8 +303,6 @@ comparison:
       values: ["~12 gal (Eshopps/BRS)", "Mid-size, not listed", "20 gal (BRS)", "~18 gal (RS-100 line)", "Small nano volume"]
     - label: "Mechanical filtration"
       values: ["4 in filter sock", "4 in sock, fits Klir Di-4", "Floss box + 4 in sock (included)", "7 in filter sock (RS-100 line)", "Filter sock + channel design"]
-    - label: "Listed price at time of check"
-      values: ["$262.85", "", "$404.99", "", ""]
 
 methodology:
   formula: "ReefSump Score = (Chamber & Refugium Layout × 0.30) + (Acrylic & Baffle Quality × 0.25) + (Equipment Compatibility × 0.20) + (Volume vs Footprint × 0.15) + (Leak Record × 0.10)"

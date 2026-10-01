@@ -157,7 +157,11 @@ function renderGuide(g) {
       const brand = s(p?.brand);
       const score = typeof p?.score === "number" && p.score > 0 ? `${p.score}/10` : "";
       const price = s(p?.price) && s(p?.priceStamp) ? `${s(p.price)} (${s(p.priceStamp)})` : "";
-      const asin = s(p?.asin);
+      // Print the ASIN line only for a real ASIN (B0 + 8 alphanumerics) or an
+      // ISBN-10; a search term in the frontmatter field is linked as an Amazon
+      // search by the page, so it is not an ASIN and must not be labeled one.
+      const rawAsin = s(p?.asin);
+      const asin = /^(B0[A-Z0-9]{8}|\d{9}[\dX])$/.test(rawAsin) ? rawAsin : "";
       lines.push(`#### Rank ${rank}${label ? ` — ${label}` : ""}: ${name}`);
       const meta = [
         brand && `Brand: ${brand}`,

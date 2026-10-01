@@ -16,7 +16,7 @@ keywords:
   - "dog accessibility ramp"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-26"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-dog-ramps-stairs-senior-dogs-2026.webp"

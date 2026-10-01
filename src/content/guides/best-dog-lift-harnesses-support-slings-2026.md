@@ -15,7 +15,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-05"
-updatedDate: "2026-07-05"
+updatedDate: "2026-09-26"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-dog-lift-harnesses-support-slings-2026.webp"
@@ -286,13 +286,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$119.95"
-        - ""
-        - "$42.99"
-        - "$19.99"
-        - "$9.49"
     - label: "Support type"
       values:
         - "Full-body, 4 handles"

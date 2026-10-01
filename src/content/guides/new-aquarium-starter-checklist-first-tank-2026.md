@@ -15,7 +15,7 @@ keywords:
 guideType: "hub"
 pillar: "water-quality"
 publishDate: "2026-07-08"
-updatedDate: "2026-07-08"
+updatedDate: "2026-09-07"
 readTime: "14 min"
 featured: false
 heroImage: "/images/guides/new-aquarium-starter-checklist-first-tank-2026.webp"
@@ -343,14 +343,6 @@ comparison:
         - "4. Test kit"
         - "5. Conditioner"
         - "6. Bacteria"
-    - label: "Price"
-      values:
-        - "$119.14"
-        - "$13.88"
-        - "$41.43"
-        - "$39.99"
-        - "$8.48"
-        - "$8.68"
     - label: "Role in the setup"
       values:
         - "The forgiving vessel"

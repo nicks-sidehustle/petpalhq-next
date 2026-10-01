@@ -291,12 +291,17 @@ picks:
     verdict: "If anyone in the house has real allergies — or you want one vacuum purchase per decade instead of per few years — the Miele C1 Cat & Dog is the specialist answer. Everyone else gets more convenience per dollar from the first three picks."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Pet Hair Pickup Score"]
+  headers: ["Product", "Pick category", "Pet Hair Pickup Score"]
+  nameColumn: 0
   rows:
-    - ["Dyson V15 Detect Plus", "$825.99", "Cordless flagship", "9.1"]
-    - ["Bissell Pet Hair Eraser Turbo Plus", "$219.99", "Value upright", "8.1"]
-    - ["Shark Stratos AZ3002", "$319.99", "Carpet-heavy multi-pet", "8.5"]
-    - ["Miele Classic C1 Cat & Dog", "$649.60", "Allergy & durability specialist", "8.7"]
+    - pickRef: r1
+      cells: ["Dyson V15 Detect Plus", "Cordless flagship", "9.1"]
+    - pickRef: r2
+      cells: ["Bissell Pet Hair Eraser Turbo Plus", "Value upright", "8.1"]
+    - pickRef: r3
+      cells: ["Shark Stratos AZ3002", "Carpet-heavy multi-pet", "8.5"]
+    - pickRef: r4
+      cells: ["Miele Classic C1 Cat & Dog", "Allergy & durability specialist", "8.7"]
 
 methodology:
   formula: "Pet Hair Pickup Score = (Hair Pickup & Anti-Tangle × 0.30) + (Filtration & Allergen Containment × 0.25) + (Expert Consensus Strength × 0.25) + (Durability & Cost of Ownership × 0.20)"

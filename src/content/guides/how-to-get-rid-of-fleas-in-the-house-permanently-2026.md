@@ -275,8 +275,6 @@ comparison:
       values: ["The pet", "Diagnostics", "The pet", "The environment", "The environment", "Feedback"]
     - label: "Life stage it hits"
       values: ["Adults, eggs, larvae on pet", "Adults (removal + evidence)", "Adults, eggs on pet", "Adults, eggs, larvae in home", "Eggs, larvae, and pupae", "Adults (in the open)"]
-    - label: "Approx. price"
-      values: ["$40.98", "$3.99", "$11.99", "$11.57", "$79.99", "$14.99"]
     - label: "Lasting or one-time?"
       values: ["Lasting — monthly, ongoing", "Reusable monitor", "One-time knock-down", "Weeks of residual, re-treat", "Daily habit for weeks", "Ongoing monitor"]
 

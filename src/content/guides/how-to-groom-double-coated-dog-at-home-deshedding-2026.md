@@ -303,8 +303,6 @@ comparison:
       values: ["Dry (right after bath)", "Dry, between baths", "Dry, occasional", "Dry, last step", "Wet — the bath itself", "Dry, during grooming", "Wet — the bath itself"]
     - label: "How often to use"
       values: ["Every deshed session", "Every couple of days", "Sparingly, heavy shed only", "After each rake session", "Periodic baths only", "Each indoor session", "Every bath"]
-    - label: "Approx. price"
-      values: ["$68.39", "$9.99", "$33.57", "$19.99", "$14.99", "$69.99", "$16.99"]
     - label: "Double-coat caution"
       values: ["Loud; low heat, never the face", "Light hand or rake burn", "Over-use thins the guard coat", "Fine pins can scratch skin", "Over-bathing strips oils", "Ignore the clippers — never clip", "Cups slip on textured tubs"]
 

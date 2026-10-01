@@ -15,7 +15,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-17"
+updatedDate: "2026-09-26"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.webp"
@@ -352,16 +352,10 @@ comparison:
       values: ["PetSafe Guardian (No-Sub)", "Halo Collar 5", "PetSafe Guardian 2.0"]
     - label: "Subscription"
       values: ["None — ever", "Mandatory", "Tracking only"]
-    - label: "Plan cost"
-      values: ["$0 / month", "$9.16/mo floor (Bronze)", "$9.99/mo or $99/yr"]
     - label: "What DIES without the plan"
       values: ["Nothing — no plan exists", "Everything — the fence is inert", "Live tracking + notifications"]
     - label: "What SURVIVES without the plan"
       values: ["Full containment, forever", "Nothing", "Containment (stored GPS)"]
-    - label: "Hardware price"
-      values: ["$389.99", "$524.00", "$319.99"]
-    - label: "Approx. 3-year carry"
-      values: ["$389.99", "~$854", "Hardware plus the plan above; hardware only if the plan lapses"]
     - label: "Dog / yard floor"
       values: ["Over 25 lb / ¾ acre+", "Any breed / 30×30 ft min", "10 lb+ / ½ acre+"]
     - label: "Training program"

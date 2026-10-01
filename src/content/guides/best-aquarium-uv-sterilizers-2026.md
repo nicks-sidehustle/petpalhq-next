@@ -345,8 +345,8 @@ comparison:
       values: ["Pond-grade inline canister (external pump)", "Twist-flow canister (external pump)", "Twist-flow canister (external pump)", "All-in-one internal (built-in powerhead)", "All-in-one internal (built-in powerhead)"]
     - label: "Dose / flow control"
       values: ["Published flow-vs-dose table, end-of-life calibrated", "Set flow rate via your pump", "Set flow rate via your pump", "Fixed internal flow path", "Fixed internal flow path"]
-    - label: "Best-fit buyer & price"
-      values: ["Large, heavily stocked tanks — $439.71", "Large systems up to 500 gal — $199.99", "Most mid-size tanks up to 250 gal — $140.94", "Easy internal up to 120 gal — $102.65", "Budget / nano green-water fix — $64.98"]
+    - label: "Best-fit buyer"
+      values: ["Large, heavily stocked tanks", "Large systems up to 500 gal", "Most mid-size tanks up to 250 gal", "Easy internal up to 120 gal", "Budget / nano green-water fix"]
 
 methodology:
   formula: "Clear-Water UV Score = (UV Effectiveness × 0.35) + (Build Quality & Components × 0.25) + (Ease of Use & Setup × 0.20) + (Bulb & Maintenance × 0.12) + (Value × 0.08)"

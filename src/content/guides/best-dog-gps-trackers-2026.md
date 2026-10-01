@@ -17,7 +17,7 @@ species: ["dog"]
 guideType: "spoke"
 hub: "gps-containment-and-pet-tracking-systems"
 publishDate: "2026-06-10"
-updatedDate: "2026-09-07"
+updatedDate: "2026-09-26"
 readTime: "13 min"
 featured: false
 image: "/images/guides/best-dog-gps-trackers-2026.webp"
@@ -292,10 +292,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price (verified 2026-09-07)"
-      values: ["$55.30", "$59.99", "$189.00 (first 12 months of membership included)", "$99.00"]
-    - label: "Three-year cost of ownership"
-      values: ["$343-$415 by term", "$59.99 hardware plus a plan that varies by term", "$528-$567 (excludes an unconfirmed $20 activation fee)", "$99.00 hardware plus a required plan that varies by term"]
     - label: "Real-world battery"
       values: ["2-5 days", "4-6 days (30 days advertised)", "Up to 3 months", "Manufacturer claim only"]
     - label: "Attachment"

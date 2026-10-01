@@ -25,7 +25,7 @@ keywords:
   - "Center for Pet Safety certified carrier"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: "2026-08-23"
+updatedDate: "2026-09-27"
 readTime: 14 min read
 featured: true
 image: /images/guides/best-airline-approved-pet-carriers-2026.webp

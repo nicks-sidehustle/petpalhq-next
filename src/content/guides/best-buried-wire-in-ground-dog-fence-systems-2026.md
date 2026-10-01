@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-25"
-updatedDate: "2026-08-17"
+updatedDate: "2026-09-07"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/best-buried-wire-in-ground-dog-fence-systems-2026.webp"
@@ -198,12 +198,6 @@ methodology:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$274.99"
-        - "$154.97"
-        - "$289.95"
-        - "$259.99"
     - label: "Out-of-box coverage"
       values:
         - "1⅓ acres"

@@ -224,12 +224,8 @@ methodology:
 
 comparison:
   rows:
-    - label: "Price on this page (verified 2026-09-08)"
-      values: ["$749.00", "$679.99", "$599.00", "$599.00"]
     - label: "Cats and weight range"
       values: ["Up to 4 cats; 3-25 lb", "3.3 lb minimum for automatic mode", "1-2 cats; 3-19 lb", "Drum sized 1-20 lb"]
-    - label: "Recurring software fee"
-      values: ["Whisker+ $8/mo beyond 7-day history", "None — the app is free", "Whisker+ $8/mo beyond 7-day history", "None — the app is free"]
     - label: "Litter compatibility"
       values: ["Standard clumping clay", "Clumping clay, tofu, pine, crystal", "Standard clumping clay", "100% clay clumping recommended"]
     - label: "Sensor and safety design"
@@ -303,14 +299,13 @@ Three documented improvements, and they are narrower than the launch noise sugge
 
 | | Litter-Robot 4 | [Litter-Robot 5](https://www.amazon.com/s?k=Litter-Robot+5&tag=petpalhq08-20) | [Litter-Robot 5 Pro](https://www.amazon.com/s?k=Litter-Robot+5+Pro&tag=petpalhq08-20) |
 |---|---|---|---|
-| Whisker list price | $699 | $799 | $899 |
 | Cats supported | 4 | 5 | 5 |
 | Cat weight range | 3-25 lb | 3-30 lb | 3-30 lb |
 | Entryway | 15.75" × 15.75" | 15.75" × 15.75" | 15.75" × 15.75" |
 | WasteID (urine vs feces) | No | Yes | Yes |
 | Cameras | None | None | Dual 1080p AI, night vision |
 | Free app history | 7 days | 7 days | 7 days |
-| Extended history | Whisker+ $8/mo | Up to 2 years (Whisker+) | Up to 2 years (Whisker+) |
+| Extended history | Whisker+ (paid) | Up to 2 years (Whisker+) | Up to 2 years (Whisker+) |
 | Launched | 2022 | October 2025 | October 2025 |
 
 **WasteID** is the headline. It is a sensor that distinguishes urine from feces so odor control can be applied to the right one, and on paper it is a genuine functional improvement over cycling that treats every deposit the same. **The cat ceiling** moves from four to five, and **the weight range** widens from 3-25 lb to 3-30 lb, which matters if you have a Maine Coon rather than if you have five cats. The entryway dimensions are identical across the three models, and QuietSift cycling is shared. The Pro adds two 1080p cameras — one inside the globe, one forward-facing — plus night vision and facial recognition that identifies cats individually rather than by weight.

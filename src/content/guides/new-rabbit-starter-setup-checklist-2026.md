@@ -14,7 +14,7 @@ keywords:
   - "indoor rabbit setup"
 pillar: "expert-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-07-12"
+updatedDate: "2026-09-09"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/new-rabbit-starter-setup-checklist-2026.webp"
@@ -308,8 +308,6 @@ comparison:
       values: ["Sited in a room, cleaned daily", "In the feeder rack, always available", "Clipped over the litter pan", "Hung on the cage, plus a bowl", "The rabbit's chosen corner", "Attached to the cage or in a room", "In the cage or the pen"]
     - label: "Buy before day one?"
       values: ["Yes — the base", "Yes — the most important buy", "Yes — pairs with hay", "Yes — with a bowl", "Yes — train from day one", "Yes — floor time is required", "Yes — lowers first-week stress"]
-    - label: "Approx. price"
-      values: ["$199.99", "$34.99", "$18.99", "$7.99", "$12.99", "$29.88", "$18.99"]
     - label: "Welfare job it does"
       values: ["A secure place to sleep and retreat", "Fiber and tooth wear — ~80% of the diet", "Keeps forage clean for all-day grazing", "Makes drinking plenty easy", "Clean home and house-training", "Room to run and binky every day", "A hiding spot for a prey animal"]
 
