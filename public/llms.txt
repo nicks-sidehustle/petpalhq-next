@@ -339,4 +339,3 @@ Novelty picks, costume guides, and pop-culture pet finds. Editorially distinct f
 - [Affiliate disclosure](https://petpalhq.com/affiliate-disclosure): Amazon Associates Program participation, FTC compliance, and the full policy on commissions versus editorial recommendations. Tag: petpalhq08-20.
 - [Privacy policy](https://petpalhq.com/privacy-policy): What we collect, how we use it, third-party processors (Google Analytics, Brevo, ImprovMX, Vercel, Amazon), and CCPA + GDPR rights.
 - [Guides index](https://petpalhq.com/guides): Browse all editorial hubs and buying guides.
-- [Active deals](https://petpalhq.com/deals): Site-wide aggregator of currently-active manufacturer and Amazon promotions across all featured picks. Auto-hides expired codes; verified weekly.

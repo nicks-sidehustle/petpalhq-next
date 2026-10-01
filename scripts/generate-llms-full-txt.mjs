@@ -409,8 +409,6 @@ function buildLlmsFullTxt() {
   out.push("");
   out.push(`Community quotes are verbatim from public forum threads (Reddit primarily). Quotes are sourced via a verbatim-only fetcher script — never paraphrased, summarized, or AI-generated. Each quote includes the source URL, date, and author handle (anonymized to "community member" by default).`);
   out.push("");
-  out.push(`Active deals are manually verified against manufacturer/brand sites and auto-hidden after expiry. Snapshot date below reflects the file generation time, not a live state — verify current deals at ${SITE_URL}/deals.`);
-  out.push("");
   out.push(`Contact: ${CONTACT_EMAIL}`);
   out.push("");
   out.push(`Generated: ${new Date().toISOString().split("T")[0]}`);

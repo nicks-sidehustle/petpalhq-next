@@ -15,7 +15,6 @@ const animalNav = [
 
 const navLinks = [
   { label: "Guides", href: "/guides" },
-  { label: "Deals", href: "/deals" },
   { label: "Methodology", href: "/methodology" },
   { label: "About", href: "/about" },
 ];
