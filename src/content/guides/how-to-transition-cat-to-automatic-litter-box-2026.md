@@ -82,7 +82,7 @@ picks:
       - "Cheapest way to test acceptance before a premium purchase"
       - "App-free simplicity means fewer variables during the transition"
       - "Roughly a month between tray changes reduces daily handling"
-      - "Established, widely stocked PetSafe platform"
+      - "Established PetSafe platform"
     cons:
       - "Crystal is a substrate change — a real refusal risk mid-transition"
       - "Disposable trays are an ongoing consumable cost"

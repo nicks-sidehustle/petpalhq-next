@@ -182,7 +182,7 @@ picks:
     keyFeatures:
       - "Broad-spectrum halogen with a neodymium-coated envelope for color rendering"
       - "Stronger heat penetration than a plain incandescent basking bulb"
-      - "Widely stocked at major US retailers in 50W and 75W"
+      - "Available in 50W and 75W"
       - "Standard E26 base for common deep-dome ceramic fixtures"
       - "Emits heat, visible light, and UVA — but no UVB"
     body: |

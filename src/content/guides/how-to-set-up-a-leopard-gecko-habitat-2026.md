@@ -124,7 +124,7 @@ picks:
       - "Warms a basking surface for the belly contact a gecko digests on"
       - "Overhead halogen is the modern replacement for an under-tank mat"
       - "Broad-spectrum daylight doubles as day lighting"
-      - "Inexpensive and widely stocked"
+      - "Inexpensive"
     cons:
       - "Never run without a thermostat — burn risk"
       - "Warms one end only; the cool end must stay cool"

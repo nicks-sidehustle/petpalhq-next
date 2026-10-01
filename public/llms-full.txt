@@ -4102,7 +4102,7 @@ Brand: Exo Terra  |  Score: 8.4/10  |  Price: $20.99  |  ASIN: B000YS3H0I
 Key features:
 - Broad-spectrum halogen with a neodymium-coated envelope for color rendering
 - Stronger heat penetration than a plain incandescent basking bulb
-- Widely stocked at major US retailers in 50W and 75W
+- Available in 50W and 75W
 - Standard E26 base for common deep-dome ceramic fixtures
 - Emits heat, visible light, and UVA — but no UVB
 Pros:
@@ -4442,7 +4442,7 @@ Category: Reptile  |  Hub: reptile-habitat-environmental-control
 > The Exo Terra Dimming and Pulse Proportional Thermostat is the synthesis pick for reptile-specific proportional control; the Inkbird ITC-308 anchors the budget on/off tier. Editorial recommendations grounded in the Merck Veterinary Manual, LafeberVet, BGSU Herpetarium guidance, and reptile-keeper consensus — PetPalHQ does not run a testing lab.
 
 ### Quick answer
-Match the control type to your heating element. For a heat mat or ceramic heat emitter (CHE) — non-light elements where the goal is keeping the warm side from overshooting — the Inkbird ITC-308 is the budget default that reptile keepers consistently endorse. For a basking bulb or lamp, or a tropical species that needs steadier output without on/off cycling, step up to a pulse-proportional or dimming model. The Exo Terra Dimming and Pulse Proportional Thermostat is the reptile-specific synthesis pick that handles all three heating-element types in one unit. The premium choice in reptile-keeper communities is Spyder Robotics' Herpstat line, which is sold direct and rarely stocked on Amazon. Whichever you choose, the rule from the Merck Veterinary Manual and the RSPCA still applies: a thermostat regulates, but a separate digital thermometer must verify. And a thermostat only controls the enclosure you already have — if you are building a new setup around it, our [PVC bioactive enclosures guide](/guides/best-pvc-reptile-enclosures-bioactive-2026) covers the terrestrial-species tier from $329, with a 48x24x24 deep-substrate option at $499.99 for larger lizards, and our [large arboreal terrariums and paludariums guide](/guides/best-large-arboreal-terrariums-paludariums-2026) covers the climbing-species tier, topped by a $319.99 paludarium with a sealed waterproof base.
+Match the control type to your heating element. For a heat mat or ceramic heat emitter (CHE) — non-light elements where the goal is keeping the warm side from overshooting — the Inkbird ITC-308 is the budget default that reptile keepers consistently endorse. For a basking bulb or lamp, or a tropical species that needs steadier output without on/off cycling, step up to a pulse-proportional or dimming model. The Exo Terra Dimming and Pulse Proportional Thermostat is the reptile-specific synthesis pick that handles all three heating-element types in one unit. Whichever you choose, the rule from the Merck Veterinary Manual and the RSPCA still applies: a thermostat regulates, but a separate digital thermometer must verify. And a thermostat only controls the enclosure you already have — if you are building a new setup around it, our [PVC bioactive enclosures guide](/guides/best-pvc-reptile-enclosures-bioactive-2026) covers the terrestrial-species tier from $329, with a 48x24x24 deep-substrate option at $499.99 for larger lizards, and our [large arboreal terrariums and paludariums guide](/guides/best-large-arboreal-terrariums-paludariums-2026) covers the climbing-species tier, topped by a $319.99 paludarium with a sealed waterproof base.
 
 ### Review method
 Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, Bowling Green State University Herpetarium care references, and RSPCA welfare guidance. Manufacturer documentation reviewed from Spyder Robotics, Exo Terra, Inkbird, BN-LINK, and Zoo Med. Hobbyist consensus drawn from r/reptiles, r/BeardedDragons, and r/ballpython. No first-hand product testing.
@@ -4450,7 +4450,7 @@ Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC Stat
 ### Top picks (winners)
 1. Exo Terra Dimming and Pulse Proportional Thermostat — Reptile-specific dimming + pulse-proportional thermostat — handles both basking bulbs (dimming) and ceramic heat emitters / heat mats (pulse) without on/off temperature swing.
 2. Inkbird ITC-308 — Budget two-stage on/off thermostat with the strongest hobbyist track record for reptile heat mats and CHEs — stand-alone probe, dual outlets, simple to set up.
-3. Spyder Robotics Herpstat (1 / 2 / 4) — Premium proportional-PID thermostat sold direct by Spyder Robotics — the line reptile keepers escalate to when they want the most precise, most-trusted controller for high-value collections.
+3. Spyder Robotics Herpstat (1 / 2 / 4) — Premium proportional-PID thermostat — the line reptile keepers escalate to when they want the most precise, most-trusted controller for high-value collections.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Safety / Reliability × 0.25) + (Probe and Control Quality × 0.20) + (Value × 0.20)
@@ -29645,7 +29645,7 @@ Respect depth and space for the life of the pond. Depth and steep sides are the 
 ### When not to buy
 A backyard koi pond is a real dig, a real plumbing job, and a months-long commitment, not a weekend water feature — and it is the wrong project for someone who wants stocked, finished water in a weekend. Before any excavation, the first honest step is to call 811 in the United States so buried utilities are located, because a pond dug into a gas or power line is a genuine hazard, and local codes may set fencing or permit rules for a water feature that are worth checking early. Once the hole is dug, the pond has to cycle for weeks and be proven with a test kit before a single koi goes in, and the fish are added a few at a time after that — koi grow past two feet and live for decades, so overstocking is the single most common long-term failure, with roughly 250 gallons per adult koi a widely repeated community rule of thumb rather than a hard limit.
 
-Sequence and restraint rule out the usual shortcuts. Building a pond too shallow to skip the extra digging invites both wild summer temperature swings and wading herons, so depth is protection, not luxury. And a pond is never done: once it is running, summer is the season that tests it, and the heat, algae, and oxygen problems of a hot July are their own subject in [our guide to koi pond summer care and the algae and oxygen fix](/guides/koi-pond-summer-care-algae-oxygen-fix-2026). On the budget, this kit runs to roughly $1,900 before rock, plants, the koi themselves, and the electrical work to power the pump — and published 2026 pond-cost guides put a full DIY koi-pond build anywhere from about $500 to $2,800 all in. Confirm current price and availability on every item before buying, since prices, sellers, and specialty pump stock all move over time.
+Sequence and restraint rule out the usual shortcuts. Building a pond too shallow to skip the extra digging invites both wild summer temperature swings and wading herons, so depth is protection, not luxury. And a pond is never done: once it is running, summer is the season that tests it, and the heat, algae, and oxygen problems of a hot July are their own subject in [our guide to koi pond summer care and the algae and oxygen fix](/guides/koi-pond-summer-care-algae-oxygen-fix-2026). On the budget, this kit runs to roughly $1,900 before rock, plants, the koi themselves, and the electrical work to power the pump — and published 2026 pond-cost guides put a full DIY koi-pond build anywhere from about $500 to $2,800 all in. Confirm current price and availability on every item before buying, since prices and sellers all move over time.
 
 ### Sources
 Expert: Pond-building cost guides and the koi-keeping community on siting, depth, liner sizing, and stocking; Published 2026 pond-cost guides documenting DIY koi-pond builds at roughly $500 to $2,800; Published pond water-quality guidance on the nitrogen cycle and dechlorination; REKVEN and Firestone — pond underlayment and EPDM liner product documentation; PerformancePro and Aquascape — external pump, pressure filter, and pond net product documentation; CrystalClear and API — aeration kit, conditioner, and test kit product documentation
@@ -32161,7 +32161,7 @@ Pros:
 - Warms a basking surface for the belly contact a gecko digests on
 - Overhead halogen is the modern replacement for an under-tank mat
 - Broad-spectrum daylight doubles as day lighting
-- Inexpensive and widely stocked
+- Inexpensive
 Cons:
 - Never run without a thermostat — burn risk
 - Warms one end only; the cool end must stay cool
@@ -32874,7 +32874,7 @@ An axolotl is a cold-water amphibian sold as a novelty, and that mismatch is whe
 
 The build also rules out the usual shortcuts. Gravel is not a cosmetic choice you can make anyway. A suction-feeding axolotl swallows it and dies of impaction, so fine sand or a bare bottom is the only safe floor. An uncycled tank is not something you can fix after stocking. An axolotl's exposed gills burn in ammonia, so the fishless cycle has to finish first, proven by a test kit rather than the calendar. And strong flow is not a minor irritation. External gills clamp and the animal stresses in a current, so the filtration is deliberately gentle. This guide is written for a cold-water amphibian specifically. It is the wrong build for a tropical fish tank or a basking turtle, which want exactly the heat an axolotl cannot tolerate.
 
-Finally, the honest budget note: this kit is the equipment, not the cost of keeping the animal. Electricity to run cooling through summer, replacement test reagents, conditioner for every water change, and veterinary care are the ongoing bill, and the chiller in particular is a real expense in a warm climate. There is also work the kit assumes but does not supply. That includes cycling the tank before stocking, holding the temperature in the cool band, and doing partial water changes for the animal's life. If you are still sizing the cooling or the filtration, [a dedicated roundup of the best aquarium chillers](/guides/best-aquarium-chillers-2026) and [the guide to the best aquarium canister filters](/guides/best-aquarium-canister-filters-2026) are the honest places to match those to your room before you commit. Verify current prices, sellers, and stock on every item before buying, since prices and availability move over time.
+Finally, the honest budget note: this kit is the equipment, not the cost of keeping the animal. Electricity to run cooling through summer, replacement test reagents, conditioner for every water change, and veterinary care are the ongoing bill, and the chiller in particular is a real expense in a warm climate. There is also work the kit assumes but does not supply. That includes cycling the tank before stocking, holding the temperature in the cool band, and doing partial water changes for the animal's life. If you are still sizing the cooling or the filtration, [a dedicated roundup of the best aquarium chillers](/guides/best-aquarium-chillers-2026) and [the guide to the best aquarium canister filters](/guides/best-aquarium-canister-filters-2026) are the honest places to match those to your room before you commit. Verify current prices and sellers on every item before buying, since prices and availability move over time.
 
 ### Sources
 Expert: Axolotl husbandry consensus on cool-water temperature and thermal stress; Axolotl husbandry consensus on substrate safety and gut impaction; Published amphibian care standards on fishless cycling and low-flow filtration; Aqueon — 20 Gallon Long Glass Tank product documentation; JBJ — Arctica Titanium 1/10 HP Chiller product documentation; Aqua Natural, hygger, Seachem, DrTim's Aquatics, API, and AQUANEAT product documentation
@@ -33752,7 +33752,7 @@ Pros:
 - Cheapest way to test acceptance before a premium purchase
 - App-free simplicity means fewer variables during the transition
 - Roughly a month between tray changes reduces daily handling
-- Established, widely stocked PetSafe platform
+- Established PetSafe platform
 Cons:
 - Crystal is a substrate change — a real refusal risk mid-transition
 - Disposable trays are an ongoing consumable cost
