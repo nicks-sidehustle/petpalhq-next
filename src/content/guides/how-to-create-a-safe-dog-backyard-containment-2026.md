@@ -304,8 +304,6 @@ comparison:
       values: ["Only after training", "Yes, with shelter", "Yes, into a secured yard", "Yes", "No — supervised only", "No — supervised only"]
     - label: "PetPal Dog-Containment Score"
       values: ["8.5", "8.4", "8.3", "8.2", "8.1", "8.0"]
-    - label: "Approx. price"
-      values: ["$219.73", "$189.98", "$200.99", "$53.99", "$34.99", "$9.97"]
 
 methodology:
   formula: "PetPal Dog-Containment Score = (Expert Consensus × 0.35) + (Containment-Layer Fit × 0.25) + (Safety / Welfare Design × 0.20) + (Value × 0.20)"

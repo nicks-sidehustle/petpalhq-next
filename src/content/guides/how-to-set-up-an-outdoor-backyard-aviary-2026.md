@@ -351,8 +351,6 @@ comparison:
       values: ["Sets the frame and door", "Blocks reaching and digging", "Dry, wind-broken roost", "Lays out flight and landings", "Clean, dry, raised feeding", "Drinking and bathing", "Warms a roost on freezing nights"]
     - label: "PetPal Aviary-Readiness Score"
       values: ["8.6", "8.5", "8.3", "8.2", "8.1", "8.0", "7.9"]
-    - label: "Approx. price"
-      values: ["$539.00", "$85.99", "$34.99", "$12.99", "$30.57", "$16.79", "$35.99"]
     - label: "Ongoing cost after purchase"
       values: ["Anchoring and repairs", "Extra mesh for seams", "Seasonal cleaning", "Cleaning and replacement", "Feed and cleaning", "Daily water and scrubbing", "Electricity in winter"]
 

@@ -351,8 +351,6 @@ comparison:
       values: ["First, before the snake", "Before the snake", "With the heat, always", "Once the gradient is set", "Before the snake", "To verify everything", "From day one"]
     - label: "PetPal Ball-Python-Readiness Score"
       values: ["8.7", "8.5", "8.6", "8.4", "8.1", "8.0", "7.9"]
-    - label: "Approx. price"
-      values: ["$229.99", "$38.94", "$36.89", "$12.49", "$7.20", "$11.99", "$25.49"]
     - label: "Ongoing cost after purchase"
       values: ["A larger hide setup as it grows", "Electricity", "Occasional replacement", "Bigger hides as it grows", "Regular substrate changes", "Cross-checking accuracy", "Cleaning and fresh water"]
 

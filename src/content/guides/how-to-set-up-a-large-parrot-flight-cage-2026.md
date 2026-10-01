@@ -304,8 +304,6 @@ comparison:
       values: ["Sited in a bright, social room", "Mounted across the bars", "Hung from the bars by hook", "Served in the feeding bowls", "Clamped to the cage bars", "Cage top, table, floor, or desk", "Wrapped around the lower cage"]
     - label: "Setup stage"
       values: ["Stage 1 — the shell", "Stage 2 — outfit inside", "Stage 3 — enrichment", "Stage 4 — diet", "Stage 5 — feeding", "Stage 6 — outside the bars", "Stage 7 — living with it"]
-    - label: "Approx. price"
-      values: ["$299.99", "$24.35", "$9.99", "$148.44", "$16.14", "$38.95", "$9.99"]
     - label: "Bird size suited"
       values: ["Small-to-medium (1/2\" bars)", "Small-to-medium parrots", "Small-to-medium birds", "Large hookbills (size up)", "Small-to-medium parrots", "Small-to-medium birds", "Round or square cages"]
 

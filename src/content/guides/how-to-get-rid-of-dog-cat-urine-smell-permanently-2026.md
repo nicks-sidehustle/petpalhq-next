@@ -298,8 +298,6 @@ comparison:
       values: ["After UV, on every spot", "Big or soaked dog messes", "First, before cleaning", "After enzyme, if soaked in", "Last, over cleaned spots", "Before an accident, preventively", "Last, running continuously"]
     - label: "Breaks down uric acid?"
       values: ["Yes — enzymatic", "Yes — enzymatic", "No — locator only", "Extracts; pair with enzyme", "No — masks and deters", "No — barrier", "No — filters air"]
-    - label: "Approx. price"
-      values: ["$23.92", "$13.57", "$12.99", "$99.99", "$24.89", "$41.99", "$169.97"]
     - label: "Can it fix a medical cause of soiling?"
       values: ["No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first"]
 

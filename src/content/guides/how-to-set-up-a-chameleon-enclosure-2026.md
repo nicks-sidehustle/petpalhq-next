@@ -419,8 +419,6 @@ comparison:
       values: ["First, before the animal", "Before the animal", "Instead of the MistKing", "With the basking lamp", "With the UVB", "With the heat, always", "To verify everything", "Between mist cycles", "Last, for security"]
     - label: "PetPal Chameleon-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9", "7.8"]
-    - label: "Approx. price"
-      values: ["", "", "", "", "", "$82.99", "$12.99", "", "$9.99"]
     - label: "Ongoing cost after purchase"
       values: ["Drainage upkeep", "Water and electricity", "Water and electricity", "Scheduled tube swaps", "Bulb replacement", "Occasional replacement", "Cross-checking accuracy", "Cleaning and refilling", "Live plants, cleaning"]
 

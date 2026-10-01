@@ -369,8 +369,6 @@ comparison:
       values: ["A button cell", "Outlet standby", "DC low-watt", "DC 5V", "Outlet standby", "Compressor — high", "Compressor — high"]
     - label: "PetPal Heat-Defense Score"
       values: ["8.7", "8.8", "8.2", "8.4", "8.5", "8.3", "8.6"]
-    - label: "Approx. price"
-      values: ["$5.45", "$50.99", "$18.99", "$33.99", "$36.00", "$494.95", "$759.90"]
 
 methodology:
   formula: "PetPal Heat-Defense Score = (Cooling Power × 0.35) + (Automation & Alerting × 0.25) + (Running Cost / Efficiency × 0.20) + (Tank-Size Fit × 0.20)"

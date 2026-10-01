@@ -351,8 +351,6 @@ comparison:
       values: ["High shared capacity", "No single bottleneck", "Enough boxes, spread out", "Tracking multiplies", "Litter burns fast", "Waste volume scales", "Tracking and hair scale"]
     - label: "PetPal Multi-Cat Litter Score"
       values: ["8.6", "8.5", "8.3", "8.2", "8.1", "8.0", "7.9"]
-    - label: "Approx. price"
-      values: ["$369.99", "$389.99", "$20.49", "$32.99", "$22.99", "$25.99", "$89.97"]
 
 methodology:
   formula: "PetPal Multi-Cat Litter Score = (Expert Consensus × 0.35) + (Multi-Cat Logistics Fit × 0.25) + (Capacity / Placement Design × 0.20) + (Value × 0.20)"

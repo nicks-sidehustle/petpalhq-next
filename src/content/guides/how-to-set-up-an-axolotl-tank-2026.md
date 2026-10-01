@@ -477,8 +477,6 @@ comparison:
       values: ["Sets floor space", "Safe, cleanable bed", "Holds the cool ceiling", "Cools a cool room only", "Gentle biological flow", "Neutralizes tap chemicals", "Seeds the nitrogen cycle", "Confirms the numbers", "Reads the water temperature", "A safe retreat"]
     - label: "PetPal Axolotl-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9", "7.8", "7.7"]
-    - label: "Approx. price"
-      values: ["$99.99", "$35.99", "$759.90", "$18.99", "$18.99", "$16.62", "$19.99", "$35.98", "$5.45", "$21.99"]
     - label: "Ongoing cost after purchase"
       values: ["Water and a lid", "Occasional top-up", "Electricity", "Electricity, top-ups", "Air pump, spare sponge", "Refilled regularly", "Bought fresh to cycle", "Reagents over years", "A battery now and then", "None once placed"]
 
