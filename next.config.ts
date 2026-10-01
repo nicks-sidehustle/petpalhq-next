@@ -33,6 +33,13 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        // 2026-10-01 owner: /deals had no active deals; page retired from nav.
+        // Temporary redirect so it can be brought back later.
+        source: '/deals',
+        destination: '/guides',
+        permanent: false,
+      },
+      {
         // 2026-07-22 content audit: /playground section index retired from nav;
         // the Playground-category guides remain live under /guides/*.
         source: '/playground',

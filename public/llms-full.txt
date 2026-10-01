@@ -8,8 +8,6 @@ Source stack: Merck Veterinary Manual, AAHA, AVMA, AAFP, ISFM, Cornell Feline He
 
 Community quotes are verbatim from public forum threads (Reddit primarily). Quotes are sourced via a verbatim-only fetcher script — never paraphrased, summarized, or AI-generated. Each quote includes the source URL, date, and author handle (anonymized to "community member" by default).
 
-Active deals are manually verified against manufacturer/brand sites and auto-hidden after expiry. Snapshot date below reflects the file generation time, not a live state — verify current deals at https://petpalhq.com/deals.
-
 Contact: editor@petpalhq.com
 
 Generated: 2026-10-01
