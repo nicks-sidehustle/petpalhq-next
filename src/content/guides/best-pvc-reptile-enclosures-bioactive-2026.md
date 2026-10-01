@@ -179,9 +179,9 @@ comparison:
     - label: "Dimensions (LxWxH)"
       values: ["48x24x24 in", "48x24x24 in", "48x18x18 in", "24x18x36 in"]
     - label: "Best species fit"
-      values: ["Bearded dragon, ball python, BTS", "Leopard gecko, corn snake, small python", "Crested gecko, arboreal species"]
+      values: ["Bearded dragon, ball python, BTS", "Bearded dragon, ball python, BTS", "Leopard gecko, corn snake, small python", "Crested gecko, arboreal species"]
     - label: "Humidity retention"
-      values: ["High (PVC walls)", "Low-Moderate (glass + screen)", "Low-Moderate (glass + screen)"]
+      values: ["High (PVC walls)", "High (PVC walls)", "Low-Moderate (glass + screen)", "Low-Moderate (glass + screen)"]
 
 methodology:
   formula: "PetPal Gear Score = (Bioactive Husbandry Fit × 0.35) + (Build Quality / Reliability × 0.25) + (Species Appropriateness × 0.25) + (Value × 0.15)"
@@ -200,7 +200,7 @@ methodology:
       definition: "Price relative to comparable enclosures at the same footprint and material class — not absolute cost."
 
 whenNotToBuy: |
-  Skip a PVC panel enclosure if your species is a high-ventilation desert reptile. Bearded dragons in particular often do better with more air exchange than PVC provides. Partial screen coverage can address this, but glass-mesh-top tanks are not always wrong for that use case. Skip the REPTI ZOO wide or tall glass terrariums if your species requires genuinely high humidity (70%+ sustained). Glass walls at that humidity level require a misting system, and the enclosure budget is better spent on a PVC-panel unit that does the humidity work passively. Skip any enclosure if the premium direct-sell brands match your use case better. Animal Plastics, Toad Ranch, and Reptile Kages are the enclosures that advanced reptile-keeper communities most consistently escalate to for large or high-value collections. Their direct-purchase price may justify the distribution friction for a long-term keeper.
+  Skip a PVC panel enclosure if your species is a high-ventilation desert reptile. Bearded dragons in particular often do better with more air exchange than PVC provides. Partial screen coverage can address this, but glass-mesh-top tanks are not always wrong for that use case. Skip the REPTI ZOO wide or tall glass terrariums if your species requires genuinely high humidity (70%+ sustained). Glass walls at that humidity level require a misting system, and the enclosure budget is better spent on a PVC-panel unit that does the humidity work passively.
 
 bottomLine:
   - "Get the Zen Habitats 4x2x2 PVC Enclosure if you are building a terrestrial bioactive setup for a bearded dragon, ball python, or blue-tongue skink. PVC panels handle the humidity work that glass tanks cannot; the aluminum frame handles the mechanical work that mesh-top tanks were not designed for."
@@ -249,7 +249,7 @@ PVC panels close the walls of the enclosure. Humidity loss is controlled through
 
 Heat retention follows the same logic. PVC's lower thermal conductivity means the enclosure retains overnight warmth better than thin glass. For species requiring a measurable nighttime temperature drop but not a floor that equilibrates to room temperature, PVC panels provide a passive buffer the keeper does not have to compensate for with additional heating. The aluminum frame on PVC enclosures like the Zen Habitats V3 and RepWild adds the third argument: screw-mounting capability. Cork bark slabs, branch mounts, and basking ledges can be fixed directly to the frame walls — a detail that matters for bioactive setups where heavy hardscape and substrate walls need mechanical support that glass walls cannot provide without modification.
 
-The honest distribution caveat: the premium-tier PVC enclosures that reptile-keeper communities most consistently endorse for serious bioactive builds are Animal Plastics (T8, T10, and T60 series), Toad Ranch, and Reptile Kages. These brands sell direct and are not in this guide's numbered picks for that reason. If your bioactive build is for a high-value collection or a large species where enclosure longevity matters most, the direct-purchase route through those manufacturers is worth researching. For a first bioactive setup at a standard species size, the Amazon picks in this guide cover the use case.
+The honest distribution caveat: the premium-tier PVC enclosures that reptile-keeper communities most consistently endorse for serious bioactive builds are Animal Plastics (T8, T10, and T60 series), Toad Ranch, and Reptile Kages. These brands sell direct and are not in this guide's numbered picks for that reason. For a first bioactive setup at a standard species size, the Amazon picks in this guide cover the use case.
 
 ## Sizing and species fit
 
@@ -257,7 +257,7 @@ Enclosure size is both a welfare floor and a bioactive substrate variable. ARAV 
 
 **Terrestrial species (bearded dragons, ball pythons, blue-tongue skinks, corn snakes, leopard geckos):** The functional minimum for an adult bearded dragon in r/reptiles consensus and ARAV references is a 4x2-foot footprint — the same dimension as the Zen Habitats and RepWild picks in this guide. Ball pythons are more tolerant of smaller footprints but benefit from horizontal space for behavioral expression; a 4x2 floor is broadly adequate. Blue-tongue skinks need a minimum of 4x2 with sufficient depth for their thermoregulatory burrowing behavior.
 
-**Long species (adult monitors, tegu):** Argentine black and white tegu require a minimum of 6x3 feet in ARAV guidance — larger than any enclosure in this guide. Keepers planning for adult tegu should research custom-build or direct-sell options.
+**Long species (adult monitors, tegu):** Argentine black and white tegu require a minimum of 6x3 feet in ARAV guidance — larger than any enclosure in this guide.
 
 **Arboreal species (crested geckos, gargoyle geckos, tree pythons, arboreal boas):** Vertical height is the primary dimension. The REPTI ZOO Tall at 36 inches is the entry pick; keeper communities describe 36 inches as the practical minimum for a crested gecko bioactive build with adequate plant volume. For chameleons, the species-specific minimum dimensions are larger and the REPTI ZOO Tall is appropriate only for juvenile or temporary setups. Adult veiled and Jackson's chameleons require enclosures of 36 inches minimum height and larger footprints, which directs keepers toward custom or direct-sell screen enclosures rather than the glass picks in this guide.
 
@@ -302,9 +302,6 @@ A: For tropical and temperate bioactive setups, Armadillidium vulgare (common pi
 
 **Q: How deep does the substrate need to be for a bioactive setup?**
 A: Bio Dude documentation describes 3-4 inches as the minimum substrate depth for small species bioactive setups. For medium and large species that burrow or move through substrate, 5-6 inches is the floor. The drainage layer below adds another 1-2 inches before the substrate layer begins. That combined 4-8 inches of material consumes the bottom portion of the enclosure depth. This is why the 18-inch depth of the REPTI ZOO Wide matters as a specification rather than just a dimension. Keeper communities describe calculating substrate depth before purchasing the enclosure, not after.
-
-**Q: Should I buy an Animal Plastics or Reptile Kages enclosure instead of the Amazon picks in this guide?**
-A: If your use case justifies it, yes — and the guide is direct about this. Animal Plastics T8, T10, and related series are the enclosures that advanced keeper communities on r/reptiles and r/bioactive most consistently endorse for long-term, high-value bioactive builds. Reptile Kages and Toad Ranch occupy similar premium positions. These brands sell direct. The purchase process requires ordering from the manufacturer's website with the corresponding lead times and shipping costs. For a keeper building a first bioactive setup at a standard species size, the Amazon picks in this guide cover the use case. For a keeper building a long-term collection enclosure for a high-value animal, the direct-purchase premium brands are worth the research.
 
 **Q: What is the minimum height for an arboreal bioactive enclosure?**
 A: Keeper community consensus on r/bioactive and r/reptiles describes 24 inches as the absolute minimum for any arboreal bioactive setup. The practical minimum for adult crested geckos and similar arboreal species is 36 inches, where the plant ecosystem needs vertical expression to function. At 24 inches, a drainage layer, substrate, and surface plant coverage leaves very limited air column for the animal. At 36 inches, the plant volume and vertical behavioral space are adequate for most small-to-medium arboreal species. Chameleons require larger enclosures than the picks in this guide. Species-specific minimum dimensions are described in ARAV references and exceed what any of the enclosures here provide for adult animals.
