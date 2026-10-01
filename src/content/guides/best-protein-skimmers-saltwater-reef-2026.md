@@ -215,7 +215,6 @@ picks:
     cons:
       - "Sits visibly inside the display, which aquascapers may dislike"
       - "Small 0.2-liter collection cup needs emptying more often than an in-sump cone"
-      - "The classic AC-pump listing has gone dark before — it had no live new-condition offer at our July 17, 2026 check — so confirm it is still stocked before you order"
       - "Expensive relative to the gallons it serves — you pay for the brand engineering"
       - "Like all skimmers, requires a 2-to-4-week break-in before foam stabilizes"
     verdict: "The premium nano and small-reef skimmer for tanks with no sump. Buy it for the Tunze build and the stand-alone in-tank mount, and accept that it is visible in the display and costly for its rated volume."

@@ -82,7 +82,7 @@ picks:
 
       PetSnowy supports clumping clay as well as tofu, pine, and crystal litters, and that flexibility helps you meet the AAFP preference for unscented clumping litter. The waste bin lasts up to 14 days for a single cat per PetSnowy. An independent Cats.com roundup rates the box 8.8 out of 10. That same roundup actually scores Whisker's Litter-Robot models higher overall, so the no-subscription framing here is our own editorial call: those higher-ranked boxes reserve their full feature set for the paid Whisker+ plan, which is the exact paywall this guide is built to avoid.
 
-      Two things the listing leaves out. The enclosed globe geometry can feel snug for very large cats, and the 3.3 lb minimum rules out automatic mode for tiny kittens. On our August 10, 2026 check the Amazon listing was priced at $559.99 and quoting a future ship date rather than immediate dispatch, so treat it as a plan-ahead purchase and confirm the delivery estimate before you order. Treat any transition slowly, keeping the old box nearby during acclimation exactly as the ASPCA advises. For a strong all-rounder with documented odor control and no ongoing software cost, the SNOW+ is the box to beat in this guide. Even a strong in-box odor system leaves some litter-area smell behind, so an [enzyme odor remover](/guides/best-pet-odor-removers-2026) is the usual companion buy.
+      Two things the listing leaves out. The enclosed globe geometry can feel snug for very large cats, and the 3.3 lb minimum rules out automatic mode for tiny kittens. Treat any transition slowly, keeping the old box nearby during acclimation exactly as the ASPCA advises. For a strong all-rounder with documented odor control and no ongoing software cost, the SNOW+ is the box to beat in this guide. Even a strong in-box odor system leaves some litter-area smell behind, so an [enzyme odor remover](/guides/best-pet-odor-removers-2026) is the usual companion buy.
     pros:
       - "No recurring software fee — monitoring and scheduling are free"
       - "Documented TiO₂ odor control with high ammonia removal"
@@ -94,7 +94,6 @@ picks:
       - "3.3 lb minimum rules out automatic mode for tiny kittens"
       - "Premium price band near $560 — the second-highest here"
       - "Long-term reliability record is shorter than older category leaders"
-      - "Amazon listing showed a future ship date on our Aug 10, 2026 check — not same-week delivery"
     verdict: "Pick the PetSnowy SNOW+ if you want documented odor control and a complete feature set with no monthly fee."
 
   - rank: 2
