@@ -341,8 +341,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price (verified 2026-08-21)"
-      values: ["$224.99", "$199.99", "$86.99", "$39.95", "$477.99", "$690.00"]
     - label: "On the CPS certified register"
       values: ["Yes - 5 star, tested Aug 2024", "Yes - 4 star, tested Jan 2025", "No", "No - earlier version studied 2013, redesign not retested", "No", "No - the certified Rock Creek is the stationary medium"]
     - label: "Manufacturer's own published testing"

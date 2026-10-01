@@ -169,18 +169,12 @@ picks:
 
 comparison:
   rows:
-    - label: "Hardware price"
-      values: ["$79.00", "$189.00 (first 12 months of membership included)"]
     - label: "What's bundled"
-      values: ["Bare unit — or a $99 SKU with 6 months of service", "The first 12 months of membership on Amazon; buying direct from Fi now includes the device with a membership instead"]
+      values: ["Bare unit — or a SKU with 6 months of service", "The first 12 months of membership on Amazon; buying direct from Fi now includes the device with a membership instead"]
     - label: "Attachment"
       values: ["Clip-on — moves to any collar or harness", "Integrated collar, aluminum buckle — cannot fall off"]
     - label: "Plan structure"
-      values: ["Basic or Premium; no monthly on Premium; from ~$5/mo on a 5-year term", "Prepaid-only — $99/6mo, $189/yr, $339/2yr; no monthly option"]
-    - label: "One-time fees"
-      values: ["None", "None published by Fi; one third-party source reports a $20 activation fee we could not confirm on Fi's own pages (checked 2026-08-17)"]
-    - label: "Three-year cost of ownership"
-      values: ["$367–$439 at Tractive's published rates and $79.00 hardware — $379 over five years on the $300 five-year plan", "$528–$567 at Fi's published tiers — about $867 over five years"]
+      values: ["Basic or Premium; no monthly on Premium", "Prepaid-only — no monthly option"]
     - label: "Battery"
       values: ["Listing claims up to 14 days; Wirecutter measured 71% remaining after 18 walks — tied with the Fi", "Claims up to 3 months; Wirecutter measured 71% remaining after 18 walks — tied with the Tractive"]
     - label: "GPS lock / live updates"

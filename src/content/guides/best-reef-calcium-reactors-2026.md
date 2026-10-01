@@ -306,8 +306,6 @@ comparison:
       values: ["Yes / Yes", "Yes / Yes", "Yes / Yes", "Yes / Yes", "N/A — no CO2 feed"]
     - label: "Effluent / output control"
       values: ["Precision effluent valve", "Effluent control valve", "Pinch valve effluent control", "Effluent control valve", "Gravity-fed limewater"]
-    - label: "Listed price at time of check"
-      values: ["$1,027.94", "$866.24", "$229.99", "$179.99", "$346.49"]
 
 methodology:
   formula: "Calcium Dissolution Efficiency Score = (Dissolution & pH Control × 0.30) + (Media Capacity × 0.25) + (Build & Seal Quality × 0.20) + (Setup & CO2 Dialing × 0.15) + (Effluent Control × 0.10)"

@@ -304,8 +304,6 @@ comparison:
       values: ["Weeks ahead — acclimate early", "Weeks ahead — acclimate early", "Apply day-of, before departure", "Trial dose days ahead, give day-of", "Pack in the cabin kit", "Line the carrier, pack a spare", "Pack in the cabin kit"]
     - label: "Carry-on or checked step"
       values: ["Under-seat carry-on", "Under-seat carry-on", "Personal-item kit", "Personal-item kit", "Personal-item kit (empty)", "Inside the carrier", "Personal-item kit"]
-    - label: "Approx. price"
-      values: ["$199.99", "$39.99", "$22.99", "$33.99", "$12.58", "$20.09", "$6.30"]
     - label: "The airline-rule caveat"
       values: ["Must fit THAT airline's stated under-seat dims", "Maker defers fit to the airline — confirm dims", "Subject to liquid/aerosol carry-on rules", "Clear any calming aid with your vet first", "Empty through security, fill past the checkpoint", "Confirm the liner fits your carrier", "Relief only in designated areas; bag soiled pads"]
 

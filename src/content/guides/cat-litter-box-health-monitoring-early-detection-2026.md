@@ -266,16 +266,12 @@ comparison:
       values: ["Indicator litter — budget", "Indicator litter — the DTC name", "Under-box monitor", "AI-camera box", "Full smart-box ecosystem"]
     - label: "What it measures"
       values: ["Urine-chemistry color change", "Urine-chemistry color change", "Weight + urination/defecation events", "Camera waste analysis + per-visit log", "Usage history + weight estimation per visit"]
-    - label: "Ongoing app cost / paywall"
-      values: ["None — no app at all", "None — no data paywall", "None — everything included", "AI analysis paywalled $119.99-$199.99/yr", "2-yr trend rented via Whisker+ $7.99/mo, $79.90/yr"]
     - label: "Multi-cat truthfulness"
       values: ["N/A — a shared box screen", "N/A — a shared box screen", "Weight-based ID; blurs similar-weight cats", "Camera recognizes up to 10 cats — best here", "SmartScale weight-based ID; blurs similar-weight cats"]
     - label: "Fit label"
       values: ["Passive-Screen Fit", "Passive-Screen Fit", "No-Subscription Fit", "AI-Camera Fit", "Signal-Layer Fit"]
     - label: "PetPal Litter-Signal Confidence Score"
       values: ["8.0", "8.1", "8.9", "8.2", "8.4"]
-    - label: "Approx. price"
-      values: ["$20.99 (list $27.98)", "$27.99", "$99.97", "$519.99 (list $599.99)", "$749.00"]
 
 methodology:
   formula: "PetPal Litter-Signal Confidence Score = (Signal-to-Vet Actionability × 0.35) + (Screening Honesty × 0.25) + (No Paywall on Core Data × 0.20) + (Multi-Cat Truthfulness × 0.20)"

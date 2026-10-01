@@ -316,8 +316,6 @@ comparison:
       values: ["Non-slip pebbled rubber top", "Non-slip mat; 3-point restraint; 90 lbs max", "Hand-held; no adjustable heat setting described", "Anti-slip housing", "Rounded pin tips", "Ball tip"]
     - label: "Published key numbers"
       values: ["36 x 24 x 32½ in; 175 lb; .75 in top", "45 x 21.25 x 15 in tub; 32.25 in tall", "1.3 HP, 950 W, 18,000 ft./min.", "5 speeds", "1.5 in teeth", "6.5 in"]
-    - label: "Amazon current price (checked September 26, 2026)"
-      values: ["$151.67", "$174.99", "$153.99", "$234.99", "$62.49", "$99.00"]
 
 methodology:
   formula: "PetPal Home Grooming Station Score = (Station Role × 0.30) + (Home Fit × 0.25) + (Stated Safety Features × 0.20) + (Published Specifications × 0.15) + (Value × 0.10)"

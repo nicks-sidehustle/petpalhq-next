@@ -351,8 +351,6 @@ comparison:
       values: ["First, before the bird", "Before the bird", "Before the bird", "From day one", "From day one", "Offered early", "Nightly routine"]
     - label: "PetPal Budgie-Readiness Score"
       values: ["8.6", "8.3", "8.1", "8.0", "8.2", "7.9", "7.8"]
-    - label: "Approx. price"
-      values: ["$42.90", "$26.98", "$10.94", "$1.97", "$8.97", "$6.20", "$25.99"]
     - label: "Ongoing cost after purchase"
       values: ["A bigger cage for a pair", "Replacing chewed perches", "Fresh food and variety", "Replaced when worn", "Rotating new toys", "Fresh water, cleaning", "None after purchase"]
 

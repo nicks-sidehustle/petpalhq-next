@@ -279,8 +279,6 @@ comparison:
       values: ["Enclosed globe", "Low, wide-open front entry", "Open-top, low edge", "Low-entry cylinder, 7.87 in", "Enclosed globe, ~30 dB"]
     - label: "Per-cat tracking"
       values: ["Per-cat weight via app", "App, up to 30 cats", "App activity tracking", "Per-cat weight ID via app", "App usage and weight history"]
-    - label: "Price (verified 2026-09-07)"
-      values: ["$749.00", "$369.00", "$399.99", "$299.99", "$599.00"]
 
 methodology:
   formula: "Multi-Cat Capacity Score = (Waste Capacity × 0.30) + (Multi-Cat Throughput × 0.25) + (Expert Consensus × 0.25) + (Value × 0.20)"
