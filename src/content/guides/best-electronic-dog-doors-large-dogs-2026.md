@@ -328,13 +328,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$200.99"
-        - "$474.99"
-        - "$524.99"
-        - "$579.99"
-        - "$659.99"
     - label: "Best-fit use case"
       values:
         - "Best overall / electronic value"

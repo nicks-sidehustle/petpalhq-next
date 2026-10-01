@@ -283,12 +283,8 @@ picks:
 
 comparison:
   rows:
-    - label: "Price (checked 2026-09-26)"
-      values: ["$524.00", "$389.99", "$319.99", "$249.99"]
     - label: "Subscription for containment"
-      values: ["Required — fence is inert without a plan; from $9.99/mo Bronze, per collar", "None, ever", "Required — $9.99/mo or $99/yr per PetSafe, 1 month free", "None, ever"]
-    - label: "5-year cost of ownership"
-      values: ["$1,123.40 at Bronze on the $524.00 listing price", "$389.99", "$814.99 (annual plan) to $909.40 (monthly)", "$249.99"]
+      values: ["Required — fence is inert without a plan", "None, ever", "Required — per PetSafe, 1 month free", "None, ever"]
     - label: "Minimum dog weight"
       values: ["10 lb (8-30 in neck; 30 lb realistic per reviewers)", "25 lb", "10 lb (8 in neck and up)", "5 lb"]
     - label: "Boundary type"

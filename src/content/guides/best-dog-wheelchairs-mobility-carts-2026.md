@@ -285,8 +285,6 @@ comparison:
       values: ["Veterinarian-approved — vet + rehab specialist input documented", "K9 orthopedic surgeon design involvement documented", "Veterinarian-approved — same family as Large", "None found in our sources", "None found in our sources"]
     - label: "Who sells it on Amazon"
       values: ["Veterinary Preferred store", "Sylvan Company, shipped by Amazon", "Veterinary Preferred store", "Outside seller — check the listing", "LetPetRun store"]
-    - label: "Amazon price (checked September 26, 2026)"
-      values: ["$529.00", "$256.96", "$340.00", "$208.98", "$69.93"]
 
 methodology:
   formula: "Canine Mobility Restoration Score = (Fit Range & Adjustability × 0.30) + (Support-Type Match to Diagnosis × 0.25) + (Frame Durability & Terrain Capability × 0.20) + (Setup Ease & Caregiver Burden × 0.15) + (Amazon Availability & Verified Fit × 0.10)"

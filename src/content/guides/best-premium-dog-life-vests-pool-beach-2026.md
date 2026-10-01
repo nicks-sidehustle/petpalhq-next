@@ -218,8 +218,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values: ["$99.99", "$85.00", "", "$75.00", ""]
     - label: "Foam placement"
       values: ["Back + sides, contoured", "Back + sides + neck continuous", "Back + sides, contoured", "Front-weighted, brachycephalic", "Back + chest + belly wraparound"]
     - label: "Rescue handle"

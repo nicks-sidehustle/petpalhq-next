@@ -343,14 +343,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$79.99"
-        - "$77.48"
-        - "$89.99"
-        - "$79.98"
-        - "$69.98"
-        - "$46.97"
     - label: "Pick category"
       values:
         - "Best overall"

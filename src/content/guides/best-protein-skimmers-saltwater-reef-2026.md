@@ -342,8 +342,8 @@ comparison:
       values: ["Aquatrance 1000s, 420 lph / 15 SCFH", "EVair 400 DC 8W, 400 lph / 14 SCFH", "TUNZE Foamer 4W, 0.1-0.3 mm bubbles", "VarioS 2-S controllable DC", "DC needle-brush 2W"]
     - label: "Power draw & control"
       values: ["AC, gate-valve tuning only", "8W DC, efficient (not freely controllable)", "4W, very low draw", "Controllable DC, 0-10V input", "2W DC, USB/power-bank capable"]
-    - label: "Best-fit buyer & price"
-      values: ["100-130 gal reef w/ sump — $326.85", "80-140 gal reef, value — $199.99", "Nano/small reef, no sump — $199.99", "Large heavy-bioload reef — $716.09", "AIO nano, budget — $79.99"]
+    - label: "Best-fit buyer"
+      values: ["100-130 gal reef w/ sump", "80-140 gal reef, value", "Nano/small reef, no sump", "Large heavy-bioload reef", "AIO nano, budget"]
 
 methodology:
   formula: "Reef-Ready Skimmer Score = (Organic Export Efficiency × 0.35) + (Pump & Needle-Wheel Reliability × 0.25) + (Footprint & Fit × 0.15) + (Tuning & Maintenance Ease × 0.15) + (Noise & Energy Draw × 0.10)"

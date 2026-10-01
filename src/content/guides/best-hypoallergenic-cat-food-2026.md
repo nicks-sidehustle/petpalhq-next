@@ -363,14 +363,6 @@ picks:
     verdict: "Pick the Purina Pro Plan Sensitive Skin & Stomach Salmon & Rice for a sensitive cat that tolerates fish and needs probiotic digestive support. For a cat avoiding fish, choose a novel-protein deck instead."
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$36.99"
-        - "$29.98"
-        - "$66.72"
-        - "$32.99"
-        - "$67.99"
-        - "$28.08"
     - label: "Single protein (novelty)"
       values:
         - "Rabbit — most novel, shortest deck, fish-free"

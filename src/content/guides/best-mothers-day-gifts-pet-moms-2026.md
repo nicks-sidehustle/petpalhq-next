@@ -439,12 +439,10 @@ picks:
 
 comparison:
   rows:
-    - label: "Price (list)"
-      values: ["$749.00", "$399.95", "$184.00", "$139.00", "$79.00 + sub", "$120.99", "", "$129.00", "", "$229.95"]
     - label: "Recipient fit"
       values: ["Cat mom (multi-cat)", "Senior dog mom", "Working dog mom", "Mixed-breed dog mom", "Adventure dog mom", "Working pet mom", "Heavy-shedder household", "Design-conscious cat mom", "Small/senior pet mom", "Cat mom (budget)"]
     - label: "Subscription required?"
-      values: ["Optional", "No", "Optional ($7/mo)", "No", "Yes ($5-8/mo)", "No", "No", "No", "No", "No"]
+      values: ["Optional", "No", "Optional", "No", "Yes", "No", "No", "No", "No", "No"]
     - label: "Prime delivery for May 10"
       values: ["Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8"]
 
