@@ -14,7 +14,7 @@ keywords:
   - "hamster solitary housing"
 pillar: "expert-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-07-16"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/modern-hamster-habitat-setup-bigger-is-better-2026.webp"
@@ -76,7 +76,7 @@ picks:
 
       Where it fits the setup: this is bought first, set up and furnished before the hamster comes home. The deep base is filled with the packable bedding that comes next, and the wheel, hide, and sand bath are laid out on top so the animal can roam, dig, and rest across one open floor. A metal-and-acrylic frame keeps a determined chewer in, and multiple doors make daily spot-cleaning and full cleanouts easy. If you want to weigh this cage against value-tier and glass-sided options, [our full roundup of the best hamster habitats and cages](/guides/best-hamster-habitats-cages-2026) ranks the cages that clear the floor-space standard and names the ones that fall short.
 
-      The honest trade-offs are footprint, weight, and stock. This is a wide cage that needs a dedicated table or a long floor run, and it is heavy to move once loaded with deep bedding. Stock on this listing runs thin, so it can show as unavailable between restocks; if it does, the value-tier habitat in the roster clears the same standard for less. Confirm the current price before buying. None of that changes the verdict — for the owner with the room, this is the habitat a hamster will never outgrow.
+      The honest trade-offs are footprint and weight. This is a wide cage that needs a dedicated table or a long floor run, and it is heavy to move once loaded with deep bedding. Confirm the current price before buying. None of that changes the verdict — for the owner with the room, this is the habitat a hamster will never outgrow.
     pros:
       - "Largest continuous floor here, well past the modern welfare target"
       - "Deep base holds up to 11 inches of bedding for real tunneling"
@@ -85,8 +85,8 @@ picks:
     cons:
       - "Widest footprint here — needs a dedicated table or floor run"
       - "Heavy to move once filled with deep bedding"
-      - "Stock runs thin and it is the priciest pick in this setup"
-    verdict: "Buy the habitat first and buy it for floor space, because continuous unbroken floor is what a burrowing animal needs most. Place it stable and out of daytime noise, then furnish the deep base fully — the cage is the foundation of the setup, not the finished home. If it is out of stock, the value-tier habitat in the roster clears the same standard."
+      - "It is the priciest pick in this setup"
+    verdict: "Buy the habitat first and buy it for floor space, because continuous unbroken floor is what a burrowing animal needs most. Place it stable and out of daytime noise, then furnish the deep base fully — the cage is the foundation of the setup, not the finished home."
 
   - rank: 2
     label: "THE WHEEL THE SPINE FITS"
@@ -325,7 +325,7 @@ methodology:
 whenNotToBuy: |
   This setup is wrong for anyone who wants a low-effort, hands-off pet. Hamsters are crepuscular and largely nocturnal, so they wake and run at night. A wheel and a burrow in a bedroom will keep a light sleeper awake, night after night. They are also solitary, so a child hoping for a bonded pair to watch together will be disappointed — housing two Syrians in one cage ends in injury, not company. And the honest budget note is plain: the right habitat costs more than the pet-store box, and it needs a dedicated table or floor run.
 
-  It is also the wrong buy when the space is not there. A standard-clearing habitat is wide and heavy once filled with deep bedding, and there is no shrinking that footprint without shrinking the animal's welfare. If a smaller cage is genuinely the only option, size the cage down honestly rather than pretending the animal needs less — [the full habitat roster](/guides/best-hamster-habitats-cages-2026) lays out which cages clear the floor-space standard and which fall short of it. Confirm the current price before buying, since sellers and stock move over time.
+  It is also the wrong buy when the space is not there. A standard-clearing habitat is wide and heavy once filled with deep bedding, and there is no shrinking that footprint without shrinking the animal's welfare. If a smaller cage is genuinely the only option, size the cage down honestly rather than pretending the animal needs less — [the full habitat roster](/guides/best-hamster-habitats-cages-2026) lays out which cages clear the floor-space standard and which fall short of it. Confirm the current price before buying, since sellers move over time.
 
 bottomLine:
   - "Buy the habitat first, and buy it for floor space. The BUCATSTATE 3.0 anchors this setup with continuous unbroken floor and a base deep enough to burrow, because a ground-dwelling animal needs room to roam far more than it needs tiers or tubes."

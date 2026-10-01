@@ -15,7 +15,7 @@ keywords:
   - "reef trace element dosing"
 pillar: "aquarium-care"
 publishDate: "2026-06-22"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-30"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-reef-dosing-pumps-2026.webp"
@@ -202,7 +202,7 @@ picks:
 
       The honest trade-offs are that four channels are overkill for a tank that only doses one supplement, and managing four containers and tubes is more upkeep than a single pump. For a reef on a full chemistry routine, the integration is worth it.
 
-      Availability note: re-checked on September 8, 2026, the 4-channel bundle is live again on Amazon at $219.99 — the same price we last verified — and the buy button now points at the listing itself. The bundle ships as the 4-head pump plus four 450 ml colour-coded containers, a container holder, a tube holder, and tubing, so it is a complete system rather than a pump you then have to kit out. Chihiros' own store and planted-tank retailers also carry it.
+      The bundle ships as the 4-head pump plus four 450 ml colour-coded containers, a container holder, a tube holder, and tubing, so it is a complete system rather than a pump you then have to kit out.
     pros:
       - "Four independent channels coordinated from one controller and app"
       - "Wide per-head range of 0.2ml to 999.9ml in 0.1ml increments"
@@ -212,7 +212,7 @@ picks:
     cons:
       - "Overkill and added cost for a tank that doses only one supplement"
       - "Four containers and tube runs are more upkeep than a single pump"
-      - "US Amazon stock rotates between bundle configurations, so confirm you are on the 4-channel listing"
+      - "Bundle configurations differ, so confirm you are on the 4-channel listing"
       - "Each of the four heads still needs individual calibration"
       - "App-based control with no large standalone physical display"
     verdict: "The pick for running a full two-part-plus-trace routine from one app. Buy it for the four coordinated channels and bundled containers, stagger the doses across the day, and calibrate each head against a measuring cylinder."
@@ -260,7 +260,7 @@ picks:
 
       The honest trade-offs are scope rather than price. It is a single channel, so a full two-part-plus-trace routine needs several of them or a multi-head system instead; the high flow is only an advantage if your system actually needs it; and it carries the same per-tube calibration and tube-wear maintenance as any peristaltic doser. Kamoer's own software tracks tube running hours and raises a life alarm, which is a genuinely useful hedge against the failure mode that ruins doser accuracy.
 
-      A note on which product this is. Kamoer sells the X1 PRO-T2 both as a bare pump and bundled with the larger KPAS100 peristaltic head, and that bundle has repeatedly gone dark on Amazon — it was unavailable at our July 17, 2026 check and is still not listed as of September 8, 2026. What is live, and what we now link and price, is the standard X1 PRO-T2 at $165.00: the same 110 ml/min head, ±2% accuracy, WiFi app and stepper motor described above. If you specifically need the KPAS100 head, reef-specialty retailers carry Kamoer direct.
+      A note on which product this is. Kamoer sells the X1 PRO-T2 both as a bare pump and bundled with the larger KPAS100 peristaltic head. What we link is the standard X1 PRO-T2: the same 110 ml/min head, ±2% accuracy, WiFi app and stepper motor described above.
     pros:
       - "High flow up to 110ml/min, per JLAquatics, for large tanks or reactor feed"
       - "Stated precision within +/-2% even at the higher flow"

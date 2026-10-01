@@ -15,7 +15,7 @@ keywords:
   - "best reef sump 2026"
 pillar: "aquarium-care"
 publishDate: "2026-06-25"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-reef-aquarium-sumps-refugiums-2026.webp"
@@ -231,8 +231,6 @@ picks:
       The part the listing leaves out is that the open-chamber RS-100 leans toward a simple, easy-to-clean layout rather than a maze of baffles. That keeps maintenance quick, but it also means fewer built-in equipment holders than the IceCap, so plan ahead for where your probes and heaters will sit.
 
       The drawbacks come down to size and price, because at over $460 the RS-100 sump is a serious spend, its larger footprint may not fit a smaller stand, and it is plainly overkill for a nano or mid reef. Buy it only when your display is genuinely big, since for a large tank that needs more sump volume, the RS-100 is the natural pick in this lineup.
-
-      Availability note: re-checked on September 8, 2026, the RS-100 still has no Amazon listing with a live new-condition offer. The buy button below runs a current Amazon search for the RS-100.
     pros:
       - "Bigger water volume buffers a large, heavily stocked reef"
       - "Rated for roughly 75 to 125 gallon displays"
@@ -242,7 +240,6 @@ picks:
     cons:
       - "High price, over $460 at the time of check"
       - "Large footprint may not fit a smaller cabinet"
-      - "Amazon stock is inconsistent — still no live new-condition offer at our September 8, 2026 re-check, so the buy button runs a current search; reef-specialty retailers carry the RS line direct"
       - "Overkill for a nano or mid reef tank"
       - "Open layout offers fewer built-in equipment holders than the IceCap"
       - "Exact specs vary by generation, so confirm the size before buying"
@@ -274,8 +271,6 @@ picks:
       Worth flagging up front: this is a compact unit rated for 10 to 35 gallon tanks, so it holds modest water and gear. There is room for a nano-scale skimmer and a reactor or two, but not a full bank of probes or a large return pump. Treat the Eshopps refugium as a focused, refugium-led setup rather than the sump for a big system.
 
       The honest trade-offs are scope and value. The Cube Nano costs more than the RS-75 yet skips the Berlin and wet/dry modes, so it does less as a general-purpose sump. It only makes sense if a macroalgae refugium is your actual goal. For pod culture and nutrient export on a small system, though, it is a tidy, purpose-built choice.
-
-      Availability note: re-checked on September 8, 2026, the Cube Nano still has no Amazon listing with a live new-condition offer. The buy button below runs a current Amazon search for the Refugium Cube so you can check current stock. If nothing is live, Eshopps' specialty-retail channel carries the Cube line.
     pros:
       - "Purpose-built for a macroalgae refugium and pod culture"
       - "Channel design exports nutrients without fighting the skimmer"
@@ -285,7 +280,6 @@ picks:
     cons:
       - "Refugium-first design skips the Berlin and wet/dry modes the RS-family runs"
       - "Costs more than the RS-75 yet does less as a general-purpose sump"
-      - "Still no live new-condition Amazon offer at our September 8, 2026 re-check — the buy button runs a current search, and specialty retailers carry the Cube line"
       - "Small water volume adds little parameter buffer"
       - "Compact return and equipment chambers limit a large return pump or reactor bank"
       - "Only worth it if a dedicated refugium is your real goal"

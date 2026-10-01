@@ -15,7 +15,7 @@ keywords:
   - "Ferguson Zone reptile lighting"
 pillar: "reptile-lighting"
 publishDate: "2026-06-21"
-updatedDate: "2026-09-26"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-reptile-heat-lamps-basking-fixtures-2026.webp"
@@ -287,7 +287,7 @@ picks:
       - "Lowest sticker price of any pick in this guide"
       - "Functional stopgap when you need a basking bulb the same day"
     body: |
-      The Fluker's basking bulb is the backup — the bulb you grab when a premium lamp is sold out and the basking zone has to come back online today. It is an inexpensive incandescent carried at nearly every pet retailer, and at this price it is a defensible stopgap rather than a long-term centerpiece. We list it precisely because availability emergencies happen, and an animal needs its basking heat restored faster than a premium bulb can ship.
+      The Fluker's basking bulb is the backup — the bulb you grab when a premium lamp is not on hand and the basking zone has to come back online today. It is an inexpensive incandescent carried at nearly every pet retailer, and at this price it is a defensible stopgap rather than a long-term centerpiece. We list it precisely because an animal needs its basking heat restored faster than a premium bulb can ship.
 
       The trade-offs are the reason it ranks last among bulbs. As a plain incandescent it emits a lower fraction of IR-A than the Arcadia GoldenSun or the Exo Terra Sun Glo halogens, and its service life is shorter, so the per-bulb savings erode as you replace it more often. On the heaviest factor — expert and keeper consensus — it trails the leaders, which name halogen as the preferred basking technology. The Fluker's is fine; it is simply not the bulb the source set recommends as a primary choice.
 
@@ -305,7 +305,7 @@ picks:
       - "Shorter service life means more frequent replacement and temperature drift"
       - "Trails the halogen leaders on expert and keeper consensus"
       - "No UVB, and still requires a ceramic socket and dimming thermostat"
-    verdict: "Keep one as a spare and use it to keep the basking zone running in an availability pinch. If it becomes your permanent bulb, budget up to a halogen — the cheap bulb is a false economy over time."
+    verdict: "Keep one as a spare and use it to keep the basking zone running in a pinch. If it becomes your permanent bulb, budget up to a halogen — the cheap bulb is a false economy over time."
 
 comparison:
   rows:

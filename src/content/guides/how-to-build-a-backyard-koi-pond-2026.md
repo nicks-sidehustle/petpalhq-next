@@ -14,7 +14,7 @@ keywords:
   - "backyard koi pond kit"
 pillar: "aquarium-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-30"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/how-to-build-a-backyard-koi-pond-2026.webp"
@@ -161,7 +161,7 @@ picks:
 
       The rule that governs pump choice is turnover: the community floor is moving the pond's entire volume at least once every hour, so the water is filtered and oxygenated rather than sitting stagnant under a heavy fish load. An external pump earns its place here because, sited out of the water, it runs cooler and more efficiently than a submersible and can be serviced without wading in or draining down. One honesty check belongs in the plan — head height, meaning the lift to the filter and the length of the pipe run, drops real-world flow below the rated number, so you size up rather than to the exact figure. For how the pump pairs with the rest of the plumbing and filtration as a matched set, see [our roundup of the best backyard koi pond systems](/guides/best-backyard-koi-pond-systems-2026).
 
-      The honest caveats are about cost, supply, and setup. This is the most expensive single item in the build by a wide margin, which is fair for the part that runs 24 hours a day for years, but it is real money. It also sells through a specialty pond merchant with limited stock, so confirm current availability before you plan around it. And an external pump asks for more plumbing than dropping a submersible into the deep end — a pad, priming, and hard pipe. As the heart of the system, it is what keeps the water filtered, oxygenated, and alive under a load of large fish.
+      The honest caveats are about cost and setup. This is the most expensive single item in the build by a wide margin, which is fair for the part that runs 24 hours a day for years, but it is real money. And an external pump asks for more plumbing than dropping a submersible into the deep end — a pad, priming, and hard pipe. As the heart of the system, it is what keeps the water filtered, oxygenated, and alive under a load of large fish.
     pros:
       - "External pumps run more efficiently than submersibles at koi-pond scale"
       - "Low-RPM, high-flow design suits continuous, around-the-clock running"
@@ -169,9 +169,8 @@ picks:
       - "Serviced outside the water without draining the pond"
     cons:
       - "The most expensive single item in the build by a wide margin"
-      - "Sold through a specialty merchant with limited stock — availability moves"
       - "External plumbing takes more setup than dropping in a submersible"
-    verdict: "Move the water with an external pump sized to turn the pond over at least once an hour, and buy up rather than to the exact rating because head height steals flow. It is the costliest and hardest-working part of the build, and it sells through a specialty pond store where stock comes and goes, so plan around its availability rather than assuming it."
+    verdict: "Move the water with an external pump sized to turn the pond over at least once an hour, and buy up rather than to the exact rating because head height steals flow. It is the costliest and hardest-working part of the build."
 
   - rank: 4
     label: "CLEAN AND CLARIFY — PRESSURE FILTER WITH UV"
@@ -436,7 +435,7 @@ sources:
     - "Koi-keeping community consensus on pond volume, depth, and stocking density"
     - "Backyard pond forums on external-pump plumbing, cycling, and predator defense"
   verifiedDate: "2026-07-16"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. This backyard koi-pond build sequence and its kit are editorial synthesis of pond-building cost guides and the koi-keeping community, published pond water-quality guidance, and manufacturer documentation — PetPalHQ does not run a testing lab. The PetPal Pond-Build Score is a composite of expert opinion, not a measurement. Sources are cited by name throughout, and prices, stock, and specialty-pump availability should be confirmed before buying."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. This backyard koi-pond build sequence and its kit are editorial synthesis of pond-building cost guides and the koi-keeping community, published pond water-quality guidance, and manufacturer documentation — PetPalHQ does not run a testing lab. The PetPal Pond-Build Score is a composite of expert opinion, not a measurement. Sources are cited by name throughout, and prices should be confirmed before buying."
 
 related:
   - "best-backyard-koi-pond-systems-2026"

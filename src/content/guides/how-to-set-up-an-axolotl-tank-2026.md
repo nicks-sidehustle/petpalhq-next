@@ -14,7 +14,7 @@ keywords:
   - "cold water axolotl habitat"
 pillar: "aquarium-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-30"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/how-to-set-up-an-axolotl-tank-2026.webp"
@@ -159,7 +159,7 @@ picks:
     body: |
       This is the appliance the whole guide is named for, and the single line item that separates axolotl keeping from every warm-water tank. Where a tropical setup adds a heater, an axolotl setup does the opposite. It pulls heat out. JBJ documents an Arctica chiller with a titanium heat exchanger and a 1/10 horsepower compressor, plumbed inline so tank water passes through it and comes back colder. In a room that drifts above the low seventies, no fan, ice bottle, or open lid holds the line for long. A chiller is the only thing that sets a ceiling and keeps it.
 
-      Where it fits the build: this is the marquee decision for anyone whose home gets warm, installed and dialed in before the animal goes anywhere near the water. The reason it matters so much is biological, not mechanical. An axolotl held too warm stops eating, grows vulnerable to fungus, and slides downhill in a way that is hard to reverse. So the cool band is not a preference but the animal's baseline. If you are matching chiller capacity to your tank volume and your room's summer high, size it against the numbers rather than guessing. [A dedicated roundup of the best aquarium chillers](/guides/best-aquarium-chillers-2026) lays out how to match horsepower to the cooling load instead of over- or under-buying. Availability on this exact model runs thin through third-party sellers, so confirm current stock before you build the rest of the tank around it.
+      Where it fits the build: this is the marquee decision for anyone whose home gets warm, installed and dialed in before the animal goes anywhere near the water. The reason it matters so much is biological, not mechanical. An axolotl held too warm stops eating, grows vulnerable to fungus, and slides downhill in a way that is hard to reverse. So the cool band is not a preference but the animal's baseline. If you are matching chiller capacity to your tank volume and your room's summer high, size it against the numbers rather than guessing. [A dedicated roundup of the best aquarium chillers](/guides/best-aquarium-chillers-2026) lays out how to match horsepower to the cooling load instead of over- or under-buying.
 
       The honest caveats are about cost, plumbing, and noise. A chiller is by far the most expensive piece of the build, and there is no way around that if your room runs hot. It is the price of keeping a cold-water animal in a warm climate. It needs a pump to move water through it and a little space beside the tank for airflow, since it vents heat like a small refrigerator, and it hums while it runs. None of that is a reason to skip it in a hot home. It is a reason to budget for it honestly and, where the room is already cool, to weigh the fan below first.
     pros:
@@ -171,7 +171,7 @@ picks:
       - "By far the most expensive item in the build"
       - "Needs a pump, airflow space, and vents heat like a fridge"
       - "Runs with an audible hum while cooling"
-    verdict: "Buy the chiller if your room drifts above the low seventies, because it is the one appliance that holds a hard cool ceiling an axolotl depends on. Size the capacity to your tank volume and summer high rather than guessing, plan for a pump and venting space, and confirm current stock on this model before committing — and if your room already runs cool, read the fan below first."
+    verdict: "Buy the chiller if your room drifts above the low seventies, because it is the one appliance that holds a hard cool ceiling an axolotl depends on. Size the capacity to your tank volume and summer high rather than guessing, plan for a pump and venting space — and if your room already runs cool, read the fan below first."
 
   - rank: 4
     label: "THE BUDGET FORK — CLIP-ON COOLING FAN"

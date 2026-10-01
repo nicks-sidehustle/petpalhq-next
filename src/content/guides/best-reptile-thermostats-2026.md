@@ -17,7 +17,7 @@ keywords:
   - "day night reptile thermostat"
 pillar: "reptile-habitat"
 publishDate: "2026-05-05"
-updatedDate: "2026-08-07"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-reptile-thermostats-2026.webp"
@@ -61,7 +61,7 @@ picks:
     authoritySources:
       - outlet: "Amazon listing verified live 2026-07-27 via Creators API"
         url: "https://www.amazon.com/dp/B08R29S2WB"
-        stat: "$82.99, in-stock (scarce) offer, sold and shipped by Amazon.com, condition New"
+        stat: "$82.99, sold and shipped by Amazon.com, condition New"
         supports: "spec"
         accessed: "2026-07-27"
       - outlet: "Exo Terra manufacturer documentation"

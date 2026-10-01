@@ -13,7 +13,7 @@ keywords:
   - "dog rear support sling"
   - "TPLO recovery timeline"
 publishDate: "2026-07-17"
-updatedDate: "2026-09-09"
+updatedDate: "2026-09-30"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/dog-post-surgery-recovery-station-setup-2026.webp"
@@ -40,7 +40,7 @@ topPicks:
     verifiedDate: "2026-07-16"
   - name: "GingerLead Dog Rear Support Sling Harness"
     pickRef: "r6"
-    keyFeature: "The mobility-assist pick for a hind-limb surgery — a rear-lift sling confirmed in stock, chosen over a backordered full-body alternative that could miss surgery day entirely."
+    keyFeature: "The mobility-assist pick for a hind-limb surgery — a rear-lift sling, chosen over a full-body alternative."
     sources: ["GingerLead (Amazon product listing)", "GaitGuard"]
     verifiedDate: "2026-07-16"
 
@@ -123,12 +123,11 @@ picks:
       - "2 ft by 6 ft washable, waterproof, non-slip runner, per TTelephant"
       - "Marketed for dogs — built for a post-op floor path"
       - "Lists at $36.99, currently $29.59"
-      - "Confirm the exact listing — a similarly priced variant showed limited stock"
       - "Lay it crate-to-door and crate-to-water-bowl"
     body: |
       A hind-leg incision and a hard floor are a bad combination, and every vet source in this guide says so. Maplewood: "Hardwood, tile, and laminate floors can become hazardous after surgery." SustainableVet: "Avoid stairs, slippery floors, and rough terrain." GaitGuard is the most specific: "Avoid slick floors like tile, wood, or vinyl. Place non-slip mats near your dog's bed, food, and water bowls." The runner is how you act on that advice — lay it down the path your dog will actually walk: crate to the door, crate to the water bowl, door to the yard.
 
-      TTelephant's 2×6-foot runner is washable and waterproof, which matters in a station where accidents happen (see the hygiene stage below), and it's marketed specifically for dogs rather than a general kitchen mat. It lists at $36.99 and currently sells for $29.59. One ordering note: confirm you're buying this exact listing — a similarly priced TTelephant variant showed limited stock at verification, and a shipping delay on a floor mat you need before surgery day is worth avoiding.
+      TTelephant's 2×6-foot runner is washable and waterproof, which matters in a station where accidents happen (see the hygiene stage below), and it's marketed specifically for dogs rather than a general kitchen mat. It lists at $36.99 and currently sells for $29.59.
 
       A single 2×6-foot runner won't cover every hard floor in the house, and it isn't a substitute for the paw-side traction below — a runner treats the path, not the dog's feet. If your hallway runs longer than six feet, plan on more than one length, or pair it with toe grips for the stretches the runner doesn't reach.
     pros:
@@ -139,7 +138,6 @@ picks:
     cons:
       - "One 2×6-ft length won't cover a long hallway on its own"
       - "Treats the floor, not the dog's feet — pair with toe grips for full coverage"
-      - "A similarly priced variant of this listing showed limited stock — order the verified SKU"
     verdict: "Get the TTelephant runner and lay it down the exact crate-to-door-to-bowl path your dog will use — hardwood and tile are the named re-injury hazard in every source here. At $29.59 (listed $36.99) it's cheap insurance; just measure your hallway, since one length may not cover it all."
 
   - rank: 3
@@ -305,7 +303,7 @@ picks:
     body: |
       A TPLO incision and the surgical load both sit on the hind limb, so the sling that helps is the one built for the back end. GaitGuard's line is exact: "A rear sling lifts the back end and reduces strain on the healing leg." SustainableVet backs it up more loosely — "Use a sling or towel under the belly if needed" — and Maplewood frames the whole category: "A support harness can make moving easier, especially during the first few weeks." GingerLead's rear-support sling, with a cutout built for that hind-end lift, is the primary pick here for exactly that job.
 
-      There's a buyability reason this is the primary pick over a full-body alternative some owners consider: at verification, that alternative harness was backordered with no ship date, and a pre-surgery owner shopping days before a scheduled operation can't risk a sling that might not arrive in time. GingerLead was confirmed in stock. It also happens to be the better fit for this specific surgery — a full-body front-and-rear harness is genuine overkill for a single hind-limb repair, on top of carrying the backorder risk. If you want a full-body option anyway, for a dog needing front-and-rear assist, order it weeks ahead or buy direct from the brand — don't count on standard shipping to beat surgery day.
+      There's a fit reason this is the primary pick over a full-body alternative some owners consider: a full-body front-and-rear harness is genuine overkill for a single hind-limb repair, so the rear sling is the better fit for this specific surgery. If you want a full-body option anyway, for a dog needing front-and-rear assist, the roundup linked below covers those options.
 
       This guide doesn't re-run the sling comparison here. The GingerLead itself is compared head-to-head (against the Help 'Em Up harness) on our [recovery and medication-compliance roundup](/guides/best-pet-recovery-medication-compliance-aids-2026); for other lift-harness and support-sling options, see the [lift-harness and support-sling roundup](/guides/best-dog-lift-harnesses-support-slings-2026).
     pros:
@@ -316,7 +314,7 @@ picks:
       - "Not built for a dog needing BOTH front and rear support — that's a different harness"
       - "M/LG sizing only in this listing — confirm fit for your dog"
       - "A sling, not a wheelchair — still requires the owner to lift and guide"
-    verdict: "Get the GingerLead rear sling for potty breaks and the unavoidable few steps — it's the clinically apt pick for a hind-limb surgery like TPLO, and it was confirmed in stock when a backordered full-body alternative was not. If your dog genuinely needs front-and-rear support, order that harness weeks ahead of surgery, not the week before."
+    verdict: "Get the GingerLead rear sling for potty breaks and the unavoidable few steps — it's the clinically apt pick for a hind-limb surgery like TPLO. If your dog genuinely needs front-and-rear support, a full-body harness is the alternative to look at."
 
   - rank: 7
     label: "STAGE 4 — SOLVE THE CAR"
@@ -486,7 +484,7 @@ whenNotToBuy: |
 
   Skip fitting the toe grips if the paw is too swollen or painful right now. Introduce them later, once the paw is comfortable to handle — don't force fitment onto a fresh post-op foot.
 
-  Don't count on a backordered sling arriving before surgery day. If a full-body harness you're considering shows no ship date, order it weeks ahead or buy direct from the brand — or take the in-stock rear sling this station rosters and revisit the full-body option later if your dog turns out to need it.
+  Skip a full-body harness unless your dog genuinely needs front-and-rear support. The rear sling this station rosters is built for the hind end; revisit the full-body option later if your dog turns out to need it.
 
   And know the difference between acute and chronic. If your dog's mobility problem is age-related and permanent rather than a single surgical injury with a defined recovery arc, this time-boxed station is the wrong frame entirely — see the [senior-dog arthritis home-setup guide](/guides/senior-dog-arthritis-home-setup-mobility-2026) instead, which is built for a house you adapt forever, not a room you dismantle at the surgeon's clearance.
 
@@ -496,7 +494,7 @@ bottomLine:
   - "Add Dr. Buzby's ToeGrips for the paw-side half of traction — a runner covers the path, ToeGrips cover the dog's feet on the stretches the runner can't reach."
   - "Get the BENCMATE inflatable collar as the primary wound barrier — a TPLO incision is on the knee, not the belly, so this is the softer version of the E-collar every source says the dog needs."
   - "Get the Suitical suit for torso comfort and a cleaner house, not as the wound barrier — the suit's own product family says it isn't built for limb wounds."
-  - "Get the GingerLead rear sling for potty breaks — it targets the hind end where a TPLO's incision and load sit, and it was confirmed in stock when a backordered full-body alternative was not."
+  - "Get the GingerLead rear sling for potty breaks — it targets the hind end where a TPLO's incision and load sit."
   - "Get the PetSafe ramp before the first recheck — the no-jump rule applies to every car trip the recovery timeline requires."
   - "Add a crate-sized lick mat like the Lalolee for the boredom of weeks of restriction — mental stimulation matters once activity drops, and the model choice itself is low-stakes."
   - "Get the Eterish washable pads and lay them down before you need them — a groggy or posture-limited dog having an accident is normal, and washable beats disposable across an 8-to-16-week recovery."

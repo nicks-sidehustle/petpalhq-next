@@ -2479,7 +2479,7 @@ Verified: 2026-07-27
 ## Best Protein Skimmers for Saltwater & Reef Tanks (2026)
 
 URL: https://petpalhq.com/guides/best-protein-skimmers-saltwater-reef-2026
-Published: 2026-06-22  |  Updated: 2026-08-21
+Published: 2026-06-22  |  Updated: 2026-09-30
 Category: Aquarium  |  Hub: aquarium-filtration-maintenance-systems
 
 > The IceCap K1-130 is the in-sump skimmer we'd start with on an 80-to-140-gallon reef, thanks to an efficient 8-watt DC pump and three honest bioload ratings. The Tunze 9004 is the premium nano/in-tank choice and the Bubble Magus MiniQ is the budget entry point — but skimmers are rated by bioload, not display gallons, and an oversized skimmer simply won't skim, so size to your actual stocking.
@@ -2752,7 +2752,7 @@ Verified: 2026-06-22
 ## Best Reef Aquarium Sumps and Refugiums (2026)
 
 URL: https://petpalhq.com/guides/best-reef-aquarium-sumps-refugiums-2026
-Published: 2026-06-25  |  Updated: 2026-09-25
+Published: 2026-06-25  |  Updated: 2026-09-30
 Category: Aquarium  |  Hub: aquarium-filtration-maintenance-systems
 
 > The Eshopps RS-75 is the three-chamber sump we'd reach for first on most nano-to-mid reef tanks, pairing a refugium/Berlin/wet-dry layout with a fair price. The Fiji Cube Fiji-20 is the premium full-cast-acrylic build for a mid-to-large reef, with more water volume and more built-in equipment holders, so match the sump to your tank size, gear, and cabinet space rather than chasing the biggest box.
@@ -2987,7 +2987,7 @@ Verified: 2026-06-25
 ## Best Reef Dosing Pumps (2026)
 
 URL: https://petpalhq.com/guides/best-reef-dosing-pumps-2026
-Published: 2026-06-22  |  Updated: 2026-09-08
+Published: 2026-06-22  |  Updated: 2026-09-30
 Category: Aquarium  |  Hub: aquarium-filtration-maintenance-systems
 
 > The Kamoer X1 PRO-T is the single-channel WiFi doser we'd reach for first on most reef tanks, pairing a high-precision stepper motor with app scheduling and a stated dose accuracy within +/-2%. The Chihiros single-head doser is the small-dose specialist, dosing as little as 0.2ml in 0.1ml increments through its app, which is the resolution you want on a tank that only consumes a milliliter or two a day. Both are one channel, so match the pump to what you actually dose today and add capacity as your routine grows, rather than chasing the highest flow rate.
@@ -3070,7 +3070,7 @@ Pros:
 Cons:
 - Overkill and added cost for a tank that doses only one supplement
 - Four containers and tube runs are more upkeep than a single pump
-- US Amazon stock rotates between bundle configurations, so confirm you are on the 4-channel listing
+- Bundle configurations differ, so confirm you are on the 4-channel listing
 - Each of the four heads still needs individual calibration
 - App-based control with no large standalone physical display
 Verdict: The pick for running a full two-part-plus-trace routine from one app. Buy it for the four coordinated channels and bundled containers, stagger the doses across the day, and calibrate each head against a measuring cylinder.
@@ -4076,7 +4076,7 @@ Verified: 2026-05-07
 ## Best Reptile Heat Lamps & Basking Fixtures (2026)
 
 URL: https://petpalhq.com/guides/best-reptile-heat-lamps-basking-fixtures-2026
-Published: 2026-06-21  |  Updated: 2026-09-26
+Published: 2026-06-21  |  Updated: 2026-09-30
 Category: Reptile  |  Hub: reptile-habitat-environmental-control
 
 > The Zoo Med Repti Basking Spot is the mainstream default most keepers buy first; the Exo Terra Sun Glo is the halogen step up for deep-tissue basking heat. Editorial recommendations grounded in veterinary references and the Ferguson Zone / UV-Tool framework.
@@ -4157,7 +4157,7 @@ Cons:
 - Shorter service life means more frequent replacement and temperature drift
 - Trails the halogen leaders on expert and keeper consensus
 - No UVB, and still requires a ceramic socket and dimming thermostat
-Verdict: Keep one as a spare and use it to keep the basking zone running in an availability pinch. If it becomes your permanent bulb, budget up to a halogen — the cheap bulb is a false economy over time.
+Verdict: Keep one as a spare and use it to keep the basking zone running in a pinch. If it becomes your permanent bulb, budget up to a halogen — the cheap bulb is a false economy over time.
 
 ### Bottom line
 Get the Zoo Med Repti Basking Spot if you want the proven, lowest-friction mainstream bulb most keepers buy first. Its tight reflector concentrates a hot spot; pair it with a thermostat and an infrared thermometer.
@@ -4437,7 +4437,7 @@ Verified: 2026-05-07
 ## Best Reptile Thermostats for Heat Mats, CHEs & Heating Elements (2026)
 
 URL: https://petpalhq.com/guides/best-reptile-thermostats-2026
-Published: 2026-05-05  |  Updated: 2026-08-07
+Published: 2026-05-05  |  Updated: 2026-09-30
 Category: Reptile  |  Hub: reptile-habitat-environmental-control
 
 > The Exo Terra Dimming and Pulse Proportional Thermostat is the synthesis pick for reptile-specific proportional control; the Inkbird ITC-308 anchors the budget on/off tier. Editorial recommendations grounded in the Merck Veterinary Manual, LafeberVet, BGSU Herpetarium guidance, and reptile-keeper consensus — PetPalHQ does not run a testing lab.
@@ -6453,7 +6453,7 @@ Verified: 2026-05-05
 ## Best Quiet Cat Water Fountains (2026)
 
 URL: https://petpalhq.com/guides/best-quiet-cat-water-fountains-2026
-Published: 2026-06-21  |  Updated: 2026-09-25
+Published: 2026-06-21  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: cat-dog-nutrition-hydration-digestive-health
 
 > Pump noise is the number-one owner complaint about cat fountains, and most of it comes from the water level dropping below the pump's minimum line. The PETLIBRO Dockstream earns the top slot for a quality pump plus app low-water alerts; the PETKIT Eversweet SOLO 2 has the strongest pump design on the noise factor, with explicit anti-dry-burning protection.
@@ -6869,7 +6869,7 @@ Verified: 2026-05-05
 ## Best Stainless-Steel Cat Water Fountains (2026)
 
 URL: https://petpalhq.com/guides/best-stainless-steel-cat-water-fountains-2026
-Published: 2026-06-21  |  Updated: 2026-09-25
+Published: 2026-06-21  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: cat-dog-nutrition-hydration-digestive-health
 
 > Stainless steel is the non-porous, dishwasher-safe drinking surface vets reach for first when a cat develops chin acne, and the Pioneer Pet Raindrop is the benchmark all-steel pick; just know that many fountains sold as 'stainless' still use a plastic reservoir.
@@ -7164,7 +7164,7 @@ Verified: 2026-06-21
 ## Best Weight-Management Tools for Overweight Dogs and Cats (2026)
 
 URL: https://petpalhq.com/guides/best-weight-management-tools-2026
-Published: 2026-05-05  |  Updated: 2026-08-07
+Published: 2026-05-05  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: cat-dog-nutrition-hydration-digestive-health
 
 > For most overweight pets, the smartest first purchase is a scale you will actually use weekly — Greater Goods Digital Pet Scale for cats, kittens, and toy breeds, Redmon Digital Dog Scale for medium and large dogs — paired with a kitchen-gram scale to weigh kibble. Treat retail weight-loss formulas like Hill's Science Diet Perfect Weight as portion-disciplined support, and reserve Royal Canin Satiety Support for vet-supervised plans.
@@ -7199,7 +7199,6 @@ Pros:
 - 0.1 lb precision per manufacturer documentation
 - 44 lb capacity covers most cats and small-to-medium dogs
 - Wiggle-proof reading helps with restless pets
-- Strong Amazon visibility and consistent stock
 Cons:
 - 44 lb ceiling is too low for medium-large and large dogs
 - Floor scale is awkward for very small kittens (a baby/pet scale can be easier)
@@ -7246,12 +7245,11 @@ Verdict: If you only buy one tool from this guide and your real problem is porti
 Brand: Hill's Science Diet  |  Score: 8.5/10  |  Price: $92.99  |  ASIN: B0C12TVBV2
 Key features:
 - Lower-energy-density formulation positioned for weight management
-- Mainstream retail availability — no veterinary authorization required
+- Mainstream retail food — no veterinary authorization required
 - Hill's documents formulation for weight-loss support
 - Pairs naturally with measured gram-based feeding
 Pros:
 - Lower energy density is a defensible editorial choice
-- Mainstream Amazon availability
 - No vet authorization required
 - Can be used in combination with structured portion control
 Cons:
@@ -12156,7 +12154,7 @@ Verified: 2026-07-11
 ## The Best Travel Setup for Dog Owners: Crash-Tested Restraints, Crates, and Carriers (2026)
 
 URL: https://petpalhq.com/guides/best-travel-setup-for-dog-owners-2026
-Published: 2026-08-21  |  Updated: 2026-08-21
+Published: 2026-08-21  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: pet-home-systems-cleanup-travel
 
 > What a travelling dog household actually needs, ordered by the strength of the evidence behind it rather than by how the box is marketed.
@@ -12165,7 +12163,7 @@ Category: Cats & Dogs  |  Hub: pet-home-systems-cleanup-travel
 Buy the restraint before the crate, because that is where the independent evidence actually is. The Center for Pet Safety's published register lists the Sleepypod Mobile Pet Bed at five stars (tested August 2024) and the Sleepypod Air at four stars (tested January 2025), and both cover the whole trip - carrier, in-car restraint, and a familiar bed at the other end. Above small-dog sizes no certified option exists on Amazon today, so the honest pick is Kurgo, whose own methodology page documents testing at Calspan against the federal child-restraint standard because no pet standard exists. The crates are the weak link and the reason is published by the manufacturers themselves: Rock Creek states plainly that its collapsible crate has not been crash tested, and Dakota 283 publishes no test standard, lab, or figure at all. CPS does certify crates - Gunner, Lucky Duck, Cabela's, and Rock Creek's medium stationary kennel are all on the register - but at our August 21, 2026 check none of those were buyable on Amazon.
 
 ### Review method
-Editorial synthesis of the Center for Pet Safety's published certified-product register and crash-test study documentation, manufacturer testing documentation from Sleepypod, Kurgo, Rock Creek Crates, and Dakota 283, and published federal guidance from the FAA, TSA, CDC, and USDA APHIS, alongside AVMA and ASPCA travel advice. Every certification, test claim, and regulatory statement cited here was fetched from its primary source on August 21, 2026, and every price, availability state, listing condition, and the seller on the listing was verified against the Amazon Creators API on the same date. PetPalHQ does not run a crash-test lab and does not conduct impact testing.
+Editorial synthesis of the Center for Pet Safety's published certified-product register and crash-test study documentation, manufacturer testing documentation from Sleepypod, Kurgo, Rock Creek Crates, and Dakota 283, and published federal guidance from the FAA, TSA, CDC, and USDA APHIS, alongside AVMA and ASPCA travel advice. Every certification, test claim, and regulatory statement cited here was fetched from its primary source on August 21, 2026, and every price, listing condition, and the seller on the listing was verified against the Amazon Creators API on the same date. PetPalHQ does not run a crash-test lab and does not conduct impact testing.
 
 ### Top picks (winners)
 1. Sleepypod Mobile Pet Bed — The strongest independent evidence on this page: the Center for Pet Safety's own product record shows Passed Testing yes, a five-star rating, and a test date of August 2024. It is also the only pick that is the animal's ordinary bed at home, which removes travel-day acclimation from the problem entirely.
@@ -12286,7 +12284,6 @@ Key features:
 - Rock Creek states plainly that the collapsible crate has not been crash tested
 - The CPS-certified Rock Creek product is the medium stationary kennel, a different crate from this one
 - Aluminium construction that folds flat when the trip is over
-- Orderable on Amazon on a lead time rather than from stock at our August 21, 2026 check
 - Suits households that travel occasionally and cannot store a rigid crate year-round
 Pros:
 - Folds flat, which is the entire reason this tier exists and it does it well
@@ -12296,7 +12293,6 @@ Pros:
 Cons:
 - Rock Creek states the collapsible has not been crash tested
 - The CPS-certified Rock Creek crate is the stationary model, not this one
-- Ships on a lead time rather than from stock, per our August 21, 2026 check
 - The most expensive item on this page by a wide margin
 Verdict: Get the Rock Creek collapsible if storage space is your binding constraint and you want the manufacturer's candour along with the crate. Just do not read Rock Creek's five-star CPS certification onto it — that belongs to the stationary medium kennel.
 
@@ -12316,8 +12312,6 @@ Skip any assumption that a brand's certification covers its whole range. Rock Cr
 Skip extension tethers and seat-belt clips entirely. A tether gives the dog slack, and slack lets a body build speed before anything stops it. Every restraint on this page instead routes the vehicle's own seat belt, which is why a correct fit feels uncomfortably snug the first time.
 
 Skip the certified carriers if your dog is medium or large. Both CPS-certified picks here are cat-and-small-dog products, and using a certified item outside the size it was certified at converts a real credential into a false sense of security. The Kurgo harnesses exist for that reason.
-
-Skip the Rock Creek collapsible if you are buying against a fixed departure date. Our August 21, 2026 Amazon check found it orderable on a lead time rather than shipping from stock - fine for a purchase made well in advance, a problem for one made the week before a trip.
 
 Skip buying anything until you have read the rules for your specific trip. Airline in-cabin policy, TSA checkpoint procedure, destination-state requirements under APHIS, and CDC rules for dogs entering the United States all change independently of the gear, and none of them can be fixed by a better carrier after the fact.
 
@@ -16920,7 +16914,7 @@ Verified: 2026-07-27
 ## Modern Hamster Habitat Setup: Why Bigger Is Better
 
 URL: https://petpalhq.com/guides/modern-hamster-habitat-setup-bigger-is-better-2026
-Published: 2026-07-16  |  Updated: 2026-07-16
+Published: 2026-07-16  |  Updated: 2026-09-30
 Category: Playground
 
 > This is not a cage ranking — it is a provisioning setup for a first hamster, built on the modern welfare standard that inverted the old pet-store picture: floor space, deep bedding, and a wheel the spine fits are the baseline, not luxuries. Six picks in the order you need them, with the honest warning that a Syrian hamster must live alone and the right first habitat costs more than the box on the shelf.
@@ -16960,8 +16954,8 @@ Pros:
 Cons:
 - Widest footprint here — needs a dedicated table or floor run
 - Heavy to move once filled with deep bedding
-- Stock runs thin and it is the priciest pick in this setup
-Verdict: Buy the habitat first and buy it for floor space, because continuous unbroken floor is what a burrowing animal needs most. Place it stable and out of daytime noise, then furnish the deep base fully — the cage is the foundation of the setup, not the finished home. If it is out of stock, the value-tier habitat in the roster clears the same standard.
+- It is the priciest pick in this setup
+Verdict: Buy the habitat first and buy it for floor space, because continuous unbroken floor is what a burrowing animal needs most. Place it stable and out of daytime noise, then furnish the deep base fully — the cage is the foundation of the setup, not the finished home.
 
 #### Rank 2 — THE WHEEL THE SPINE FITS: antiai Hamster Wooden Silent Wheel, 12 Inch (XL)
 Brand: antiai  |  Score: 8.5/10  |  Price: $31.99  |  ASIN: B0BPS6WFFS
@@ -17063,7 +17057,7 @@ House them alone and buy bigger than the shelf suggests. A Syrian lives alone, a
 ### When not to buy
 This setup is wrong for anyone who wants a low-effort, hands-off pet. Hamsters are crepuscular and largely nocturnal, so they wake and run at night. A wheel and a burrow in a bedroom will keep a light sleeper awake, night after night. They are also solitary, so a child hoping for a bonded pair to watch together will be disappointed — housing two Syrians in one cage ends in injury, not company. And the honest budget note is plain: the right habitat costs more than the pet-store box, and it needs a dedicated table or floor run.
 
-It is also the wrong buy when the space is not there. A standard-clearing habitat is wide and heavy once filled with deep bedding, and there is no shrinking that footprint without shrinking the animal's welfare. If a smaller cage is genuinely the only option, size the cage down honestly rather than pretending the animal needs less — [the full habitat roster](/guides/best-hamster-habitats-cages-2026) lays out which cages clear the floor-space standard and which fall short of it. Confirm the current price before buying, since sellers and stock move over time.
+It is also the wrong buy when the space is not there. A standard-clearing habitat is wide and heavy once filled with deep bedding, and there is no shrinking that footprint without shrinking the animal's welfare. If a smaller cage is genuinely the only option, size the cage down honestly rather than pretending the animal needs less — [the full habitat roster](/guides/best-hamster-habitats-cages-2026) lays out which cages clear the floor-space standard and which fall short of it. Confirm the current price before buying, since sellers move over time.
 
 ### Sources
 Expert: The hamster-welfare community's current housing standards on continuous floor space; Community housing guidance on bedding depth, wheel sizing, and sand bathing; Community consensus on solitary housing for Syrians and most dwarfs; BUCATSTATE — Hamster Cage 3.0 product documentation; antiai, Kaytee, and Niteangel product documentation; Cyirexylcc and Sukh product documentation
@@ -27711,7 +27705,7 @@ Verified: 2026-06-25
 ## Best Self-Cleaning Litter Boxes With No Subscription (2026)
 
 URL: https://petpalhq.com/guides/best-self-cleaning-litter-boxes-no-subscription-2026
-Published: 2026-06-25  |  Updated: 2026-08-18
+Published: 2026-06-25  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > The PETKIT PuraMax 2 is the best overall no-subscription pick; the Neakasa M1 Plus suits cats that refuse globes; the Casa Leo Leo's Loo Too is the quiet choice; the Meowant SC09 brings the most capacity. None paywall core cleaning the way Whisker+ does. Call your veterinarian first if box avoidance is sudden, painful, or stress-linked.
@@ -27816,7 +27810,7 @@ Pros:
 Cons:
 - Enclosed drum can feel cramped for very large cats
 - Recommends 100% clay-clumping litter — narrower litter window
-- $599.00 on Amazon (Aug 10, 2026) — the highest price here, with stock running thin
+- $599.00 on Amazon (Aug 10, 2026) — the highest price here
 Verdict: Buy the Leo's Loo Too if quiet operation is the deciding factor and your cat already accepts an enclosed box.
 
 #### Rank 5 — BIGGEST CAPACITY: Meowant SC09 Self-Cleaning Litter Box (106L)
@@ -27843,7 +27837,7 @@ Verdict: Choose the Meowant SC09 if you have a large breed or several cats and w
 ### Bottom line
 Get the PETKIT PuraMax 2 at $389.99 — the best all-round no-subscription box here, with free health tracking and a mechanical anti-pinch failsafe. The Care+ plan is optional rather than required, and keeping a backup box during the transition is exactly what the ASPCA recommends.
 Get the Neakasa M1 Plus if your cat refuses enclosed globes, since its open-top tray, documented sensors, and free app fit the ASPCA preference for large, easily entered boxes.
-Get the Casa Leo Leo's Loo Too if quiet operation matters most, because it runs near 30 dB with a layered safety stack and a free app — just confirm price and stock on the day, since it was running thin on our August 10, 2026 check.
+Get the Casa Leo Leo's Loo Too if quiet operation matters most, because it runs near 30 dB with a layered safety stack and a free app.
 Get the Meowant SC09 if you need the most capacity, since its 106L interior and ultra-low entry suit large, senior, or multi-cat homes while keeping core cleaning and monitoring free.
 
 ### When not to buy
@@ -27990,7 +27984,7 @@ Verified: 2026-06-10
 ## Best Standard Litter Boxes for Cats (2026)
 
 URL: https://petpalhq.com/guides/best-standard-litter-boxes-2026
-Published: 2026-09-13  |  Updated: 2026-09-25
+Published: 2026-09-13  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > The IRIS USA XX-Large High Sided pan is the winner because it is the cheapest box here that actually clears the AAFP/ISFM sizing rule. The KittyGoHere Senior box answers the arthritic cat who can no longer climb a rim, and the Modkat XL is for households losing the war against tracked litter. A box too small for the cat is a common and under-diagnosed reason a cat stops using it, and AAFP/ISFM says many commercial boxes prove to be too small.
@@ -28126,12 +28120,11 @@ Pros:
 - Petmate states the box holds two cats
 - No motor, sensor or subscription — the odor control is a passive charcoal filter
 Cons:
-- Read as low stock rather than freely available at our September 13, 2026 check
 - Full enclosure creates the single-exit ambush geometry VCA warns about in multi-cat homes
 - A curved roof steals headroom at the edges, where a large cat needs to posture
 - The clean-step entrance is a raised threshold, which rules it out for arthritic cats
 - No dimensions published, so the two-cat capacity claim cannot be verified
-Verdict: Choose the dome if odor is the deciding factor, your household has one confident cat, and you accept the enclosure trade the veterinary sources describe. Check availability before you commit, because stock on this model is thin and it is not a design you can substitute easily.
+Verdict: Choose the dome if odor is the deciding factor, your household has one confident cat, and you accept the enclosure trade the veterinary sources describe.
 
 #### Rank 7 — BUDGET TOP-ENTRY — CHECK THE INTERIOR SPEC: IRIS USA Top Entry Cat Litter Box
 Brand: IRIS USA  |  Score: 7/10  |  Price: $24.99  |  ASIN: B0768H1181
@@ -28158,7 +28151,7 @@ Get the KittyGoHere Senior Cat Litter Box the moment an older cat starts missing
 Get the Modkat XL if tracked litter is the fight you are losing. It ships as both a top-entry and a front-entry box, so a lid refusal costs you nothing but a reconfiguration — worth the premium price only if tracking is genuinely your problem.
 Get the Nature's Miracle Advanced Hooded Corner box when floor space, not preference, dictates the shape. Accept that a corner cut plus a hood is a compromise against the sizing and open-box guidance, not an upgrade.
 Get the Van Ness Large Sifting box at $30.22 if you want to stop scooping and your cat is small and tidy. Its 19-inch outer footprint will not serve a large cat, and the sifter only works with clumping litter.
-Get the Petmate Booda dome for odor control in a calm single-cat home, and check stock first — it read as low stock on our September 13, 2026 check.
+Get the Petmate Booda dome for odor control in a calm single-cat home.
 Get the IRIS USA Top Entry box only for a small, agile cat in a home with a litter-raiding dog. The interior floor is 17"L x 11.5"W despite the 'Large' label, which is why it finishes last.
 
 ### When not to buy
@@ -29488,7 +29481,7 @@ Verified: 2026-08-21
 ## How to Build a Backyard Koi Pond (Planning, Liner, Filtration, Stocking)
 
 URL: https://petpalhq.com/guides/how-to-build-a-backyard-koi-pond-2026
-Published: 2026-07-16  |  Updated: 2026-08-12
+Published: 2026-07-16  |  Updated: 2026-09-30
 Category: Aquarium
 
 > This is not a koi-pond gear ranking — it is a build order. A backyard koi pond is closer to a small construction project than a fish tank: you plan and dig the hole, protect and line it, plumb and prove the water system, and only then add fish. The picks below are the build kit in sequence — underlayment to guard the liner, an EPDM liner to hold the water, an external pump to move it, a pressure filter with UV to clean and clarify it, an aeration kit to oxygenate it, a conditioner to make tap water safe, and a net to handle the fish — not {{pickCountWord}} products ranked against each other. If you want a stocked pond in a weekend, read the caveats before you buy anything, because koi keeping rewards patience and punishes shortcuts.
@@ -29565,9 +29558,8 @@ Pros:
 - Serviced outside the water without draining the pond
 Cons:
 - The most expensive single item in the build by a wide margin
-- Sold through a specialty merchant with limited stock — availability moves
 - External plumbing takes more setup than dropping in a submersible
-Verdict: Move the water with an external pump sized to turn the pond over at least once an hour, and buy up rather than to the exact rating because head height steals flow. It is the costliest and hardest-working part of the build, and it sells through a specialty pond store where stock comes and goes, so plan around its availability rather than assuming it.
+Verdict: Move the water with an external pump sized to turn the pond over at least once an hour, and buy up rather than to the exact rating because head height steals flow. It is the costliest and hardest-working part of the build.
 
 #### Rank 4 — CLEAN AND CLARIFY — PRESSURE FILTER WITH UV: Aquascape UltraKlean 2000 Biological Pressure Filter with 14W UV Clarifier
 Brand: Aquascape  |  Score: 8.3/10  |  Price: $367.99  |  ASIN: B00GMOI7JE
@@ -30162,7 +30154,7 @@ Verified: 2026-07-12
 ## How to Keep Your Dog Cool and Prevent Heatstroke (2026)
 
 URL: https://petpalhq.com/guides/how-to-keep-your-dog-cool-and-prevent-heatstroke-2026
-Published: 2026-06-19  |  Updated: 2026-09-26
+Published: 2026-06-19  |  Updated: 2026-09-30
 Category: Cats & Dogs
 
 > Heatstroke in dogs is preventable, and the prevention is mostly free: shade, water, timing, and never a parked car. We read the veterinary guidance on what overheating does to a dog's body, then matched cooling tools to the prevention levers they actually serve — and the honest limits of each.
@@ -30255,7 +30247,7 @@ Verified: 2026-06-19
 ## How to Protect Your Aquarium From Summer Heat (Monitoring, Fans, Chillers)
 
 URL: https://petpalhq.com/guides/how-to-protect-aquarium-from-summer-heat-2026
-Published: 2026-07-16  |  Updated: 2026-08-07
+Published: 2026-07-16  |  Updated: 2026-09-30
 Category: Aquarium
 
 > Summer heat is an oxygen problem before it is a comfort problem: as water warms, fish need more oxygen exactly as the water holds less of it — Aqueon calls it double jeopardy. So this guide is a ladder, not a shopping list. Start with a $5 thermometer, because you cannot manage heat you have not measured, add a WiFi alert if you leave the house, cool by evaporation with a clip-on fan, automate that fan with an Inkbird controller, and reach for a refrigeration chiller only when a reef tank, a hot room, or weeks of heat leave no other option. Seven rungs, priced from $5 to $760, each matched to who actually needs it.
@@ -30269,7 +30261,7 @@ Editorial synthesis of aquarium-keeping authorities and manufacturer documentati
 ### Top picks (winners)
 1. AQUANEAT Digital Aquarium Thermometer — The first rung — a $5 large-LCD digital thermometer with a submersible probe, because you cannot manage a heat problem you have not measured, and confirming the reading is the step that tells you whether you have a heat emergency or a stuck heater before you spend another dollar.
 2. hygger Auto-Temperature-Control Aquarium Cooling Fan — The set-and-leave evaporative rung — a clip-on fan with its own temperature probe that starts and stops itself over a 68 to 93°F range, cooling by driving evaporation across the surface the way Aqueon and Rate My Fishtank describe, without a separate controller to wire up.
-3. Active Aqua 0.10 HP Water Chiller — The refrigeration rung, entry price — a titanium-evaporator chiller that holds a target temperature regardless of how hot the room gets, the fix Rate My Fishtank calls the golden standard for large tanks and homes without reliable AC; stock is thin, so it funnels into the full chiller roundup for sizing.
+3. Active Aqua 0.10 HP Water Chiller — The refrigeration rung, entry price — a titanium-evaporator chiller that holds a target temperature regardless of how hot the room gets, the fix Rate My Fishtank calls the golden standard for large tanks and homes without reliable AC; it funnels into the full chiller roundup for sizing.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Heat-Defense Score = (Cooling Power × 0.35) + (Automation & Alerting × 0.25) + (Running Cost / Efficiency × 0.20) + (Tank-Size Fit × 0.20)
@@ -30388,10 +30380,9 @@ Pros:
 - Boost mode pulls temperature down fast
 - Lowest price into the chiller tier
 Cons:
-- Limited stock through a single third-party seller
 - Marketed mainly for cold plunges, not aquariums
 - Compressor carries a real running-cost bill
-Verdict: Step up to this entry chiller when a reef or a chronically hot tank has outrun what fans can do, and you need a target held regardless of the room. It is genuine refrigeration at the lowest price of the tier, with a salt-safe titanium coil. Note the honest catches — cold-plunge branding and thin, single-seller stock — and size it against the full chiller roundup before buying.
+Verdict: Step up to this entry chiller when a reef or a chronically hot tank has outrun what fans can do, and you need a target held regardless of the room. It is genuine refrigeration at the lowest price of the tier, with a salt-safe titanium coil. Note the honest catch — cold-plunge branding — and size it against the full chiller roundup before buying.
 
 #### Rank 7 — THE CHILLER TIER — PREMIUM (REFRIGERATION): JBJ Arctica Titanium Chiller 1/10 HP
 Brand: JBJ  |  Score: 8.6/10  |  Price: $759.90  |  ASIN: B001EM1E8U
@@ -30408,9 +30399,8 @@ Pros:
 - Maker touts low-noise operation
 Cons:
 - The most expensive rung by far
-- Limited stock through a single third-party seller
 - Compressor draws real, ongoing power
-Verdict: The Arctica is the reef keeper's default when chronic summer heat calls for real refrigeration and quiet matters. It is the priciest rung here and, like the entry chiller, its stock is thin through a single seller, so confirm current price and availability. Size it by Bulk Reef Supply's 10-BTU rule against the full chiller roundup rather than by horsepower alone.
+Verdict: The Arctica is the reef keeper's default when chronic summer heat calls for real refrigeration and quiet matters. It is the priciest rung here. Size it by Bulk Reef Supply's 10-BTU rule against the full chiller roundup rather than by horsepower alone.
 
 ### Bottom line
 Start at rung one and measure: the AQUANEAT thermometer is a $5 reading that tells you whether you have a heat emergency or a stuck heater, and it gates every dollar you spend above it.
@@ -30418,15 +30408,15 @@ Add alerts if you leave home: the WiFi Inkbird ITC-308 pings your phone when the
 Cool by evaporation before you refrigerate: the hygger 5-speed fan is real cooling for under twenty dollars, capped only by room humidity and a little extra top-off duty.
 Automate the fan hands-off: the hygger auto fan runs its own thermostat, so a mild-summer tank cools itself without a separate controller — just take its 3-7°F claim as the maker's estimate.
 Make dumb gear behave: the wired Inkbird ITC-308 switches a fan and locks out a heater by temperature, and it is the buyable answer to the Apex-versus-Hydros question for a heat problem.
-Refrigerate only when you must — entry: the Active Aqua 0.10 HP holds a target regardless of the room for a 10-to-40-gallon tank; watch the cold-plunge branding and thin stock.
-Refrigerate at the top end: the JBJ Arctica 1/10 HP is the reef keeper's default for chronic heat, the priciest and scarcest rung, and worth sizing against the full chiller roundup first.
+Refrigerate only when you must — entry: the Active Aqua 0.10 HP holds a target regardless of the room for a 10-to-40-gallon tank; watch the cold-plunge branding.
+Refrigerate at the top end: the JBJ Arctica 1/10 HP is the reef keeper's default for chronic heat, the priciest rung, and worth sizing against the full chiller roundup first.
 
 ### When not to buy
 Do not buy a chiller for a 2°F summer bump. A $494-to-$760 compressor is the answer to chronic heat, reef tanks, and rooms without reliable AC — not to a tank that drifts a couple of degrees on the hottest afternoons. Bulk Reef Supply says it directly: "most modern aquariums using LED lighting and efficient pumps do not need a chiller if the surrounding room stays cool and stable." For most tanks, the free moves come first — crack the lid, cut the light hours, and run the room AC if you have one, because cooling the room is the cheapest way to cool the tank. A clip-on fan and a topped-off water level handle a great many summers on their own.
 
 Measure before you spend. A $5-to-$10 thermometer is the first purchase, always, because a "hot tank" is sometimes a heater stuck on rather than a heat wave, and the fix for that costs nothing. Confirm the reading, watch it across a hot day, and let the number — not the panic — decide which rung you actually need. Fans defend small-to-mid and mild reef tanks with a 2-to-4°F bump; a controller earns its keep the moment a fan or heater runs unattended; the chiller tier is for tanks that run hot for weeks, not days.
 
-A word on the controllers people ask about. Reef shoppers often want to know whether to buy a Neptune Apex or a HYDROS — ReefBay frames the two as "a mature ecosystem with deep integration" versus a "modular, beginner-friendly" alternative — but neither full controller currently surfaces as a new, in-stock unit on Amazon, so this guide will not link you to a dead listing for one. The buyable temperature-control layer is the Inkbird, and for a heat problem specifically, a temperature controller is all you need to automate a fan and lock out a heater. When the ladder does reach the chiller rung, both chiller stocks are thin through single third-party sellers, which is why the tier hands off to [the full chiller roundup](/guides/best-aquarium-chillers-2026) for the current roster and sizing rather than betting on a single product. Confirm the current price and availability on every item before buying, since sellers and prices move.
+A word on the controllers people ask about. Reef shoppers often want to know whether to buy a Neptune Apex or a HYDROS — ReefBay frames the two as "a mature ecosystem with deep integration" versus a "modular, beginner-friendly" alternative — but neither full controller is covered here. The buyable temperature-control layer is the Inkbird, and for a heat problem specifically, a temperature controller is all you need to automate a fan and lock out a heater. When the ladder does reach the chiller rung, the tier hands off to [the full chiller roundup](/guides/best-aquarium-chillers-2026) for the current roster and sizing rather than betting on a single product. Confirm current prices on every item before buying, since sellers and prices move.
 
 ### Sources
 Expert: Aqueon — freshwater tropical temperature range, the dissolved-oxygen double-jeopardy physics, fan-across-the-surface method, and the 2-to-3°F-per-4-hours rate-of-change caution; Reef Builders (Jake Adams) — reef target near 77°F and coral heat-stress behavior; Blue Fish Aquarium — reef recommended 76-to-84°F band and stability as a basic tenet; Rate My Fishtank — the 80°F danger line, clip-on-fan boundary-layer cooling, powerhead oxygenation, and the chiller as golden standard; Bulk Reef Supply — chiller sizing (10 BTU per gallon per 1°F) and when a tank does not need one; ReefBay — the Apex-versus-HYDROS reef-controller ecosystem framing
@@ -31531,7 +31521,7 @@ Verified: 2026-07-16
 ## How to Set Up a Freshwater Shrimp Tank (Neocaridina for Beginners)
 
 URL: https://petpalhq.com/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026
-Published: 2026-07-16  |  Updated: 2026-08-12
+Published: 2026-07-16  |  Updated: 2026-09-30
 Category: Aquarium
 
 > Cherry shrimp are not tiny fish, and setting up for them inverts the fish-tank rulebook. A buffering aquasoil pushes pH the wrong way, injected CO2 becomes a hazard, and copper that fish shrug off kills a shrimp colony. This build goes livestock-first: a stable nano tank, an inert floor, an air-driven sponge filter that cannot suck up shrimplets, a full fishless cycle, hardness testing, and grazing cover — {{pickCountWord}} products in setup order, not ranked against each other. If you want a finished display in a weekend, read the caveats first, because shrimp reward stability and punish swings.
@@ -31704,8 +31694,7 @@ Pros:
 Cons:
 - Unnecessary if your tap water is already suitably hard
 - Adds a measured mixing step to every water change
-- This tin can run scarce, so order ahead
-Verdict: Remineralize when your tap water is too soft or you run RO for control, and skip it when hard tap already does the job. Let the hardness test, not habit, make the call, and mix to the same target every time. Confirm the current price and availability before buying, since this tin can run scarce.
+Verdict: Remineralize when your tap water is too soft or you run RO for control, and skip it when hard tap already does the job. Let the hardness test, not habit, make the call, and mix to the same target every time.
 
 #### Rank 9 — BIOFILM FURNITURE — CHOLLA WOOD: SoShrimp Natural Cholla Wood, 4-inch 3-pack
 Brand: SoShrimp  |  Score: 7.8/10  |  Price: $9.95  |  ASIN: B00TF4W618
@@ -32119,7 +32108,7 @@ Verified: 2026-07-12
 ## How to Set Up a Leopard Gecko Habitat (Tank, Heating, Three Hides)
 
 URL: https://petpalhq.com/guides/how-to-set-up-a-leopard-gecko-habitat-2026
-Published: 2026-07-16  |  Updated: 2026-08-12
+Published: 2026-07-16  |  Updated: 2026-09-30
 Category: Reptile
 
 > This is not a head-to-head reptile-gear ranking and it is not a desert-dragon build — it is a husbandry-first setup for one animal: the leopard gecko, a crepuscular, ground-dwelling lizard whose care is a floor plan rather than a light show. The picks below are the kit in the order the gecko's needs demand — a footprint-first tank, overhead heat that warms a basking surface, the thermostat that keeps that surface from burning, gauges to read the gradient, three hides for security and shedding, and calcium to dust the feeders — not {{pickCountWord}} products ranked against one another. If the picture in your head is a bright basking lamp over a bare tank with one open cave, read the caveats first, because the two things that most often go wrong for a leopard gecko are a heat plan set by feel and a missing moist hide.
@@ -32307,7 +32296,7 @@ A leopard gecko is a small, live-food-eating reptile that can share a home for f
 
 It is also a species where getting the husbandry wrong causes real harm, and two mistakes dominate. The first is a heat plan set by feel — a bulb with no thermostat, a warm end that is guessed rather than measured, or the old under-tank mat left to run unregulated — which leaves a gecko too cool to digest or hot enough to burn. The second is a missing moist hide, so an animal with nowhere humid to shed retains skin on its toes and eye caps. If the plan is a bright basking lamp over a bare tank with one open hide, that plan is the warning sign. And a leopard gecko is solitary — two are never housed together, because males fight and cohabited females stress.
 
-Two honest side paths belong here rather than in the picks. UVB for leopard geckos is genuinely debated: thousands of healthy geckos are raised on dusted diets with no UVB, while a growing body of opinion recommends a low-strength source for welfare — a considered choice, and the desert-strength bulbs that are actually in stock are overkill for a crepuscular animal, so no UVB fixture is picked here; to weigh a low-output option, see [our roundup of the best reptile UVB bulbs](/guides/best-reptile-uvb-bulbs-2026). And in a cold room where overhead halogen cannot hold night temperatures, a radiant panel or ceramic heater is the nighttime answer — [our roundup of the best reptile heat panels and radiant heat sources](/guides/best-reptile-heat-panels-radiant-heat-2026) covers that path. Confirm current prices on every item before buying, since sellers and prices move.
+Two honest side paths belong here rather than in the picks. UVB for leopard geckos is genuinely debated: thousands of healthy geckos are raised on dusted diets with no UVB, while a growing body of opinion recommends a low-strength source for welfare — a considered choice, and desert-strength bulbs are overkill for a crepuscular animal, so no UVB fixture is picked here; to weigh a low-output option, see [our roundup of the best reptile UVB bulbs](/guides/best-reptile-uvb-bulbs-2026). And in a cold room where overhead halogen cannot hold night temperatures, a radiant panel or ceramic heater is the nighttime answer — [our roundup of the best reptile heat panels and radiant heat sources](/guides/best-reptile-heat-panels-radiant-heat-2026) covers that path. Confirm current prices on every item before buying, since sellers and prices move.
 
 ### Sources
 Expert: Leopard-gecko keeper community consensus on tank size, gradients, hides, and shedding; Published reptile-care standards on thermal gradients, burn prevention, and moist hides; Husbandry consensus on substrate safety and calcium and D3 supplementation; REPTI ZOO — 50 Gallon Reptile Glass Terrarium product documentation; Exo Terra — Sun Glo Halogen, Dimming Pulse Thermostat, and Gecko Cave product documentation; Govee, Gondola Geckos, and Repashy product documentation
@@ -32681,7 +32670,7 @@ Verified: 2026-07-12
 ## How to Set Up an Axolotl Tank (Cool Water Is Everything)
 
 URL: https://petpalhq.com/guides/how-to-set-up-an-axolotl-tank-2026
-Published: 2026-07-16  |  Updated: 2026-08-12
+Published: 2026-07-16  |  Updated: 2026-09-30
 Category: Aquarium
 
 > This is not a head-to-head axolotl-gear ranking — it is a build order for a cold-water amphibian, the thermal opposite of the basking reptile most aquarium keepers picture. An axolotl has no heat lamp, no basking dock, and no UVB requirement; the entire problem is keeping the water cool, between 60 and 68°F, all summer long. The picks below are that kit in sequence — a floor-space tank, a fine sand bed, a chiller with an honest fan fallback, a gentle sponge filter, a conditioner, a bacteria starter, a test kit, and a thermometer — not {{pickCountWord}} products ranked against each other. If you cannot hold the water cool, cycle the tank fishless first, and keep gravel out from under a suction-feeding animal, read the caveats before you buy anything, because a warm, gravel-floored, uncycled tank is how most axolotls die.
@@ -32740,7 +32729,7 @@ Cons:
 - By far the most expensive item in the build
 - Needs a pump, airflow space, and vents heat like a fridge
 - Runs with an audible hum while cooling
-Verdict: Buy the chiller if your room drifts above the low seventies, because it is the one appliance that holds a hard cool ceiling an axolotl depends on. Size the capacity to your tank volume and summer high rather than guessing, plan for a pump and venting space, and confirm current stock on this model before committing — and if your room already runs cool, read the fan below first.
+Verdict: Buy the chiller if your room drifts above the low seventies, because it is the one appliance that holds a hard cool ceiling an axolotl depends on. Size the capacity to your tank volume and summer high rather than guessing, plan for a pump and venting space — and if your room already runs cool, read the fan below first.
 
 #### Rank 4 — THE BUDGET FORK — CLIP-ON COOLING FAN: hygger Aquarium Cooling Fan (1-Fan Head)
 Brand: hygger  |  Score: 8.3/10  |  Price: $18.99  |  ASIN: B0BV24KQLJ
@@ -33730,7 +33719,7 @@ Verified: 2026-07-12
 ## How to Transition a Cat to an Automatic Litter Box (2026)
 
 URL: https://petpalhq.com/guides/how-to-transition-cat-to-automatic-litter-box-2026
-Published: 2026-07-11  |  Updated: 2026-08-18
+Published: 2026-07-11  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > This is not a best-box ranking — it is the acceptance playbook. The transition is a slow behavioral hand-off, not an install: place the unplugged unit beside the old box, let the cat use it cold, run one cycle only when they are away, and remove the old box last. The picks below are a toolkit that carries acceptance, not premium boxes ranked against each other. If box avoidance is sudden, painful, or stress-linked, skip the shopping entirely and call your veterinarian — ASPCA, Cornell, and Merck all treat house-soiling as a medical workup first.
@@ -33798,11 +33787,9 @@ Key features:
 - Unscented, hard-clumping clay — the AAFP default substrate
 - 40 lb supply covers a full multi-week transition
 - No added fragrance to deter a scent-sensitive cat
-- Widely available for consistent re-buying mid-transition
 Pros:
 - Unscented clumping clay matches the AAFP-recommended default
 - Keeping the substrate constant removes a major refusal variable
-- Large supply and wide stock make mid-transition re-buys easy
 - No fragrance to deter scent-sensitive cats
 Cons:
 - Not every automatic box accepts standard clumping clay
@@ -34499,7 +34486,7 @@ Verified: 2026-07-08
 ## Leaving Your Pet Home Alone for the Weekend: The Automation Checklist
 
 URL: https://petpalhq.com/guides/weekend-away-pet-automation-checklist-2026
-Published: 2026-07-16  |  Updated: 2026-08-18
+Published: 2026-07-16  |  Updated: 2026-09-30
 Category: Cats & Dogs
 
 > This is not a gadget haul — it is a planning checklist for the weekend a cat stays home while you go. A feeder, a diet guard, a fountain, self-cleaning litter with a plain backup box, and a camera cover two nights for a self-reliant adult cat. The honest ceiling is 48 to 72 hours; past that, a person does the job a machine cannot. Dogs are a separate answer entirely — a weekend away for a dog household means a sitter, boarding, or taking the dog along, not a bowl of kibble on a timer.
@@ -34649,7 +34636,7 @@ Do not buy any of this for a dog and call it a plan. The rows here are cat, fish
 
 Do not lean on automation past its ceiling. Two nights is a solved problem for a self-reliant adult cat; beyond about three days, gear stops being enough and a pet sitter becomes the answer. Kittens, seniors, and cats with medical needs want a person regardless of how short the trip is, because they are the animals most likely to need a response the machine cannot give. The devices still earn their place with a sitter checking in — they just stop being the whole plan.
 
-Do not treat this as a hardware fix for a stations problem. If the real issue is that the pets fight over food or crowd one feeding spot, adding a feeder does not solve it — the layout does. Fix the number and placement of feeding stations first with our guide on [how to stop pets stealing each other's food](/guides/how-to-stop-pets-stealing-each-others-food-2026), then automate the setup that already works. And confirm each price and seller before buying, since deal prices and stock move — a machine covers the weekend, but it never replaces the person who can physically respond when something goes wrong.
+Do not treat this as a hardware fix for a stations problem. If the real issue is that the pets fight over food or crowd one feeding spot, adding a feeder does not solve it — the layout does. Fix the number and placement of feeding stations first with our guide on [how to stop pets stealing each other's food](/guides/how-to-stop-pets-stealing-each-others-food-2026), then automate the setup that already works. And confirm each price and seller before buying, since deal prices move — a machine covers the weekend, but it never replaces the person who can physically respond when something goes wrong.
 
 ### Sources
 Expert: Pet-sitting and animal-welfare consensus on how long a cat can be left alone with automation; Veterinary and shelter guidance on unattended care, the verification loop, and the dry-run rule; PetSafe and Sure Petcare product documentation for the fountain and microchip feeder; PETLIBRO, IRIS USA, and Furbo product documentation; Aquatics vacation-care consensus on underfeeding an unattended tank
@@ -34661,7 +34648,7 @@ Verified: 2026-07-16
 ## Litter-Robot 4 vs PETKIT PuraMax 2 (2026): The Three-Year Cost, Priced
 
 URL: https://petpalhq.com/guides/litter-robot-4-vs-petkit-puramax-2-2026
-Published: 2026-08-17  |  Updated: 2026-08-17
+Published: 2026-08-17  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > The PuraMax 2 costs $309 less than the Litter-Robot 4 on the day you buy it. The usual next sentence is that the cheap box costs more to feed — so we priced both boxes' consumables at their makers' own cadences, and it turns out to be false. The PuraMax 2 is cheaper to run too, by about $18 a year. That reframes what the Litter-Robot's $309 premium actually buys, and this guide is about what it does buy.
@@ -35785,7 +35772,7 @@ Verified: 2026-07-12
 ## Reef Tank Maintenance Schedule: Daily, Weekly, Monthly (2026)
 
 URL: https://petpalhq.com/guides/saltwater-reef-tank-maintenance-schedule-2026
-Published: 2026-07-16  |  Updated: 2026-07-16
+Published: 2026-07-16  |  Updated: 2026-09-30
 Category: Aquarium
 
 > This is not a reef-tank build list — it is the upkeep rhythm that keeps an already-wet reef alive. The picks below are the maintenance bench in schedule order — an automatic top-off unit that runs every day, an RO/DI system and reef salt for the weekly water change, a test kit and two-part supplement for test-then-dose chemistry, a dosing pump to automate it, filter socks swapped every few days, a refractometer for salinity, a no-spill changer for water-change day, and a magnet scraper for monthly glass service — not ten products ranked against each other. The full bench costs under a thousand dollars and most reefers already own half of it; if the schedule itself is the thing you will not keep, read the caveats before buying, because a reef rewards a steady hand and punishes a neglected one.
@@ -35823,10 +35810,9 @@ Pros:
 - Configuration-free setup with built-in overfill safety
 - Covers the daily job during a short trip away
 Cons:
-- Stock runs thin at third-party reef retailers
 - A dry reservoir or a salt-crept sensor defeats the automation
 - Tops off fresh water only — it does not change, dose, or test
-Verdict: Automate the daily top-off first, because it is the task the schedule demands most often and the one a person skips soonest. It holds salinity steady and buys a little freedom from the tank — just keep the reservoir filled and the sensor clean, and confirm stock before you rely on it.
+Verdict: Automate the daily top-off first, because it is the task the schedule demands most often and the one a person skips soonest. It holds salinity steady and buys a little freedom from the tank — just keep the reservoir filled and the sensor clean.
 
 #### Rank 2 — WEEKLY WATER — RO/DI SYSTEM: Bulk Reef Supply 4 Stage Value Plus 75 GPD RO/DI System
 Brand: Bulk Reef Supply  |  Score: 8.5/10  |  Price: $249.99  |  ASIN: B0DQLSCW8P
@@ -35882,7 +35868,6 @@ Pros:
 Cons:
 - Titration is slower and needs careful, well-lit technique
 - Reagents degrade with age and heat and must stay fresh
-- Stock runs thin at third-party reef retailers
 Verdict: Test before you dose, always, because a reef's calcium, alkalinity, and magnesium only mean something as measured numbers. This titration kit is accurate enough to dose from and carries the most reagent for the alkalinity you will check most — just run it carefully and keep the reagents fresh.
 
 #### Rank 5 — TEST-THEN-DOSE — TWO-PART SOLUTION: ESV B-Ionic Calcium Buffer System (2-Gallon)
@@ -35901,7 +35886,6 @@ Pros:
 Cons:
 - The two parts must be dosed together or the ratio drifts
 - Overdosing alkalinity can stress corals quickly
-- Availability is uneven at third-party reef retailers
 Verdict: Dose two-part only to the number the test kit gives you, and always add both components in step. B-Ionic replaces the calcium and alkalinity a growing reef consumes without powders or ionic disruption — just measure the dose precisely, because blind or unbalanced dosing does more harm than good.
 
 #### Rank 6 — TEST-THEN-DOSE — DOSING PUMP: Kamoer X1 PRO-T Programmable WiFi Dosing Pump
@@ -36011,7 +35995,7 @@ A reef-tank maintenance schedule keeps a healthy tank healthy. It does not rescu
 
 Restraint and rhythm rule out the usual shortcuts. The most common way a reef goes wrong is not too little equipment but too little consistency. That means dosing blind on a calendar instead of testing first, chasing a perfect number instead of holding a steady one, or skipping the small weekly change until a big corrective one is needed. Test-then-dose is the discipline that prevents it. Measure alkalinity, calcium, and magnesium, then add only what the reading shows is missing, in balance. And some tasks this bench does not cover still belong to the same weekly rhythm. The protein skimmer's collection cup is emptied and wiped weekly so a dirty neck never kills skim performance, and [our roundup of the best protein skimmers for saltwater reef tanks](/guides/best-protein-skimmers-saltwater-reef-2026) is the reference for the skimmer itself. If your instinct is to buy every automation at once and stop paying attention, that instinct is the warning sign, because automation executes judgment rather than replacing it.
 
-Finally, the honest budget note: this bench is the equipment, not the cost of running a reef. Salt, test reagents, two-part supplement, DI resin, replacement filter socks, and electricity are the ongoing bill, and it does not stop. The full bench costs under a thousand dollars and most reefers already own half of it, but the consumables are forever. There is also gear this schedule assumes but does not list, from a heater and controller to a mixing container and a spare pump, that a stocked reef already has. Confirm current price and availability on every item before buying, since prices, sellers, and stock on reef equipment move constantly.
+Finally, the honest budget note: this bench is the equipment, not the cost of running a reef. Salt, test reagents, two-part supplement, DI resin, replacement filter socks, and electricity are the ongoing bill, and it does not stop. The full bench costs under a thousand dollars and most reefers already own half of it, but the consumables are forever. There is also gear this schedule assumes but does not list, from a heater and controller to a mixing container and a spare pump, that a stocked reef already has. Confirm current price and availability on every item before buying, since prices and sellers on reef equipment move constantly.
 
 ### Sources
 Expert: Reef-keeping education consensus — Bulk Reef Supply's maintenance curriculum and the reef community; Published reef water-chemistry targets for salinity, alkalinity, calcium, and magnesium; Saltwater-aquarium husbandry consensus on test-then-dose discipline and water changes; Tunze, Bulk Reef Supply, Instant Ocean, and Red Sea maintenance-equipment documentation; ESV, Kamoer, and Aquatic Experts dosing and filtration documentation; Python and Aqueon water-change and glass-service product documentation
@@ -36023,7 +36007,7 @@ Verified: 2026-07-16
 ## Setting Up a Dog Post-Surgery Recovery Station (TPLO / Cruciate Prep Checklist)
 
 URL: https://petpalhq.com/guides/dog-post-surgery-recovery-station-setup-2026
-Published: 2026-07-17  |  Updated: 2026-09-09
+Published: 2026-07-17  |  Updated: 2026-09-30
 Category: Cats & Dogs
 
 > A recovery station is not a shopping list — it's a room you build in a specific order, before your dog comes home, so the first two weeks (the phase every surgeon calls the most critical) are already solved. This guide stages the build: pick the zone, traction the path, protect the wound where the incision actually is, add a rear-support sling for the hind end a TPLO surgery loads, solve the car for rechecks, fight crate boredom, and plan for hygiene. It funnels into PetPalHQ's recovery-aids roundup for which exact collar or sling to buy, and stays clearly apart from the senior-arthritis home-setup guide — this station is acute, time-boxed, and dismantled the day the surgeon clears the dog.
@@ -36037,7 +36021,7 @@ Editorial synthesis of pre-surgery shopping guidance and recovery-timeline docum
 ### Top picks (winners)
 1. PETMAKER Foldable Metal Exercise Pen, 8-Panel — The zone the whole station is built around — an 8-panel, 24×30-inch confinement pen set up before surgery day, so a groggy dog comes home to a room that's already solved rather than one assembled in a panic.
 2. BENCMATE Inflatable Dog Cone Collar Alternative — The primary wound barrier for a TPLO's knee incision — a softer alternative to a hard E-collar, sized small through large, chosen because a torso suit does not cover a leg wound.
-3. GingerLead Dog Rear Support Sling Harness — The mobility-assist pick for a hind-limb surgery — a rear-lift sling confirmed in stock, chosen over a backordered full-body alternative that could miss surgery day entirely.
+3. GingerLead Dog Rear Support Sling Harness — The mobility-assist pick for a hind-limb surgery — a rear-lift sling, chosen over a full-body alternative.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Station-Readiness Score = (Zone Containment × 0.35) + (Traction Coverage × 0.25) + (Wound Barrier Fit × 0.20) + (Mobility Assist × 0.20)
@@ -36072,7 +36056,6 @@ Key features:
 - 2 ft by 6 ft washable, waterproof, non-slip runner, per TTelephant
 - Marketed for dogs — built for a post-op floor path
 - Lists at $36.99, currently $29.59
-- Confirm the exact listing — a similarly priced variant showed limited stock
 - Lay it crate-to-door and crate-to-water-bowl
 Pros:
 - Washable and waterproof, which suits a station with accident risk
@@ -36082,7 +36065,6 @@ Pros:
 Cons:
 - One 2×6-ft length won't cover a long hallway on its own
 - Treats the floor, not the dog's feet — pair with toe grips for full coverage
-- A similarly priced variant of this listing showed limited stock — order the verified SKU
 Verdict: Get the TTelephant runner and lay it down the exact crate-to-door-to-bowl path your dog will use — hardwood and tile are the named re-injury hazard in every source here. At $29.59 (listed $36.99) it's cheap insurance; just measure your hallway, since one length may not cover it all.
 
 #### Rank 3 — STAGE 1 — PAW-SIDE TRACTION: Dr. Buzby's Medium ToeGrips for Dogs
@@ -36157,7 +36139,7 @@ Cons:
 - Not built for a dog needing BOTH front and rear support — that's a different harness
 - M/LG sizing only in this listing — confirm fit for your dog
 - A sling, not a wheelchair — still requires the owner to lift and guide
-Verdict: Get the GingerLead rear sling for potty breaks and the unavoidable few steps — it's the clinically apt pick for a hind-limb surgery like TPLO, and it was confirmed in stock when a backordered full-body alternative was not. If your dog genuinely needs front-and-rear support, order that harness weeks ahead of surgery, not the week before.
+Verdict: Get the GingerLead rear sling for potty breaks and the unavoidable few steps — it's the clinically apt pick for a hind-limb surgery like TPLO. If your dog genuinely needs front-and-rear support, a full-body harness is the alternative to look at.
 
 #### Rank 7 — STAGE 4 — SOLVE THE CAR: PetSafe Happy Ride 62-Inch Folding Pet Ramp
 Brand: PetSafe  |  Score: 8.3/10  |  Price: $59.99  |  ASIN: B0016HNU12
@@ -36222,7 +36204,7 @@ Get the TTelephant runner and lay it crate-to-door-to-bowls — hardwood and til
 Add Dr. Buzby's ToeGrips for the paw-side half of traction — a runner covers the path, ToeGrips cover the dog's feet on the stretches the runner can't reach.
 Get the BENCMATE inflatable collar as the primary wound barrier — a TPLO incision is on the knee, not the belly, so this is the softer version of the E-collar every source says the dog needs.
 Get the Suitical suit for torso comfort and a cleaner house, not as the wound barrier — the suit's own product family says it isn't built for limb wounds.
-Get the GingerLead rear sling for potty breaks — it targets the hind end where a TPLO's incision and load sit, and it was confirmed in stock when a backordered full-body alternative was not.
+Get the GingerLead rear sling for potty breaks — it targets the hind end where a TPLO's incision and load sit.
 Get the PetSafe ramp before the first recheck — the no-jump rule applies to every car trip the recovery timeline requires.
 Add a crate-sized lick mat like the Lalolee for the boredom of weeks of restriction — mental stimulation matters once activity drops, and the model choice itself is low-stakes.
 Get the Eterish washable pads and lay them down before you need them — a groggy or posture-limited dog having an accident is normal, and washable beats disposable across an 8-to-16-week recovery.
@@ -36236,7 +36218,7 @@ This station is not pain management. Nothing rostered here treats pain, controls
 
 Skip fitting the toe grips if the paw is too swollen or painful right now. Introduce them later, once the paw is comfortable to handle — don't force fitment onto a fresh post-op foot.
 
-Don't count on a backordered sling arriving before surgery day. If a full-body harness you're considering shows no ship date, order it weeks ahead or buy direct from the brand — or take the in-stock rear sling this station rosters and revisit the full-body option later if your dog turns out to need it.
+Skip a full-body harness unless your dog genuinely needs front-and-rear support. The rear sling this station rosters is built for the hind end; revisit the full-body option later if your dog turns out to need it.
 
 And know the difference between acute and chronic. If your dog's mobility problem is age-related and permanent rather than a single surgical injury with a defined recovery arc, this time-boxed station is the wrong frame entirely — see the [senior-dog arthritis home-setup guide](/guides/senior-dog-arthritis-home-setup-mobility-2026) instead, which is built for a house you adapt forever, not a room you dismantle at the surgeon's clearance.
 
@@ -36436,7 +36418,7 @@ Verified: 2026-07-16
 ## What Your Cat's Litter Box Can Catch Early: Smart Litter Health Monitoring (2026)
 
 URL: https://petpalhq.com/guides/cat-litter-box-health-monitoring-early-detection-2026
-Published: 2026-07-16  |  Updated: 2026-09-03
+Published: 2026-07-16  |  Updated: 2026-09-30
 Category: Cats & Dogs
 
 > Cats hide illness, and the litter box is usually where a change shows up first — a run of extra trips can flag a urinary problem, bigger urine volumes can be early kidney disease, and a straining male cat producing little urine is an emergency. You do not need a $700 box to notice: start free by watching frequency, volume, and weight, add a $21 color-change litter as a passive screen, slide a subscription-free Purina Petivity under the box you already own, or climb to an AI-camera or full smart-box tier where the useful trend graph is often rented. Whatever the tool says, it is screening, not a diagnosis — bring the trend to your vet.

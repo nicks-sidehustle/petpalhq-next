@@ -24,7 +24,7 @@ keywords:
   - "Greater Goods pet scale"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-08-07'
+updatedDate: '2026-09-30'
 readTime: 12 min read
 featured: true
 image: /images/guides/best-weight-management-dog-cat-food-2026.webp
@@ -146,7 +146,6 @@ picks:
       - 0.1 lb precision per manufacturer documentation
       - 44 lb capacity covers most cats and small-to-medium dogs
       - Wiggle-proof reading helps with restless pets
-      - Strong Amazon visibility and consistent stock
     cons:
       - 44 lb ceiling is too low for medium-large and large dogs
       - >-
@@ -295,13 +294,12 @@ picks:
     asin: B0C12TVBV2
     keyFeatures:
       - Lower-energy-density formulation positioned for weight management
-      - Mainstream retail availability — no veterinary authorization required
+      - Mainstream retail food — no veterinary authorization required
       - Hill's documents formulation for weight-loss support
       - Pairs naturally with measured gram-based feeding
     body: >
       The Hill's Science Diet Adult Perfect Weight Dry Dog Food, Chicken & Brown
-      Rice, 25 lb. Bag is the cleanest mainstream retail food inclusion. Amazon
-      availability is consistent, and the product family is built around
+      Rice, 25 lb. Bag is the cleanest mainstream retail food inclusion. The product family is built around
       lower-energy-density weight-management nutrition. Editorially, its value is
       not that food alone fixes obesity. It is that lower-calorie food is easier to
       defend than gimmick "fat-burner" supplements, which the Association for Pet
@@ -335,7 +333,6 @@ picks:
       and it will not.
     pros:
       - Lower energy density is a defensible editorial choice
-      - Mainstream Amazon availability
       - No vet authorization required
       - Can be used in combination with structured portion control
     cons:

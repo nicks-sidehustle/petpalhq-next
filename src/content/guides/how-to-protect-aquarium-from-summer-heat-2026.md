@@ -14,7 +14,7 @@ keywords:
   - "cool down fish tank without chiller"
 pillar: "aquarium-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-07"
+updatedDate: "2026-09-30"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/how-to-protect-aquarium-from-summer-heat-2026.webp"
@@ -42,7 +42,7 @@ topPicks:
     verifiedDate: "2026-07-16"
   - name: "Active Aqua 0.10 HP Water Chiller"
     pickRef: "r6"
-    keyFeature: "The refrigeration rung, entry price — a titanium-evaporator chiller that holds a target temperature regardless of how hot the room gets, the fix Rate My Fishtank calls the golden standard for large tanks and homes without reliable AC; stock is thin, so it funnels into the full chiller roundup for sizing."
+    keyFeature: "The refrigeration rung, entry price — a titanium-evaporator chiller that holds a target temperature regardless of how hot the room gets, the fix Rate My Fishtank calls the golden standard for large tanks and homes without reliable AC; it funnels into the full chiller roundup for sizing."
     sources: ["Active Aqua (Amazon product listing)", "Rate My Fishtank", "Bulk Reef Supply"]
     verifiedDate: "2026-07-16"
 
@@ -298,17 +298,16 @@ picks:
 
       Where it sits on the ladder: it is the top rung at its lowest rung of entry, the first step into true mechanical cooling for a small-to-mid tank that runs hot for weeks rather than days. The titanium evaporator is the aquarium-relevant part, because titanium tolerates salt where lesser metals corrode, which is what makes this safe on a reef. Sizing is where this guide hands off: the honest math is Bulk Reef Supply's rule to "round up to 10 BTU per gallon for every 1°F of cooling" and to oversize slightly rather than undersize, and [our roundup of the best aquarium chillers](/guides/best-aquarium-chillers-2026) walks that sizing through for the full roster so you match horsepower to your gallons.
 
-      Two honesty notes you should hear before spending nearly five hundred dollars. First, this chiller is marketed primarily for cold-plunge and ice-bath use; the aquarium fit is real and the listing explicitly names "aquariums, reef tanks, and hydroponic systems," but the marketing lens is not aquarium-first, so read the fittings against your plumbing. Second, stock is genuinely thin — it sells through a single third-party seller rather than Amazon directly, so price and availability move, and that scarcity is exactly why the chiller tier funnels to the live roundup instead of betting your setup on one listing. As the entry chiller, it is the cheapest way into refrigeration that will actually hold a reef through a heat wave.
+      Two honesty notes you should hear before spending nearly five hundred dollars. First, this chiller is marketed primarily for cold-plunge and ice-bath use; the aquarium fit is real and the listing explicitly names "aquariums, reef tanks, and hydroponic systems," but the marketing lens is not aquarium-first, so read the fittings against your plumbing. Second, the chiller tier funnels to the live roundup instead of betting your setup on one listing. As the entry chiller, it is the cheapest way into refrigeration that will actually hold a reef through a heat wave.
     pros:
       - "True refrigeration, unbothered by room humidity"
       - "Salt-safe titanium evaporator for reef tanks"
       - "Boost mode pulls temperature down fast"
       - "Lowest price into the chiller tier"
     cons:
-      - "Limited stock through a single third-party seller"
       - "Marketed mainly for cold plunges, not aquariums"
       - "Compressor carries a real running-cost bill"
-    verdict: "Step up to this entry chiller when a reef or a chronically hot tank has outrun what fans can do, and you need a target held regardless of the room. It is genuine refrigeration at the lowest price of the tier, with a salt-safe titanium coil. Note the honest catches — cold-plunge branding and thin, single-seller stock — and size it against the full chiller roundup before buying."
+    verdict: "Step up to this entry chiller when a reef or a chronically hot tank has outrun what fans can do, and you need a target held regardless of the room. It is genuine refrigeration at the lowest price of the tier, with a salt-safe titanium coil. Note the honest catch — cold-plunge branding — and size it against the full chiller roundup before buying."
 
   - rank: 7
     label: "THE CHILLER TIER — PREMIUM (REFRIGERATION)"
@@ -341,7 +340,7 @@ picks:
 
       Where it sits on the ladder: this is the top rung, the buy for a reef tank in a hot room where a fan is never going to be enough. Everything about it points at the demanding case — the efficient condenser matters when a compressor may run for hours in July, the corrosion resistance matters in saltwater, and the noise claim matters when the chiller lives in a living room. As with the entry chiller, sizing is the decision that counts, and Bulk Reef Supply's rule of thumb applies: work out the cooling load for your gallons and target drop, and oversize slightly rather than undersize, since "an undersized unit runs longer, works harder, and may never reach the temperature you want during warmer months." [The full chiller roundup](/guides/best-aquarium-chillers-2026) carries that sizing across the roster so you match this to your gallons rather than guessing.
 
-      The honest limits are price and stock. At roughly $760 this is the most expensive rung by a wide margin, and like the entry unit its stock is thin — sold through a single third-party reef retailer, not Amazon directly, so the price and even its availability can move between the day you read this and the day you buy. A compressor of this size also draws real power, which is a running cost, not a one-time one. As the premium chiller, it is the reef keeper's known-good answer for chronic heat — provided you confirm current price and stock and size it properly before committing.
+      The honest limits are price and power draw. At roughly $760 this is the most expensive rung by a wide margin. A compressor of this size also draws real power, which is a running cost, not a one-time one. As the premium chiller, it is the reef keeper's known-good answer for chronic heat — provided you size it properly before committing.
     pros:
       - "Reef keepers' common default for hot tanks"
       - "Efficient condenser for long compressor runs"
@@ -349,9 +348,8 @@ picks:
       - "Maker touts low-noise operation"
     cons:
       - "The most expensive rung by far"
-      - "Limited stock through a single third-party seller"
       - "Compressor draws real, ongoing power"
-    verdict: "The Arctica is the reef keeper's default when chronic summer heat calls for real refrigeration and quiet matters. It is the priciest rung here and, like the entry chiller, its stock is thin through a single seller, so confirm current price and availability. Size it by Bulk Reef Supply's 10-BTU rule against the full chiller roundup rather than by horsepower alone."
+    verdict: "The Arctica is the reef keeper's default when chronic summer heat calls for real refrigeration and quiet matters. It is the priciest rung here. Size it by Bulk Reef Supply's 10-BTU rule against the full chiller roundup rather than by horsepower alone."
 
 comparison:
   rows:
@@ -391,7 +389,7 @@ whenNotToBuy: |
 
   Measure before you spend. A $5-to-$10 thermometer is the first purchase, always, because a "hot tank" is sometimes a heater stuck on rather than a heat wave, and the fix for that costs nothing. Confirm the reading, watch it across a hot day, and let the number — not the panic — decide which rung you actually need. Fans defend small-to-mid and mild reef tanks with a 2-to-4°F bump; a controller earns its keep the moment a fan or heater runs unattended; the chiller tier is for tanks that run hot for weeks, not days.
 
-  A word on the controllers people ask about. Reef shoppers often want to know whether to buy a Neptune Apex or a HYDROS — ReefBay frames the two as "a mature ecosystem with deep integration" versus a "modular, beginner-friendly" alternative — but neither full controller currently surfaces as a new, in-stock unit on Amazon, so this guide will not link you to a dead listing for one. The buyable temperature-control layer is the Inkbird, and for a heat problem specifically, a temperature controller is all you need to automate a fan and lock out a heater. When the ladder does reach the chiller rung, both chiller stocks are thin through single third-party sellers, which is why the tier hands off to [the full chiller roundup](/guides/best-aquarium-chillers-2026) for the current roster and sizing rather than betting on a single product. Confirm the current price and availability on every item before buying, since sellers and prices move.
+  A word on the controllers people ask about. Reef shoppers often want to know whether to buy a Neptune Apex or a HYDROS — ReefBay frames the two as "a mature ecosystem with deep integration" versus a "modular, beginner-friendly" alternative — but neither full controller is covered here. The buyable temperature-control layer is the Inkbird, and for a heat problem specifically, a temperature controller is all you need to automate a fan and lock out a heater. When the ladder does reach the chiller rung, the tier hands off to [the full chiller roundup](/guides/best-aquarium-chillers-2026) for the current roster and sizing rather than betting on a single product. Confirm current prices on every item before buying, since sellers and prices move.
 
 bottomLine:
   - "Start at rung one and measure: the AQUANEAT thermometer is a $5 reading that tells you whether you have a heat emergency or a stuck heater, and it gates every dollar you spend above it."
@@ -399,8 +397,8 @@ bottomLine:
   - "Cool by evaporation before you refrigerate: the hygger 5-speed fan is real cooling for under twenty dollars, capped only by room humidity and a little extra top-off duty."
   - "Automate the fan hands-off: the hygger auto fan runs its own thermostat, so a mild-summer tank cools itself without a separate controller — just take its 3-7°F claim as the maker's estimate."
   - "Make dumb gear behave: the wired Inkbird ITC-308 switches a fan and locks out a heater by temperature, and it is the buyable answer to the Apex-versus-Hydros question for a heat problem."
-  - "Refrigerate only when you must — entry: the Active Aqua 0.10 HP holds a target regardless of the room for a 10-to-40-gallon tank; watch the cold-plunge branding and thin stock."
-  - "Refrigerate at the top end: the JBJ Arctica 1/10 HP is the reef keeper's default for chronic heat, the priciest and scarcest rung, and worth sizing against the full chiller roundup first."
+  - "Refrigerate only when you must — entry: the Active Aqua 0.10 HP holds a target regardless of the room for a 10-to-40-gallon tank; watch the cold-plunge branding."
+  - "Refrigerate at the top end: the JBJ Arctica 1/10 HP is the reef keeper's default for chronic heat, the priciest rung, and worth sizing against the full chiller roundup first."
 
 sources:
   expert:

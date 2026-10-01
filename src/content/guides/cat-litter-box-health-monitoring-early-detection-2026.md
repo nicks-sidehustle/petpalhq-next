@@ -15,7 +15,7 @@ keywords:
 pillar: "expert-care"
 guideType: "spoke"
 publishDate: "2026-07-16"
-updatedDate: "2026-09-03"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/cat-litter-box-health-monitoring-early-detection-2026.webp"
@@ -100,7 +100,7 @@ picks:
     authoritySources:
       - outlet: "PrettyLitter (Amazon product listing, Health Monitoring Cat Litter)"
         url: "https://www.amazon.com/dp/B0C9SKNV7S"
-        stat: "color-changing silica-gel crystal litter sold one-time on Amazon at $27.99; a roughly one-month supply per cat; New-condition buy-box, in stock"
+        stat: "color-changing silica-gel crystal litter sold one-time on Amazon at $27.99; a roughly one-month supply per cat; New-condition buy-box"
         supports: "spec"
         accessed: "2026-07-16"
       - outlet: "Cornell Feline Health Center (Chronic Kidney Disease)"
