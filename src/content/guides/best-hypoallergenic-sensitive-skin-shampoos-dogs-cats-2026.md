@@ -555,13 +555,6 @@ comparison:
         - 'Yes — pH-adjusted'
         - 'Yes — pH-balanced for dogs'
         - 'Yes for dogs; vet-directed for cats'
-    - label: Value (price per use & availability)
-      values:
-        - Excellent — cheap and ubiquitous
-        - Strong — inexpensive
-        - Weakest — premium price
-        - Best value for dogs
-        - Cheap but narrow, conditional use
 methodology:
   formula: >-
     PetPal Gear Score = (Expert Consensus × 0.35) + (Skin & Coat Suitability /

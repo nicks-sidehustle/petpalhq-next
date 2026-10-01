@@ -276,8 +276,6 @@ comparison:
       values: ["None, low, high (81–160°F)", "Motor-warmed air only", "No heater; airflow only", "No heater; airflow only", "Two heat settings"]
     - label: "Noise profile"
       values: ["Loud; ramp up slowly", "Quieter pro motor; still loud", "Quieter two-speed; still loud", "Insulated for quieter use", "Noise-reduction design; still loud"]
-    - label: "Price"
-      values: ["$187.00", "$372.00", "$305.99", "$99.00", "$68.39"]
     - label: "Best for"
       values: ["Most doodle owners", "Heavy or frequent grooming", "US-made, low-heat drying", "Value buyers", "Tightest budgets"]
 

@@ -247,8 +247,6 @@ methodology:
 
 comparison:
   rows:
-    - label: "Price"
-      values: ["", "$269.95", "", "$59.99", ""]
     - label: "Sub-category"
       values: ["Backyard pool", "In-ground exit ramp", "Lake/boat dock ramp", "Poolside shade", "Heat recovery mat"]
     - label: "Setup time"

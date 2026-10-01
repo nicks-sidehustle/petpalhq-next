@@ -478,14 +478,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$19.54"
-        - "$9.92"
-        - "$41.99"
-        - "$19.48"
-        - "$9.92"
-        - "$35.24"
     - label: "Best for"
       values:
         - "Mild undiagnosed flare (combo)"

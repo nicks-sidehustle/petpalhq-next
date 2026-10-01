@@ -315,14 +315,6 @@ picks:
 
 comparison:
   rows:
-    - label: Price on Amazon
-      values:
-        - "$1,984.30"
-        - "$969.99"
-        - "$1,542.21"
-        - "$699.99"
-        - "$589.99"
-        - "$499.99"
     - label: Drive type
       values:
         - Motorized
