@@ -14,7 +14,7 @@ keywords:
   - "unscented clumping litter transition"
 pillar: "expert-care"
 publishDate: "2026-07-11"
-updatedDate: "2026-08-18"
+updatedDate: "2026-09-30"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/how-to-transition-cat-to-automatic-litter-box-2026.webp"
@@ -82,7 +82,7 @@ picks:
       - "Cheapest way to test acceptance before a premium purchase"
       - "App-free simplicity means fewer variables during the transition"
       - "Roughly a month between tray changes reduces daily handling"
-      - "Established, widely stocked PetSafe platform"
+      - "Established PetSafe platform"
     cons:
       - "Crystal is a substrate change — a real refusal risk mid-transition"
       - "Disposable trays are an ongoing consumable cost"
@@ -155,7 +155,6 @@ picks:
       - "Unscented, hard-clumping clay — the AAFP default substrate"
       - "40 lb supply covers a full multi-week transition"
       - "No added fragrance to deter a scent-sensitive cat"
-      - "Widely available for consistent re-buying mid-transition"
     body: |
       Substrate is the variable most transitions quietly ignore, and it is often the one that decides them. Dr. Elsey's Ultra is unscented hard-clumping clay, and the reason it anchors this toolkit is that AAHA/AAFP name unscented clumping litter as the recommended default for most cats. If the cat already uses a clumping litter it trusts, the single most powerful thing an owner can do during the move is to keep that footing identical. A cat that steps into a new automatic box and finds the same familiar surface underfoot has one fewer reason to refuse.
 
@@ -165,7 +164,6 @@ picks:
     pros:
       - "Unscented clumping clay matches the AAFP-recommended default"
       - "Keeping the substrate constant removes a major refusal variable"
-      - "Large supply and wide stock make mid-transition re-buys easy"
       - "No fragrance to deter scent-sensitive cats"
     cons:
       - "Not every automatic box accepts standard clumping clay"

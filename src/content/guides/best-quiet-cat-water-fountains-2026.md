@@ -16,7 +16,7 @@ keywords:
   - "cat fountain app monitoring"
 pillar: "expert-care"
 publishDate: "2026-06-21"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-quiet-cat-water-fountains-2026.webp"
@@ -391,7 +391,7 @@ This guide is the quiet-operation companion to our broader [Best Cat Water Fount
 
 We left several well-known fountains off the main list, and the reasons map cleanly onto the noise narrative.
 
-The **PETLIBRO Capsule** stainless fountain is the most on-theme quiet option — cats.com tested it as nearly silent, crediting built-in noise-insulation tubes and a patented sound-dampening valve — and it nearly earned a slot. We kept the verified, in-stock five above, but the Capsule is the natural next look for a noise-sensitive apartment.
+The **PETLIBRO Capsule** stainless fountain is the most on-theme quiet option — cats.com tested it as nearly silent, crediting built-in noise-insulation tubes and a patented sound-dampening valve — and it nearly earned a slot. We kept the verified five above, but the Capsule is the natural next look for a noise-sensitive apartment.
 
 The **PetSafe Drinkwell Seascape** ceramic fountain is genuinely quiet, with cats.com observing that water rolls silently over the center orb. We passed because PetSafe's larger Drinkwell 360 was the loudest unit cats.com tested, with a hum audible across the room — a clean illustration that brand alone does not predict noise, and that pump quality and water level decide it.
 

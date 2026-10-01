@@ -14,7 +14,7 @@ keywords:
   - "automatic fish feeder vacation"
 pillar: "expert-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-18"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/weekend-away-pet-automation-checklist-2026.webp"
@@ -289,7 +289,7 @@ picks:
 
       Those details are what fail on cheaper units. A fixed-scoop feeder dumps too much, and a feeder without ventilation lets tank humidity cake the flakes into a clog that skips days — the single most common failure mode for aquarium feeders. Being able to set a small, tank-appropriate portion, and having a vent that keeps the food dry, is why this one is built for an unattended week rather than an afternoon. The comparison against wifi and budget models sits in [our roundup of the best vacation fish feeders](/guides/best-vacation-fish-feeders-2026).
 
-      The honesty is about price and testing. This model has been climbing in price and currently reads as low stock, and it is more feeder than a single long weekend strictly needs — for regular travel or a tank you cannot risk, the premium earns itself. As with every device here, it runs for several days at home first, so you watch the portion drop cleanly before you rely on it. Set to the smallest working dose and tested ahead, it keeps a tank fed without the overfeeding a well-meaning human tends to add.
+      The honesty is about price and testing. This model has been climbing in price, and it is more feeder than a single long weekend strictly needs — for regular travel or a tank you cannot risk, the premium earns itself. As with every device here, it runs for several days at home first, so you watch the portion drop cleanly before you rely on it. Set to the smallest working dose and tested ahead, it keeps a tank fed without the overfeeding a well-meaning human tends to add.
     pros:
       - "Adjustable dose sets a small, tank-appropriate portion"
       - "Ventilation fights the humidity clumping that clogs feeders"
@@ -335,7 +335,7 @@ whenNotToBuy: |
 
   Do not lean on automation past its ceiling. Two nights is a solved problem for a self-reliant adult cat; beyond about three days, gear stops being enough and a pet sitter becomes the answer. Kittens, seniors, and cats with medical needs want a person regardless of how short the trip is, because they are the animals most likely to need a response the machine cannot give. The devices still earn their place with a sitter checking in — they just stop being the whole plan.
 
-  Do not treat this as a hardware fix for a stations problem. If the real issue is that the pets fight over food or crowd one feeding spot, adding a feeder does not solve it — the layout does. Fix the number and placement of feeding stations first with our guide on [how to stop pets stealing each other's food](/guides/how-to-stop-pets-stealing-each-others-food-2026), then automate the setup that already works. And confirm each price and seller before buying, since deal prices and stock move — a machine covers the weekend, but it never replaces the person who can physically respond when something goes wrong.
+  Do not treat this as a hardware fix for a stations problem. If the real issue is that the pets fight over food or crowd one feeding spot, adding a feeder does not solve it — the layout does. Fix the number and placement of feeding stations first with our guide on [how to stop pets stealing each other's food](/guides/how-to-stop-pets-stealing-each-others-food-2026), then automate the setup that already works. And confirm each price and seller before buying, since deal prices move — a machine covers the weekend, but it never replaces the person who can physically respond when something goes wrong.
 
 bottomLine:
   - "Solve the weekend, not the week. Two nights alone is a genuine, solved problem for a healthy adult cat with a feeder, a fountain, enough litter, and a camera — but a long weekend is the ceiling, and past it a pet sitter does the job a machine cannot."

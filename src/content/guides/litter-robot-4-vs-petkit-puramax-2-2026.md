@@ -15,7 +15,7 @@ pillar: "expert-care"
 hub: "automatic-litter-box-systems"
 guideType: "spoke"
 publishDate: "2026-08-17"
-updatedDate: "2026-08-17"
+updatedDate: "2026-09-30"
 readTime: "11 min"
 heroImage: "/images/guides/litter-robot-4-vs-petkit-puramax-2-2026.webp"
 image: "/images/guides/litter-robot-4-vs-petkit-puramax-2-2026.webp"
@@ -148,7 +148,7 @@ The PETKIT PuraMax 2 is cheaper to buy than the Whisker Litter-Robot 4, and it i
 
 ## The short version, in dollars
 
-Both appliances were checked against the live Amazon listing on August 17, 2026. Both were in stock.
+Both appliances were checked against the live Amazon listing on August 17, 2026.
 
 | | PETKIT PuraMax 2 | Whisker Litter-Robot 4 |
 |---|---|---|

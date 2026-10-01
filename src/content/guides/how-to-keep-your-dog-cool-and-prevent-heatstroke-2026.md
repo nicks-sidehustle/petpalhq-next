@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "hub"
 publishDate: "2026-06-19"
-updatedDate: "2026-09-26"
+updatedDate: "2026-09-30"
 readTime: "14 min read"
 featured: false
 heroImage: "/images/guides/how-to-keep-your-dog-cool-and-prevent-heatstroke-2026.webp"
@@ -187,7 +187,7 @@ picks:
 
       Here's the honest trade-off, and Ruffwear is refreshingly direct about it: evaporative cooling works best in hot, dry climates, and it does much less in humid air. By their own figures, at 70% humidity and 85 degrees the vest cools only about 6 degrees, versus roughly 15 degrees at 30% humidity. That is the entire mechanism showing its limit — evaporation stalls when the surrounding air is already near-saturated. In the muggy Southeast, this vest helps a moving dog but is not the centerpiece it can be in Arizona. There is also a hidden hazard owners miss: a vest left to dry out fully stops cooling and becomes an insulating layer that can trap heat, so the discipline of keeping it damp is not optional.
 
-      This is the current Swamp Cooler Zip generation, chosen because older Swamp Cooler variants showed stock problems at research time. At $59.99 it is the priciest tool here, and it is the most maintenance-intensive — it only earns its keep for a dog that genuinely moves in the heat. For a dog that mostly lounges, the gel mat or elevated bed is the better spend.
+      This is the current Swamp Cooler Zip generation. At $59.99 it is the priciest tool here, and it is the most maintenance-intensive — it only earns its keep for a dog that genuinely moves in the heat. For a dog that mostly lounges, the gel mat or elevated bed is the better spend.
     pros:
       - "Travels with the dog — the only tool here that cools a dog in motion"
       - "UPF 50+ outer fabric adds sun protection most cooling vests omit"

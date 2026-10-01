@@ -16,7 +16,7 @@ keywords:
 species: ["fish"]
 pillar: "aquarium-filtration"
 publishDate: "2026-06-22"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-30"
 readTime: "~13 min read"
 featured: false
 image: "/images/guides/best-protein-skimmers-saltwater-reef-2026.webp"
@@ -184,7 +184,7 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/s?k=Tunze%209004%20Comline%20DOC%20skimmer"
-        stat: "$199.99 — Tunze 9004 Comline DOC, in-tank/HOB-hybrid skimmer rated up to ~65 gal; live new-condition offer confirmed with limited stock"
+        stat: "$199.99 — Tunze 9004 Comline DOC, in-tank/HOB-hybrid skimmer rated up to ~65 gal"
         claim: "Last verified new-condition Amazon street price for the Tunze 9004 Comline DOC skimmer."
         supports: "value"
         accessed: "2026-08-21"
@@ -205,7 +205,7 @@ picks:
 
       What the spec sheet does not tell you: in-tank skimmers are visible. The 9004 sits in the display where you see it, which some aquascapers dislike, and a 0.2-liter collection cup means more frequent emptying than a big in-sump cone. It is also expensive for the gallons it serves — you are paying for Tunze engineering, not capacity. In the Reef-Ready Skimmer Score it leads on Pump and Needle-Wheel Reliability and Noise and Energy Draw, and gives back points on Footprint and Fit precisely because it lives inside the tank.
 
-      Availability note: our July 17, 2026 check found the classic 9004.000 listing unavailable, so the buy button ran an Amazon search instead. It has been live at both re-checks since — $199.99 with limited stock at our August 21, 2026 check — and the buy button below goes straight to the listing. Tunze sells the same skimmer in two pump versions — if the classic AC version runs dry again, the 9004 DC pairs the identical Comline body with a controllable DC Foamer at a higher price.
+      Tunze sells the same skimmer in two pump versions — the 9004 DC pairs the identical Comline body with a controllable DC Foamer at a higher price.
     pros:
       - "Runs as a stand-alone in-tank skimmer — no sump or hang-on space needed"
       - "TUNZE Foamer produces very fine 0.1-0.3 mm bubbles for efficient export"
@@ -215,7 +215,6 @@ picks:
     cons:
       - "Sits visibly inside the display, which aquascapers may dislike"
       - "Small 0.2-liter collection cup needs emptying more often than an in-sump cone"
-      - "The classic AC-pump listing has gone dark before — it had no live new-condition offer at our July 17, 2026 check — so confirm it is still stocked before you order"
       - "Expensive relative to the gallons it serves — you pay for the brand engineering"
       - "Like all skimmers, requires a 2-to-4-week break-in before foam stabilizes"
     verdict: "The premium nano and small-reef skimmer for tanks with no sump. Buy it for the Tunze build and the stand-alone in-tank mount, and accept that it is visible in the display and costly for its rated volume."
