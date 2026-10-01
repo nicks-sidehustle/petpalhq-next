@@ -351,8 +351,6 @@ comparison:
       values: ["Supports (management)", "Supports (management)", "Generalizes skill", "Enables timing", "Sharpens timing", "The training leash", "Powers the method"]
     - label: "PetPal Loose-Leash Score"
       values: ["8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
-    - label: "Approx. price"
-      values: ["$15.83", "$19.50", "$8.97", "$15.99", "$4.99", "$5.99", "$4.98"]
 
 methodology:
   formula: "PetPal Loose-Leash Score = (Expert Consensus × 0.35) + (Training-Method Fit × 0.25) + (Safety / Humane Design × 0.20) + (Value × 0.20)"

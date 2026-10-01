@@ -392,14 +392,10 @@ comparison:
       values: ["Stage 1 — meter", "Stage 1 — meter (alt)", "Stage 1 — meter (alt)", "Stage 2 — strips", "Stage 3 — logging", "Stage 4 — feeding", "Stage 5 — weight", "Stage 6 — sharps"]
     - label: "Role"
       values: ["Species-calibrated primary", "Budget kit", "Cheapest starter", "The recurring cost", "The logging habit", "Multi-pet segregation", "Weight-trend tracking", "Sharps disposal"]
-    - label: "Recurring cost?"
-      values: ["One-time kit", "One-time kit", "One-time kit", "Recurring — the real spend", "One-time (refill pages)", "One-time", "One-time", "Replace when full"]
     - label: "Fit label"
       values: ["Species-Accurate Fit", "Budget-Entry Fit", "Lowest-Barrier Fit", "Recurring-Cost Fit", "Curve-Logging Fit", "Measured-Meal Fit", "Weight-Trend Fit", "Sharps-Safe Fit"]
     - label: "Sustainable-Routine Score"
       values: ["9.1", "8.4", "8.2", "8.8", "8.3", "8.9", "8.5", "8.6"]
-    - label: "Approx. price"
-      values: ["$76.41", "$49.99", "$36.99", "$58.72", "$5.98", "$199.00", "$58.99", "$6.95"]
 
 methodology:
   formula: "PetPal Sustainable-Routine Score = (Routine Adherence × 0.35) + (Data Quality × 0.25) + (Feeding Control × 0.20) + (Safety Readiness × 0.20)"

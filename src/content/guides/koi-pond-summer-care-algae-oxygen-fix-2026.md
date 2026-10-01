@@ -244,8 +244,6 @@ comparison:
       values: ["Air stones on the pond bottom", "Inline pump-and-filter unit in the pond", "Stretched over the pond surface", "Dosed into the water", "Floating on the surface"]
     - label: "Prevention or cure"
       values: ["Emergency cure and prevention", "Cure for suspended algae only", "Prevention, not a cure", "Slow, steady-state maintenance", "Monitoring instrument"]
-    - label: "Approx. price"
-      values: ["$59.99", "$139.99", "$12.99", "$14.94", "$16.88"]
     - label: "Speed of effect"
       values: ["Immediate oxygen lift", "Clears green water in 3 to 7 days", "Works as debris arrives", "Weeks to shift the balance", "Instant reading"]
 

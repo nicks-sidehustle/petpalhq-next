@@ -363,13 +363,11 @@ comparison:
     - label: "What it prevents or recovers"
       values: ["Prevents the gate escape", "Speeds the reunion", "Locates a moving dog", "Locates + can't fall off", "Prevents a dark bolt", "Secures a lured dog", "Secures at distance"]
     - label: "Subscription?"
-      values: ["None", "None", "Mandatory (~$5/mo)", "Mandatory (prepaid)", "None", "None", "None"]
+      values: ["None", "None", "Mandatory", "Mandatory (prepaid)", "None", "None", "None"]
     - label: "Fit label"
       values: ["Gate & Door Audit", "Two Ways Home", "Live-Locate Layer", "Live-Locate Layer", "First-48 Ready", "First-48 Ready", "First-48 Ready"]
     - label: "PetPal Recovery Readiness Score"
       values: ["8.3", "9.0", "8.8", "8.6", "8.0", "8.4", "8.2"]
-    - label: "Approx. price"
-      values: ["$8.99", "$8.95", "$79.00", "$189.00", "$12.99", "$17.99", "$29.99"]
 
 methodology:
   formula: "PetPal Recovery Readiness Score = (Containment Integrity × 0.30) + (ID Redundancy × 0.25) + (Response-Plan Preparedness × 0.25) + (Recovery Speed Capability × 0.20)"

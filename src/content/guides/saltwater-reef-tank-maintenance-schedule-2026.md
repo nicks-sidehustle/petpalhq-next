@@ -477,10 +477,6 @@ comparison:
       values: ["Replaces evaporation", "Makes pure water", "Mixes reef salt", "Reads Ca, Alk, Mg", "Restores Ca and Alk", "Automates the dose", "Traps detritus", "Verifies salinity", "Drains and refills", "Clears glass film"]
     - label: "PetPal Reef-Upkeep Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9", "7.8", "7.7"]
-    - label: "Approx. price"
-      values: ["$249.99", "$249.99", "$79.97", "$87.99", "$52.99", "$135.45", "$17.99", "$17.99", "$69.27", "$14.95"]
-    - label: "Ongoing cost after purchase"
-      values: ["RO/DI top-off water", "Membrane and DI resin", "Refilled each mix", "Reagent refills", "Repurchased as used", "Two-part refills", "Reused, then replaced", "Calibration fluid", "None beyond water", "Replacement pads"]
 
 methodology:
   formula: "PetPal Reef-Upkeep Score = (Expert Consensus × 0.35) + (Schedule Fit × 0.25) + (Reef-Chemistry / Water-Quality Design × 0.20) + (Value × 0.20)"

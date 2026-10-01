@@ -347,14 +347,6 @@ comparison:
         - "At the bowl"
         - "The hardest transitions"
         - "When legs give out"
-    - label: "Price"
-      values:
-        - "$39.99"
-        - "$59.99"
-        - "$5.99"
-        - "$19.99"
-        - "$19.99"
-        - "$69.93"
     - label: "Painful movement it removes"
       values:
         - "The painful down-and-up off a hard floor"

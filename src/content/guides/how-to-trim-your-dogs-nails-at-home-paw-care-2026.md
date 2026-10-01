@@ -343,8 +343,6 @@ comparison:
       values: ["Clip", "Grind", "Clip (cat)", "First aid", "Distraction", "Pad care", "Bath-and-blowout"]
     - label: "When to reach for it"
       values: ["Every trim", "After the clip, or on black nails", "Cat claws only", "Open before the first cut", "During the paw hold", "Hot or icy seasons", "Full grooming day only"]
-    - label: "Approx. price"
-      values: ["$13.97", "$29.97", "$6.99", "$8.99", "$16.97", "$12.99", "$187.00"]
     - label: "Honest caution"
       values: ["Guard is no substitute for technique", "Vibration needs its own desensitizing", "No guard — you are the guard", "Past several minutes, call the vet", "Not a chew toy — supervise", "Reapply; it wears off", "Loud and bulky — skippable for nails-only"]
 
