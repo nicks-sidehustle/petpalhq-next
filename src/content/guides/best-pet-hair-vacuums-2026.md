@@ -109,7 +109,6 @@ picks:
       - "Trigger must be held continuously — owners report hand fatigue, a real problem for mobility-limited users"
       - "Max power mode drains the battery fast; large multi-pet homes may need a mid-session recharge"
       - "At $825.99 it is nearly four times the Bissell and a steep premium over every other pick here"
-      - "Amazon pricing on the Plus configuration is unstable — only a used-condition offer was live at our July 17, 2026 check, and the new-condition price came back $176 higher at our August 10, 2026 re-check"
     verdict: "If you want the machine the testing outlets agree on and can live with trigger-hold operation, the V15 Detect Plus is the pick. Budget shoppers get most of the pet-hair job done for just over a quarter of the price."
 
   - rank: 2

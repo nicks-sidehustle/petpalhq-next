@@ -237,7 +237,7 @@ picks:
 
       What the construction story does not tell you: a cot is not the right answer for every senior pet. Very unstable pets, dogs with proprioceptive deficits, and cats that need a fully low-to-floor option will be better served by floor foam. Senior-care guidance warns against ultra-soft donut beds for pets with true joint pain. The inverse warning applies here too — a taut surface is wrong for a pet that needs deep cushioning under bony hips. Match the cot to the heat-sensitive, easy-mounting senior dog, not to the cushion-dependent one.
 
-      Size note, September 8, 2026: the 30-by-42-inch Large charcoal cot we previously listed lost its buy box entirely — the page now shows no featured offer at all — so we moved this pick to the 25-by-32-inch Medium in the same charcoal colourway, which is live at $36.70 against K&H's own $64.98. That is a size down: K&H sizes the Medium for Bulldog, Boxer, Australian Shepherd and Beagle-shaped dogs, and a Labrador or German Shepherd wants the Large. If your senior is big, buy the Large when K&H's own store has it rather than sizing down here.
+      Size note: this pick is the 25-by-32-inch Medium in charcoal. K&H sizes the Medium for Bulldog, Boxer, Australian Shepherd and Beagle-shaped dogs, and a Labrador or German Shepherd wants a larger cot than this one.
     pros:
       - "Airflow advantage that no foam bed in this slate can match — 7 inches of ground clearance"
       - "Easier mounting than deep-sink foam beds for some senior dogs"

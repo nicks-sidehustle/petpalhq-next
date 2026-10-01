@@ -1,7 +1,7 @@
 ---
 title: "Best Aquarium Canister Filters (2026)"
 description: "Compare the best aquarium canister filters for 40-125+ gallon freshwater tanks: flow rate versus tank size, media basket capacity, self-priming, reliability, and maintenance ease from OASE, Fluval, and Penn-Plax, picked by editorial synthesis of expert sources."
-excerpt: "The OASE BioMaster Thermo 350 is the canister we'd buy first for a planted or community tank up to ~90 gallons, thanks to its lift-out pre-filter and built-in heater. The Fluval 407 is the mainstream value pick for 50-100 gallon tanks, and the Penn-Plax Cascade 1200 is the widely stocked budget fallback — but rated GPH is measured with an empty canister, so size up rather than to the minimum."
+excerpt: "The OASE BioMaster Thermo 350 is the canister we'd buy first for a planted or community tank up to ~90 gallons, thanks to its lift-out pre-filter and built-in heater. The Fluval 407 is the mainstream value pick for 50-100 gallon tanks, and the Penn-Plax Cascade 1200 is the budget fallback — but rated GPH is measured with an empty canister, so size up rather than to the minimum."
 category: "Aquarium"
 keywords:
   - "best aquarium canister filter freshwater"
@@ -29,7 +29,7 @@ expertSourceCount: 12
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "Match canister flow to tank size first. Experts target a turnover of 4-6 times the tank volume per hour, and because the rated max GPH is measured with an empty canister, real-world flow drops 20-30 percent once media, hoses, and head height are added, so size up rather than to the exact minimum. The OASE BioMaster Thermo 350 is the strongest all-round pick for planted or community tanks up to about 90 gallons, with a lift-out pre-filter and a built-in heater. The Fluval 407 is the value pick for 50-100 gallon tanks. The Penn-Plax Cascade 1200 is the widely stocked budget fallback, and its 150-gallon box rating is realistically a 55-75 gallon filter. Past roughly 100 gallons, or on a heavy bioload, none of these picks carries the flow headroom you want — that tank needs a larger canister than this page ranks, or two filters sharing the load. Whatever you buy, rinse biomedia gently in old tank water, never under the tap, to keep the bacteria colony alive."
+shortAnswer: "Match canister flow to tank size first. Experts target a turnover of 4-6 times the tank volume per hour, and because the rated max GPH is measured with an empty canister, real-world flow drops 20-30 percent once media, hoses, and head height are added, so size up rather than to the exact minimum. The OASE BioMaster Thermo 350 is the strongest all-round pick for planted or community tanks up to about 90 gallons, with a lift-out pre-filter and a built-in heater. The Fluval 407 is the value pick for 50-100 gallon tanks. The Penn-Plax Cascade 1200 is the budget fallback, and its 150-gallon box rating is realistically a 55-75 gallon filter. Past roughly 100 gallons, or on a heavy bioload, none of these picks carries the flow headroom you want — that tank needs a larger canister than this page ranks, or two filters sharing the load. Whatever you buy, rinse biomedia gently in old tank water, never under the tap, to keep the bacteria colony alive."
 
 topPicks:
   - name: "OASE BioMaster Thermo 350 External Canister Filter"
@@ -276,7 +276,7 @@ picks:
         accessed: "2026-06-21"
       - outlet: "Aquarium Co-Op"
         url: "https://www.aquariumcoop.com/blogs/aquarium/fish-tank-filters-which-one-should-you-get"
-        stat: "widely stocked value canisters are a reasonable fallback, with build quality sitting below the premium tier"
+        stat: "value canisters are a reasonable fallback, with build quality sitting below the premium tier"
         supports: "general"
         accessed: "2026-06-21"
       - outlet: "LiveAquaria"
@@ -298,7 +298,7 @@ picks:
 
       Read the flow rating with the standard skepticism. A realistic turnover target tells a more honest story than the box: at LiveAquaria's 4-6x guideline, the Cascade 1200's 315 GPH actually suits roughly a 55-75 gallon community tank, not the full 150 gallons the packaging implies — that headline figure assumes an empty canister and a lightly stocked tank. Treated as a mid-size canister, it is a competent, inexpensive filter with a sensible feature set.
 
-      What the spec sheet does not tell you: the push-button priming and rotating taps work, but the plastic clips, taps, and seals are where Penn-Plax saved money relative to the premium tier. Aquarium Co-Op's framing is fair here — widely stocked value canisters are a reasonable fallback, with build quality sitting below the premium options. Keep spare O-rings on hand and seat the canister head carefully, because a poorly seated head is the most common cause of the small leaks owners report.
+      What the spec sheet does not tell you: the push-button priming and rotating taps work, but the plastic clips, taps, and seals are where Penn-Plax saved money relative to the premium tier. Aquarium Co-Op's framing is fair here — value canisters are a reasonable fallback, with build quality sitting below the premium options. Keep spare O-rings on hand and seat the canister head carefully, because a poorly seated head is the most common cause of the small leaks owners report.
 
       The trade-offs are predictable for the price: noisier than the OASE, less refined clamps and taps than the Fluval, and a flow rating that flatters the real-world capacity. As a backup or a freshwater starter canister, it does the job.
     pros:

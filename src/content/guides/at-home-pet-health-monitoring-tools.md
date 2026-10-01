@@ -954,7 +954,7 @@ FitBark's manufacturer documentation positions the FitBark 2 as a non-GPS activi
 
 ## FitBark GPS
 
-FitBark also sells a GPS-plus-activity device aimed at owners who want one collar to handle both location and behavior trends. FitBark's own store carries it directly, listing the FitBark GPS as its "GPS + Health Monitor" alongside the FitBark 2 "Health Monitor," so go to the brand's store for the GPS variant and expect a subscription line on top of the hardware. This guide keeps FitBark GPS out of the primary slate for that reason: it is a brand-direct purchase with a recurring fee attached, which is a different buying decision from the one the slate is built to answer.
+FitBark also sells a GPS-plus-activity device aimed at owners who want one collar to handle both location and behavior trends. The GPS variant carries a subscription line on top of the hardware. This guide keeps FitBark GPS out of the primary slate for that reason: the recurring fee makes it a different buying decision from the one the slate is built to answer.
 
 ## Tractive GPS & Health
 

@@ -1005,10 +1005,10 @@ URL: https://petpalhq.com/guides/best-aquarium-canister-filters-2026
 Published: 2026-06-21  |  Updated: 2026-09-30
 Category: Aquarium  |  Hub: aquarium-filtration-maintenance-systems
 
-> The OASE BioMaster Thermo 350 is the canister we'd buy first for a planted or community tank up to ~90 gallons, thanks to its lift-out pre-filter and built-in heater. The Fluval 407 is the mainstream value pick for 50-100 gallon tanks, and the Penn-Plax Cascade 1200 is the widely stocked budget fallback — but rated GPH is measured with an empty canister, so size up rather than to the minimum.
+> The OASE BioMaster Thermo 350 is the canister we'd buy first for a planted or community tank up to ~90 gallons, thanks to its lift-out pre-filter and built-in heater. The Fluval 407 is the mainstream value pick for 50-100 gallon tanks, and the Penn-Plax Cascade 1200 is the budget fallback — but rated GPH is measured with an empty canister, so size up rather than to the minimum.
 
 ### Quick answer
-Match canister flow to tank size first. Experts target a turnover of 4-6 times the tank volume per hour, and because the rated max GPH is measured with an empty canister, real-world flow drops 20-30 percent once media, hoses, and head height are added, so size up rather than to the exact minimum. The OASE BioMaster Thermo 350 is the strongest all-round pick for planted or community tanks up to about 90 gallons, with a lift-out pre-filter and a built-in heater. The Fluval 407 is the value pick for 50-100 gallon tanks. The Penn-Plax Cascade 1200 is the widely stocked budget fallback, and its 150-gallon box rating is realistically a 55-75 gallon filter. Past roughly 100 gallons, or on a heavy bioload, none of these picks carries the flow headroom you want — that tank needs a larger canister than this page ranks, or two filters sharing the load. Whatever you buy, rinse biomedia gently in old tank water, never under the tap, to keep the bacteria colony alive.
+Match canister flow to tank size first. Experts target a turnover of 4-6 times the tank volume per hour, and because the rated max GPH is measured with an empty canister, real-world flow drops 20-30 percent once media, hoses, and head height are added, so size up rather than to the exact minimum. The OASE BioMaster Thermo 350 is the strongest all-round pick for planted or community tanks up to about 90 gallons, with a lift-out pre-filter and a built-in heater. The Fluval 407 is the value pick for 50-100 gallon tanks. The Penn-Plax Cascade 1200 is the budget fallback, and its 150-gallon box rating is realistically a 55-75 gallon filter. Past roughly 100 gallons, or on a heavy bioload, none of these picks carries the flow headroom you want — that tank needs a larger canister than this page ranks, or two filters sharing the load. Whatever you buy, rinse biomedia gently in old tank water, never under the tap, to keep the bacteria colony alive.
 
 ### Review method
 Editorial synthesis of manufacturer specifications and manuals (OASE, Fluval, EHEIM, MarineLand, Penn-Plax), aquarium-education sources (Aquarium Co-Op, LiveAquaria, Practical Fishkeeping), independent bench-testing reference (Aquarium Science), veterinary and welfare references (WAVMA, UF/IFAS Extension, OATA), and hobbyist consensus from r/aquariums and the Aquarium Co-Op forum — no first-hand product testing.
@@ -23393,7 +23393,7 @@ Cons:
 - Each size is a separate listing, so confirm you are buying the one you need
 Verdict: If you want the bed the category was copied from, the Coolaroo Original at about $24.60 for the large is the benchmark — and the cheapest cot here. Passive airflow cooling, so pair it with shade and water.
 
-#### Rank 5 — WIDELY AVAILABLE PICK: Amazon Basics Cooling Breathable Elevated Dog Bed, Large (51 x 31 x 8 in)
+#### Rank 5 — HOUSE-BRAND PICK: Amazon Basics Cooling Breathable Elevated Dog Bed, Large (51 x 31 x 8 in)
 Brand: Amazon Basics  |  Score: 7.9/10  |  Price: $32.25  |  ASIN: B076VXVB2L
 Key features:
 - Breathable mesh deck over a durable iron frame
@@ -23402,7 +23402,7 @@ Key features:
 - Cleans with tap water
 - Assembles with the included screws and hex tool
 Pros:
-- Widely available house brand that is trivial to reorder and replace
+- House-brand cot with a simple, proven build
 - Iron frame and breathable mesh deck follow the proven cot template
 - Off-ground lift delivers the core airflow cooling and joint relief
 - Cleans with tap water, and assembles with the included tool
@@ -28339,7 +28339,6 @@ Cons:
 - Trigger must be held continuously — owners report hand fatigue, a real problem for mobility-limited users
 - Max power mode drains the battery fast; large multi-pet homes may need a mid-session recharge
 - At $825.99 it is nearly four times the Bissell and a steep premium over every other pick here
-- Amazon pricing on the Plus configuration is unstable — only a used-condition offer was live at our July 17, 2026 check, and the new-condition price came back $176 higher at our August 10, 2026 re-check
 Verdict: If you want the machine the testing outlets agree on and can live with trigger-hold operation, the V15 Detect Plus is the pick. Budget shoppers get most of the pet-hair job done for just over a quarter of the price.
 
 #### Rank 2 — BEST VALUE: BISSELL Pet Hair Eraser Turbo Plus Upright Vacuum (24613)
