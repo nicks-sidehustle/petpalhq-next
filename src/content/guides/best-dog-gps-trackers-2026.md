@@ -17,13 +17,13 @@ species: ["dog"]
 guideType: "spoke"
 hub: "gps-containment-and-pet-tracking-systems"
 publishDate: "2026-06-10"
-updatedDate: "2026-09-26"
+updatedDate: "2026-09-30"
 readTime: "13 min"
 featured: false
 image: "/images/guides/best-dog-gps-trackers-2026.webp"
 heroImage: "/images/guides/best-dog-gps-trackers-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of six expert sources covering dog GPS trackers. The New York Times Wirecutter's live-tracking comparison anchored the accuracy and GPS fix-speed rankings. PCMag's category review informed the Fi assessment. Dog Gear Review's side-by-side live-tracking testing settled how the Tractive handles a moving dog. Smart Bark's Pawfit range review and Life With Klee Kai's long-term two-tracker owner comparison rounded out the field. Lost-pet statistics come from dvm360 and Shelter Animals Count. Subscription economics were cross-checked against The Family Pick's 2026 cost comparison, and owner sentiment was surveyed on Trustpilot, r/dogs, and r/puppy101. Manufacturer documentation from Tractive, Pawfit, and Fi was reviewed for specifications. Prices, availability, and seller were re-verified by live Amazon product-page reads on September 7, 2026: the Tractive was $55.30 and in stock, the Pawfit 3 $59.99, the Fi Series 3+ $189.00, and the Invoxia Minitailz $99.00 in stock and sold by invoxia inc., which restores a pick our August 10 check had found with no live offer. Three-year totals attributed to The Family Pick are reported at their original basis and separately recomputed at current hardware prices. PetPalHQ does not run a GPS-tracker testing facility."
+reviewMethod: "Editorial synthesis of six expert sources covering dog GPS trackers. The New York Times Wirecutter's live-tracking comparison anchored the accuracy and GPS fix-speed rankings. PCMag's category review informed the Fi assessment. Dog Gear Review's side-by-side live-tracking testing settled how the Tractive handles a moving dog. Smart Bark's Pawfit range review and Life With Klee Kai's long-term two-tracker owner comparison rounded out the field. Lost-pet statistics come from dvm360 and Shelter Animals Count. Subscription economics were cross-checked against The Family Pick's 2026 cost comparison, and owner sentiment was surveyed on Trustpilot, r/dogs, and r/puppy101. Manufacturer documentation from Tractive, Pawfit, and Fi was reviewed for specifications. Prices and seller were re-verified by live Amazon product-page reads on September 7, 2026: the Tractive was $55.30, the Pawfit 3 $59.99, the Fi Series 3+ $189.00, and the Invoxia Minitailz $99.00, sold by invoxia inc. Three-year totals attributed to The Family Pick are reported at their original basis and separately recomputed at current hardware prices. PetPalHQ does not run a GPS-tracker testing facility."
 lastProductCheck: "2026-09-07"
 expertSourceCount: 6
 
@@ -270,8 +270,6 @@ picks:
       - "CES 2024 Innovation Award winner in the AI category — seven international awards total"
       - "Subscription required for cellular GPS service"
     body: |
-      Availability note, September 7, 2026: this pick is buyable again. Our August 10 check found no live offer for the Minitailz and the entry sat here without a buy button; a live product-page read on September 7 shows it new and in stock at $99.00, sold by invoxia inc. and shipped by Amazon, listed as the 2026 Biotracker edition of the same device. Stock read as limited on that check, so the price and availability below are a September 7 snapshot rather than a standing guarantee.
-
       The Invoxia Minitailz is in this guide for a different job than the other three. Its headline feature is not the map — it is the cardiac and respiratory scanning, including detection of atrial fibrillation, the irregular heartbeat that often goes unnoticed in dogs until a crisis. Invoxia claims 99% accuracy on heart-rate detection and 97% on respiratory rate, and the engineering attracted a CES 2024 Innovation Award in the AI category, one of seven international awards. For the owner of a senior dog or a breed with known cardiac risk, the Minitailz is the only pick here that doubles as an early-warning screen between vet visits. Reviewed.com found the health data genuinely useful alongside solid GPS tracking, with the caveat that the activity data is slightly flawed. SlashGear praised what it called shocking GPS accuracy in stationary location finding.
 
       The qualifier in that last sentence is the catch: stationary. Dog Gear Review ran the Minitailz side-by-side against the Tractive and found its live-tracking updates lag behind a moving dog, concluding the Tractive was clearly better in speed, accuracy, and reliability for real-time tracking. If your primary fear is a bolted dog in motion, the Minitailz is the weakest of the four picks at the recovery job — buy it for the health screen, not the chase.
@@ -287,8 +285,7 @@ picks:
       - "Trustpilot complaints document refund refusals and firmware-bricked devices without replacement"
       - "Health metrics are screening signals, not diagnostics — an AFib flag needs a vet, not an app"
       - "Subscription required on top of the $99.00 device price"
-      - "Stock ran thin at our September 7, 2026 check, after a spell with no live offer at all"
-    verdict: "The Minitailz is the specialist for cardiac and respiratory screening on a senior or at-risk dog, and it is buyable again at $99.00 as of September 7, 2026 after a stretch with no live offer. Laggy live tracking still makes the Tractive the better choice if lost-dog recovery is the primary job."
+    verdict: "The Minitailz is the specialist for cardiac and respiratory screening on a senior or at-risk dog. Laggy live tracking still makes the Tractive the better choice if lost-dog recovery is the primary job."
 
 comparison:
   rows:

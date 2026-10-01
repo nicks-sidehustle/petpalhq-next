@@ -19,7 +19,7 @@ guideType: "spoke"
 hub: "pet-home-systems-cleanup-travel"
 pillar: "dog-essentials"
 publishDate: "2026-06-22"
-updatedDate: "2026-09-03"
+updatedDate: "2026-09-30"
 lastProductCheck: "2026-06-22"
 readTime: "~12 min read"
 featured: false
@@ -312,7 +312,7 @@ picks:
 
       The honest trade-off is exactly what makes it renter-friendly. It is a flap, so it offers no selective access — any animal that learns to push goes through, which is why it scores lowest in the guide on access reliability. At $649.99 it is also the most expensive pick here despite being non-electronic, because the price buys the engineered glass panel, not electronics. Choose it for the install freedom, not for keeping strays out.
 
-      One buying detail that matters: Endura sells the Thermo Panel as separate Amazon listings per flap size and slider-height range, at different prices. The listing linked here is the white large-flap panel for standard 74-to-77.5-inch slider heights at $649.99 — measure your slider's track height before you order, and pick the height listing that matches. Stock on these listings runs thin, so if the size you need shows unavailable, Endura's own site carries the full size matrix.
+      One buying detail that matters: Endura sells the Thermo Panel as separate Amazon listings per flap size and slider-height range, at different prices. The listing linked here is the white large-flap panel for standard 74-to-77.5-inch slider heights at $649.99 — measure your slider's track height before you order, and pick the height listing that matches.
     pros:
       - "Installs in a sliding-door track with no permanent construction and no cutting"
       - "Fully removable, so renters can take it to the next home"

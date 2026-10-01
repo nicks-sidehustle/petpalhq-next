@@ -16,7 +16,7 @@ keywords:
   - "egg-crate foam vs memory foam dog bed"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/best-orthopedic-dog-beds-senior-pets-2026.webp"
@@ -103,9 +103,9 @@ picks:
 
       What the construction story does not tell you: this is a flat-center bed with bolsters, not a calming-style donut. PetFusion's positioning aims at structure rather than sink. That is the right answer for a senior pet with mobility pain, but not always the right answer for a young anxious dog that wants to disappear into plush. Senior-care guidance warns against overstating "clinically proven" orthopedic claims. The editorial case for PetFusion is its construction transparency and its waterproof-liner advantage, not a clinical outcome study.
 
-      Two honesty notes on sourcing and delivery. First, petfusion.com refused our fetch on September 8, 2026 (a Cloudflare challenge, not a missing page), so every construction figure above comes from the product listing's own specification table and title rather than from a manufacturer spec sheet we could read — that is why this pick scores 8.5 rather than higher on Construction Transparency. Second, the listing shows "usually ships within 7 to 12 days" at that same check, sold and shipped by Amazon: it is genuinely buyable, but it is not a two-day arrival, so order ahead of a need rather than after one.
+      One honesty note on sourcing: petfusion.com refused our fetch on September 8, 2026 (a Cloudflare challenge, not a missing page), so every construction figure above comes from the product listing's own specification table and title rather than from a manufacturer spec sheet we could read — that is why this pick scores 8.5 rather than higher on Construction Transparency.
 
-      Availability note: the medium Ultimate Dog Bed listing we tracked through July 2026 lost its new-condition offer entirely and now shows only a used "Buy Used" price, so we replaced it on September 8, 2026 with this X-Large PetFusion bed, which carries the same solid-memory-foam, waterproof-liner and YKK-zipper construction.
+      The medium Ultimate Dog Bed we tracked through July 2026 has been replaced with this X-Large PetFusion bed, which carries the same solid-memory-foam, waterproof-liner and YKK-zipper construction.
     pros:
       - "Solid 4-inch memory-foam base — the construction AKC senior-care guidance prioritizes"
       - "Two-layer barrier: waterproof inner liner plus a water-resistant washable cover, the strongest accident protection on this page"
@@ -114,7 +114,6 @@ picks:
     cons:
       - "Heavy bolsters can be hard for very stiff pets to climb over"
       - "At $229.99 it is the second-priciest pick here, behind only the Big Barker"
-      - "Usually ships within 7 to 12 days rather than arriving in two — order before you need it"
       - "petfusion.com refused our fetch, so the construction figures are the listing's own fields rather than a maker spec sheet"
       - "Cooling claims are limited; very hot sleepers may prefer the elevated cot"
     verdict: "The synthesis pick when one bed has to do everything. Best fit for large senior dogs that need support, accident protection, and easy laundering at once — provided you can wait out its 7-to-12-day ship window."
@@ -238,7 +237,7 @@ picks:
 
       What the construction story does not tell you: a cot is not the right answer for every senior pet. Very unstable pets, dogs with proprioceptive deficits, and cats that need a fully low-to-floor option will be better served by floor foam. Senior-care guidance warns against ultra-soft donut beds for pets with true joint pain. The inverse warning applies here too — a taut surface is wrong for a pet that needs deep cushioning under bony hips. Match the cot to the heat-sensitive, easy-mounting senior dog, not to the cushion-dependent one.
 
-      Size note, September 8, 2026: the 30-by-42-inch Large charcoal cot we previously listed lost its buy box entirely — the page now shows no featured offer at all — so we moved this pick to the 25-by-32-inch Medium in the same charcoal colourway, which is live at $36.70 against K&H's own $64.98. That is a size down: K&H sizes the Medium for Bulldog, Boxer, Australian Shepherd and Beagle-shaped dogs, and a Labrador or German Shepherd wants the Large. If your senior is big, buy the Large when K&H's own store has it rather than sizing down here.
+      Size note: this pick is the 25-by-32-inch Medium in charcoal. K&H sizes the Medium for Bulldog, Boxer, Australian Shepherd and Beagle-shaped dogs, and a Labrador or German Shepherd wants a larger cot than this one.
     pros:
       - "Airflow advantage that no foam bed in this slate can match — 7 inches of ground clearance"
       - "Easier mounting than deep-sink foam beds for some senior dogs"

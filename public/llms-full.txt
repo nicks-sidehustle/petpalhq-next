@@ -526,7 +526,7 @@ Verified: 2026-05-04
 ## Best Aquarium Water Test Kits for Freshwater Fish Tanks (2026)
 
 URL: https://petpalhq.com/guides/best-aquarium-water-test-kits-2026
-Published: 2026-05-05  |  Updated: 2026-09-08
+Published: 2026-05-05  |  Updated: 2026-09-30
 Category: Aquarium  |  Hub: aquarium-water-quality-cycling-testing-beginners
 
 > For most freshwater keepers, an API Freshwater Master Test Kit handles ammonia, nitrite, nitrate, and pH; keep Tetra EasyStrips for fast weekly screening once the tank is stable, and skip a digital pH pen unless you inject CO2 or keep soft-water species.
@@ -582,7 +582,6 @@ Pros:
 - Long shelf life of reagents
 Cons:
 - Endpoint subtle at very low hardness
-- Amazon's availability line read "usually ships within 8 to 9 days" on our 2026-09-08 check — buyable, but not a two-day arrival
 - Printed chart is poorly designed in some batches
 - Does not cover ammonia, nitrite, or nitrate
 Verdict: Buy this if you keep shrimp, snails, livebearers, planted tanks, or any tank using remineralized RO water. It is an add-on, not a primary kit, but it is the cheapest way to fix the most common gap in beginner test setups.
@@ -1003,13 +1002,13 @@ Verified: 2026-06-23
 ## Best Aquarium Canister Filters (2026)
 
 URL: https://petpalhq.com/guides/best-aquarium-canister-filters-2026
-Published: 2026-06-21  |  Updated: 2026-08-12
+Published: 2026-06-21  |  Updated: 2026-09-30
 Category: Aquarium  |  Hub: aquarium-filtration-maintenance-systems
 
-> The OASE BioMaster Thermo 350 is the canister we'd buy first for a planted or community tank up to ~90 gallons, thanks to its lift-out pre-filter and built-in heater. The Fluval 407 is the mainstream value pick for 50-100 gallon tanks, and the Penn-Plax Cascade 1200 is the widely stocked budget fallback — but rated GPH is measured with an empty canister, so size up rather than to the minimum.
+> The OASE BioMaster Thermo 350 is the canister we'd buy first for a planted or community tank up to ~90 gallons, thanks to its lift-out pre-filter and built-in heater. The Fluval 407 is the mainstream value pick for 50-100 gallon tanks, and the Penn-Plax Cascade 1200 is the budget fallback — but rated GPH is measured with an empty canister, so size up rather than to the minimum.
 
 ### Quick answer
-Match canister flow to tank size first. Experts target a turnover of 4-6 times the tank volume per hour, and because the rated max GPH is measured with an empty canister, real-world flow drops 20-30 percent once media, hoses, and head height are added, so size up rather than to the exact minimum. The OASE BioMaster Thermo 350 is the strongest all-round pick for planted or community tanks up to about 90 gallons, with a lift-out pre-filter and a built-in heater. The Fluval 407 is the value pick for 50-100 gallon tanks. The Penn-Plax Cascade 1200 is the widely stocked budget fallback, and its 150-gallon box rating is realistically a 55-75 gallon filter. Past roughly 100 gallons, or on a heavy bioload, none of these picks carries the flow headroom you want — that tank needs a larger canister than this page ranks, or two filters sharing the load. Whatever you buy, rinse biomedia gently in old tank water, never under the tap, to keep the bacteria colony alive.
+Match canister flow to tank size first. Experts target a turnover of 4-6 times the tank volume per hour, and because the rated max GPH is measured with an empty canister, real-world flow drops 20-30 percent once media, hoses, and head height are added, so size up rather than to the exact minimum. The OASE BioMaster Thermo 350 is the strongest all-round pick for planted or community tanks up to about 90 gallons, with a lift-out pre-filter and a built-in heater. The Fluval 407 is the value pick for 50-100 gallon tanks. The Penn-Plax Cascade 1200 is the budget fallback, and its 150-gallon box rating is realistically a 55-75 gallon filter. Past roughly 100 gallons, or on a heavy bioload, none of these picks carries the flow headroom you want — that tank needs a larger canister than this page ranks, or two filters sharing the load. Whatever you buy, rinse biomedia gently in old tank water, never under the tap, to keep the bacteria colony alive.
 
 ### Review method
 Editorial synthesis of manufacturer specifications and manuals (OASE, Fluval, EHEIM, MarineLand, Penn-Plax), aquarium-education sources (Aquarium Co-Op, LiveAquaria, Practical Fishkeeping), independent bench-testing reference (Aquarium Science), veterinary and welfare references (WAVMA, UF/IFAS Extension, OATA), and hobbyist consensus from r/aquariums and the Aquarium Co-Op forum — no first-hand product testing.
@@ -1043,7 +1042,6 @@ Pros:
 - Model range (250/350/600) brackets the 70-160 gallon span cleanly
 Cons:
 - Most expensive everyday canister here before any media upgrades
-- Retail availability and spare-parts stock are thinner than Fluval's
 - Integrated heater is a single point of failure that is awkward to replace if it fails
 Verdict: The default canister for a planted or community tank up to ~90 gallons, and the pick to buy if you value quiet operation and fast maintenance over the lowest price. The lift-out pre-filter and built-in heater are real, daily-felt upgrades.
 
@@ -1115,7 +1113,7 @@ Key features:
 - Rotating valve taps for tidy hose routing and shut-off
 - Cascade 1000 (265 GPH) and 1500 (350 GPH) bracket it in the lineup
 Pros:
-- Inexpensive and very widely stocked as a fallback option
+- Inexpensive as a fallback option
 - Stackable customizable baskets and rotating shut-off taps
 - Push-button self-priming for an easy startup
 - Runs freshwater or saltwater across a useful mid-size range
@@ -1123,7 +1121,7 @@ Cons:
 - Build quality (clips, taps, seals) sits below the premium tier
 - 150-gallon rating flatters the real-world capacity — treat it as a 55-75 gallon filter
 - Noisier and less refined than the OASE or Fluval picks
-Verdict: The backup canister for a mid-size freshwater tank when the top picks are unavailable or out of budget. Treat the 315 GPH as a 55-75 gallon filter, keep spare O-rings handy, and you have a competent inexpensive workhorse.
+Verdict: The backup canister for a mid-size freshwater tank when the top picks are out of budget. Treat the 315 GPH as a 55-75 gallon filter, keep spare O-rings handy, and you have a competent inexpensive workhorse.
 
 ### Bottom line
 Get the OASE BioMaster Thermo 350 for a planted or community tank up to ~90 gallons if you value quiet operation and fast maintenance. The lift-out pre-filter and built-in 200W heater are daily-felt upgrades that justify the premium price.
@@ -1146,7 +1144,7 @@ Verified: 2026-06-21
 ## Best Aquarium Chillers for Reef & Marine Tanks (2026)
 
 URL: https://petpalhq.com/guides/best-aquarium-chillers-2026
-Published: 2026-06-22  |  Updated: 2026-08-07
+Published: 2026-06-22  |  Updated: 2026-09-30
 Category: Aquarium  |  Hub: aquarium-filtration-maintenance-systems
 
 > The JBJ Arctica 1/10 HP is the titanium chiller we'd start with on a 75-to-130-gallon reef, thanks to a corrosion-proof titanium coil and a built-in thermostat rated within ±1°F. The Active Aqua is the digital-control crossover, the Poafamx is the quiet budget pick, the BAOSHISHAN is the cheapest titanium option, and the JBJ 1/5 HP scales the same coil up to large systems — but a chiller is rated by BTU and the heat your lights and pumps dump in, not by the number on the box, so size to your real load.
@@ -2316,7 +2314,7 @@ Verified: 2026-06-22
 ## Best Complete Reef Aquarium Systems: Building a Full Reef Build (2026)
 
 URL: https://petpalhq.com/guides/best-complete-reef-aquarium-systems-2026
-Published: 2026-07-27  |  Updated: 2026-08-12
+Published: 2026-07-27  |  Updated: 2026-09-30
 Category: Aquarium  |  Hub: aquarium-filtration-maintenance-systems
 
 > A complete reef build is a set of separate purchases that have to work together: a sump, a light, a skimmer, a calcium reactor, a doser, and an ATO. The Fiji Cube Fiji-20 sump, Kessil A360XE LED, Reef Octopus CR220 calcium reactor, Chihiros doser, and Tunze Osmolator 3 ATO anchor the build here — priced and sequenced so you buy in the right order instead of guessing, with the skimmer sized from our dedicated skimmer guide.
@@ -3651,7 +3649,7 @@ Verified: 2026-06-21
 ## Best Bearded Dragon Starter Kits (2026)
 
 URL: https://petpalhq.com/guides/best-bearded-dragon-starter-kits-2026
-Published: 2026-06-21  |  Updated: 2026-09-09
+Published: 2026-06-21  |  Updated: 2026-09-30
 Category: Reptile  |  Hub: reptile-habitat-environmental-control
 
 > The REPTI ZOO 50-gallon front-opening terrarium anchors the best build-your-own setup; a linear T5 HO Desert tube is the upgrade that fixes the UVB most kits get wrong. Editorial recommendations grounded in the Merck Veterinary Manual, ReptiFiles, LafeberVet, and reptile-keeper consensus — PetPalHQ does not run a testing lab.
@@ -4982,7 +4980,7 @@ Verified: 2026-05-04
 ## Best Automatic Pet Feeders for Busy Families (2026)
 
 URL: https://petpalhq.com/guides/best-automatic-pet-feeders-2026
-Published: 2026-05-05  |  Updated: 2026-09-26
+Published: 2026-05-05  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: cat-dog-nutrition-hydration-digestive-health
 
 > PETLIBRO Granary is the synthesis pick for busy dry-food households; PETLIBRO Polar is the strongest automated answer for wet food; SureFeed-class selective-access feeders solve multi-pet diet theft. Editorial recommendations grounded in WSAVA, FelineVMA, FDA food-safety guidance, and manufacturer documentation.
@@ -7894,7 +7892,7 @@ Verified: 2026-05-05
 ## Best Dog Nail Clippers and Grinders for Safer Home Trims (2026)
 
 URL: https://petpalhq.com/guides/best-dog-nail-clippers-grinders
-Published: 2026-05-05  |  Updated: 2026-08-12
+Published: 2026-05-05  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: cat-dog-grooming-dental-shedding
 
 > For most owners, a sharp plier-style clipper paired with styptic powder is the safest starter combination; switch to a Dremel-style grinder when nails are dark, when you cannot see the quick, or when your dog tolerates vibration better than a sudden clip.
@@ -9612,7 +9610,7 @@ Verified: 2026-09-28
 ## Best Dog Chew Toys for Anxiety, Decompression, and Boredom (2026)
 
 URL: https://petpalhq.com/guides/best-dog-chew-toys-anxiety-2026
-Published: 2026-06-19  |  Updated: 2026-09-25
+Published: 2026-06-19  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: cat-dog-behavior-anxiety-enrichment
 
 > Chew, lick, and sniff are the three calming mechanisms behind enrichment. The KONG Classic anchors the chew axis; a LickiMat covers licking; a snuffle mat covers foraging. Editorial synthesis of ASPCA, AKC, and peer-reviewed studies — not first-hand testing.
@@ -10939,7 +10937,7 @@ Verified: 2026-06-22
 ## Best Electronic & Automatic Dog Doors for Large Dogs (2026)
 
 URL: https://petpalhq.com/guides/best-electronic-dog-doors-large-dogs-2026
-Published: 2026-06-22  |  Updated: 2026-09-03
+Published: 2026-06-22  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: pet-home-systems-cleanup-travel
 
 > Collar-activated and fully motorized dog doors sized for large breeds up to 100 lb — with the install, weatherproofing, and reliability caveats the listings leave out, and an honest answer on when a plain manual flap beats every electronic door here.
@@ -12324,7 +12322,7 @@ Verified: 2026-08-21
 ## At-Home Pet Health Monitoring Tools (2026): Smart Scales, Activity Trackers, and Smart Litter for Senior Pets
 
 URL: https://petpalhq.com/guides/at-home-pet-health-monitoring-tools
-Published: 2026-05-05  |  Updated: 2026-09-02
+Published: 2026-05-05  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: senior-pet-mobility-preventive-care
 
 > Greater Goods Smart Baby Scale is the synthesis pick for senior cats and small dogs; the W.C. Redmon Precision Digital Pet Scale is the synthesis pick for large dogs; FitBark 2 is the synthesis pick for activity trends. Editorial recommendations grounded in AAHA, AVMA, AAFP, and AJVR — not first-hand testing. Whistle is no longer a live recommendation: the platform shut down after acquisition by Tractive.
@@ -12490,7 +12488,7 @@ Cons:
 - One of the highest-priced wearables in this guide at $299.00
 - Required subscription ($25/month) to unlock full functionality
 - Overkill for a healthy pet that just needs activity trends
-- Limited stock at time of check; sold by a third-party marketplace seller (Avrix Brands), not Amazon or PetPace directly
+- Sold by a third-party marketplace seller (Avrix Brands), not Amazon or PetPace directly
 Verdict: The synthesis pick for genuine continuous vitals and vet-connected telehealth — a different category from activity tracking, at a real premium price and a required subscription. Best fit for a senior pet with a chronic condition or post-surgical recovery; overkill for a healthy pet that only needs activity trends.
 
 #### Rank 9 — BEST CONTINUOUS VITALS — NO SUBSCRIPTION: Clvior Smart Dog Health Monitoring Collar
@@ -12535,7 +12533,7 @@ Verified: 2026-05-05
 ## Best Cat Ramps and Steps for Senior Mobility (2026)
 
 URL: https://petpalhq.com/guides/best-cat-ramps-steps-senior-mobility-2026
-Published: 2026-09-14  |  Updated: 2026-09-25
+Published: 2026-09-14  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: senior-pet-mobility-preventive-care
 
 > The PetSafe Happy Ride Folding Dog Ramp wins because it is the only pick here whose listing states high-traction treads, side rails and rubber feet together — a continuous incline with edges, for a cat who no longer trusts a jump. The PetSafe CozyUp Wooden Pet Bed Ramp is the permanent bedroom answer at a published 25-inch height, and the Pet Gear Easy Step II is one of only two stepped picks that publishes its rise — and the only one that also publishes its landing depths. VCA Animal Hospitals recommends this whole category by name: provide a ramp or stool/step for getting onto higher surfaces.
@@ -12617,12 +12615,11 @@ Pros:
 - Carpet tread removes easily and is machine washable
 - Rigid snap-together construction that does not compress like foam
 Cons:
-- Read as low stock rather than freely available at our September 14, 2026 check
 - No weight capacity published anywhere on the listing
 - Two 5-inch steps reach only about 10 inches — short of most bed frames
 - The wider, deeper landings are specified for small and large dogs, with no cat-specific depth given
 - Snap-together assembly is described, but no stability or tip test is published
-Verdict: Choose the Easy Step II when a ramp will not fit and you still want to know what you are asking the cat to do. A published 5-inch rise and a published landing depth are rare in this category, and the washable tread and rubber grippers are the right details. Buy it for a sofa or a window seat rather than a tall bed, and check stock first.
+Verdict: Choose the Easy Step II when a ramp will not fit and you still want to know what you are asking the cat to do. A published 5-inch rise and a published landing depth are rare in this category, and the washable tread and rubber grippers are the right details. Buy it for a sofa or a window seat rather than a tall bed.
 
 #### Rank 4 — LOWEST PUBLISHED RISE: 3-Step Pet Stairs — Nonslip Foam Dog and Cat Steps
 Brand: PETMAKER  |  Score: 7.1/10  |  Price: $30.10  |  ASIN: B01NAHI3SW
@@ -12638,12 +12635,11 @@ Pros:
 - Zippered microfiber cover comes off for machine washing
 - Light enough to move between rooms while you find the right spot
 Cons:
-- Read as low stock rather than freely available at our September 14, 2026 check
 - The non-slip claim covers the bottom and backside only — no traction claim on the climbing surface
 - Foam compresses underfoot and no firmness or compression spec is published
 - 25 pounds is the lowest capacity here, ruling out a shared small dog
 - Three steps reach 12 inches total, which is short of a standard bed frame
-Verdict: The 3-Step Pet Stairs is the cheapest honest way to find out whether your cat will use furniture at all. A published 4-inch rise and a published 25-pound capacity put it ahead of every foam competitor below, and the tiny footprint fits where nothing else does. Confirm stock before ordering, and treat the microfiber climbing surface as the open question it is.
+Verdict: The 3-Step Pet Stairs is the cheapest honest way to find out whether your cat will use furniture at all. A published 4-inch rise and a published 25-pound capacity put it ahead of every foam competitor below, and the tiny footprint fits where nothing else does. Treat the microfiber climbing surface as the open question it is.
 
 #### Rank 5 — BEST FOR A CHAIR OR A TIGHT CORNER: COZY KISS Dog Stair for Small Dog 11.8" H, 2 Step Pet Ramp for Chair
 Brand: COZY KISS  |  Score: 6.3/10  |  Price: $32.99  |  ASIN: B0CZDMCR8Z
@@ -12711,8 +12707,8 @@ Verdict: Buy the Aodisman only if you have already measured your furniture and t
 ### Bottom line
 Get the PetSafe Happy Ride Folding Dog Ramp if you buy one thing. It is the only pick whose listing names high-traction treads, side rails and rubber feet together, on a continuous 62-inch incline that removes the jump entirely, for $59.99.
 Get the PetSafe CozyUp Wooden Pet Bed Ramp when the ramp has to be permanent and the destination is the bed. Seventy inches of run to reach a published 25 inches is the only geometry on this page you can check against your own furniture before ordering.
-Get the Pet Gear Easy Step II Pet Stairs when a ramp will not fit. A published 5-inch rise and published 8.5-inch and 9.5-inch landings make it the only stepped pick that publishes both — one of only two stepped picks that publish a rise at all — but it read as low stock on September 14, 2026, so check first.
-Get the 3-Step Pet Stairs at $30.10 as the cheap experiment, because a published 4-inch rise is the lowest here and thirty dollars is the right price to discover whether your cat will use furniture at all. It also read as low stock at our September 14, 2026 check.
+Get the Pet Gear Easy Step II Pet Stairs when a ramp will not fit. A published 5-inch rise and published 8.5-inch and 9.5-inch landings make it the only stepped pick that publishes both — one of only two stepped picks that publish a rise at all.
+Get the 3-Step Pet Stairs at $30.10 as the cheap experiment, because a published 4-inch rise is the lowest here and thirty dollars is the right price to discover whether your cat will use furniture at all.
 Get the COZY KISS for a chair in a tight corner. The 80-pound capacity and waterproof layer are strong for the money, but 11.8 inches across two steps is close to a 6-inch rise, which is a real hop for a stiff cat.
 Get the Romrol only for a tall bed, because its size range runs up to a 24-inch 5-step. Ignore the 63 percent and 58 percent claims on the listing — neither has a test method behind it — and note that no weight capacity is published.
 Get the Aodisman last, and only if you have measured your furniture already. The traction language is good, but a mobility product that publishes no height, no rise and no capacity cannot outrank one that does.
@@ -13326,7 +13322,7 @@ Verified: 2026-05-05
 ## Best Orthopedic Dog Beds for Senior Pets (2026)
 
 URL: https://petpalhq.com/guides/best-orthopedic-dog-beds-senior-pets-2026
-Published: 2026-05-05  |  Updated: 2026-09-25
+Published: 2026-05-05  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: senior-pet-mobility-preventive-care
 
 > Big Barker is the synthesis pick for giant senior dogs; Bedsure Orthopedic is the broad-reach value pick for the median senior dog. Editorial recommendations grounded in AAHA senior-care guidelines, the Merck Veterinary Manual, and AKC arthritis-care advice — not first-hand testing.
@@ -13385,7 +13381,6 @@ Pros:
 Cons:
 - Heavy bolsters can be hard for very stiff pets to climb over
 - At $229.99 it is the second-priciest pick here, behind only the Big Barker
-- Usually ships within 7 to 12 days rather than arriving in two — order before you need it
 - petfusion.com refused our fetch, so the construction figures are the listing's own fields rather than a maker spec sheet
 - Cooling claims are limited; very hot sleepers may prefer the elevated cot
 Verdict: The synthesis pick when one bed has to do everything. Best fit for large senior dogs that need support, accident protection, and easy laundering at once — provided you can wait out its 7-to-12-day ship window.
@@ -14147,7 +14142,7 @@ Verified: 2026-05-10
 ## Best Cat Exercise Wheels for Indoor Enrichment (2026)
 
 URL: https://petpalhq.com/guides/best-cat-exercise-wheels-2026
-Published: 2026-05-11  |  Updated: 2026-09-07
+Published: 2026-05-11  |  Updated: 2026-09-30
 Category: Playground
 
 > The cat exercise wheels actually sized for cat biomechanics — diameter that fits the spine, a track wide enough for the stride, anchoring that survives a sprint.
@@ -17790,7 +17785,7 @@ Verified: 2026-07-12
 ## Are Automatic Litter Boxes Worth It? (2026)
 
 URL: https://petpalhq.com/guides/are-automatic-litter-boxes-worth-it-2026
-Published: 2026-07-11  |  Updated: 2026-08-18
+Published: 2026-07-11  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > An automatic box is worth it when it removes a real, recurring friction you would otherwise neglect — not because it is 'smart.' This guide runs the 3-year total-cost-of-ownership math and the time-value calculation for four decision archetypes, then hands you a suitability checklist. For a large share of single-cat homes, a bigger manual box scooped twice daily wins the math outright.
@@ -17890,7 +17885,7 @@ Verdict: For the single-cat, home-daily household on any real budget, this is th
 ### Bottom line
 An automatic box is worth it only when it removes a real, recurring friction you would otherwise neglect. If you cannot name that friction, the honest answer is that a large manual box scooped twice daily wins the money and meets the same welfare guidance.
 Worth it — premium: the Whisker Litter-Robot 4 makes sense for a multi-cat home with genuine scooping fatigue that also values per-cat data. Plan for roughly $1,500–$1,700 over three years, and only buy if you would otherwise let scooping slide.
-Worth it — mid: the PetSafe ScoopFree SmartSpin is the right spend when odor is the deciding friction. At $350.00 it is roughly half the premium tier, its any-litter compatibility keeps you on AAFP-recommended clumping litter, and the three-year total lands near $710–$760. Amazon stocks the white colourway; the black one has been out of stock.
+Worth it — mid: the PetSafe ScoopFree SmartSpin is the right spend when odor is the deciding friction. At $350.00 it is roughly half the premium tier, its any-litter compatibility keeps you on AAFP-recommended clumping litter, and the three-year total lands near $710–$760.
 Worth it to test: the PetSafe ScoopFree Crystal Classic answers the acceptance question for $99 upfront — but the disposable-tray cost means it is an experiment, not a destination. Graduate to a better appliance if your cat takes to it.
 Not worth it: for a single healthy cat with an owner home daily, the TEVILA XL manual box wins on cost at roughly $320–$350 over three years and satisfies ASPCA's preference for a large, easily entered box. And whenever avoidance is sudden or painful, the correct first purchase is a vet visit.
 
@@ -18949,7 +18944,7 @@ Verified: 2026-07-06
 ## Best Automatic Ball Launchers 2026: Fetch Machines Ranked for Range, Ball Fit, and Safety
 
 URL: https://petpalhq.com/guides/best-automatic-ball-launchers-2026
-Published: 2026-07-05  |  Updated: 2026-09-08
+Published: 2026-07-05  |  Updated: 2026-09-30
 Category: Cats & Dogs
 
 > Automatic fetch machines worth buying in 2026 — ranked on range, ball fit, dog-size compatibility, and value, with the vet caution to cap sessions at 15-20 minutes and match the launcher to your dog's size.
@@ -19247,7 +19242,7 @@ Verified: 2026-07-06
 ## Best Automatic Litter Boxes for Cats (2026)
 
 URL: https://petpalhq.com/guides/best-automatic-litter-boxes-2026
-Published: 2026-05-05  |  Updated: 2026-09-07
+Published: 2026-05-05  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > The Whisker Litter-Robot 4 is the synthesis pick for premium all-rounder buyers; the PetSafe ScoopFree SmartSpin is the strongest sealed-drawer answer; the Neakasa M1 Plus suits owners wary of enclosed globes; the Casa Leo Leo's Loo Too is the quiet alternative. Skip every box on this list and call your veterinarian first if box avoidance is sudden, painful, or stress-linked — AAHA/AAFP, ASPCA, Cornell, and Merck all treat house-soiling as a medical workup before a shopping problem.
@@ -19367,7 +19362,7 @@ Verdict: Buy this if you want the lowest-risk way to test whether your cat accep
 Get the Whisker Litter-Robot 4 if you want one premium all-rounder. Whisker documents app-based usage and weight tracking, multi-cat support up to four cats, and standard clumping-litter compatibility. Follow Whisker's acclimation guidance and keep a backup traditional box per ASPCA.
 Get the PetSafe ScoopFree SmartSpin if odor management is the deciding factor. PetSafe documents the sealed drawer, app-linked tracking, and 'works with any litter' — the practical advantage that lets you meet AAFP's unscented-clumping recommendation without changing substrate.
 Get the Neakasa M1 Plus if your cat refuses enclosed globes. Neakasa documents an open-top design with 360° safety sensors and anti-pinch logic — closer to ASPCA's preference for large, easily entered boxes than barrel geometries.
-Get the Casa Leo Leo's Loo Too if quiet operation is non-negotiable. Casa Leo documents sub-30 dB cycle noise and a layered radar, weight, and anti-pinch sensor stack, at $599.00 on Amazon as of September 7, 2026, in stock and sold by Casa Leo Pet rather than by Amazon.
+Get the Casa Leo Leo's Loo Too if quiet operation is non-negotiable. Casa Leo documents sub-30 dB cycle noise and a layered radar, weight, and anti-pinch sensor stack, at $599.00 on Amazon as of September 7, 2026, sold by Casa Leo Pet rather than by Amazon.
 Get the PetSafe ScoopFree Crystal Classic as a lower-cost on-ramp. The trade-off is the crystal-tray substrate change and ongoing consumable costs — if your cat refuses crystals, fall back to a traditional box and revisit the category later.
 
 ### When not to buy
@@ -20240,7 +20235,7 @@ Verified: 2026-06-10
 ## Best Buried-Wire In-Ground Dog Fence Systems (2026)
 
 URL: https://petpalhq.com/guides/best-buried-wire-in-ground-dog-fence-systems-2026
-Published: 2026-07-25  |  Updated: 2026-09-07
+Published: 2026-07-25  |  Updated: 2026-09-30
 Category: Cats & Dogs
 
 > SportDOG's In-Ground Fence System is the synthesis pick for most yards and the largest out-of-box coverage; PetSafe's Stubborn Dog kit is the budget entry point; Extreme Dog Fence's Standard Kit extends its warranty to 5 years on registration. No subscriptions, no satellite drift — a physical wire loop instead.
@@ -20321,7 +20316,7 @@ Pros:
 Cons:
 - Out-of-box coverage is only about 1/3 acre despite the headline 6-acre transmitter ceiling — reaching real acreage requires buying additional wire separately, same as PetSafe's kit
 - 10-foot submersion rating is shallower than SportDOG's 25-foot rating
-- Fulfilled by a third-party marketplace seller with limited stock at last check, not a heavily-stocked Amazon-fulfilled buy-box like the other three picks
+- Fulfilled by a third-party marketplace seller, not an Amazon-fulfilled buy-box like the other three picks
 Verdict: Ties PetSafe's 500-foot starter coverage out of the box, but backs it with a warranty that runs to 5 years on registration and 20-gauge heavy-jacketed wire — the pick when durability and post-registration warranty matter more than acreage headroom.
 
 #### Rank 4 — BEST FOR STATIC-FREE REENTRY: PetSafe YardMax Rechargeable In-Ground Dog Fence
@@ -21529,7 +21524,7 @@ Verified: 2026-07-05
 ## Best Dog Bathing Tubs & Wash Stations (2026): Pro Stainless Stations That Save Your Back
 
 URL: https://petpalhq.com/guides/best-dog-bathing-tubs-wash-stations-2026
-Published: 2026-07-03  |  Updated: 2026-09-25
+Published: 2026-07-03  |  Updated: 2026-09-30
 Category: Cats & Dogs
 
 > The stainless dog wash stations worth the freight — raised, walk-in tubs that stop bend-and-hoist bathing injuries, sized honestly to your dog and priced from a $250 compact sink to a $1,599 salon build.
@@ -22616,7 +22611,7 @@ Verified: 2026-06-10
 ## Best Dog GPS Trackers for Lost-Dog Recovery (2026)
 
 URL: https://petpalhq.com/guides/best-dog-gps-trackers-2026
-Published: 2026-06-10  |  Updated: 2026-09-26
+Published: 2026-06-10  |  Updated: 2026-09-30
 Category: Cats & Dogs  |  Hub: gps-containment-and-pet-tracking-systems
 
 > The GPS trackers that actually recover a lost dog — ranked on GPS fix speed, real-world battery, and three-year subscription cost, with honest reporting on the claims that don't survive owner data.
@@ -22625,7 +22620,7 @@ Category: Cats & Dogs  |  Hub: gps-containment-and-pet-tracking-systems
 Every real dog GPS tracker requires a subscription, so the buying decision is mostly a cost-and-coverage decision. The Tractive at $55.30 is the strongest overall pick — Wirecutter found it locked GPS signal faster than any other model it evaluated, and three years of ownership runs $343 to $415 at Tractive's own published Premium rates, depending on which term you prepay. The Fi Series 3+ at $189.00 is the escape-artist pick: an integrated collar that cannot fall off, up to 3 months of battery, but about $567 over three years on prepaid-only plans. The Pawfit 3 at $59.99 adds remote voice recall, the one feature nothing else here offers. And if the real goal is preventing the escape rather than finding the dog after one, price the containment tier properly first — our GPS containment total-cost comparison runs SpotOn, Halo, and PetSafe out to real 1-, 3-, and 5-year totals.
 
 ### Review method
-Editorial synthesis of six expert sources covering dog GPS trackers. The New York Times Wirecutter's live-tracking comparison anchored the accuracy and GPS fix-speed rankings. PCMag's category review informed the Fi assessment. Dog Gear Review's side-by-side live-tracking testing settled how the Tractive handles a moving dog. Smart Bark's Pawfit range review and Life With Klee Kai's long-term two-tracker owner comparison rounded out the field. Lost-pet statistics come from dvm360 and Shelter Animals Count. Subscription economics were cross-checked against The Family Pick's 2026 cost comparison, and owner sentiment was surveyed on Trustpilot, r/dogs, and r/puppy101. Manufacturer documentation from Tractive, Pawfit, and Fi was reviewed for specifications. Prices, availability, and seller were re-verified by live Amazon product-page reads on September 7, 2026: the Tractive was $55.30 and in stock, the Pawfit 3 $59.99, the Fi Series 3+ $189.00, and the Invoxia Minitailz $99.00 in stock and sold by invoxia inc., which restores a pick our August 10 check had found with no live offer. Three-year totals attributed to The Family Pick are reported at their original basis and separately recomputed at current hardware prices. PetPalHQ does not run a GPS-tracker testing facility.
+Editorial synthesis of six expert sources covering dog GPS trackers. The New York Times Wirecutter's live-tracking comparison anchored the accuracy and GPS fix-speed rankings. PCMag's category review informed the Fi assessment. Dog Gear Review's side-by-side live-tracking testing settled how the Tractive handles a moving dog. Smart Bark's Pawfit range review and Life With Klee Kai's long-term two-tracker owner comparison rounded out the field. Lost-pet statistics come from dvm360 and Shelter Animals Count. Subscription economics were cross-checked against The Family Pick's 2026 cost comparison, and owner sentiment was surveyed on Trustpilot, r/dogs, and r/puppy101. Manufacturer documentation from Tractive, Pawfit, and Fi was reviewed for specifications. Prices and seller were re-verified by live Amazon product-page reads on September 7, 2026: the Tractive was $55.30, the Pawfit 3 $59.99, the Fi Series 3+ $189.00, and the Invoxia Minitailz $99.00, sold by invoxia inc. Three-year totals attributed to The Family Pick are reported at their original basis and separately recomputed at current hardware prices. PetPalHQ does not run a GPS-tracker testing facility.
 
 ### Top picks (winners)
 1. Tractive Smart Dog GPS Tracker — Live GPS tracking over 4G LTE with virtual fence escape alerts, plus heart-rate, respiratory-rate, and bark monitoring in a clip-on that fits any collar. Wirecutter found it delivered the most consistently accurate location updates during live tracking and connected to GPS faster than any other model it evaluated. Roughly $343 to $415 over three years at its current $55.30 hardware and Tractive's own published Premium rates, depending on which term you prepay — still the cheapest three-year total in this guide.
@@ -22721,8 +22716,7 @@ Cons:
 - Trustpilot complaints document refund refusals and firmware-bricked devices without replacement
 - Health metrics are screening signals, not diagnostics — an AFib flag needs a vet, not an app
 - Subscription required on top of the $99.00 device price
-- Stock ran thin at our September 7, 2026 check, after a spell with no live offer at all
-Verdict: The Minitailz is the specialist for cardiac and respiratory screening on a senior or at-risk dog, and it is buyable again at $99.00 as of September 7, 2026 after a stretch with no live offer. Laggy live tracking still makes the Tractive the better choice if lost-dog recovery is the primary job.
+Verdict: The Minitailz is the specialist for cardiac and respiratory screening on a senior or at-risk dog. Laggy live tracking still makes the Tractive the better choice if lost-dog recovery is the primary job.
 
 ### Bottom line
 Buy the Tractive if you want the best recovery tool for the least money. It locked GPS faster than anything else Wirecutter evaluated, six outlets made it their top pick, and three years costs $343 to $415 at its current $55.30 hardware and Tractive's published rates, depending on the term you prepay. Charge it every 2 to 5 days without fail.
@@ -23285,7 +23279,7 @@ Verified: 2026-07-06
 ## Best Elevated Cooling Dog Cots (2026)
 
 URL: https://petpalhq.com/guides/best-elevated-cooling-dog-cots-2026
-Published: 2026-07-06  |  Updated: 2026-09-25
+Published: 2026-07-06  |  Updated: 2026-09-30
 Category: Cats & Dogs
 
 > Raised mesh dog cots ranked on off-ground airflow, frame stability, weather and chew durability, and portability — with honest framing on how an elevated bed cools by letting air move under the dog.
@@ -23388,7 +23382,7 @@ Cons:
 - Each size is a separate listing, so confirm you are buying the one you need
 Verdict: If you want the bed the category was copied from, the Coolaroo Original at about $24.60 for the large is the benchmark — and the cheapest cot here. Passive airflow cooling, so pair it with shade and water.
 
-#### Rank 5 — WIDELY AVAILABLE PICK: Amazon Basics Cooling Breathable Elevated Dog Bed, Large (51 x 31 x 8 in)
+#### Rank 5 — HOUSE-BRAND PICK: Amazon Basics Cooling Breathable Elevated Dog Bed, Large (51 x 31 x 8 in)
 Brand: Amazon Basics  |  Score: 7.9/10  |  Price: $32.25  |  ASIN: B076VXVB2L
 Key features:
 - Breathable mesh deck over a durable iron frame
@@ -23397,7 +23391,7 @@ Key features:
 - Cleans with tap water
 - Assembles with the included screws and hex tool
 Pros:
-- Widely available house brand that is trivial to reorder and replace
+- House-brand cot with a simple, proven build
 - Iron frame and breathable mesh deck follow the proven cot template
 - Off-ground lift delivers the core airflow cooling and joint relief
 - Cleans with tap water, and assembles with the included tool
@@ -23405,7 +23399,7 @@ Cons:
 - Passive cooling only — ventilates the dog, does not refrigerate it
 - No separate replacement deck sold, unlike the Coolaroo above
 - Mesh deck can be damaged by a determined chewer or digger
-Verdict: If you want a cheap, always-in-stock raised cot from a familiar house brand, the Amazon Basics large at about $32.25 is a practical everyday pick. Passive airflow cooling — pair it with shade and water.
+Verdict: If you want a cheap raised cot from a familiar house brand, the Amazon Basics large at about $32.25 is a practical everyday pick. Passive airflow cooling — pair it with shade and water.
 
 ### Bottom line
 Buy the DOPEDIO if you want the best overall cot — a stable large frame and a taut, breathable, fast-drying mesh deck that runs cooler than a floor or foam bed. It cools by airflow and lift, not refrigeration.
@@ -23654,7 +23648,7 @@ Verified: 2026-05-09
 ## Best Flea and Tick Prevention for Dogs in 2026
 
 URL: https://petpalhq.com/guides/best-flea-tick-prevention-dogs-2026
-Published: 2026-06-19  |  Updated: 2026-08-12
+Published: 2026-06-19  |  Updated: 2026-09-30
 Category: Cats & Dogs
 
 > Flea and tick prevention for dogs is a format decision before it is a brand decision: an 8-month collar, a monthly topical, and a same-day oral rescue each solve a different version of the problem. We read the veterinary and public-health guidance, then matched each format to the dog and the risk it actually fits.
@@ -25212,7 +25206,7 @@ Verified: 2026-07-27
 ## Best Large Arboreal Terrariums & Paludariums for Crested Geckos, Chameleons & Tree Frogs (2026)
 
 URL: https://petpalhq.com/guides/best-large-arboreal-terrariums-paludariums-2026
-Published: 2026-07-03  |  Updated: 2026-09-27
+Published: 2026-07-03  |  Updated: 2026-09-30
 Category: Reptile
 
 > Tall front-opening homes for tree-climbing reptiles — a true paludarium with a sealed water base and glass towers that beat the arboreal size minimums crested geckos and tree frogs need.
@@ -26793,7 +26787,7 @@ Verified: 2026-07-05
 ## Best Planted Aquarium Lights 2026: Fluval Plant 3.0, Chihiros WRGB & Budget Picks
 
 URL: https://petpalhq.com/guides/best-planted-aquarium-lights-2026
-Published: 2026-06-10  |  Updated: 2026-09-09
+Published: 2026-06-10  |  Updated: 2026-09-30
 Category: Aquarium
 
 > The planted-tank LEDs that actually grow plants — including the PAR-test winner, the RGB fixtures aquascapers buy for red plants, and a budget pick with the timer built in.
@@ -26917,7 +26911,7 @@ Finally, postpone any lighting upgrade if your tank is still cycling or fighting
 
 ### Sources
 Expert: ModestFish — submersible PAR-meter head-to-head test of five planted-tank LED fixtures; The 2Hr Aquarist (Dennis Wong) — planted-tank lighting, spectrum, and red-plant color guidance; Fish Tank World — 2026 freshwater LED comparison; Aquarium Store Depot — 2026 best planted-tank LED roundup; The Planted Tank Forum (plantedtank.net) — side-by-side owner threads and the dedicated WRGB2 Pro thread; UK Aquatic Plant Society (UKAPS) forum — light spread and coverage reports; Aquarium Co-Op Forum — planted-tank lighting discussion; Green Aqua — Chihiros settings and configuration guidance
-Community: r/PlantedTank community discussion on fixture selection and red-plant color; Amazon owner sentiment on sizing fit, stock availability, and seller price variance
+Community: r/PlantedTank community discussion on fixture selection and red-plant color; Amazon owner sentiment on sizing fit and seller price variance
 Verified: 2026-06-10
 
 ---
@@ -28292,7 +28286,7 @@ Verified: 2026-07-05
 ## Best Vacuums for Pet Hair in a Real Shedding Household (2026)
 
 URL: https://petpalhq.com/guides/best-pet-hair-vacuums-2026
-Published: 2026-06-10  |  Updated: 2026-08-10
+Published: 2026-06-10  |  Updated: 2026-09-30
 Category: Cats & Dogs
 
 > The vacuums that survive a shedding household — anti-tangle brush rolls, sealed filtration, and honest runtime math, synthesized from nine expert sources instead of marketing copy.
@@ -28334,7 +28328,6 @@ Cons:
 - Trigger must be held continuously — owners report hand fatigue, a real problem for mobility-limited users
 - Max power mode drains the battery fast; large multi-pet homes may need a mid-session recharge
 - At $825.99 it is nearly four times the Bissell and a steep premium over every other pick here
-- Amazon pricing on the Plus configuration is unstable — only a used-condition offer was live at our July 17, 2026 check, and the new-condition price came back $176 higher at our August 10, 2026 re-check
 Verdict: If you want the machine the testing outlets agree on and can live with trigger-hold operation, the V15 Detect Plus is the pick. Budget shoppers get most of the pet-hair job done for just over a quarter of the price.
 
 #### Rank 2 — BEST VALUE: BISSELL Pet Hair Eraser Turbo Plus Upright Vacuum (24613)
@@ -29175,7 +29168,7 @@ Verified: 2026-08-21
 ## GPS Dog Fence Total Cost of Ownership: The Real 3- and 5-Year Cost (2026)
 
 URL: https://petpalhq.com/guides/best-gps-dog-containment-total-cost-comparison-2026
-Published: 2026-07-27  |  Updated: 2026-09-26
+Published: 2026-07-27  |  Updated: 2026-09-30
 Category: Cats & Dogs
 
 > The total cost of owning a GPS dog fence is hardware plus every month you keep paying — and one of these systems does not print that second number on its plans page. Real 1-, 3-, and 5-year totals from each brand's published rates, across a no-subscription premium fence, a fee-required fence, a no-fee budget fence, a GPS tracker (not containment), and a one-time-cost e-collar system.

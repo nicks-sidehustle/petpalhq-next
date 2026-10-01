@@ -16,7 +16,7 @@ keywords:
 species: ["fish"]
 guideType: "spoke"
 publishDate: "2026-07-27"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-30"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/best-complete-reef-aquarium-systems-2026.webp"
@@ -301,7 +301,7 @@ picks:
       - "Low-liquid volume monitoring and notifications"
       - "Compact single-channel design that mounts into the sump's dedicated dosing holes"
     body: |
-      Honest note on this pick before the review: the higher-end multi-channel dosing pump this build originally anchored on — a Kamoer X1 PRO T2 with the high-flow KPAS100 head, previously priced around $813 — had no live new-condition Amazon offer at our July 27, 2026 check for either the KPAS100 bundle or a genuine 4-channel Kamoer or Chihiros system at that tier. Rather than list a pick you can't currently buy, this system's dosing-pump slot goes to the single-channel Chihiros doser, which is real, in stock, and verified at $166.09 today. If you need multi-channel automatic dosing for a full two-part-plus-trace-elements routine, expect to add a second or third unit, or check current availability on a higher-capacity system before committing your dosing budget.
+      Honest note on this pick before the review: the higher-end multi-channel dosing pump this build originally anchored on — a Kamoer X1 PRO T2 with the high-flow KPAS100 head, previously priced around $813 — had no live new-condition Amazon offer at our July 27, 2026 check for either the KPAS100 bundle or a genuine 4-channel Kamoer or Chihiros system at that tier. Rather than list a pick you can't currently buy, this system's dosing-pump slot goes to the single-channel Chihiros doser, which is real and verified at $166.09 today. If you need multi-channel automatic dosing for a full two-part-plus-trace-elements routine, expect to add a second or third unit, or look at a higher-capacity system before committing your dosing budget.
 
       What the single-channel Chihiros doser does well: Glass Aqua and Buce Plant both confirm 0.2ml precision in 0.1ml increments, controlled through the MY CHIHIROS app with low-liquid notifications. That's precise enough for a single supplement — alkalinity, calcium, or a trace-element blend — dosed on a schedule instead of by hand. It mounts directly into the dosing holes Fiji Cube built into the sump this system uses, so no aftermarket drilling is needed to add it.
 
@@ -447,7 +447,7 @@ related:
 
 A complete reef build is a handful of separate purchases that only work as a system if they're sized against each other: a sump and refugium to filter and stabilize the water, LED lighting to grow coral, a protein skimmer to export nutrients, a calcium reactor to automate alkalinity and calcium, a dosing pump for trace elements, and an automatic top-off system to replace evaporation without you standing over the tank daily. Buy any one of those in isolation and you've bought a component. Buy the set sized against the same bioload target and you've bought a system.
 
-This guide doesn't introduce {{pickCountWord}} new products. Every pick here has already been reviewed individually on this site, re-checked against its live Amazon listing and price, and sequenced into a buying order: sump first, because it's where everything else physically mounts; skimmer second, because it sets the real bioload ceiling; lighting third, to match; then the automation layer — calcium reactor, dosing pump, and ATO — last, because none of it matters until the first three pieces are running and you know your tank's actual demand. The skimmer slot is the one piece this guide no longer prices directly — our standalone skimmer guide carries the current picks, and the sizing rule below is what matters more than the model. One honest substitution happened during this re-verification: the higher-capacity multi-channel dosing pump this build originally priced at roughly $813 had no live new-condition Amazon offer at check, so the dosing slot goes to a real, in-stock single-channel unit instead, with a plain note that a second channel may be needed.
+This guide doesn't introduce {{pickCountWord}} new products. Every pick here has already been reviewed individually on this site, re-checked against its live Amazon listing and price, and sequenced into a buying order: sump first, because it's where everything else physically mounts; skimmer second, because it sets the real bioload ceiling; lighting third, to match; then the automation layer — calcium reactor, dosing pump, and ATO — last, because none of it matters until the first three pieces are running and you know your tank's actual demand. The skimmer slot is the one piece this guide no longer prices directly — our standalone skimmer guide carries the current picks, and the sizing rule below is what matters more than the model. One honest substitution happened during this re-verification: the higher-capacity multi-channel dosing pump this build originally priced at roughly $813 had no live new-condition Amazon offer at check, so the dosing slot goes to a real single-channel unit instead, with a plain note that a second channel may be needed.
 
 ## Frequently Asked Questions
 

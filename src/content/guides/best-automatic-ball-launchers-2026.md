@@ -15,7 +15,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-05"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-30"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-automatic-ball-launchers-2026.webp"
@@ -159,7 +159,7 @@ picks:
       - "Safety alert buzzer sounds before each launch (can be turned off)"
       - "From Franklin Sports, an established sporting-goods brand"
     body: |
-      The Franklin Ready Set Fetch is the pick if you would rather not be locked into proprietary balls. Nearly every launcher here uses its own oddly-sized balls, but the Franklin uses official-size standard tennis balls — it comes with one and works with any standard ball — so refills cost a couple of dollars at any store and you are never stranded because your special 2.3-inch balls are out of stock. For many owners, that alone makes the Ready Set Fetch launcher the practical choice.
+      The Franklin Ready Set Fetch is the pick if you would rather not be locked into proprietary balls. Nearly every launcher here uses its own oddly-sized balls, but the Franklin uses official-size standard tennis balls — it comes with one and works with any standard ball — so refills cost a couple of dollars at any store. For many owners, that alone makes the Ready Set Fetch launcher the practical choice.
 
       The rest is well-considered. It launches up to 40 feet across three preset angles, runs on an included AC adapter or 8 D batteries for cord-free yard play, and adds a genuinely useful safety touch the others lack: a buzzer that sounds before each launch so your dog learns the ball is about to fly and positions itself, which you can switch off once trained. Franklin Sports is an established sporting-goods name rather than a marketplace unknown. Anyone shopping a [standard tennis ball launcher for dogs](https://www.amazon.com/s?k=standard+tennis+ball+automatic+dog+launcher+franklin&tag=petpalhq08-20) should have this on the list.
 
