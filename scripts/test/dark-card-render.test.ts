@@ -842,20 +842,10 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   );
   check('(o) …and the sweep exercises at least one blank cell', blankCells > 0);
 
-  const rowOf = (slug: string, label: string) =>
-    getAllGuides().find((x) => x.slug === slug)?.comparison?.rows.find((r) => r.label === label)?.values ?? [];
-  const sumps = rowOf('best-reef-aquarium-sumps-refugiums-2026', 'Listed price at time of check');
-  check(
-    '(o) reef sumps price row: dark cols 1/3/4 blank, live cols 0/2 keep their own figures',
-    JSON.stringify(sumps) === JSON.stringify(['$262.85', '', '$404.99', '', '']),
-    JSON.stringify(sumps),
-  );
-  const moms = rowOf('best-mothers-day-gifts-pet-moms-2026', 'Price (list)');
-  check(
-    '(o) mothers-day price row: dark cols 6/8 blank, cols 7/9 keep $129.00/$229.95',
-    moms.length === 10 && moms[6] === '' && moms[7] === '$129.00' && moms[8] === '' && moms[9] === '$229.95',
-    JSON.stringify(moms),
-  );
+  // Owner decision 2026-09-30 ("Drop prices from all charts"): comparison charts
+  // carry no price rows, so the two pinned price-row assertions (reef sumps
+  // "Listed price at time of check", Mother's Day "Price (list)") are retired.
+  // Prices live only on cards; the positional sweep above still guards alignment.
 }
 
 // ---------------------------------------------------------------------------
