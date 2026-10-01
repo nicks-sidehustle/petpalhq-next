@@ -840,7 +840,10 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     misaligned.length === 0,
     misaligned.slice(0, 6).join('; '),
   );
-  check('(o) …and the sweep exercises at least one blank cell', blankCells > 0);
+  // Retired (owner decision 2026-09-30, "Drop prices from all charts"): the
+  // anti-vacuity guard `blankCells > 0` only held while a dark pick's price was
+  // blanked inside a chart price row. Charts carry no prices now, so no blank
+  // cell is required to exist; the positional sweep above stays.
 
   // Owner decision 2026-09-30 ("Drop prices from all charts"): comparison charts
   // carry no price rows, so the two pinned price-row assertions (reef sumps
