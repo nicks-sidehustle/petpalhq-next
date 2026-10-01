@@ -16,7 +16,7 @@ keywords:
   - "dog separation anxiety chew toy"
 pillar: "expert-care"
 publishDate: "2026-06-19"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-dog-chew-toys-anxiety-2026.webp"
@@ -292,7 +292,7 @@ picks:
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B00N54EGD0"
-        stat: "WEST PAW Zogoflex Toppl ... Made in USA-Large-Tangerine — $25.95, New, In Stock, ships from Amazon"
+        stat: "WEST PAW Zogoflex Toppl ... Made in USA-Large-Tangerine — $25.95, New, ships from Amazon"
         claim: "The listing opens live, with the product title and buy-box price we verified"
         supports: "general"
         accessed: "2026-09-08"

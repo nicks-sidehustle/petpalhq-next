@@ -16,7 +16,7 @@ keywords:
 species: ["fish"]
 pillar: "aquarium-care"
 publishDate: "2026-06-22"
-updatedDate: "2026-08-07"
+updatedDate: "2026-09-30"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-aquarium-chillers-2026.webp"
@@ -251,7 +251,7 @@ picks:
 
       One specific sets it slightly apart: the listing is explicit that it needs about 6 inches (15 cm) of clearance around the unit for adequate air circulation — a useful, honest spec, because cramped placement is the most common reason a budget chiller short-cycles or overheats. At $269.99 it is the lowest entry point to a titanium evaporator here.
 
-      Here is the honest trade-off: BAOSHISHAN is a budget importer with the same caveats as the Poafamx — limited warranty, a thin long-term track record, and listing copy that leans on broad descriptors. The 42-gallon ceiling means no headroom for a larger display. And there is no compelling reason to choose it over the Poafamx beyond a few dollars; pick whichever is in stock at the better price, and prioritize the JBJ or Active Aqua if titanium-coil pedigree or digital control matters more than saving $200.
+      Here is the honest trade-off: BAOSHISHAN is a budget importer with the same caveats as the Poafamx — limited warranty, a thin long-term track record, and listing copy that leans on broad descriptors. The 42-gallon ceiling means no headroom for a larger display. And there is no compelling reason to choose it over the Poafamx beyond a few dollars; pick whichever has the better price, and prioritize the JBJ or Active Aqua if titanium-coil pedigree or digital control matters more than saving $200.
     pros:
       - "Lowest price in the guide for a titanium-evaporator chiller, at $269.99"
       - "Pure titanium evaporator rated for freshwater and saltwater"

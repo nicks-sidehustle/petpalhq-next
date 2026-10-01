@@ -14,7 +14,7 @@ keywords:
   - "halogen basking bulb bearded dragon"
 pillar: "reptile-habitat"
 publishDate: "2026-06-21"
-updatedDate: "2026-09-09"
+updatedDate: "2026-09-30"
 readTime: "13 min read"
 featured: true
 image: "/images/guides/best-bearded-dragon-starter-kits-2026.webp"
@@ -182,7 +182,7 @@ picks:
 
       Mounting height is where this fixture demands respect rather than trust. Arcadia publishes its own UVI table for the ProT5, measured on a Solarmeter 6.5 at the strongest point with nothing in the beam: the 12% tube reads 8.50 UVI at 12 inches, 6.50 at 15 inches, 3.80 at 20 inches and 2.40 at 24 inches, and Arcadia sets a minimum lamp-to-animal distance of 10 inches. A bearded dragon wants roughly 4.0 to 4.5 UVI at the basking surface, so hung inside an enclosure with clear air between bar and dragon this tube belongs nearer 18 to 20 inches up, not 12. Rested on a mesh screen the reading drops — by how much depends on the mesh — which is why a Solarmeter beats any published distance. As with any T5 HO tube, plan to replace the bulb at roughly 12 months even though it still appears to work, because output fades before the light does.
 
-      It sits below the enclosure in this guide's order because lighting is one component of a setup, not the setup — but it is the component most kits get wrong, and it is the one we would not compromise on. At $159.99 it is $80 more than the ReptiSun hood above it and buys no heat, so the value case rests on the reflector, the protected electronics, the app dimming and the coverage. For a keeper building the best possible large enclosure, the Arcadia LumenIZE ProT5 is the lighting we would choose. Sold by Reptile Basics and fulfilled by Amazon rather than by Amazon itself, with only 14 units showing in stock on the day we checked.
+      It sits below the enclosure in this guide's order because lighting is one component of a setup, not the setup — but it is the component most kits get wrong, and it is the one we would not compromise on. At $159.99 it is $80 more than the ReptiSun hood above it and buys no heat, so the value case rests on the reflector, the protected electronics, the app dimming and the coverage. For a keeper building the best possible large enclosure, the Arcadia LumenIZE ProT5 is the lighting we would choose. Sold by Reptile Basics and fulfilled by Amazon rather than by Amazon itself.
     pros:
       - "Protected electronics and a removable curved reflector Arcadia states carries no UV-absorbing coating"
       - "12% Desert tube is a gold-standard desert UVB, alongside 10.0 Desert strength"

@@ -15,7 +15,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-03"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-dog-bathing-tubs-wash-stations-2026.webp"
@@ -387,7 +387,7 @@ A wash station changes two risk pictures at once — the dog's and yours — so 
 
 **LOVMOR stainless grooming tub with storage.** A LOVMOR tub was considered for inclusion but could not be verified as a distinct product. During our buyability check the LOVMOR listing resolved to the same VEVOR 50-inch product we already rank first, matching as a suspect duplicate. Recommending it would have meant double-counting the VEVOR under a second brand name, so we excluded it on integrity grounds rather than guess at which product a buyer would actually receive.
 
-**Flying Pig 50-inch Professional Grooming Bathtub.** This one shows up often in groomer roundups, including The Goody Pet, but it did not surface as a live, in-stock Amazon listing in our check, and The Goody Pet documents that on some units the welding is not properly done, causing leaks. It stays off the list pending a re-verified live listing.
+**Flying Pig 50-inch Professional Grooming Bathtub.** This one shows up often in groomer roundups, including The Goody Pet, which also documents that on some units the welding is not properly done, causing leaks. It stays off the list.
 
 ## Frequently Asked Questions
 

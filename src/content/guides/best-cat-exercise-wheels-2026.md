@@ -16,7 +16,7 @@ keywords:
 species: ["cat"]
 guideType: "spoke"
 publishDate: "2026-05-11"
-updatedDate: "2026-09-07"
+updatedDate: "2026-09-30"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-cat-exercise-wheels-2026.webp"
@@ -142,7 +142,7 @@ picks:
     body: |
       The POLAHAKU 48-inch is the budget pick for households that want the right wheel diameter without the premium-brand price. The 48-inch diameter is the same AAFP-aligned sizing as the One Fast Cat Gen 7. For a domestic shorthair or medium-frame cat, the rotational sizing is identical — the cat experiences the same stride extension on each step. That matters because the diameter is the single most important factor in long-term adoption; an undersized wheel forces spinal curvature that extinguishes use behavior.
 
-      A listing note first, because the one this guide used to point at is gone. POLAHAKU's earlier 48-inch listing went unavailable and has not come back; on our September 7, 2026 check the current listing is a new one, in stock at $89.99, sold by POLAHAKU Direct, in new condition. It is the same 48-inch wheel at the same price, now described with an enhanced base, a low-entry deck, a wide running surface and a safety lock, at published overall dimensions of 48 by 14.3 by 50.4 inches.
+      A listing note first: this guide now points at a newer POLAHAKU 48-inch listing, $89.99 on our September 7, 2026 check, sold by POLAHAKU Direct, in new condition. It is the same 48-inch wheel at the same price, now described with an enhanced base, a low-entry deck, a wide running surface and a safety lock, at published overall dimensions of 48 by 14.3 by 50.4 inches.
 
       Where the POLAHAKU trades off is what it does not publish. There is no bearing specification anywhere on the listing, and at this price the category norm is a bushing rather than the sealed industrial bearings the One Fast Cat documents — expect more rotation noise during a sprint and periodic lubrication to keep it turning smoothly. POLAHAKU calls the base "enhanced", which is fair as a comparison to its own earlier design and is not the same claim as the weighted premium bases; on hardwood, tile, or laminate, budget an aftermarket non-slip mat. Replacement runway carpet is not sold separately, so a worn runway is a third-party fit or a whole new wheel, against the One Fast Cat's manufacturer-supported replacement pads.
 
@@ -177,7 +177,7 @@ picks:
       - "High-density fiberboard frame rated for cats up to 26 pounds"
       - "Detachable hook-and-loop scratch pad for cleaning or replacement"
     body: |
-      The Outvita 39.4-inch is the compact-footprint pick for apartments or small rooms where a 48-inch wheel cannot live in the open. It replaces the PawHut 39-inch this guide used to name here: that listing went unavailable and, on our September 7, 2026 re-check, still shows no buyable offer. The Outvita is in stock at $69.99, sold by Outvita, in new condition, and it does the same job at a smaller diameter and a lower price.
+      The Outvita 39.4-inch is the compact-footprint pick for apartments or small rooms where a 48-inch wheel cannot live in the open. It replaces the PawHut 39-inch this guide used to name here. The Outvita is $69.99, sold by Outvita, in new condition, and it does the same job at a smaller diameter and a lower price.
 
       The safety lock is the reason a compact wheel earns a slot at all. AVSAB humane training principles emphasize voluntary engagement, and a lock lets the owner present a stationary wheel for the cat to investigate before any rotation happens — which removes the first-stride startle that extinguishes use behavior in a lot of cats. The same lock is what makes assisted use possible for a senior or anxious cat: hold the wheel still, let the cat settle, release it only when the cat is comfortable. Outvita also documents the detail that matters most on a wooden wheel, a minimal gap between the runway and the base, so paws are not pinched mid-stride.
 

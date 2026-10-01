@@ -23,7 +23,7 @@ keywords:
   - "PETLIBRO Polar wet food feeder"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-09-26'
+updatedDate: '2026-09-30'
 readTime: 15 min read
 featured: true
 image: /images/guides/best-automatic-pet-feeders-2026.webp
@@ -661,9 +661,7 @@ forCats: >-
   or senior food. The Granary handles a single-cat dry-food household well.
   Small-meals scheduling lines up with ISFM's behavioral guidance that cats are
   designed for many small meals across 24 hours rather than two large ones. The
-  Cat Mate C500 covers the same job without an app ecosystem, though Amazon
-  currently lists it on backorder rather than in stock, so it is not one we can
-  send you to buy today. Closer Pets' instructions caution about warm-weather
+  Cat Mate C500 covers the same job without an app ecosystem. Closer Pets' instructions caution about warm-weather
   use, and the FDA's pet-food handling rules apply.
 
 

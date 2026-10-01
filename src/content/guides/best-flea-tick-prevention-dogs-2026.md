@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "hub"
 publishDate: "2026-06-19"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-30"
 readTime: "14 min read"
 featured: false
 heroImage: "/images/guides/best-flea-tick-prevention-dogs-2026.webp"
@@ -390,7 +390,7 @@ An oral tablet like Capstar is a different category entirely. It is not preventi
 
 ## How we picked, and what the score means
 
-The list is short on purpose: each pick represents a distinct, defensible delivery format rather than the same chemistry in three packages. Across the guidance we surveyed, the flea-and-tick category sorts cleanly into collar, topical spot-on, and fast oral knockdown, and one strong representative of each is more useful than a shelf of overlapping spot-ons. The PetPal Gear Score weights expert consensus and effectiveness most heavily, but it is format-aware: a same-day oral rescue is scored on the rescue job, not penalized for failing to last a month it was never meant to last. Every product on this page was verified live on Amazon — right listing, in stock, current price — at our last product check.
+The list is short on purpose: each pick represents a distinct, defensible delivery format rather than the same chemistry in three packages. Across the guidance we surveyed, the flea-and-tick category sorts cleanly into collar, topical spot-on, and fast oral knockdown, and one strong representative of each is more useful than a shelf of overlapping spot-ons. The PetPal Gear Score weights expert consensus and effectiveness most heavily, but it is format-aware: a same-day oral rescue is scored on the rescue job, not penalized for failing to last a month it was never meant to last. Every product on this page was verified live on Amazon — right listing, current price — at our last product check.
 
 The deliberate omission is the prescription tier, and it is worth naming directly. The isoxazoline chewables — NexGard, Simparica Trio, Bravecto, and Credelio — carry the strongest efficacy and the most vet recommendations of anything in the category, but they are prescription-only, not reliably sold on Amazon, and the FDA's fact sheet flags rare neurologic adverse events. For an honest hub built around products a reader can actually buy and a recommendation to ask your vet, leaving them in the discussion rather than the picks is the truthful call.
 

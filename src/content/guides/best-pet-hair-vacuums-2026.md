@@ -16,7 +16,7 @@ keywords:
 species: ["cat", "dog"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-10"
+updatedDate: "2026-09-30"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-pet-hair-vacuums-2026.webp"
@@ -98,7 +98,7 @@ picks:
 
       Here is the honest trade-off: the trigger must be held down continuously while cleaning, and multiple reviewers and owners report hand fatigue, especially for people with mobility issues. TechRadar measured 64 minutes of battery on the low setting, but max power drains the battery quickly — a deep-clean session in a large multi-pet home may need a recharge. And at $825.99, the Dyson sits at the very top of this guide's price band, a real premium over every other pick here.
 
-      Availability and price note: our July 17, 2026 check found only a used-condition offer on the Plus configuration, so the buy button ran an Amazon search. At our August 10, 2026 re-check the Plus listing was live new with limited stock at $825.99 — $176 above the $649.99 we last verified — and the buy button below now goes straight to it. Dyson rotates Origin, Plus, and Pro bundles on Amazon and bundle contents and prices differ, so check the included tools before you buy; that $825.99 is the machine as this listing configures it, not a floor price for the V15 family.
+      Dyson rotates Origin, Plus, and Pro bundles on Amazon and bundle contents and prices differ, so check the included tools before you buy.
     pros:
       - "RTINGS.com names it the best vacuum for pet hair it has tested"
       - "Vacuum Wars' top-ranked cordless as of May 2026"

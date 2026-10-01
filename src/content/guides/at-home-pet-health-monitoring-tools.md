@@ -31,7 +31,7 @@ keywords:
   - "continuous vitals monitor dog collar"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-09-02'
+updatedDate: '2026-09-30'
 readTime: 13 min read
 featured: false
 image: /images/guides/at-home-pet-health-monitoring-tools.webp
@@ -512,7 +512,7 @@ picks:
     authoritySources:
       - outlet: "PetPace (Amazon product listing)"
         url: "https://www.amazon.com/dp/B0DZJWRTG6"
-        stat: "tracks heart rate, breathing, temperature, pulse, activity, sleep, and HRV every 2 minutes; 24/7 AskaVet telehealth and Share With Your Vet data sharing; subscription required, $25/month billed annually ($200/year thereafter); listed at $299.00, in stock in limited quantity at time of check; we confirmed it ships from a third-party Amazon marketplace seller (Avrix Brands) rather than from Amazon or PetPace directly, New condition"
+        stat: "tracks heart rate, breathing, temperature, pulse, activity, sleep, and HRV every 2 minutes; 24/7 AskaVet telehealth and Share With Your Vet data sharing; subscription required, $25/month billed annually ($200/year thereafter); listed at $299.00 at time of check; we confirmed it ships from a third-party Amazon marketplace seller (Avrix Brands) rather than from Amazon or PetPace directly, New condition"
         claim: "PetPace is a continuous, multi-parameter vitals collar with built-in vet telehealth, a materially different category from a step-count activity tracker."
         supports: "spec"
         accessed: "2026-07-27"
@@ -540,7 +540,7 @@ picks:
       The AskaVet telehealth layer is the other reason this earns a premium-tier slot: PetPace bundles 24/7 access to licensed vets who can review the collar's continuous data directly, and a Share With Your Vet function that hands your own veterinarian the trend history rather than a verbal summary at a six-month exam. For a senior pet with a chronic condition, or one recovering from surgery, that continuous data stream is a genuinely different tool than an activity-trend wearable.
 
 
-      The honest cost: $299.00 in hardware plus a required subscription — $25/month billed annually, $200/year thereafter — to unlock the vitals, telehealth, and AI alerting that are the entire reason to buy it. That is real money for real, clinically-grounded data; a household that only wants step counts and sleep trends is better served by the FitBark 2 above at a fraction of the cost. Two more disclosures: this listing showed limited stock at time of check, and it is sold by a third-party Amazon marketplace seller (Avrix Brands) rather than shipped and sold by Amazon or PetPace directly — worth knowing before you buy, even though the listing itself is genuine.
+      The honest cost: $299.00 in hardware plus a required subscription — $25/month billed annually, $200/year thereafter — to unlock the vitals, telehealth, and AI alerting that are the entire reason to buy it. That is real money for real, clinically-grounded data; a household that only wants step counts and sleep trends is better served by the FitBark 2 above at a fraction of the cost. One more disclosure: it is sold by a third-party Amazon marketplace seller (Avrix Brands) rather than shipped and sold by Amazon or PetPace directly — worth knowing before you buy, even though the listing itself is genuine.
     pros:
       - 'Continuous, multi-parameter vitals — not just activity or step counts'
       - Decade-plus of clinical validation per independent veterinary trade coverage
@@ -550,7 +550,7 @@ picks:
       - One of the highest-priced wearables in this guide at $299.00
       - Required subscription ($25/month) to unlock full functionality
       - Overkill for a healthy pet that just needs activity trends
-      - 'Limited stock at time of check; sold by a third-party marketplace seller (Avrix Brands), not Amazon or PetPace directly'
+      - 'Sold by a third-party marketplace seller (Avrix Brands), not Amazon or PetPace directly'
     verdict: >-
       The synthesis pick for genuine continuous vitals and vet-connected telehealth
       — a different category from activity tracking, at a real premium price and

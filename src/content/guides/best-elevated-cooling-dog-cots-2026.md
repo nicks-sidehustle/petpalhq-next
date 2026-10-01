@@ -14,7 +14,7 @@ keywords:
   - "chew resistant raised dog bed"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-elevated-cooling-dog-cots-2026.webp"
@@ -270,7 +270,7 @@ picks:
       - "Passive cooling only — ventilates the dog, does not refrigerate it"
       - "No separate replacement deck sold, unlike the Coolaroo above"
       - "Mesh deck can be damaged by a determined chewer or digger"
-    verdict: "If you want a cheap, always-in-stock raised cot from a familiar house brand, the Amazon Basics large at about $32.25 is a practical everyday pick. Passive airflow cooling — pair it with shade and water."
+    verdict: "If you want a cheap raised cot from a familiar house brand, the Amazon Basics large at about $32.25 is a practical everyday pick. Passive airflow cooling — pair it with shade and water."
     authoritySources:
       - outlet: "Amazon Basics (manufacturer listing)"
         url: "https://www.amazon.com/dp/B076VXVB2L"

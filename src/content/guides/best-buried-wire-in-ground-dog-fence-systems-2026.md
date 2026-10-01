@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-25"
-updatedDate: "2026-09-07"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/best-buried-wire-in-ground-dog-fence-systems-2026.webp"
@@ -135,7 +135,7 @@ picks:
 
       The collar receiver is rated waterproof and safe to submerge up to 10 feet. The maker positions that against fences that only claim "water resistance" instead of true submersion — a real difference for a dog that swims or plays in sprinklers with the collar on. The kit itself is complete for its included 1/3-acre footprint: wire, transmitter, collar, training flags, and splice kits all arrive together. Fencing anything close to the transmitter's 6-acre ceiling means buying more wire, the same added cost every expandable kit in this slate carries once you outgrow the box.
 
-      The 10-foot submersion rating is shallower than SportDOG's 25-foot rating, and a smaller brand name means less warranty infrastructure than PetSafe or SportDOG carry directly — though the listing itself is fulfilled by a third-party marketplace seller (Consumer Supplies Direct) with limited stock at last check, worth confirming before you rely on same-day availability. None of that changes the honest math: its out-of-box coverage ties PetSafe's starter kit, not SportDOG's — the real edge here is warranty length and wire gauge, not acreage.
+      The 10-foot submersion rating is shallower than SportDOG's 25-foot rating, and a smaller brand name means less warranty infrastructure than PetSafe or SportDOG carry directly — though the listing itself is fulfilled by a third-party marketplace seller (Consumer Supplies Direct). None of that changes the honest math: its out-of-box coverage ties PetSafe's starter kit, not SportDOG's — the real edge here is warranty length and wire gauge, not acreage.
     pros:
       - "Warranty extends to 5 years on registration — longer than SportDOG's flat 2 years"
       - "20-gauge wire with a heavy protective jacket and a 3-antenna transmitter"
@@ -144,7 +144,7 @@ picks:
     cons:
       - "Out-of-box coverage is only about 1/3 acre despite the headline 6-acre transmitter ceiling — reaching real acreage requires buying additional wire separately, same as PetSafe's kit"
       - "10-foot submersion rating is shallower than SportDOG's 25-foot rating"
-      - "Fulfilled by a third-party marketplace seller with limited stock at last check, not a heavily-stocked Amazon-fulfilled buy-box like the other three picks"
+      - "Fulfilled by a third-party marketplace seller, not an Amazon-fulfilled buy-box like the other three picks"
     verdict: "Ties PetSafe's 500-foot starter coverage out of the box, but backs it with a warranty that runs to 5 years on registration and 20-gauge heavy-jacketed wire — the pick when durability and post-registration warranty matter more than acreage headroom."
 
   - rank: 4
