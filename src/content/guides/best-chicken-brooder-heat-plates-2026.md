@@ -269,13 +269,18 @@ picks:
         accessed: "2026-07-08"
 
 comparison:
-  headers: ["Product", "Price", "Best for", "Standout spec", "PetPal Brooder Safety Score"]
+  headers: ["Product", "Best for", "Standout spec", "PetPal Brooder Safety Score"]
   rows:
-    - ["Brinsea EcoGlow Safety 600", "$74.88", "Lowest wattage & safety margin", "12 W low-voltage; up to 20 chicks", "9.2"]
-    - ["RentACoop 12x12 Heating Plate", "$47.96", "Most backyard keepers", "22 W; 12x12; up to 20 chicks", "9.0"]
-    - ["Shaledig 12x16 Brooder Plate", "$39.86", "Large flocks", "12x16; up to 40 chicks; constant-temp", "8.4"]
-    - ["ZenxyHoC 10x10 Brooder Plate", "$26.99", "Small starter flocks", "10x10; 15-20 chicks; anti-roost cone", "8.0"]
-    - ["Sindarhor 3-Level Brooder Plate", "$24.75", "Budget, stepped temps", "3 settings: 131/149/167°F", "7.6"]
+    - pickRef: r1
+      cells: ["Brinsea EcoGlow Safety 600", "Lowest wattage & safety margin", "12 W low-voltage; up to 20 chicks", "9.2"]
+    - pickRef: r2
+      cells: ["RentACoop 12x12 Heating Plate", "Most backyard keepers", "22 W; 12x12; up to 20 chicks", "9.0"]
+    - pickRef: r3
+      cells: ["Shaledig 12x16 Brooder Plate", "Large flocks", "12x16; up to 40 chicks; constant-temp", "8.4"]
+    - pickRef: r4
+      cells: ["ZenxyHoC 10x10 Brooder Plate", "Small starter flocks", "10x10; 15-20 chicks; anti-roost cone", "8.0"]
+    - pickRef: r5
+      cells: ["Sindarhor 3-Level Brooder Plate", "Budget, stepped temps", "3 settings: 131/149/167°F", "7.6"]
 
 methodology:
   formula: "PetPal Brooder Safety Score = Warmth Reliability × 30% + Energy & Fire Safety × 25% + Flock-Size Fit × 20% + Adjustability × 15% + Cleanability × 10%"

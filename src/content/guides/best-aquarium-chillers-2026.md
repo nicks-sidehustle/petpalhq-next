@@ -320,13 +320,18 @@ picks:
     verdict: "Buy the 1/5 HP Arctica only for a large reef system the 1/10 HP cannot hold — roughly 130-to-180 gallons or a hot room. It scores highest here on raw cooling, but its rank is last because few tanks actually need this much chiller."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Stable-Temp Chiller Score"]
+  headers: ["Product", "Pick category", "Stable-Temp Chiller Score"]
   rows:
-    - ["JBJ Arctica 1/10 HP", "$759.90", "Best overall titanium coil", "9.0"]
-    - ["Active Aqua 1/10 HP", "$494.95", "Best digital temp control", "8.4"]
-    - ["Poafamx 1/10 HP (42 gal)", "$275.99", "Best quiet budget pick", "7.9"]
-    - ["BAOSHISHAN 1/10 HP (160L)", "$269.99", "Best budget titanium", "7.6"]
-    - ["JBJ Arctica 1/5 HP", "$949.99", "Best for large reef systems", "9.2"]
+    - pickRef: r1
+      cells: ["JBJ Arctica 1/10 HP", "Best overall titanium coil", "9.0"]
+    - pickRef: r2
+      cells: ["Active Aqua 1/10 HP", "Best digital temp control", "8.4"]
+    - pickRef: r3
+      cells: ["Poafamx 1/10 HP (42 gal)", "Best quiet budget pick", "7.9"]
+    - pickRef: r4
+      cells: ["BAOSHISHAN 1/10 HP (160L)", "Best budget titanium", "7.6"]
+    - pickRef: r5
+      cells: ["JBJ Arctica 1/5 HP", "Best for large reef systems", "9.2"]
 
 methodology:
   formula: "Stable-Temp Chiller Score = (Cooling Stability & Accuracy × 0.35) + (Corrosion Resistance & Build × 0.25) + (Capacity Headroom Fit × 0.20) + (Quiet & Heat Dissipation × 0.12) + (Support & Warranty × 0.08)"

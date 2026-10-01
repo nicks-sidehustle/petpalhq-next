@@ -299,12 +299,16 @@ methodology:
       description: "Price against published warranty, build materials and expandability, read over a chinchilla's 15-to-20-year lifespan rather than a single season. Where a maker publishes no warranty term, that absence is scored as an absence."
 
 comparison:
-  headers: ["Cage", "Price", "Dimensions (L x W x H)", "Bar spacing", "Meets VCA chinchilla minimum?", "Solid flooring shipped"]
+  headers: ["Cage", "Dimensions (L x W x H)", "Bar spacing", "Meets VCA chinchilla minimum?", "Solid flooring shipped"]
   rows:
-    - ["Critter Nation Double", "$329.99", "36 x 24 x 63 in", "1/2 in", "Yes — pair minimum (3x2x5 ft)", "2 pans, 2 shelves, 3 ramp covers"]
-    - ["Critter Nation Single", "$194.99", "36 x 25 x 38.5 in", "1/2 in", "Yes — single minimum (3x2x3 ft)", "1 pan, 1 shelf, 1 ramp cover"]
-    - ["HABUTWAY 55\"", "$179.99", "25 x 18 x 55 in", "0.5 in", "No — footprint below 36 x 24 in", "Tray plus flannel ramp sleeve"]
-    - ["VIWAT 6-Tier", "$159.99", "32 x 21 x 59 in", "0.4 in", "No — footprint below 36 x 24 in", "Tray plus flanged ramps"]
+    - pickRef: r1
+      cells: ["Critter Nation Double", "36 x 24 x 63 in", "1/2 in", "Yes — pair minimum (3x2x5 ft)", "2 pans, 2 shelves, 3 ramp covers"]
+    - pickRef: r2
+      cells: ["Critter Nation Single", "36 x 25 x 38.5 in", "1/2 in", "Yes — single minimum (3x2x3 ft)", "1 pan, 1 shelf, 1 ramp cover"]
+    - pickRef: r3
+      cells: ["HABUTWAY 55\"", "25 x 18 x 55 in", "0.5 in", "No — footprint below 36 x 24 in", "Tray plus flannel ramp sleeve"]
+    - pickRef: r4
+      cells: ["VIWAT 6-Tier", "32 x 21 x 59 in", "0.4 in", "No — footprint below 36 x 24 in", "Tray plus flanged ramps"]
 
 whenNotToBuy: |
   Do not buy any of these for a mother rat and a litter. This is the clearest exclusion in the guide and no amount of bar spacing changes it. AFRMA states that wire cages with levels should not be used for moms and young litters, and recommends a 10-to-20-gallon tank instead to keep babies safe, because in a wire cage they can be dragged up shelves, fall off, or squeeze through the bars. If you are breeding or fostering, this whole category is the wrong housing.
