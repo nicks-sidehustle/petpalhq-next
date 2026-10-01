@@ -23,7 +23,7 @@ featured: true
 image: "/images/guides/best-reptile-thermostats-2026.webp"
 heroImage: "/images/guides/best-reptile-thermostats-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, Bowling Green State University Herpetarium care references, and RSPCA welfare guidance. Manufacturer documentation reviewed from Spyder Robotics, Exo Terra, Inkbird, BN-LINK, and Zoo Med. Hobbyist consensus drawn from r/reptiles, r/BeardedDragons, and r/ballpython. No first-hand product testing."
+reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, Bowling Green State University Herpetarium care references, and RSPCA welfare guidance. Manufacturer documentation reviewed from Exo Terra, Inkbird, BN-LINK, and Zoo Med. Hobbyist consensus drawn from r/reptiles, r/BeardedDragons, and r/ballpython. No first-hand product testing."
 lastProductCheck: "2026-08-07"
 expertSourceCount: 9
 
@@ -42,11 +42,6 @@ topPicks:
     pickRef: "r2"
     keyFeature: "Budget two-stage on/off thermostat with the strongest hobbyist track record for reptile heat mats and CHEs — stand-alone probe, dual outlets, simple to set up."
     sources: ["Inkbird manufacturer documentation", "r/reptiles consensus", "r/BeardedDragons hobbyist threads"]
-    verifiedDate: "2026-05-04"
-  - name: "Spyder Robotics Herpstat (1 / 2 / 4)"
-    pickRef: "none"
-    keyFeature: "Premium proportional-PID thermostat — the line reptile keepers escalate to when they want the most precise, most-trusted controller for high-value collections."
-    sources: ["Spyder Robotics manufacturer documentation", "r/reptiles community consensus", "Hobbyist forum recommendations"]
     verifiedDate: "2026-05-04"
 
 picks:
@@ -79,7 +74,7 @@ picks:
 
       Why two modes matter: the Merck Veterinary Manual's husbandry chapter and the LafeberVet reptile husbandry handout both emphasize that different heaters call for different control strategies. A ceramic heat emitter or a heat mat handles on/off cycling well enough. But a halogen or incandescent basking bulb cycled by an on/off thermostat will produce visible flicker that disturbs many reptiles and shortens bulb life. Dimming mode is the right answer for basking bulbs. Pulse mode is the right answer for non-light heaters. Exo Terra's documentation positions the unit specifically for both jobs.
 
-      Where it earns the top reptile-specific pick: it is sold through normal pet-trade and Amazon distribution. It has the Exo Terra brand backing for warranty support. It sits in the price band reptile keepers in r/reptiles and r/BeardedDragons consistently describe as the entry into "real" proportional control without crossing into Herpstat territory.
+      Where it earns the top reptile-specific pick: it is sold through normal pet-trade and Amazon distribution. It has the Exo Terra brand backing for warranty support. It sits in the price band reptile keepers in r/reptiles and r/BeardedDragons consistently describe as the entry into "real" proportional control.
 
       What the spec sheet does not tell you: probe placement is what makes or breaks a proportional thermostat. The probe must be at the surface or zone the animal actually uses — basking platform for bulb mode, the heated floor area for mat mode — not in mid-air or floating in the cool side. Hobbyist consensus across r/reptiles and r/ballpython is unanimous on this point. A proportional thermostat with a poorly placed probe will hold the wrong location at the right temperature. That is worse than an on/off controller with a correctly placed probe.
     pros:
@@ -270,7 +265,6 @@ sources:
     - "NC State College of Veterinary Medicine — Caring for Your Pet Bearded Dragon"
     - "Bowling Green State University Herpetarium — care and husbandry references"
     - "RSPCA — Crested Gecko Care Sheet"
-    - "Spyder Robotics — Herpstat product documentation"
     - "Exo Terra — Dimming and Pulse Proportional Thermostat manufacturer documentation"
     - "Inkbird — ITC-308 and day-night controller documentation"
     - "Zoo Med — ReptiTemp Digital Thermostat documentation"
@@ -281,7 +275,6 @@ sources:
     - "r/reptiles — thermostat selection and probe placement consensus"
     - "r/BeardedDragons — bulb flicker and day-night routine discussions"
     - "r/ballpython — heat mat thermostat threads"
-    - "Reptile-keeper forum threads on Spyder Robotics Herpstat units"
   verifiedDate: "2026-05-04"
   authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of veterinary references, university and welfare guidance, manufacturer documentation, and reptile-keeper community feedback — PetPalHQ does not run a testing lab. The PetPal Gear Score is a composite of expert opinion, not a measurement. Sources are cited by name throughout."
 
@@ -319,9 +312,6 @@ A: At the surface or zone the animal actually uses. For a basking application, t
 
 **Q: Is a thermostat alone enough, or do I still need a thermometer?**
 A: Both, every time. The RSPCA crested gecko care sheet warns directly that thermostats are not perfectly accurate. That is why the Merck husbandry chapter recommends multiple thermometers in many setups — one warm side, one cool side. The standard rule is that the thermostat regulates and the thermometer verifies. The UC Davis CVET feeding guide is direct that stick-on dial thermometers are inaccurate. A digital thermometer with an independent probe is the verification layer.
-
-**Q: What about the Spyder Robotics Herpstat — should I buy that instead?**
-A: It is the unit reptile keepers in r/reptiles and r/ballpython most consistently endorse as the premium step up from a pulse-proportional thermostat. If you have a high-value collection or a species sensitive to small temperature swings, the Herpstat 1, 2, or 4 is the step up. For a single enclosure with a heat mat, CHE, or basking bulb, the Inkbird ITC-308 or the Exo Terra pulse-proportional unit covers the use case at a fraction of the cost.
 
 **Q: Do I need a different thermostat for a heat mat vs a ceramic heat emitter vs a basking bulb?**
 A: It depends on whether the heating element makes light. Heat mats and ceramic heat emitters (CHEs) are non-light elements, so a simple on/off thermostat like the Inkbird ITC-308 controls them with no visible side effect, and a pulse-proportional unit is the upgrade when you want steadier output. An incandescent or halogen basking bulb is different. An on/off thermostat flickers it on every cycle, so a dimming thermostat is the correct control type. The Exo Terra Dimming and Pulse Proportional Thermostat covers all three heating-element types in one unit — pulse mode for mats and CHEs, dimming mode for basking bulbs.
