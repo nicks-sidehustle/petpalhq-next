@@ -311,8 +311,6 @@ comparison:
       values: ["Dry-run a week before", "Batteries in, tested before", "Running for weeks before", "Filled fresh before you go", "Alerts set before you go", "Tested for days before"]
     - label: "PetPal Weekend-Ready Score"
       values: ["8.6", "8.5", "8.4", "8.2", "8.1", "8.0"]
-    - label: "Approx. price"
-      values: ["$139.99", "$199.00", "$75.99", "$22.99", "$184.00", "$72.00"]
     - label: "The fail-safe note"
       values: ["Camera shows the bowl was eaten", "Chip-gated so diets stay apart", "Leave a plain backup bowl too", "Works through a power cut", "A human with a key responds", "Underfeed rather than over"]
 

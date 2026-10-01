@@ -301,8 +301,6 @@ comparison:
       values: ["Continuous floor to roam and burrow", "A flat-back running surface", "The packable depth to tunnel into", "Dry, coat-cleaning sand", "Dark connected nesting chambers", "A hard surface for growing teeth"]
     - label: "PetPal Hamster-Welfare Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1"]
-    - label: "Approx. price"
-      values: ["$279.99", "$31.99", "$24.99", "$25.99", "$11.49", "$5.99"]
     - label: "Consumable?"
       values: ["No — the foundation", "No — replace when worn", "Yes — refill and replace", "Sand refilled as fouled", "Cleaned, replaced over time", "Yes — restocked as gnawed"]
     - label: "Set up when"

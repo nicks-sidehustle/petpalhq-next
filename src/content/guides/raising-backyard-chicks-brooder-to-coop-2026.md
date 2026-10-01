@@ -301,8 +301,6 @@ comparison:
       values: ["Inside the brooder, legs raised weekly", "The indoor brooder space", "Clipped inside the pen", "In the feeder", "Mounted off the brooder floor", "Across the brooder floor", "One at the warm end, one at the cool end"]
     - label: "Stage (chick age)"
       values: ["Week 1 to feathered (~6 weeks)", "Day 1 to move-out", "Weeks 1-3, then 7+ weeks", "Day 1 to 16 weeks", "3 days old through adult", "After the first few days", "Every day, week 1 on"]
-    - label: "Approx. price"
-      values: ["$26.99", "$29.99", "$15.99", "$6.97", "$21.21", "$26.99", "$5.95"]
     - label: "Outgrown or kept?"
       values: ["Retired at move-out", "Outgrown in weeks", "Outgrown — chick-sized", "Switch feed by 16-18 weeks", "Kept — follows to the coop", "Ongoing consumable", "Kept — reusable"]
 

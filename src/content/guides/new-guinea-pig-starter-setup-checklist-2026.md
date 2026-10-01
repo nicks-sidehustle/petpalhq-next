@@ -273,8 +273,6 @@ comparison:
       values: ["The quiet room, sited first", "The hay rack, always full", "The food bowl, measured daily", "Lining the cage base", "Mounted on the cage side", "Ends of the habitat"]
     - label: "Welfare or convenience"
       values: ["Welfare essential — space", "Welfare essential — unlimited", "Welfare essential — medical", "Convenience and comfort", "Welfare essential — water", "Welfare essential — cover"]
-    - label: "Approx. price"
-      values: ["$62.99", "$34.99", "$12.40", "$29.99", "$12.69", "$18.99"]
     - label: "How often you handle it"
       values: ["Set up once, expand later", "Refill daily, never rationed", "Measured portion daily", "Spot-clean daily, wash often", "Refill fresh every day", "One per pig plus a spare"]
 

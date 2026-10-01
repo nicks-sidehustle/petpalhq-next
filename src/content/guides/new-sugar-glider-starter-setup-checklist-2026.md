@@ -350,10 +350,6 @@ comparison:
       values: ["First, before the gliders", "Hung and worn from day one", "Mounted before arrival", "Base of the daily diet", "Furnished before arrival", "Furnished before arrival", "Mounted from day one"]
     - label: "PetPal Glider-Readiness Score"
       values: ["8.6", "8.3", "8.4", "8.1", "8.0", "7.9", "7.8"]
-    - label: "Approx. price"
-      values: ["$192.99", "$9.29", "$33.99", "$16.99", "$13.99", "$25.99", "$12.69"]
-    - label: "Ongoing cost after purchase"
-      values: ["Stable warm placement", "Washing and replacement", "Cleaning and checks", "Staple plus fresh foods", "Rotating new toys", "Washing and replacement", "Refills and daily checks"]
 
 methodology:
   formula: "PetPal Glider-Readiness Score = (Expert Consensus × 0.35) + (Checklist Fit × 0.25) + (Glider Welfare / Social and Safety Needs × 0.20) + (Value × 0.20)"
