@@ -348,6 +348,7 @@ sources:
 ownerVoice: []
 
 related:
+  - "best-indoor-rabbit-cages-pens-2026"
   - "best-ferret-cages-multi-level-2026"
   - "best-hamster-habitats-cages-2026"
   - "best-guinea-pig-cages-habitats-2026"
