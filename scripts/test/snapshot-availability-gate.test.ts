@@ -329,6 +329,13 @@ const backorderPickRows: string[] = [];
 const relitRows: string[] = [];
 const relitCounts: Record<string, number> = {};
 const relitAsins = new Set<string>();
+// Re-lit picks whose override row is not a dated amazon.com live read. Since the
+// live read became the primary source of every figure (CLAUDE.md §4, owner
+// 2026-09-24), a live-New override also prices picks no gate ever darkened
+// (every new guide's picks), so the old cap "re-lit <= gate-dark" no longer
+// holds by design (owner 2026-10-03). What must still hold: a figure chip only
+// ever comes from a dated live read of the Amazon page.
+const relitUnsourced: string[] = [];
 // Every pick either gate calls dark, re-lit or not — the vacuity floor moved
 // here, because "how many are still SUPPRESSED" is now a policy outcome and can
 // legitimately reach zero without the gates having stopped working.
@@ -416,6 +423,10 @@ for (const guide of getAllGuides()) {
       relitRows.push(`${guide.slug}  ${pick.asin ?? '(no asin)'}  rank=${pick.rank}  mode=${mode}`);
       relitCounts[mode] = (relitCounts[mode] ?? 0) + 1;
       if (pick.asin) relitAsins.add(pick.asin);
+      const ov = getLiveReadOverride(pick.asin) as { readAt?: string | null; source?: string | null } | null;
+      if (!ov || !ov.readAt || !/^https:\/\/www\.amazon\.com\//.test(ov.source ?? '')) {
+        relitUnsourced.push(`${guide.slug}/${pick.asin ?? pick.name}`);
+      }
     }
 
     // --- job 6 (owner ruling 2026-08-18): DISCLOSURE, both directions.
@@ -722,12 +733,12 @@ check(
   totalSuppressed <= rows.length + hardGateRows.length &&
     totalSuppressed >= Math.max(rows.length, hardGateRows.length),
 );
-// And every re-lit pick must be one a gate called dark — re-lighting is a
-// dark-card treatment, never a way for an ordinary pick to acquire a chip.
+// And every re-lit pick's figure must come from a dated amazon.com live read —
+// an override row is never a way for a pick to acquire an unsourced chip.
 check(
-  `re-lit picks (${relitRows.length}) must not exceed the picks the gates called dark ` +
-    `(${snapshotDarkPicks + hardGateDarkPicks})`,
-  relitRows.length <= snapshotDarkPicks + hardGateDarkPicks,
+  `every re-lit pick must carry a dated amazon.com live read ` +
+    `(${relitUnsourced.length} without: ${relitUnsourced.slice(0, 5).join(', ')})`,
+  relitUnsourced.length === 0,
 );
 // Vacuity floor for the hard gate specifically. data/dead-asins.json is not
 // empty, so if this drops to zero the wiring is broken, not the corpus.
