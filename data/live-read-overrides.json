@@ -1979,5 +1979,75 @@
     "readAt": "2026-10-03T22:26:28.796Z",
     "source": "https://www.amazon.com/dp/B0HG13YV37",
     "lane": "petpal-live-read-rabbit-cages-2026-10-03"
+  },
+  "B0D7Y3MR9R": {
+    "price": 69.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Ruffwear, Inc.",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B0D7Y3MR9R",
+    "lane": "petpal-live-read"
+  },
+  "B0H137PFD8": {
+    "price": 109.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Ruffwear, Inc.",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B0H137PFD8",
+    "lane": "petpal-live-read"
+  },
+  "B0H12ZH5M3": {
+    "price": 139.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Ruffwear, Inc.",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B0H12ZH5M3",
+    "lane": "petpal-live-read"
+  },
+  "B0D7XQ8ZZX": {
+    "price": 59.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Ruffwear, Inc.",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B0D7XQ8ZZX",
+    "lane": "petpal-live-read"
+  },
+  "B0D6YRRCVZ": {
+    "price": 105.95,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Truemark",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B0D6YRRCVZ",
+    "lane": "petpal-live-read"
+  },
+  "B0FJPP3R7F": {
+    "price": 94.95,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Truemark",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B0FJPP3R7F",
+    "lane": "petpal-live-read"
+  },
+  "B00H67VZJ0": {
+    "price": 18.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B00H67VZJ0",
+    "lane": "petpal-live-read"
   }
 }
