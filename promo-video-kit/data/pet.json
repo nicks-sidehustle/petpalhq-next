@@ -1,0 +1,56 @@
+{
+  "brand": "pet",
+  "bpm": 112,
+  "today": "2026-10-04",
+  "hook": {
+    "kicker": "CATS & DOGS",
+    "line1": "Big cat?",
+    "line2": "Skip the wobbly tree.",
+    "sub": "We read 8 expert sources on large-cat trees",
+    "image": "pet/hero.jpg"
+  },
+  "scoreLabel": "PetPalHQ score",
+  "scoreMax": 10,
+  "items": [
+    {
+      "rank": 3,
+      "name": "Globlazer F70 Pro Cat Tree",
+      "badge": "Best Heavy-Duty Value",
+      "score": 7.7,
+      "line": "An enlarged hammock sized for big cats.",
+      "meta": "Anchor it for the heaviest cats",
+      "price": "$96.99",
+      "priceChecked": "2026-09-26",
+      "image": "https://m.media-amazon.com/images/I/41q5XA1Ax4L._SL1500_.jpg"
+    },
+    {
+      "rank": 2,
+      "name": "Armarkat X7001 Cat Tree",
+      "badge": "Best Real Wood",
+      "score": 8.1,
+      "line": "Thicker 15mm board and a double-layered base.",
+      "meta": "70 inches tall",
+      "price": "$156.20",
+      "priceChecked": "2026-09-26",
+      "image": "https://m.media-amazon.com/images/I/41vrFe3fSrL._SL1500_.jpg"
+    },
+    {
+      "rank": 1,
+      "name": "New Cat Condos Deluxe 69\"",
+      "badge": "Best Overall",
+      "score": 8.8,
+      "line": "Double-thick solid-wood base. No particleboard.",
+      "meta": "For one or two large cats",
+      "price": "$159.99",
+      "priceChecked": "2026-09-26",
+      "image": "https://m.media-amazon.com/images/I/81i0W2DocLL._SL1500_.jpg"
+    }
+  ],
+  "predrop": "The sturdiest tree we found",
+  "end": {
+    "url": "petpalhq.com",
+    "cta": "Pet gear, through expert consensus",
+    "method": "Anchor any tall tower to a wall stud.",
+    "disclosure": "As an Amazon Associate we earn from qualifying purchases."
+  }
+}

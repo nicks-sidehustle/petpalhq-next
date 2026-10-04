@@ -12,6 +12,7 @@ const compat = new FlatCompat({
 const eslintConfig = [
   {
     ignores: [
+      "promo-video-kit/**",
       ".next/**",
       "node_modules/**",
       "docs/refresh/reports/**",

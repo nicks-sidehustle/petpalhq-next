@@ -1,0 +1,21 @@
+{
+  "name": "promo-video-kit",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "fetch-images": "node scripts/fetch-images.mjs data/pet.json",
+    "music": "python3 music/make_music.py data/pet.json public/music/pet.wav",
+    "render": "node scripts/fetch-images.mjs data/pet.json && remotion render src/index.ts PetPalHQ out/PetPalHQ-promo.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.532",
+    "@remotion/media": "4.0.532",
+    "remotion": "4.0.532",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "@types/react": "19.1.0"
+  }
+}
