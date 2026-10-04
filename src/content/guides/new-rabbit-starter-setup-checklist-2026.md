@@ -358,6 +358,7 @@ sources:
   authorBio: "Nick Miles is the chief editor of PetPalHQ. This new-rabbit setup plan and its kit are editorial synthesis of House Rabbit Society welfare guidance, rabbit-savvy veterinary husbandry consensus, r/Rabbits community consensus, and manufacturer documentation — PetPalHQ does not run a testing lab. The PetPal Rabbit-Readiness Score is a composite of expert opinion, not a measurement. Sources are cited by name throughout."
 
 related:
+  - "best-indoor-rabbit-cages-pens-2026"
   - "best-outdoor-rabbit-hutches-runs-2026"
   - "best-guinea-pig-cages-habitats-2026"
   - "best-freestanding-pet-gates-2026"
