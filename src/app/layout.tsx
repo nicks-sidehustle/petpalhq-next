@@ -8,6 +8,7 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 import AIReferrerTracker from "@/components/AIReferrerTracker";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import Header from "@/components/layout/Header";
+import PrimeDaysBanner from "@/components/layout/PrimeDaysBanner";
 import Footer from "@/components/layout/Footer";
 
 const inter = Inter({
@@ -82,6 +83,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <GoogleAnalytics measurementId={siteConfig.gaId} />
           <AIReferrerTracker />
           <AnalyticsProvider />
+          <PrimeDaysBanner />
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
