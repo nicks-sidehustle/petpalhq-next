@@ -5,7 +5,7 @@
  * Reads guide frontmatter directly from src/content/guides/ so the output
  * always reflects the live content set. Run after adding/updating guides:
  *
- *   npm run generate:llms-txt   (runs under tsx; imports src/lib/guides.ts)
+ *   npm run generate:llms-txt
  *
  * The output is grouped:
  *   1. Editorial hubs (the 10 cluster guides)
@@ -197,7 +197,7 @@ function renderSpokesByVertical(spokes) {
   return lines;
 }
 
-function renderSupporting(all) {
+function renderSupporting() {
   return [
     "## Supporting pages",
     "",
@@ -265,7 +265,7 @@ function buildLlmsTxt() {
 
   lines.push(...renderHubsSection(hubs));
   lines.push(...renderSpokesByVertical(spokes));
-  lines.push(...renderSupporting(all));
+  lines.push(...renderSupporting());
 
   // Compact trailing blank lines.
   return lines.join("\n").replace(/\n{3,}/g, "\n\n").trimEnd() + "\n";
