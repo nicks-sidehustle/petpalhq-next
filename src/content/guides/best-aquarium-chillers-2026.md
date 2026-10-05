@@ -16,7 +16,7 @@ keywords:
 species: ["fish"]
 pillar: "aquarium-care"
 publishDate: "2026-06-22"
-updatedDate: "2026-08-07"
+updatedDate: "2026-09-30"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-aquarium-chillers-2026.webp"
@@ -137,11 +137,11 @@ picks:
       - "Boost function accelerates the initial pull-down to the target temperature"
       - "Manufacturer reservoir rating of 10-40 gallons (50-150 L) — sized for nano and frag systems"
       - "Uses R410a refrigerant in a compact, freestanding cabinet"
-      - "Hydroponics crossover design, so it is widely stocked and supported through grow-equipment retailers"
+      - "Hydroponics crossover design, so it is supported through grow-equipment retailers"
     body: |
       The Active Aqua is the pick for a small system where you want to read and set the temperature on a panel rather than trust a dial. The manufacturer specifies an anti-corrosive pure titanium evaporator for both fresh and salt water, so it carries the same reef-safe heat-exchanger material as the JBJ at a lower price. The digital control is the headline: a temperature-memory system remembers your settings in case of a power interruption, which matters in summer when a brownout can otherwise leave a chiller defaulting to the wrong setpoint.
 
-      The Boost function speeds the initial pull-down, useful when you are first dropping a warm reservoir to target. Active Aqua rates the 1/10 HP unit for a 10-to-40-gallon reservoir, which makes it a natural fit for nano reefs, frag tanks, and axolotl or shrimp setups rather than a full-size display. Because it is a hydroponics crossover, it is widely stocked and supported through grow-equipment retailers, and the titanium evaporator means the saltwater rating is genuine, not marketing.
+      The Boost function speeds the initial pull-down, useful when you are first dropping a warm reservoir to target. Active Aqua rates the 1/10 HP unit for a 10-to-40-gallon reservoir, which makes it a natural fit for nano reefs, frag tanks, and axolotl or shrimp setups rather than a full-size display. Because it is a hydroponics crossover, it is supported through grow-equipment retailers, and the titanium evaporator means the saltwater rating is genuine, not marketing.
 
       Here is the honest trade-off: this is a chiller built and marketed for hydroponics first, so the documentation talks about nutrient solution, and aquarium-specific support is thinner than a reef-native brand. The 10-to-40-gallon rating is conservative for a 1/10 HP unit, so do not stretch it onto a larger tank expecting the JBJ's headroom. And like every compressor chiller here, it needs a feed pump, plumbing, and open air around the exhaust. Bulk Reef Supply's reminder applies directly — too much or too little flow through the chiller reduces performance, so match the recommended flow rate rather than running your biggest pump through it.
     pros:
@@ -149,7 +149,7 @@ picks:
       - "Digital LCD with temperature memory that survives a power interruption"
       - "Boost mode shortens the first pull-down to target"
       - "Costs roughly a third less than the JBJ 1/10 HP at $494.95"
-      - "Widely stocked and supported through hydroponics retailers"
+      - "Supported through hydroponics retailers"
     cons:
       - "Built and documented for hydroponics first — aquarium-specific support is thinner"
       - "Conservative 10-40 gallon rating; not a substitute for a higher-BTU unit on a big tank"
@@ -251,7 +251,7 @@ picks:
 
       One specific sets it slightly apart: the listing is explicit that it needs about 6 inches (15 cm) of clearance around the unit for adequate air circulation — a useful, honest spec, because cramped placement is the most common reason a budget chiller short-cycles or overheats. At $269.99 it is the lowest entry point to a titanium evaporator here.
 
-      Here is the honest trade-off: BAOSHISHAN is a budget importer with the same caveats as the Poafamx — limited warranty, a thin long-term track record, and listing copy that leans on broad descriptors. The 42-gallon ceiling means no headroom for a larger display. And there is no compelling reason to choose it over the Poafamx beyond a few dollars; pick whichever is in stock at the better price, and prioritize the JBJ or Active Aqua if titanium-coil pedigree or digital control matters more than saving $200.
+      Here is the honest trade-off: BAOSHISHAN is a budget importer with the same caveats as the Poafamx — limited warranty, a thin long-term track record, and listing copy that leans on broad descriptors. The 42-gallon ceiling means no headroom for a larger display. And there is no compelling reason to choose it over the Poafamx beyond a few dollars; pick whichever has the better price, and prioritize the JBJ or Active Aqua if titanium-coil pedigree or digital control matters more than saving $200.
     pros:
       - "Lowest price in the guide for a titanium-evaporator chiller, at $269.99"
       - "Pure titanium evaporator rated for freshwater and saltwater"
@@ -263,7 +263,7 @@ picks:
       - "42-gallon ceiling with no large-system headroom"
       - "Listing leans on broad descriptors, so treat its noise and pull-down language as directional"
       - "Offers no real advantage over the Poafamx beyond a small price difference"
-    verdict: "Buy the BAOSHISHAN only if it is cheaper or more available than the Poafamx for a sub-42-gallon tank. It is a competent budget titanium chiller, not a reason to skip the better-supported picks above it."
+    verdict: "Buy the BAOSHISHAN only if it is cheaper than the Poafamx for a sub-42-gallon tank. It is a competent budget titanium chiller, not a reason to skip the better-supported picks above it."
 
   - rank: 5
     label: "BEST FOR LARGE REEF SYSTEMS"
@@ -350,7 +350,7 @@ methodology:
       definition: "How livable the unit is in a home, covering compressor and fan noise plus how well it manages the heat it expels. The Beginners Reef notes a chiller works by moving air over the cooling unit and expelling warm air, and that the exhaust can heat the very room the tank sits in. The Poafamx and BAOSHISHAN lead the noise side with quiet-focused twin-fan designs; the large drop-in JBJ units dump the most heat and need the most clearance, so they score lower on this specific livability factor even though they cool best."
     - name: "Support & Warranty"
       weight: 8
-      definition: "Reliability backing — warranty length, parts availability, and the depth of the brand's track record. JBJ carries a 2-year warranty and broad reef-retailer support; Active Aqua is well-stocked through hydroponics channels. The Poafamx and BAOSHISHAN are budget importers with limited warranties and thin long-term records, so they score lowest here. This is the lightest weight because it is the slowest-moving factor, but it is the difference between a chiller you can get serviced and one you replace."
+      definition: "Reliability backing — warranty length, parts availability, and the depth of the brand's track record. JBJ carries a 2-year warranty and broad reef-retailer support; Active Aqua is supported through hydroponics channels. The Poafamx and BAOSHISHAN are budget importers with limited warranties and thin long-term records, so they score lowest here. This is the lightest weight because it is the slowest-moving factor, but it is the difference between a chiller you can get serviced and one you replace."
 
 bottomLine:
   - "Buy the JBJ Arctica 1/10 HP for most 75-to-130-gallon reef and marine tanks. A corrosion-proof titanium coil, a ±1°F thermostat, and 1270 BTU/hr make it the benchmark at $759.90 — just budget for a feed pump, plumbing, and open exhaust clearance."

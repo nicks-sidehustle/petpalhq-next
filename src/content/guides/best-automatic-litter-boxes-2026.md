@@ -14,7 +14,7 @@ keywords:
   - "smart litter box app"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-09-07"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-automatic-litter-boxes-2026.webp"
@@ -64,7 +64,7 @@ picks:
     body: |
       The Whisker Litter-Robot 4 is the synthesis pick for premium all-rounder buyers. Whisker's official product page and Litter-Robot 4 FAQ document app-based usage and weight tracking. They also document support for up to four cats, semi-automatic mode for kittens under 3 lb, and compatibility with standard clumping litter. The data layer — knowing which cat used the box, how often, and at what weight — is the differentiator most other premium robots either lack or charge extra for.
 
-      Note on the Amazon listing: what surfaces on Amazon is a Whisker supply bundle. It includes the Litter-Robot 4 plus OdorTrap refills, drawer liners, cleaner wipes, and carbon filters in a single package. That is the active Amazon listing for the appliance at the time of this writing. Standalone-unit availability moves between sellers. Confirm the bundle contents on the listing before checkout if you only want the appliance itself.
+      Note on the Amazon listing: what surfaces on Amazon is a Whisker supply bundle. It includes the Litter-Robot 4 plus OdorTrap refills, drawer liners, cleaner wipes, and carbon filters in a single package. Confirm the bundle contents on the listing before checkout if you only want the appliance itself.
 
       The AAHA/AAFP Feline Life Stage Guidelines explicitly include electronic and self-cleaning boxes as legitimate options. They still emphasize that box size, cleanliness, and unscented clumping litter matter. The Merck Veterinary Manual frames consistent litter-box hygiene as a meaningful environmental factor for cats. Litter-Robot 4's automatic cycle and clumping-litter support align cleanly with that posture.
 
@@ -160,7 +160,7 @@ picks:
 
       Where this fits: noise sensitivity is a real welfare variable. AAHA/AAFP's feline guidelines and the Cornell Feline Health Center both emphasize that cats prefer quiet, low-stress locations for their litter boxes. An automatic appliance that cycles loudly defeats some of that benefit. The redundant safety stack — radar plus weight plus anti-pinch — is the kind of layered failure-mode design that aligns with the dossier-cited principle that automation must fail safe.
 
-      What the spec sheet does not tell you: a WIRED review of Leo's Loo Too highlighted the safety stack. It also flagged that the barrel can feel cramped for bigger cats. That matches the broader pattern with enclosed globes — geometry matters as much as electronics. On Amazon the Leo's Loo Too sat at $599.00 sold by Casa Leo Pet and in stock on our September 7, 2026 check — the same price it carried in August, and the stock warning this guide used to run no longer matches what the listing shows. It is sold by the brand rather than by Amazon, so shipping and returns run through Casa Leo. The product is a strong premium alternative, not a universal upgrade — the right buyer is one whose cat has already accepted enclosed boxes and whose household values minimal cycle noise.
+      What the spec sheet does not tell you: a WIRED review of Leo's Loo Too highlighted the safety stack. It also flagged that the barrel can feel cramped for bigger cats. That matches the broader pattern with enclosed globes — geometry matters as much as electronics. On Amazon the Leo's Loo Too sat at $599.00 sold by Casa Leo Pet on our September 7, 2026 check — the same price it carried in August. It is sold by the brand rather than by Amazon, so shipping and returns run through Casa Leo. The product is a strong premium alternative, not a universal upgrade — the right buyer is one whose cat has already accepted enclosed boxes and whose household values minimal cycle noise.
     pros:
       - "Whisper-soft operation per Casa Leo documentation"
       - "Layered radar, weight, and anti-pinch safety sensors"
@@ -237,7 +237,7 @@ bottomLine:
   - "Get the Whisker Litter-Robot 4 if you want one premium all-rounder. Whisker documents app-based usage and weight tracking, multi-cat support up to four cats, and standard clumping-litter compatibility. Follow Whisker's acclimation guidance and keep a backup traditional box per ASPCA."
   - "Get the PetSafe ScoopFree SmartSpin if odor management is the deciding factor. PetSafe documents the sealed drawer, app-linked tracking, and 'works with any litter' — the practical advantage that lets you meet AAFP's unscented-clumping recommendation without changing substrate."
   - "Get the Neakasa M1 Plus if your cat refuses enclosed globes. Neakasa documents an open-top design with 360° safety sensors and anti-pinch logic — closer to ASPCA's preference for large, easily entered boxes than barrel geometries."
-  - "Get the Casa Leo Leo's Loo Too if quiet operation is non-negotiable. Casa Leo documents sub-30 dB cycle noise and a layered radar, weight, and anti-pinch sensor stack, at $599.00 on Amazon as of September 7, 2026, in stock and sold by Casa Leo Pet rather than by Amazon."
+  - "Get the Casa Leo Leo's Loo Too if quiet operation is non-negotiable. Casa Leo documents sub-30 dB cycle noise and a layered radar, weight, and anti-pinch sensor stack, at $599.00 on Amazon as of September 7, 2026, sold by Casa Leo Pet rather than by Amazon."
   - "Get the PetSafe ScoopFree Crystal Classic as a lower-cost on-ramp. The trade-off is the crystal-tray substrate change and ongoing consumable costs — if your cat refuses crystals, fall back to a traditional box and revisit the category later."
 
 sources:

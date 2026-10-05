@@ -16,7 +16,7 @@ keywords:
   - "dog separation anxiety chew toy"
 pillar: "expert-care"
 publishDate: "2026-06-19"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-dog-chew-toys-anxiety-2026.webp"
@@ -292,7 +292,7 @@ picks:
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B00N54EGD0"
-        stat: "WEST PAW Zogoflex Toppl ... Made in USA-Large-Tangerine — $25.95, New, In Stock, ships from Amazon"
+        stat: "WEST PAW Zogoflex Toppl ... Made in USA-Large-Tangerine — $25.95, New, ships from Amazon"
         claim: "The listing opens live, with the product title and buy-box price we verified"
         supports: "general"
         accessed: "2026-09-08"
@@ -383,9 +383,9 @@ The ranking here is mechanism-aware, not a straight head-to-head. The KONG takes
 
 ## How we picked, and what the research actually says
 
-The list runs to {{pickCountWord}} toys because each one represents a distinct, defensible mechanism rather than the same idea in three colorways. The chew axis is covered by the KONG. The lick axis is covered by the LickiMat. The sniff axis is covered by the snuffle mat. Another pick would have meant either a weaker duplicate of a mechanism already represented or a product we could not verify live, and we do not pad lists.
+The list runs to {{pickCountWord}} toys because each one represents a distinct, defensible mechanism rather than the same idea in three colorways. The chew axis is covered by the KONG. The lick axis is covered by the LickiMat. The sniff axis is covered by the snuffle mat. Another pick would have meant a weaker duplicate of a mechanism already represented, and we do not pad lists.
 
-The evidence behind the calming claim deserves a closer look, because it is stronger than the usual enrichment hand-waving. In the 2023 isolation study, the dogs left with a long-lasting chew engaged with it longest and looked least stressed, and the gap over a plain toy and over a mechanical food-dispensing device was statistically significant in each case. The takeaway is not that chews are magic — it is that long-engagement food enrichment, the kind you get from stuffing and freezing a KONG, is the format most likely to help a dog settle while alone. The lick mat and the snuffle mat extend the same logic to the other two self-soothing behaviors. Every toy on this page was selected to deliver one of those three mechanisms cleanly, and every product was confirmed to open a live Amazon listing under the correct product title at our last product check.
+The evidence behind the calming claim deserves a closer look, because it is stronger than the usual enrichment hand-waving. In the 2023 isolation study, the dogs left with a long-lasting chew engaged with it longest and looked least stressed, and the gap over a plain toy and over a mechanical food-dispensing device was statistically significant in each case. The takeaway is not that chews are magic — it is that long-engagement food enrichment, the kind you get from stuffing and freezing a KONG, is the format most likely to help a dog settle while alone. The lick mat and the snuffle mat extend the same logic to the other two self-soothing behaviors. Every toy on this page was selected to deliver one of those three mechanisms cleanly.
 
 ## What We Passed On
 

@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "hub"
 publishDate: "2026-06-19"
-updatedDate: "2026-09-26"
+updatedDate: "2026-09-30"
 readTime: "14 min read"
 featured: false
 heroImage: "/images/guides/how-to-keep-your-dog-cool-and-prevent-heatstroke-2026.webp"
@@ -187,7 +187,7 @@ picks:
 
       Here's the honest trade-off, and Ruffwear is refreshingly direct about it: evaporative cooling works best in hot, dry climates, and it does much less in humid air. By their own figures, at 70% humidity and 85 degrees the vest cools only about 6 degrees, versus roughly 15 degrees at 30% humidity. That is the entire mechanism showing its limit — evaporation stalls when the surrounding air is already near-saturated. In the muggy Southeast, this vest helps a moving dog but is not the centerpiece it can be in Arizona. There is also a hidden hazard owners miss: a vest left to dry out fully stops cooling and becomes an insulating layer that can trap heat, so the discipline of keeping it damp is not optional.
 
-      This is the current Swamp Cooler Zip generation, chosen because older Swamp Cooler variants showed stock problems at research time. At $59.99 it is the priciest tool here, and it is the most maintenance-intensive — it only earns its keep for a dog that genuinely moves in the heat. For a dog that mostly lounges, the gel mat or elevated bed is the better spend.
+      This is the current Swamp Cooler Zip generation. At $59.99 it is the priciest tool here, and it is the most maintenance-intensive — it only earns its keep for a dog that genuinely moves in the heat. For a dog that mostly lounges, the gel mat or elevated bed is the better spend.
     pros:
       - "Travels with the dog — the only tool here that cools a dog in motion"
       - "UPF 50+ outer fabric adds sun protection most cooling vests omit"
@@ -381,7 +381,7 @@ For these dogs, prevention has to be more conservative and the tools matter more
 
 ## The four levers — and what we left out
 
-The tools below are not a ranked competition. This is a hub about prevention, so each one represents a distinct prevention lever rather than a head-to-head winner: a passive surface for a resting dog, an elevated bed for airflow outdoors, and a water bottle for hydration on the go. Evaporative cooling is the fourth lever, and it is the one you manage with technique more than with a purchase — a damp vest or a wet towel across the shoulders on a hot outing, re-wetted at every water stop, and never left to dry out on the dog. The labels describe the role each fills, not a best-overall ladder — a gel mat and a vest do completely different jobs and it would be meaningless to crown one over the other. Read the label, match it to how your dog spends its hot hours, and ignore the rank order. Every product here is checked against a live Amazon read at our last product check; where Amazon is not showing a price today, the card prints its last read or the maker’s list price and says which.
+The tools below are not a ranked competition. This is a hub about prevention, so each one represents a distinct prevention lever rather than a head-to-head winner: a passive surface for a resting dog, an elevated bed for airflow outdoors, and a water bottle for hydration on the go. Evaporative cooling is the fourth lever, and it is the one you manage with technique more than with a purchase — a damp vest or a wet towel across the shoulders on a hot outing, re-wetted at every water stop, and never left to dry out on the dog. The labels describe the role each fills, not a best-overall ladder — a gel mat and a vest do completely different jobs and it would be meaningless to crown one over the other. Read the label, match it to how your dog spends its hot hours, and ignore the rank order. Every product here is checked against a live Amazon read at our last product check.
 
 We kept the list to {{pickCountWord}} representative tools rather than padding it with near-duplicates. The cooling-gear market is full of overlapping products that cover the same lever, and naming three gel mats would dilute the guide without adding information.
 

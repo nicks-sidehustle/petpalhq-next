@@ -14,7 +14,7 @@ keywords:
   - "ceramic vs stainless cat fountain"
 pillar: "expert-care"
 publishDate: "2026-06-21"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-stainless-steel-cat-water-fountains-2026.webp"
@@ -412,9 +412,9 @@ A stainless fountain only beats a bowl if you clean it. Biofilm — a bacterial 
 
 The PETLIBRO Capsule Stainless Steel fountain was the closest near-miss. PETLIBRO's lab figures are strong — under 23 dB and two flow modes — and it is one of the quietest fountains we surveyed, but only the top tray and spout are stainless; the body and reservoir are BPA-free ABS plastic. That makes it a "stainless-top" fountain rather than an all-steel one, so it competes with the stainless-top picks here rather than with the all-steel benchmarks — and in that band it did not do enough to earn a verified slot.
 
-The Pioneer Pet Fung 96 oz stainless fountain is a genuine all-steel option from the same trusted maker, with more capacity than the Raindrop and a free-falling stream some cats prefer. We left it on the bench because its availability has narrowed — the larger Raindrop variant has been phased out at several retailers — and we only seat picks that resolve cleanly to a live listing. If the Fung is in stock when you shop, it is a legitimate larger-capacity alternative to our top-ranked fountain.
+The Pioneer Pet Fung 96 oz stainless fountain is a genuine all-steel option from the same trusted maker, with more capacity than the Raindrop and a free-falling stream some cats prefer. We left it on the bench, but it is a legitimate larger-capacity alternative to our top-ranked fountain.
 
-The iPettie Rotunda 4 L was the other large-capacity candidate, a wider, lower all-metal-top design with a quiet pump. It is a reasonable fallback if the Runway is out of stock, but it adds nothing the Runway does not already cover at the same capacity, and like every iPettie unit it requires confirming the reservoir material before purchase — so it stayed a backup rather than a pick.
+The iPettie Rotunda 4 L was the other large-capacity candidate, a wider, lower all-metal-top design with a quiet pump. It is a reasonable fallback to the Runway, but it adds nothing the Runway does not already cover at the same capacity, and like every iPettie unit it requires confirming the reservoir material before purchase — so it stayed a backup rather than a pick.
 
 ## Frequently Asked Questions
 

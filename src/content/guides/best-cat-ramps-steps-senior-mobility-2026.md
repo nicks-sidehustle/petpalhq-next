@@ -14,7 +14,7 @@ keywords:
   - "pet ramp for cats"
 pillar: "expert-care"
 publishDate: "2026-09-14"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/best-cat-ramps-steps-senior-mobility-2026.webp"
@@ -193,7 +193,7 @@ picks:
 
       The rest of the design is sober. Rubber grippers on the bottom keep the unit from sliding when a cat lands on it, which is the failure mode that turns a mobility aid into a hazard. The carpet tread pulls off and goes in the washing machine — a small thing until you own a fourteen-year-old cat who no longer grooms well, at which point a washable tread becomes the difference between a clean bedroom and a replaced unit. Pet Gear also states wider and deeper landings, which gives a stiff cat somewhere to pause mid-climb instead of committing to the whole ascent in one motion.
 
-      Two honest problems. Two 5-inch steps reach about 10 inches of total height, which is short of most bed frames and suits a sofa, a low chair or a window seat far better. And the listing publishes no weight capacity anywhere, which for a cat is academic but means you cannot credit the product on that factor, and cannot let a small dog share it on the strength of a stated number. It also read as low stock at our September 14, 2026 check rather than freely available, so confirm before you plan a bedroom around it.
+      Two honest problems. Two 5-inch steps reach about 10 inches of total height, which is short of most bed frames and suits a sofa, a low chair or a window seat far better. And the listing publishes no weight capacity anywhere, which for a cat is academic but means you cannot credit the product on that factor, and cannot let a small dog share it on the strength of a stated number.
     pros:
       - "One of only two stepped picks here that publishes a rise — 5 inches per step — and the only one that also publishes landing depths"
       - "Landing depths published too: 8.5 inches and 9.5 inches"
@@ -201,12 +201,11 @@ picks:
       - "Carpet tread removes easily and is machine washable"
       - "Rigid snap-together construction that does not compress like foam"
     cons:
-      - "Read as low stock rather than freely available at our September 14, 2026 check"
       - "No weight capacity published anywhere on the listing"
       - "Two 5-inch steps reach only about 10 inches — short of most bed frames"
       - "The wider, deeper landings are specified for small and large dogs, with no cat-specific depth given"
       - "Snap-together assembly is described, but no stability or tip test is published"
-    verdict: "Choose the Easy Step II when a ramp will not fit and you still want to know what you are asking the cat to do. A published 5-inch rise and a published landing depth are rare in this category, and the washable tread and rubber grippers are the right details. Buy it for a sofa or a window seat rather than a tall bed, and check stock first."
+    verdict: "Choose the Easy Step II when a ramp will not fit and you still want to know what you are asking the cat to do. A published 5-inch rise and a published landing depth are rare in this category, and the washable tread and rubber grippers are the right details. Buy it for a sofa or a window seat rather than a tall bed."
 
   - rank: 4
     label: "LOWEST PUBLISHED RISE"
@@ -227,7 +226,7 @@ picks:
 
       That experimental role is worth taking seriously. Plenty of cats simply refuse mobility furniture on first contact, and finding out for thirty dollars is better than finding out for a hundred and forty. The high-density polyurethane foam core means it weighs almost nothing, so it can be moved between a sofa in the evening and a bed at night while you work out where the cat actually wants access. The cover unzips and goes in the machine, which matters for the same grooming reason that applies to every product here.
 
-      The limitations are specific rather than vague. The listing's non-slip claim covers the bottom and the backside only — the climbing surface is described as microfiber, with no traction claim attached to it at all. Foam compresses underfoot and the listing publishes no firmness or long-term compression spec, so the fourth-year behaviour of this product is unknown. The 25-pound capacity is ample for a cat and rules out sharing with a dog. And it read as low stock at our September 14, 2026 check, not as a freely available item.
+      The limitations are specific rather than vague. The listing's non-slip claim covers the bottom and the backside only — the climbing surface is described as microfiber, with no traction claim attached to it at all. Foam compresses underfoot and the listing publishes no firmness or long-term compression spec, so the fourth-year behaviour of this product is unknown. The 25-pound capacity is ample for a cat and rules out sharing with a dog.
     pros:
       - "4-inch step height, the lowest published rise on this page"
       - "25-pound capacity is published, which most foam picks here do not manage"
@@ -235,12 +234,11 @@ picks:
       - "Zippered microfiber cover comes off for machine washing"
       - "Light enough to move between rooms while you find the right spot"
     cons:
-      - "Read as low stock rather than freely available at our September 14, 2026 check"
       - "The non-slip claim covers the bottom and backside only — no traction claim on the climbing surface"
       - "Foam compresses underfoot and no firmness or compression spec is published"
       - "25 pounds is the lowest capacity here, ruling out a shared small dog"
       - "Three steps reach 12 inches total, which is short of a standard bed frame"
-    verdict: "The 3-Step Pet Stairs is the cheapest honest way to find out whether your cat will use furniture at all. A published 4-inch rise and a published 25-pound capacity put it ahead of every foam competitor below, and the tiny footprint fits where nothing else does. Confirm stock before ordering, and treat the microfiber climbing surface as the open question it is."
+    verdict: "The 3-Step Pet Stairs is the cheapest honest way to find out whether your cat will use furniture at all. A published 4-inch rise and a published 25-pound capacity put it ahead of every foam competitor below, and the tiny footprint fits where nothing else does. Treat the microfiber climbing surface as the open question it is."
 
   - rank: 5
     label: "BEST FOR A CHAIR OR A TIGHT CORNER"
@@ -386,8 +384,8 @@ whenNotToBuy: |
 bottomLine:
   - "Get the PetSafe Happy Ride Folding Dog Ramp if you buy one thing. It is the only pick whose listing names high-traction treads, side rails and rubber feet together, on a continuous 62-inch incline that removes the jump entirely, for $59.99."
   - "Get the PetSafe CozyUp Wooden Pet Bed Ramp when the ramp has to be permanent and the destination is the bed. Seventy inches of run to reach a published 25 inches is the only geometry on this page you can check against your own furniture before ordering."
-  - "Get the Pet Gear Easy Step II Pet Stairs when a ramp will not fit. A published 5-inch rise and published 8.5-inch and 9.5-inch landings make it the only stepped pick that publishes both — one of only two stepped picks that publish a rise at all — but it read as low stock on September 14, 2026, so check first."
-  - "Get the 3-Step Pet Stairs at $30.10 as the cheap experiment, because a published 4-inch rise is the lowest here and thirty dollars is the right price to discover whether your cat will use furniture at all. It also read as low stock at our September 14, 2026 check."
+  - "Get the Pet Gear Easy Step II Pet Stairs when a ramp will not fit. A published 5-inch rise and published 8.5-inch and 9.5-inch landings make it the only stepped pick that publishes both — one of only two stepped picks that publish a rise at all."
+  - "Get the 3-Step Pet Stairs at $30.10 as the cheap experiment, because a published 4-inch rise is the lowest here and thirty dollars is the right price to discover whether your cat will use furniture at all."
   - "Get the COZY KISS for a chair in a tight corner. The 80-pound capacity and waterproof layer are strong for the money, but 11.8 inches across two steps is close to a 6-inch rise, which is a real hop for a stiff cat."
   - "Get the Romrol only for a tall bed, because its size range runs up to a 24-inch 5-step. Ignore the 63 percent and 58 percent claims on the listing — neither has a test method behind it — and note that no weight capacity is published."
   - "Get the Aodisman last, and only if you have measured your furniture already. The traction language is good, but a mobility product that publishes no height, no rise and no capacity cannot outrank one that does."

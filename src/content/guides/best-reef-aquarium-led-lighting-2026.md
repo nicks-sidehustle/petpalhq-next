@@ -73,7 +73,7 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/s?k=Kessil%20A360XE%20Tuna%20Blue"
-        stat: "$499.00 — Kessil A360XE Tuna Blue saltwater aquarium LED pendant, last verified new-condition price; the standalone listing carried only a used-condition offer at our July 17, 2026 check"
+        stat: "$499.00 — Kessil A360XE Tuna Blue saltwater aquarium LED pendant, last verified new-condition price"
         claim: "Last verified new-condition Amazon street price for the Kessil A360XE Tuna Blue."
         supports: "value"
         accessed: "2026-07-17"
@@ -99,8 +99,6 @@ picks:
       Coverage is honest about coral type. Kessil rates the A360XE for 24x24-inch mixed-reef coverage but only 20x20 inches for SPS-dominant tanks, because the higher PAR demanding stony corals need shrinks the usable footprint. That is the right framing: Bulk Reef Supply puts the ideal average reef PAR at roughly 100-200, with 200-400 PAR driving vibrant coloration at the cost of some growth. The Tuna Blue spectrum — Tuna Blue plus Red, Green, and Purple — leans blue enough to pop coral fluorescence while keeping enough full-spectrum content to grow them.
 
       Here is the honest trade-off. The A360XE is a point-source pendant, so it casts a tight, intense beam with strong shimmer but less even fill than a spread-style panel — you mount it higher and accept a brighter center than edges. At $499.00 it is the most expensive single fixture here, and a controller dongle and mounting arm are sold separately, adding cost before you have a programmable schedule. For one well-lit mixed reef up to roughly 24 inches square, though, it is the most capable single light in the category.
-
-      Availability note: our July 17, 2026 check found only a used-condition offer on this pendant, so the buy button ran an Amazon search instead of a listing. At our August 10, 2026 re-check the A360XE Tuna Blue listing was live and in stock at $499.00, and the buy button below now goes straight to it. The controller dongle and mounting arm are still sold separately, and reef-specialty retailers stock Kessil directly when Amazon stock runs dry.
     pros:
       - "Deep manufacturer-rated penetration of 24 to 30 inches suits taller reef tanks"
       - "Compact pendant throws a focused, high-PAR beam from a small footprint"
@@ -110,7 +108,6 @@ picks:
     cons:
       - "Most expensive single fixture in this guide at $499.00"
       - "Controller dongle and mounting arm are typically sold separately"
-      - "Amazon stock of the standalone pendant is unstable — only a used-condition offer was live at our July 17, 2026 check, so the buy button runs a current search; specialty reef retailers carry it when Amazon lapses"
       - "Point-source beam fills less evenly than a wide panel and needs higher mounting"
       - "SPS-dominant coverage shrinks to 20x20 inches, so big SPS tanks need more than one"
     verdict: "The most capable single reef pendant for a mixed reef up to about 24 inches square, with the deepest manufacturer-rated penetration here. Budget for the dongle and arm, and expect a focused beam rather than even panel fill."
@@ -244,7 +241,7 @@ picks:
         accessed: "2026-09-08"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0813RRQBD"
-        stat: "$264.99 — AquaIllumination Prime 16 HD LED Saltwater Reef Aquarium Light - White, sold by Leap Habitats, 'Only 11 left in stock'"
+        stat: "$264.99 — AquaIllumination Prime 16 HD LED Saltwater Reef Aquarium Light - White, sold by Leap Habitats"
         claim: "Current Amazon street price for the Prime 16 HD in the White colourway."
         supports: "value"
         accessed: "2026-09-08"
@@ -266,7 +263,6 @@ picks:
 
       Here is the honest trade-off. At 59W this is a nano fixture, full stop: it will not push the PAR a 24-inch-deep SPS tank needs, and trying to light a large reef with one means painfully low coverage. Owners also note the small chassis runs warm and leans on its fan, which adds a faint hum near a quiet desk tank. And while MyAI® app control is powerful, it is more than a first-time reefer usually needs on a pico build. For a nano or small soft/LPS reef up to about 20 inches deep, though, it is the most capable little light here.
 
-      A note on which one you are buying. AI sells the Prime 16 HD in Black and White at $317.99 either way; the White fixture is the one with a live Amazon offer as of September 8, 2026, at $264.99 from Leap Habitats rather than from Amazon itself, so check the seller line before you order. The Black listing we previously pointed at has gone unavailable.
     pros:
       - "Compact 59W fixture sized correctly for nano and small reef tanks"
       - "Full reef channel set — white, blue, royal blue, violet, UV, red, green — despite its size"

@@ -17,7 +17,7 @@ keywords:
 species: ["fish"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-09-09"
+updatedDate: "2026-09-30"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-planted-aquarium-lights-2026.webp"
@@ -205,7 +205,7 @@ picks:
 
       The owner evidence is unusually direct. Side-by-side WRGB 2 versus Fluval 3.0 owners on The Planted Tank Forum say the Chihiros is in another league for color rendition, with the red coloration of Rotala H'RA visibly improved within five days of switching. UKAPS and Planted Tank Forum users also report superior light spread versus the Fluval — the Chihiros Slim fully illuminates the front and rear of the tank where the Fluval's narrow beam falls off. Control runs through the My Chihiros app over Bluetooth, with sunrise/sunset ramping and custom modes.
 
-      Here's the honest trade-off, and there are several. The fixture runs warm — Planted Tank Forum owners note the WRGB II needs decent airflow around its upper heat sink, so a sealed cabinet hood is a bad home for it. The My Chihiros app takes more getting used to than Fluval's polished FluvalSmart app. Metric sizing trips up US buyers: the Slim 45 measures 17.7 inches and fits roughly 18-inch tanks, not the standard 24-30 inch footprint, so measure before ordering. And US Amazon distribution is patchy — sizes drift in and out of stock and prices fluctuate between sellers. If the size fits your tank and red plants are the point of your scape, none of that should stop you at $189.19.
+      Here's the honest trade-off, and there are several. The fixture runs warm — Planted Tank Forum owners note the WRGB II needs decent airflow around its upper heat sink, so a sealed cabinet hood is a bad home for it. The My Chihiros app takes more getting used to than Fluval's polished FluvalSmart app. Metric sizing trips up US buyers: the Slim 45 measures 17.7 inches and fits roughly 18-inch tanks, not the standard 24-30 inch footprint, so measure before ordering. And US Amazon distribution is patchy — prices fluctuate between sellers. If the size fits your tank and red plants are the point of your scape, none of that should stop you at $189.19.
     pros:
       - "Discrete RGB diode array shares its spectrum approach with the flagship Chihiros Vivid line"
       - "Side-by-side owners call its color rendition another league versus the Fluval 3.0"
@@ -329,7 +329,7 @@ sources:
     - "Green Aqua — Chihiros settings and configuration guidance"
   community:
     - "r/PlantedTank community discussion on fixture selection and red-plant color"
-    - "Amazon owner sentiment on sizing fit, stock availability, and seller price variance"
+    - "Amazon owner sentiment on sizing fit and seller price variance"
   verifiedDate: "2026-06-10"
   authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of expert lighting reviews, instrumented PAR test data, manufacturer specifications, and verified owner sentiment. PetPalHQ does not run an aquarium lighting testing lab. The Planted Light Score is a composite of expert opinion and documented design factors, not a measurement."
 
@@ -363,8 +363,6 @@ The fish side is about how light arrives and how long it stays. Use the sunrise/
 Two fixtures that appear in nearly every other planted-lighting roundup did not make this guide, and both cuts are worth explaining.
 
 The Nicrew ClassicLED Plus is the perennial budget suggestion, and it is verified live on Amazon at $39.99. It lost the budget slot on merit. ModestFish's PAR-tested review was notably negative — the Nicrew came in dead last in their five-light head-to-head — and Fish Tank World recommends it for fish-only displays, noting its PAR drops off quickly beyond low-light plants. The similarly priced Hygger 957 offers better plant performance plus a built-in timer, which made the $12 difference an easy call for a planted tank.
-
-The Week Aqua P-series was the harder cut. The 2Hr Aquarist ranks Week Aqua among the best LED lines for red-plant color saturation, on the same short list as Chihiros and the Twinstar S series. But no live US Amazon listing resolved through the Creators API at research time — it is a direct-import product here, so we cannot verify price, stock, or fulfillment for readers. A recommendation you cannot reliably buy is not a recommendation; if Week Aqua establishes stable US distribution, it earns a rematch against the WRGB II Pro.
 
 ## Frequently Asked Questions
 

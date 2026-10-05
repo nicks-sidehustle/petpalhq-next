@@ -14,7 +14,7 @@ keywords:
   - "backyard koi pond kit"
 pillar: "aquarium-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-30"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/how-to-build-a-backyard-koi-pond-2026.webp"
@@ -161,7 +161,7 @@ picks:
 
       The rule that governs pump choice is turnover: the community floor is moving the pond's entire volume at least once every hour, so the water is filtered and oxygenated rather than sitting stagnant under a heavy fish load. An external pump earns its place here because, sited out of the water, it runs cooler and more efficiently than a submersible and can be serviced without wading in or draining down. One honesty check belongs in the plan — head height, meaning the lift to the filter and the length of the pipe run, drops real-world flow below the rated number, so you size up rather than to the exact figure. For how the pump pairs with the rest of the plumbing and filtration as a matched set, see [our roundup of the best backyard koi pond systems](/guides/best-backyard-koi-pond-systems-2026).
 
-      The honest caveats are about cost, supply, and setup. This is the most expensive single item in the build by a wide margin, which is fair for the part that runs 24 hours a day for years, but it is real money. It also sells through a specialty pond merchant with limited stock, so confirm current availability before you plan around it. And an external pump asks for more plumbing than dropping a submersible into the deep end — a pad, priming, and hard pipe. As the heart of the system, it is what keeps the water filtered, oxygenated, and alive under a load of large fish.
+      The honest caveats are about cost and setup. This is the most expensive single item in the build by a wide margin, which is fair for the part that runs 24 hours a day for years, but it is real money. And an external pump asks for more plumbing than dropping a submersible into the deep end — a pad, priming, and hard pipe. As the heart of the system, it is what keeps the water filtered, oxygenated, and alive under a load of large fish.
     pros:
       - "External pumps run more efficiently than submersibles at koi-pond scale"
       - "Low-RPM, high-flow design suits continuous, around-the-clock running"
@@ -169,9 +169,8 @@ picks:
       - "Serviced outside the water without draining the pond"
     cons:
       - "The most expensive single item in the build by a wide margin"
-      - "Sold through a specialty merchant with limited stock — availability moves"
       - "External plumbing takes more setup than dropping in a submersible"
-    verdict: "Move the water with an external pump sized to turn the pond over at least once an hour, and buy up rather than to the exact rating because head height steals flow. It is the costliest and hardest-working part of the build, and it sells through a specialty pond store where stock comes and goes, so plan around its availability rather than assuming it."
+    verdict: "Move the water with an external pump sized to turn the pond over at least once an hour, and buy up rather than to the exact rating because head height steals flow. It is the costliest and hardest-working part of the build."
 
   - rank: 4
     label: "CLEAN AND CLARIFY — PRESSURE FILTER WITH UV"
@@ -415,7 +414,7 @@ methodology:
 whenNotToBuy: |
   A backyard koi pond is a real dig, a real plumbing job, and a months-long commitment, not a weekend water feature — and it is the wrong project for someone who wants stocked, finished water in a weekend. Before any excavation, the first honest step is to call 811 in the United States so buried utilities are located, because a pond dug into a gas or power line is a genuine hazard, and local codes may set fencing or permit rules for a water feature that are worth checking early. Once the hole is dug, the pond has to cycle for weeks and be proven with a test kit before a single koi goes in, and the fish are added a few at a time after that — koi grow past two feet and live for decades, so overstocking is the single most common long-term failure, with roughly 250 gallons per adult koi a widely repeated community rule of thumb rather than a hard limit.
 
-  Sequence and restraint rule out the usual shortcuts. Building a pond too shallow to skip the extra digging invites both wild summer temperature swings and wading herons, so depth is protection, not luxury. And a pond is never done: once it is running, summer is the season that tests it, and the heat, algae, and oxygen problems of a hot July are their own subject in [our guide to koi pond summer care and the algae and oxygen fix](/guides/koi-pond-summer-care-algae-oxygen-fix-2026). On the budget, this kit runs to roughly $1,900 before rock, plants, the koi themselves, and the electrical work to power the pump — and published 2026 pond-cost guides put a full DIY koi-pond build anywhere from about $500 to $2,800 all in. Confirm current price and availability on every item before buying, since prices, sellers, and specialty pump stock all move over time.
+  Sequence and restraint rule out the usual shortcuts. Building a pond too shallow to skip the extra digging invites both wild summer temperature swings and wading herons, so depth is protection, not luxury. And a pond is never done: once it is running, summer is the season that tests it, and the heat, algae, and oxygen problems of a hot July are their own subject in [our guide to koi pond summer care and the algae and oxygen fix](/guides/koi-pond-summer-care-algae-oxygen-fix-2026). On the budget, this kit runs to roughly $1,900 before rock, plants, the koi themselves, and the electrical work to power the pump — and published 2026 pond-cost guides put a full DIY koi-pond build anywhere from about $500 to $2,800 all in. Confirm current price and availability on every item before buying, since prices and sellers all move over time.
 
 bottomLine:
   - "Build the pond before you stock it, in order. Call before you dig, protect the excavation with REKVEN underlayment, and hold the water with a Firestone 45-mil EPDM liner sized by the formula — pond length plus twice the depth plus overlap on each side."
@@ -436,7 +435,7 @@ sources:
     - "Koi-keeping community consensus on pond volume, depth, and stocking density"
     - "Backyard pond forums on external-pump plumbing, cycling, and predator defense"
   verifiedDate: "2026-07-16"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. This backyard koi-pond build sequence and its kit are editorial synthesis of pond-building cost guides and the koi-keeping community, published pond water-quality guidance, and manufacturer documentation — PetPalHQ does not run a testing lab. The PetPal Pond-Build Score is a composite of expert opinion, not a measurement. Sources are cited by name throughout, and prices, stock, and specialty-pump availability should be confirmed before buying."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. This backyard koi-pond build sequence and its kit are editorial synthesis of pond-building cost guides and the koi-keeping community, published pond water-quality guidance, and manufacturer documentation — PetPalHQ does not run a testing lab. The PetPal Pond-Build Score is a composite of expert opinion, not a measurement. Sources are cited by name throughout, and prices should be confirmed before buying."
 
 related:
   - "best-backyard-koi-pond-systems-2026"

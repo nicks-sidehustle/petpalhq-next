@@ -16,17 +16,17 @@ species: ["dog", "cat"]
 guideType: "spoke"
 hub: "pet-home-systems-cleanup-travel"
 publishDate: "2026-08-21"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-30"
 readTime: "13 min"
 featured: false
 products: []
-reviewMethod: "Editorial synthesis of the Center for Pet Safety's published certified-product register and crash-test study documentation, manufacturer testing documentation from Sleepypod, Kurgo, Rock Creek Crates, and Dakota 283, and published federal guidance from the FAA, TSA, CDC, and USDA APHIS, alongside AVMA and ASPCA travel advice. Every certification, test claim, and regulatory statement cited here was fetched from its primary source on August 21, 2026, and every price, availability state, listing condition, and the seller on the listing was verified against the Amazon Creators API on the same date. PetPalHQ does not run a crash-test lab and does not conduct impact testing."
+reviewMethod: "Editorial synthesis of the Center for Pet Safety's published certified-product register and crash-test study documentation, manufacturer testing documentation from Sleepypod, Kurgo, Rock Creek Crates, and Dakota 283, and published federal guidance from the FAA, TSA, CDC, and USDA APHIS, alongside AVMA and ASPCA travel advice. Every certification, test claim, and regulatory statement cited here was fetched from its primary source on August 21, 2026, and every price, listing condition, and the seller on the listing was verified against the Amazon Creators API on the same date. PetPalHQ does not run a crash-test lab and does not conduct impact testing."
 lastProductCheck: "2026-08-21"
 expertSourceCount: 9
 image: "/images/guides/best-travel-setup-for-dog-owners-2026.webp"
 heroImage: "/images/guides/best-travel-setup-for-dog-owners-2026.webp"
 
-shortAnswer: "Buy the restraint before the crate, because that is where the independent evidence actually is. The Center for Pet Safety's published register lists the Sleepypod Mobile Pet Bed at five stars (tested August 2024) and the Sleepypod Air at four stars (tested January 2025), and both cover the whole trip - carrier, in-car restraint, and a familiar bed at the other end. Above small-dog sizes no certified option exists on Amazon today, so the honest pick is Kurgo, whose own methodology page documents testing at Calspan against the federal child-restraint standard because no pet standard exists. The crates are the weak link and the reason is published by the manufacturers themselves: Rock Creek states plainly that its collapsible crate has not been crash tested, and Dakota 283 publishes no test standard, lab, or figure at all. CPS does certify crates - Gunner, Lucky Duck, Cabela's, and Rock Creek's medium stationary kennel are all on the register - but at our August 21, 2026 check none of those were buyable on Amazon."
+shortAnswer: "Buy the restraint before the crate, because that is where the independent evidence actually is. The Center for Pet Safety's published register lists the Sleepypod Mobile Pet Bed at five stars (tested August 2024) and the Sleepypod Air at four stars (tested January 2025), and both cover the whole trip - carrier, in-car restraint, and a familiar bed at the other end. Above small-dog sizes the honest pick is Kurgo, whose own methodology page documents testing at Calspan against the federal child-restraint standard because no pet standard exists. The crates are the weak link and the reason is published by the manufacturers themselves: Rock Creek states plainly that its collapsible crate has not been crash tested, and Dakota 283 publishes no test standard, lab, or figure at all. CPS does certify crates - Gunner, Lucky Duck, Cabela's, and Rock Creek's medium stationary kennel are all on the register."
 
 topPicks:
   - name: "Sleepypod Mobile Pet Bed"
@@ -176,7 +176,7 @@ picks:
       - "Broad chest plate spreads load across the sternum rather than the throat"
       - "Doubles as a walking harness, so it is on the dog rather than in the trunk"
     body: |
-      Every certified product on this page is sized for a cat or a small dog. If yours is a Labrador, that tier is simply unavailable, and the honest question becomes which documented testing you trust rather than which certification you buy.
+      Every certified product on this page is sized for a cat or a small dog. If yours is a Labrador, that tier does not cover your dog, and the honest question becomes which documented testing you trust rather than which certification you buy.
 
       Kurgo publishes more about its testing than almost anyone else in this category. Its methodology page names the lab — Calspan's Buffalo, New York crash test facility — and states that the laboratory procedure maintains Federal Motor Vehicle Safety Standard No. 213 for Child Restraint Systems, which is the standard manufacturers borrow because no pet equivalent exists. Its Impact product page states the harness was crash tested with simulated dogs up to 108 pounds and passed at Calspan in 2020.
 
@@ -317,7 +317,6 @@ picks:
       - "Rock Creek states plainly that the collapsible crate has not been crash tested"
       - "The CPS-certified Rock Creek product is the medium stationary kennel, a different crate from this one"
       - "Aluminium construction that folds flat when the trip is over"
-      - "Orderable on Amazon on a lead time rather than from stock at our August 21, 2026 check"
       - "Suits households that travel occasionally and cannot store a rigid crate year-round"
     body: |
       The collapsible tier exists because a rigid crate that lives in your living room eleven months a year is a bad trade for a household that drives somewhere twice a summer. This one folds flat, and it is the most expensive item on this page — so the evidence position needs to be stated exactly rather than implied.
@@ -326,7 +325,7 @@ picks:
 
       This is exactly the trap this page exists to defuse. A brand with a genuine five-star certification on one model does not confer it on another, and a shopper reading "Rock Creek" and "CPS five stars" in the same search result would reasonably assume otherwise.
 
-      Buy this crate for what it is: a well-made aluminium container that folds flat and gives you containment on a trip and at the destination. One purchasing detail from our own check rather than from the listing copy — on August 21, 2026 the Amazon offer was orderable but shipping on a lead time rather than from in-stock inventory. Order early against a departure date, or take rank 5, which was in stock at the same check.
+      Buy this crate for what it is: a well-made aluminium container that folds flat and gives you containment on a trip and at the destination.
     pros:
       - "Folds flat, which is the entire reason this tier exists and it does it well"
       - "Aluminium is lighter to move than a rotomolded shell of the same size"
@@ -335,7 +334,6 @@ picks:
     cons:
       - "Rock Creek states the collapsible has not been crash tested"
       - "The CPS-certified Rock Creek crate is the stationary model, not this one"
-      - "Ships on a lead time rather than from stock, per our August 21, 2026 check"
       - "The most expensive item on this page by a wide margin"
     verdict: "Get the Rock Creek collapsible if storage space is your binding constraint and you want the manufacturer's candour along with the crate. Just do not read Rock Creek's five-star CPS certification onto it — that belongs to the stationary medium kennel."
 
@@ -349,8 +347,6 @@ comparison:
       values: ["Cats and small dogs", "Cats and small dogs", "Large dogs", "Up to 75 lb per published limits", "Sized by crate dimensions", "Sized by crate dimensions"]
     - label: "What it replaces"
       values: ["Bed, carrier, and car restraint", "Carrier plus car restraint", "Walking harness plus car restraint", "Walking harness plus car restraint", "Cargo containment plus destination crate", "Cargo containment plus destination crate"]
-    - label: "Amazon availability at our 2026-08-21 check"
-      values: ["In stock", "In stock", "In stock", "In stock", "In stock, low quantity", "Orderable on a lead time"]
     - label: "Travel Safety Confidence Score"
       values: ["8.3", "8.1", "7.8", "7.7", "6.0", "5.6"]
 
@@ -374,7 +370,7 @@ bottomLine:
   - "Buy the restraint before the crate. The Center for Pet Safety publishes individual records with ratings, dates, and protocol numbers, and the two products on this page that carry them are both restraints - the Mobile Pet Bed at five stars, tested August 2024, and the Sleepypod Air at four stars, tested January 2025."
   - "For cats and small dogs, the certified tier is available and you should use it. The Mobile Pet Bed at $224.99 is the more complete purchase; the Sleepypod Air at $199.99 is the one to buy if you also fly."
   - "Above small-dog sizes there is no certified option on this page, and the honest pick is Kurgo. The Impact at $86.99 cites Calspan testing with simulated dogs up to 108 pounds; the Tru-Fit at $39.95 is named in the same methodology with published excursion limits to 75 pounds. Kurgo does not appear on the CPS certified register - that is documentation, not certification."
-  - "The crates are a containment and durability purchase, not a safety credential. Rock Creek states its collapsible crate has not been crash tested, and Dakota 283 publishes no standard, laboratory, or measured figure. CPS does certify crates - Gunner, Lucky Duck, Cabela's, and Rock Creek's stationary medium - but at our August 21, 2026 Amazon check none of those were buyable there."
+  - "The crates are a containment and durability purchase, not a safety credential. Rock Creek states its collapsible crate has not been crash tested, and Dakota 283 publishes no standard, laboratory, or measured figure. CPS does certify crates - Gunner, Lucky Duck, Cabela's, and Rock Creek's stationary medium."
   - "Never read a brand's certification onto a different model. Rock Creek holds a genuine five-star CPS certification on its medium stationary kennel and states plainly that the collapsible is a different crate. That distinction is the single most useful thing on this page."
   - "Gear is half the job. The FAA leaves cabin acceptance to each airline, the TSA runs the checkpoint, APHIS says destination states set interstate requirements, and the CDC governs dogs entering the United States - all of which move independently of anything you buy."
 
@@ -386,8 +382,6 @@ whenNotToBuy: |
   Skip extension tethers and seat-belt clips entirely. A tether gives the dog slack, and slack lets a body build speed before anything stops it. Every restraint on this page instead routes the vehicle's own seat belt, which is why a correct fit feels uncomfortably snug the first time.
 
   Skip the certified carriers if your dog is medium or large. Both CPS-certified picks here are cat-and-small-dog products, and using a certified item outside the size it was certified at converts a real credential into a false sense of security. The Kurgo harnesses exist for that reason.
-
-  Skip the Rock Creek collapsible if you are buying against a fixed departure date. Our August 21, 2026 Amazon check found it orderable on a lead time rather than shipping from stock - fine for a purchase made well in advance, a problem for one made the week before a trip.
 
   Skip buying anything until you have read the rules for your specific trip. Airline in-cabin policy, TSA checkpoint procedure, destination-state requirements under APHIS, and CDC rules for dogs entering the United States all change independently of the gear, and none of them can be fixed by a better carrier after the fact.
 
@@ -406,7 +400,7 @@ sources:
     - "Hunting and dog-sport owner sentiment on rotomolded kennel durability and framed-door latches"
     - "Amazon and retailer owner reviews on harness fit, dome sizing, and crate loading in real vehicles"
   verifiedDate: "2026-08-21"
-  authorBio: "Nicholas Miles is the chief editor of PetPalHQ. PetPalHQ does not run a crash-test lab and does not conduct impact testing. Every safety claim on this page is either a Center for Pet Safety record read from the certifying body's own site, a manufacturer's published test methodology identified as such, or a named regulatory or veterinary source - all fetched on August 21, 2026. Prices, availability, listing condition, and listing seller were verified against the Amazon Creators API on the same date."
+  authorBio: "Nicholas Miles is the chief editor of PetPalHQ. PetPalHQ does not run a crash-test lab and does not conduct impact testing. Every safety claim on this page is either a Center for Pet Safety record read from the certifying body's own site, a manufacturer's published test methodology identified as such, or a named regulatory or veterinary source - all fetched on August 21, 2026. Prices, listing condition, and listing seller were verified against the Amazon Creators API on the same date."
 
 ownerVoice: []
 
@@ -439,7 +433,7 @@ The rule that falls out: the safety purchase is a restraint. The crate is a cont
 
 It would be easy and wrong to say crates cannot be crash certified. They can, and several are. The Center for Pet Safety's published register includes Gunner G1 kennels in three sizes, Lucky Duck Lucky Kennels in three sizes, Cabela's GunDog kennels, and Rock Creek Crates' medium aluminium stationary kennel.
 
-The problem is narrower and more practical: at our August 21, 2026 Amazon Creators API check, the certified crates we could identify were not buyable on Amazon. PetPalHQ only covers what a reader can actually buy on Amazon, so the two crates on this page are the buyable options — and neither carries a certification.
+The problem is narrower and more practical: neither of the two crates on this page carries a certification.
 
 That leads to the most important sentence on this page. **A certification belongs to a product, not to a brand.** Rock Creek holds a genuine five-star CPS certification on its medium stationary kennel, and states on its own site that the collapsible "has not been crash tested and, by nature of design, does not incorporate the same internal welded structure as the Stationary crates." Both facts are true. A shopper who sees "Rock Creek" and "CPS five stars" in the same search result and buys the collapsible has bought a good crate and not the certified one.
 
@@ -449,7 +443,7 @@ The same rule applies on the certified side of the page: CPS lists the Sleepypod
 
 Both CPS-certified products on this page are cat-and-small-dog items. That is not a defect in the certification programme — crash testing is expensive and is performed on specific products at specific sizes — but it has a blunt consequence.
 
-If your animal is small, buy at the top of the ladder. If your dog is medium or large, the certified tier on Amazon is simply not available to you, and the real choice is between documented manufacturer testing and nothing at all. Choosing Kurgo at that point is not settling; it is taking the strongest checkable evidence that exists at your dog's size.
+If your animal is small, buy at the top of the ladder. If your dog is medium or large, the real choice is between documented manufacturer testing and nothing at all. Choosing Kurgo at that point is not settling; it is taking the strongest checkable evidence that exists at your dog's size.
 
 The failure mode to avoid is buying a certified product and using it outside the size it was certified at, on the theory that certification is a general endorsement. It is a result, at a size, on a date.
 
@@ -477,7 +471,7 @@ A: No. The Center for Pet Safety's 2015 crate and carrier study announcement sta
 
 **Q: Is a travel crate safer than a harness in a crash?**
 
-A: For the crates on this page, that question has no evidence behind it either way. Rock Creek states its collapsible crate has not been crash tested, and Dakota 283 publishes no standard, laboratory, or measured figure. Certified crates do exist — CPS lists Gunner, Lucky Duck, Cabela's, and Rock Creek's stationary medium — but at our August 21, 2026 check we could not buy those on Amazon. If crash evidence is what you are buying, buy a certified or documented restraint and put it on the seat.
+A: For the crates on this page, that question has no evidence behind it either way. Rock Creek states its collapsible crate has not been crash tested, and Dakota 283 publishes no standard, laboratory, or measured figure. Certified crates do exist — CPS lists Gunner, Lucky Duck, Cabela's, and Rock Creek's stationary medium. If crash evidence is what you are buying, buy a certified or documented restraint and put it on the seat.
 
 **Q: My dog is 70 pounds. What should I buy?**
 

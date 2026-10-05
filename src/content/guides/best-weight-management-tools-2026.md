@@ -24,7 +24,7 @@ keywords:
   - "Greater Goods pet scale"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-08-07'
+updatedDate: '2026-09-30'
 readTime: 12 min read
 featured: true
 image: /images/guides/best-weight-management-dog-cat-food-2026.webp
@@ -146,7 +146,6 @@ picks:
       - 0.1 lb precision per manufacturer documentation
       - 44 lb capacity covers most cats and small-to-medium dogs
       - Wiggle-proof reading helps with restless pets
-      - Strong Amazon visibility and consistent stock
     cons:
       - 44 lb ceiling is too low for medium-large and large dogs
       - >-
@@ -173,8 +172,7 @@ picks:
       - Portable enough for foster and rescue use
     body: >
       The Redmon Digital Dog Scale for Large Pet & Animal with Non-Skid Mat
-      fills a real editorial gap: home scales for medium-large and large dogs
-      are not as easy to find as kitten scales, and bathroom scales are an
+      fills a real editorial gap: bathroom scales are an
       unreliable workaround because the owner-minus-dog math depends on standing
       perfectly still while holding 60+ pounds of unstable weight. Redmon
       documents a 225 lb capacity and a non-skid mat sized for animal weighing.
@@ -295,13 +293,12 @@ picks:
     asin: B0C12TVBV2
     keyFeatures:
       - Lower-energy-density formulation positioned for weight management
-      - Mainstream retail availability — no veterinary authorization required
+      - Mainstream retail food — no veterinary authorization required
       - Hill's documents formulation for weight-loss support
       - Pairs naturally with measured gram-based feeding
     body: >
       The Hill's Science Diet Adult Perfect Weight Dry Dog Food, Chicken & Brown
-      Rice, 25 lb. Bag is the cleanest mainstream retail food inclusion. Amazon
-      availability is consistent, and the product family is built around
+      Rice, 25 lb. Bag is the cleanest mainstream retail food inclusion. The product family is built around
       lower-energy-density weight-management nutrition. Editorially, its value is
       not that food alone fixes obesity. It is that lower-calorie food is easier to
       defend than gimmick "fat-burner" supplements, which the Association for Pet
@@ -335,7 +332,6 @@ picks:
       and it will not.
     pros:
       - Lower energy density is a defensible editorial choice
-      - Mainstream Amazon availability
       - No vet authorization required
       - Can be used in combination with structured portion control
     cons:

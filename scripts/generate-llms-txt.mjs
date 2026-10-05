@@ -16,7 +16,6 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
-import { getGuideBySlug, isPromoActive } from "../src/lib/guides.ts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -198,25 +197,7 @@ function renderSpokesByVertical(spokes) {
   return lines;
 }
 
-// /deals lists every visible pick whose promo is unexpired (isPromoActive,
-// same call src/app/deals/page.tsx makes). Count them the same way so the
-// Deals line describes the page as it renders at generation time (W4 #210).
-function countActivePromos(all) {
-  let n = 0;
-  for (const g of all) {
-    for (const pick of getGuideBySlug(g.slug)?.picks ?? []) {
-      if (isPromoActive(pick.promo)) n++;
-    }
-  }
-  return n;
-}
-
 function renderSupporting(all) {
-  const activePromos = countActivePromos(all);
-  const dealsNow =
-    activePromos === 0
-      ? "None active at generation."
-      : `${activePromos} active at generation.`;
   return [
     "## Supporting pages",
     "",
@@ -227,7 +208,6 @@ function renderSupporting(all) {
     bullet("Affiliate disclosure", "/affiliate-disclosure", `Amazon Associates Program participation, FTC compliance, and the full policy on commissions versus editorial recommendations. Tag: petpalhq08-20.`),
     bullet("Privacy policy", "/privacy-policy", "What we collect, how we use it, third-party processors (Google Analytics, Brevo, ImprovMX, Vercel, Amazon), and CCPA + GDPR rights."),
     bullet("Guides index", "/guides", "Browse all editorial hubs and buying guides."),
-    bullet("Deals", "/deals", `Guide picks with an unexpired promotion (coupon code or deal) recorded in guide data. ${dealsNow}`),
     "",
   ];
 }

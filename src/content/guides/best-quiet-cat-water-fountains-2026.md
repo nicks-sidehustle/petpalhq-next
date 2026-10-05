@@ -16,7 +16,7 @@ keywords:
   - "cat fountain app monitoring"
 pillar: "expert-care"
 publishDate: "2026-06-21"
-updatedDate: "2026-09-25"
+updatedDate: "2026-09-30"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-quiet-cat-water-fountains-2026.webp"
@@ -339,7 +339,7 @@ methodology:
       definition: "Whether the fountain delivers steady flow modes that suit different drinkers, holds a usable reservoir, and keeps running without the pump faltering. Larger reservoirs that hold the level above the pump's minimum line for longer score higher on reliability."
     - name: "Value"
       weight: 20
-      definition: "The fountain's price relative to its build quality, the cost and availability of replacement filters, and the realistic per-month upkeep cost. A cheap unit whose filters vanish from Amazon is not good value once the running cost is counted."
+      definition: "The fountain's price relative to its build quality, the cost and availability of replacement filters, and the realistic per-month upkeep cost."
 
 whenNotToBuy: |
   Skip a fountain entirely if your goal is to treat urinary disease, kidney disease, or dehydration. Cornell Feline Health Center links chronic dehydration to feline kidney disease, but a fountain is an intake-encouragement tool, not a medical device — the vet comes first. Skip any of these as the sole water source in a busy multi-cat home. Every pick here is a roughly 2L reservoir, which falls toward the pump's hum line faster than a big basin and leaves little margin between refills — run a second station rather than expecting one 2L fountain to carry four cats. Skip any plastic fountain if your cat has a history of chin acne, because Preventive Vet links porous plastic to breakouts; the PETLIBRO Dockstream and the Catit PIXI both put a stainless surface where the cat actually drinks. And skip a fountain altogether if you will not commit to a weekly pump clean — every fountain here gets louder as hair and scale build on the impeller, so the quietest unit in the world hums if it is never cleaned.
@@ -391,7 +391,7 @@ This guide is the quiet-operation companion to our broader [Best Cat Water Fount
 
 We left several well-known fountains off the main list, and the reasons map cleanly onto the noise narrative.
 
-The **PETLIBRO Capsule** stainless fountain is the most on-theme quiet option — cats.com tested it as nearly silent, crediting built-in noise-insulation tubes and a patented sound-dampening valve — and it nearly earned a slot. We kept the verified, in-stock five above, but the Capsule is the natural next look for a noise-sensitive apartment.
+The **PETLIBRO Capsule** stainless fountain is the most on-theme quiet option — cats.com tested it as nearly silent, crediting built-in noise-insulation tubes and a patented sound-dampening valve — and it nearly earned a slot. We kept the verified five above, but the Capsule is the natural next look for a noise-sensitive apartment.
 
 The **PetSafe Drinkwell Seascape** ceramic fountain is genuinely quiet, with cats.com observing that water rolls silently over the center orb. We passed because PetSafe's larger Drinkwell 360 was the loudest unit cats.com tested, with a hum audible across the room — a clean illustration that brand alone does not predict noise, and that pump quality and water level decide it.
 
