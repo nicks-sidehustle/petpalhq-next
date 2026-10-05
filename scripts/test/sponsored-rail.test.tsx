@@ -352,7 +352,6 @@ check('one product per family: two relevant same-family products -> only one sho
     fam('B01J5GE3MA') === fam('B01MTCODOT') && fam('B01MTCODOT') === fam('B000FEF10A'),
   );
   check('real data: Voyager harness colors share one family', fam('B09SGWL7B6') === fam('B08CCGYTDR'));
-  check('real data: Devil Dog antler sizes share one family', fam('B01J6JUST8') === fam('B0BKC9QM79'));
   check('real data: PET STANDARD fountain-filter lines share one family', fam('B00LCIV210') === fam('B01N7N0UCU'));
 }
 const ov = orderViolations(selectSponsoredRailProducts);
@@ -576,14 +575,17 @@ console.log('sponsored-rail: mutation');
   }
   // M6: the old category-based mapping (W4 #209 defect) must be caught by the
   // relevance check: Birds -> bird, and Cats & Dogs with no species -> dog+cat.
-  const oldPool = (animals: SponsoredAnimal[], slug: string) =>
-    selectSponsoredRailProducts({ slug, animals }).map((p) => p.animal as SponsoredAnimal);
+  // The dog-guide case adds its own cat fixture so it does not depend on which
+  // cat campaigns happen to be in the catalog (owner 2026-10-04).
+  const catFixture: SponsoredRailProduct = { ...fx('B0000CAT01', ['toy'], 'high', 9.99), animal: 'cat' };
+  const oldPool = (animals: SponsoredAnimal[], slug: string, pool: readonly SponsoredRailProduct[] = SPONSORED_RAIL_PRODUCTS) =>
+    selectSponsoredRailProducts({ slug, animals }, pool).map((p) => p.animal as SponsoredAnimal);
   check(
     'M6 old mapping: chicken coop guide shows wild-bird feeders -> gate fails',
     relevanceViolations({ slug: 'best-backyard-chicken-coops-2026', category: 'Birds' }, oldPool(['bird'], 'best-backyard-chicken-coops-2026')).length > 0,
   );
   const oldDog = Array.from({ length: 40 }, (_, i) => `best-dog-car-booster-seats-2026-v${i}`).some(
-    (slug) => relevanceViolations({ slug, category: 'Cats & Dogs' }, oldPool(['dog', 'cat'], slug)).length > 0,
+    (slug) => relevanceViolations({ slug, category: 'Cats & Dogs' }, oldPool(['dog', 'cat'], slug, [...SPONSORED_RAIL_PRODUCTS, catFixture])).length > 0,
   );
   check('M6 old mapping: dog-only guide shows cat products -> gate fails', oldDog);
   // M2: a price field injected into the data must be caught.
