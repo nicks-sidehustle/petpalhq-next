@@ -89,7 +89,7 @@ const SOURCE_STACK: SourceCategory[] = [
     examples: [
       { name: "Amazon Creators API (product listing, price, image)", href: "https://affiliate-program.amazon.com/" },
     ],
-    useCase: "Live availability and pricing on the dated lastProductCheck shown in every guide.",
+    useCase: "Product listings and prices. Each price on a card carries its own dated \u201cchecked\u201d stamp showing the day that figure was read from Amazon.",
   },
   {
     category: "Hobbyist communities",
@@ -169,8 +169,8 @@ export default function MethodologyPage() {
           </p>
           <p>
             This page documents the framework: the sources we pull from, how
-            we weight them in the PetPal Gear Score, how often we refresh
-            pricing and source lists, and what we explicitly don&apos;t claim.
+            we weight them in the PetPal Gear Score, how we keep
+            prices and source lists current, and what we explicitly don&apos;t claim.
             It&apos;s the most quotable methodology document in pet content
             because every part of it is a verifiable promise.
           </p>
@@ -243,10 +243,8 @@ export default function MethodologyPage() {
               years.
             </li>
             <li>
-              <strong>Value (10%)</strong> — Price relative to the field, on
-              the dated <code>lastProductCheck</code> shown in every guide.
-              Re-checked monthly; we update the score if the price-to-field
-              relationship moves.
+              <strong>Value (10%)</strong> — Price relative to the field,
+              using Amazon prices.
             </li>
           </ul>
           <p>
@@ -318,14 +316,18 @@ export default function MethodologyPage() {
           <p>
             Pet gear is a moving target — formulas reformulate, brands fold,
             recalls happen, and Amazon prices move daily. Every guide on this
-            site shows two dated signals: a top-of-page <code>updatedDate</code>{" "}
-            and a <code>lastProductCheck</code> for pricing and availability.
+            site shows a top-of-page <code>updatedDate</code>, and every price on
+            a product card carries its own dated &ldquo;checked&rdquo; stamp.
           </p>
           <ul>
             <li>
-              <strong>Pricing</strong> is checked at least monthly, and more
-              frequently on high-volatility products (litter, food, smart
-              feeders).
+              <strong>Pricing</strong> runs on no fixed schedule. Each figure on
+              a card comes from a dated read of Amazon, and a newer read
+              replaces an older one. The &ldquo;checked&rdquo; stamp next to
+              the price shows the day it was read. When we can&apos;t confirm
+              a current new-condition price on Amazon, the card shows no
+              figure, only the Amazon link. Prices change, so confirm current
+              price and availability on Amazon before buying.
             </li>
             <li>
               <strong>The source stack</strong> is reviewed quarterly for new
@@ -359,7 +361,9 @@ export default function MethodologyPage() {
           <code>updatedDate</code> descending. Every entry links to the live
           guide. This table is generated from the same dated frontmatter that
           drives each guide&apos;s SourcesPanel — public-record refresh
-          transparency, not a marketing claim.
+          transparency, not a marketing claim. &ldquo;Last product
+          check&rdquo; is a guide-level date, not a price date: each price
+          carries its own &ldquo;checked&rdquo; stamp on its card.
         </p>
 
         <div className="-mx-4 sm:mx-0 overflow-x-auto mb-6">
