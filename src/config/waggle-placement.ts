@@ -103,3 +103,28 @@ export const WAGGLE_PLACEMENT = {
     },
   ] satisfies WaggleProduct[],
 } as const;
+
+/**
+ * Waggle-only Amazon Tracking ID (owner-approved 2026-10-11). Minted in
+ * Associates Central (store nsh069-20) on 2026-10-11 so the sponsor's sales
+ * are separable: Amazon reports revenue per Tracking ID and never echoes
+ * `ascsubtag` back, and the unit used to ride the shared `petpalcam-20`
+ * bucket of its host guide.
+ */
+export const WAGGLE_TRACKING_TAG = "petpalwag-20";
+
+/**
+ * The Waggle tag for a click from THIS unit, or undefined for every other
+ * link. Both must hold: the /go id is one of the unit's ASINs AND the subtag
+ * is the unit's own `sponsored_waggle_*`. An editorial link to the same ASIN
+ * keeps its normal bucket tag, so nothing else on the site changes tag.
+ */
+export function waggleTagFor(
+  id: string,
+  subtag: string | undefined,
+): string | undefined {
+  if (!subtag?.startsWith("sponsored_waggle_")) return undefined;
+  return WAGGLE_PLACEMENT.products.some((p) => p.asin === id)
+    ? WAGGLE_TRACKING_TAG
+    : undefined;
+}

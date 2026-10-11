@@ -21,6 +21,10 @@ import {
  *  - Each click carries st=sponsored_waggle_{key} (ascsubtag on the Amazon
  *    side) plus CLL position tags s={slug}&p=sponsored_waggle, so sponsor
  *    performance is separable from every editorial placement on the page.
+ *  - Tracking ID: /go/[id] bills these clicks to the Waggle-only
+ *    `petpalwag-20` (waggleTagFor in src/config/waggle-placement.ts,
+ *    2026-10-11), keyed on the ASIN + this unit's subtag, so no other link
+ *    changes tag.
  *  - No price is asserted anywhere: the CTA is the price surface, which keeps
  *    the unit outside the snapshot-freshness gate entirely.
  *  - Product images are the official Amazon listing shots, hotlinked from
