@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { after } from "next/server";
 import { buildAmazonDest } from "@/lib/go-destination";
 import { resolveTagForSlug } from "@/config/tracking-ids";
+import { waggleTagFor } from "@/config/waggle-placement";
 
 /**
  * Interaction-gated affiliate redirect (DG-2 structural fix, ports deskgear PR #10).
@@ -47,7 +48,9 @@ export async function GET(
 
   // Per-category tracking tag (attribution §6): resolved from the origin
   // guide's slug + hub bucket. No `?s=` (direct /go hit) → base tag.
-  const tag = resolveTagForSlug(slug);
+  // The Waggle sponsored unit bills to its own Tracking ID instead (scoped to
+  // its ASINs + its own subtag — see src/config/waggle-placement.ts).
+  const tag = waggleTagFor(id, subtag) ?? resolveTagForSlug(slug);
 
   const dest = buildAmazonDest(id, subtag, tag);
 

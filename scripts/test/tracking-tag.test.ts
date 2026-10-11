@@ -12,6 +12,7 @@
  * Run: `npx tsx scripts/test/tracking-tag.test.ts`.
  */
 import { AMAZON_TAGS, resolveTagFromSlugAndHub } from '../../src/config/tracking-ids';
+import { WAGGLE_TRACKING_TAG, waggleTagFor } from '../../src/config/waggle-placement';
 
 let failures = 0;
 
@@ -107,6 +108,15 @@ checkTag('base: empty-string slug treated as no slug', '', undefined, AMAZON_TAG
 
 // Base tag must stay byte-identical to today's site config value.
 check('base tag is byte-identical to petpalhq08-20', AMAZON_TAGS.base === 'petpalhq08-20');
+
+// Waggle sponsored unit (2026-10-11): its own Tracking ID, scoped to its ASINs
+// + its own subtag. Everything else keeps the bucket tag above.
+check('waggle tag is petpalwag-20', WAGGLE_TRACKING_TAG === 'petpalwag-20');
+check('waggle: lite unit click → waggle tag', waggleTagFor('B07SGCYMGN', 'sponsored_waggle_lite') === 'petpalwag-20');
+check('waggle: cam unit click → waggle tag', waggleTagFor('B0F3DH57KD', 'sponsored_waggle_cam') === 'petpalwag-20');
+check('waggle: editorial link to same ASIN → no override', waggleTagFor('B0F3DH57KD', 'pick_1') === undefined);
+check('waggle: no subtag → no override', waggleTagFor('B0F3DH57KD', undefined) === undefined);
+check('waggle: sponsored subtag on another ASIN → no override', waggleTagFor('B000000000', 'sponsored_waggle_cam') === undefined);
 
 if (failures > 0) {
   console.error(`\ntracking-tag test FAILED (${failures} assertion(s)).`);
