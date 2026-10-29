@@ -1,13 +1,26 @@
 {
-  "source": "Amazon Creator Connections — Sponsored Products for Creators (SPCC), Accepted tab, type=spcc; catalog 2026-09-29; rechecked 2026-10-04 (6 ended campaigns removed, EPCs refreshed from the Accepted tab, every remaining ASIN live-read buyable on amazon.com). No Affiliate+ campaigns are included. name + image from the Creators API getItems lookup (scripts/automation/amazon-lookup.cjs). Price deliberately not stored: the sponsored rail unit shows no price.",
+  "source": "Amazon Creator Connections — Sponsored Products for Creators (SPCC), Accepted tab, type=spcc; catalog 2026-09-29; rechecked 2026-10-04; refreshed 2026-10-29 (5 ended campaigns removed, 32 accepted pet campaigns added, EPCs refreshed from the Accepted tab, every ASIN live-read buyable on amazon.com). No Affiliate+ campaigns are included. name + image from the Creators API getItems lookup (scripts/automation/amazon-lookup.cjs). Price deliberately not stored: the sponsored rail unit shows no price.",
   "campaignType": "spcc",
-  "lookedUpAt": "2026-10-04T08:30:00Z",
+  "lookedUpAt": "2026-10-29T00:00:00Z",
   "epcNote": "epc = the SPCC campaign's advertised 'Up to' earnings per click in USD (SPCC campaigns pay the brand's per-click rate on qualifying clicks, not a commission; this is a per-click rate, not a product price); null when the campaign lists N/A. Used only as a tiebreak after topical relevance and appeal (owner 2026-09-29).",
   "topicsNote": "topics = the product's type, set by hand from its name. src/lib/content/sponsored-rail.ts maps each topic to guide words (SPONSORED_TOPIC_TOKENS); a guide whose slug, title, category or keywords contain those words is topically relevant to the product.",
   "appealNote": "appeal = broad everyday-purchase appeal, set from the product type (owner 2026-09-29: the rail's job is to get the Amazon cookie set, so the product most likely to get a click wins). high = consumables and everyday items most owners buy: food, litter, treats/chews, toys and catnip, wipes, shampoo, odor/cleaning sprays, everyday brushes/combs/lint rollers, scratch pad refills. low = niche: supplements and medications, apparel and costumes, device-specific parts/refills (litter trays, fountain filters), and single-purpose accessories (car hammock, door latch, window perch, harness, feeding mat, bucket, paw cleaner, training spray, diapers, bird feeders, small-pet hut, horse kit).",
   "familyNote": "family = the brand product line (owner 2026-09-29: at most ONE product per brand/product family in a guide unit). Variants of the same line share one family: scents, colors, sizes/pack counts, fits of the same filter line (e.g. the three PetSafe ScoopFree crystal litter/tray items, both Voyager harness colors, both Devil Dog antler sizes, both PET STANDARD fountain-filter lines, both Pet MD wipes). Different lines of one brand keep separate families (e.g. Voyager harness vs the Best Pet Supplies stuffless toy; Fancy Feast vs Friskies vs Purina ONE, which the data lists as separate brands). Selection keeps its order and skips a product whose family is already in the unit.",
   "selectionOrder": "Per guide, after the animal-fit filter: (a) topical relevance desc, (b) appeal high before low, (c) epc desc, (d) ASIN; exact ties on (a)-(c) rotate by a hash of the guide slug. Walking that order, a product whose family is already in the unit is skipped (at most one product per family).",
   "products": [
+    {
+      "asin": "B0000AH3RR",
+      "brand": "Purina ONE",
+      "family": "purina-one-food",
+      "animal": "cat",
+      "topics": [
+        "food"
+      ],
+      "appeal": "high",
+      "epc": 1.79,
+      "name": "Purina ONE Tender Selects Dry Cat Food, Salmon",
+      "image": "https://m.media-amazon.com/images/I/41IS5FLAaKL._SL500_.jpg"
+    },
     {
       "asin": "B0002DHR10",
       "brand": "Comfort Zone",
@@ -17,7 +30,7 @@
         "calming"
       ],
       "appeal": "low",
-      "epc": 2.49,
+      "epc": 3.47,
       "name": "Comfort Zone Muli Cat Calming 3 Room Value Kit",
       "image": "https://m.media-amazon.com/images/I/410dYKTnC9L._SL500_.jpg"
     },
@@ -36,6 +49,19 @@
       "image": "https://m.media-amazon.com/images/I/41z0nyMQsHL._SL500_.jpg"
     },
     {
+      "asin": "B0009YWKUA",
+      "brand": "Blue Buffalo",
+      "family": "blue-buffalo-food",
+      "animal": "dog",
+      "topics": [
+        "food"
+      ],
+      "appeal": "high",
+      "epc": 1.85,
+      "name": "Blue Buffalo Life Protection Adult Dry Dog Food",
+      "image": "https://m.media-amazon.com/images/I/41CrZ0cAFXL._SL500_.jpg"
+    },
+    {
       "asin": "B000FEF10A",
       "brand": "PetSafe",
       "family": "petsafe-scoopfree-crystal-litter",
@@ -44,9 +70,23 @@
         "litter"
       ],
       "appeal": "low",
-      "epc": 2.15,
+      "epc": 1.22,
       "name": "PetSafe ScoopFree Disposable Crystal Cat Litter Tray",
       "image": "https://m.media-amazon.com/images/I/511bGNHGMlL._SL500_.jpg"
+    },
+    {
+      "asin": "B000KAHPZ8",
+      "brand": "Greenies",
+      "family": "greenies-dental",
+      "animal": "dog",
+      "topics": [
+        "dental",
+        "chew"
+      ],
+      "appeal": "high",
+      "epc": 2.71,
+      "name": "Greenies Teenie Dental Dog Treats",
+      "image": "https://m.media-amazon.com/images/I/417+mzBqGzL._SL500_.jpg"
     },
     {
       "asin": "B000NVDDXM",
@@ -60,9 +100,35 @@
         "crate"
       ],
       "appeal": "high",
-      "epc": 2.09,
+      "epc": 2.66,
       "name": "Snuggle Puppy Heartbeat Dog Toy for Puppies",
       "image": "https://m.media-amazon.com/images/I/410GxsWc-+L._SL500_.jpg"
+    },
+    {
+      "asin": "B000UCH02O",
+      "brand": "Pet Corrector",
+      "family": "pet-corrector-training",
+      "animal": "dog",
+      "topics": [
+        "training"
+      ],
+      "appeal": "low",
+      "epc": 0.17,
+      "name": "Pet Corrector Dog Trainer",
+      "image": "https://m.media-amazon.com/images/I/41jlOuE4KIL._SL500_.jpg"
+    },
+    {
+      "asin": "B001650NNW",
+      "brand": "Pro Plan Veterinary Diets",
+      "family": "purina-pro-plan-fortiflora",
+      "animal": "dog",
+      "topics": [
+        "supplement"
+      ],
+      "appeal": "low",
+      "epc": 3.49,
+      "name": "Purina Pro Plan FortiFlora Dog Probiotic",
+      "image": "https://m.media-amazon.com/images/I/41+x0QdtkxL._SL500_.jpg"
     },
     {
       "asin": "B0036APTKW",
@@ -73,9 +139,22 @@
         "food"
       ],
       "appeal": "high",
-      "epc": 1.59,
+      "epc": 2.0,
       "name": "ROYAL CANIN Shih Tzu Adult Dry Dog Food",
       "image": "https://m.media-amazon.com/images/I/31h8MsiCI4L._SL500_.jpg"
+    },
+    {
+      "asin": "B003CL3PTM",
+      "brand": "Hill's Science Diet",
+      "family": "hills-science-diet-food",
+      "animal": "dog",
+      "topics": [
+        "food"
+      ],
+      "appeal": "high",
+      "epc": 1.11,
+      "name": "Hill's Science Diet Adult Small & Mini Dry Dog Food",
+      "image": "https://m.media-amazon.com/images/I/41T3dj5I1wL._SL500_.jpg"
     },
     {
       "asin": "B0047VWPNI",
@@ -87,9 +166,61 @@
         "supplement"
       ],
       "appeal": "low",
-      "epc": 2.29,
+      "epc": 2.42,
       "name": "ProDen PlaqueOff Powder for Dogs",
       "image": "https://m.media-amazon.com/images/I/41C0yjTk3fL._SL500_.jpg"
+    },
+    {
+      "asin": "B00486UBI8",
+      "brand": "Hyper Pet",
+      "family": "hyper-pet-toy",
+      "animal": "dog",
+      "topics": [
+        "toy"
+      ],
+      "appeal": "high",
+      "epc": 0.25,
+      "name": "Hyper Pet MINI Tennis Balls for Dogs",
+      "image": "https://m.media-amazon.com/images/I/51DSjVeH33L._SL500_.jpg"
+    },
+    {
+      "asin": "B004QMX4YW",
+      "brand": "K9 Advantix",
+      "family": "k9-advantix",
+      "animal": "dog",
+      "topics": [
+        "parasite"
+      ],
+      "appeal": "low",
+      "epc": 2.29,
+      "name": "K9 Advantix II Flea & Tick for Large Dogs",
+      "image": "https://m.media-amazon.com/images/I/5186N-02VNL._SL500_.jpg"
+    },
+    {
+      "asin": "B005OB3E30",
+      "brand": "Fancy Feast",
+      "family": "fancy-feast-food",
+      "animal": "cat",
+      "topics": [
+        "food"
+      ],
+      "appeal": "high",
+      "epc": 2.89,
+      "name": "Purina Fancy Feast Gravy Lovers Wet Cat Food, 24 Pack",
+      "image": "https://m.media-amazon.com/images/I/510+br0IwLL._SL500_.jpg"
+    },
+    {
+      "asin": "B008CAGE3M",
+      "brand": "Prevue Pet Products",
+      "family": "prevue-pet-products-small-pet",
+      "animal": "small-pet",
+      "topics": [
+        "small-pet"
+      ],
+      "appeal": "low",
+      "epc": 0.08,
+      "name": "Prevue Pet Products Nature's Hideaway Grass Hut",
+      "image": "https://m.media-amazon.com/images/I/41cpx74kJeL._SL500_.jpg"
     },
     {
       "asin": "B00BAGTNAQ",
@@ -100,7 +231,7 @@
         "hair-cleanup"
       ],
       "appeal": "high",
-      "epc": 1.05,
+      "epc": 1.11,
       "name": "ChomChom Roller Pet Hair Remover",
       "image": "https://m.media-amazon.com/images/I/41D+q6JzToL._SL500_.jpg"
     },
@@ -113,9 +244,23 @@
         "food"
       ],
       "appeal": "high",
-      "epc": 2.45,
+      "epc": 3.49,
       "name": "IAMS Proactive Health Adult Minichunks Dry Dog Food",
       "image": "https://m.media-amazon.com/images/I/51HmjabfjBL._SL500_.jpg"
+    },
+    {
+      "asin": "B00CPDWT2M",
+      "brand": "Benebone",
+      "family": "benebone-chew",
+      "animal": "dog",
+      "topics": [
+        "chew",
+        "toy"
+      ],
+      "appeal": "high",
+      "epc": 1.38,
+      "name": "Benebone Wishbone Dog Chew Toy, Real Bacon",
+      "image": "https://m.media-amazon.com/images/I/31gElQBXzJL._SL500_.jpg"
     },
     {
       "asin": "B00DL7U1KS",
@@ -126,9 +271,35 @@
         "horse"
       ],
       "appeal": "low",
-      "epc": 1.19,
+      "epc": 0.26,
       "name": "Weaver Equine Horse Grooming Kit",
       "image": "https://m.media-amazon.com/images/I/41YIP7nojdL._SL500_.jpg"
+    },
+    {
+      "asin": "B00LCIV210",
+      "brand": "PET STANDARD",
+      "family": "pet-standard-fountain-filters",
+      "animal": "multi",
+      "topics": [
+        "water"
+      ],
+      "appeal": "low",
+      "epc": 0.48,
+      "name": "Premium Charcoal Filters for PetSafe Drinkwell",
+      "image": "https://m.media-amazon.com/images/I/41Wb+b-ScIL._SL500_.jpg"
+    },
+    {
+      "asin": "B00N54EGIK",
+      "brand": "WEST PAW",
+      "family": "west-paw-toy",
+      "animal": "dog",
+      "topics": [
+        "toy"
+      ],
+      "appeal": "high",
+      "epc": 0.65,
+      "name": "WEST PAW Toppl Treat Puzzle Dog Toy",
+      "image": "https://m.media-amazon.com/images/I/31HTdbYy-7L._SL500_.jpg"
     },
     {
       "asin": "B00OIOB90E",
@@ -139,7 +310,7 @@
         "grooming"
       ],
       "appeal": "high",
-      "epc": 0.46,
+      "epc": 0.84,
       "name": "GoPets 2-in-1 Deshedding & Dematting Comb",
       "image": "https://m.media-amazon.com/images/I/517Knw3835L._SL500_.jpg"
     },
@@ -152,7 +323,7 @@
         "toy"
       ],
       "appeal": "high",
-      "epc": 1.1,
+      "epc": 0.6,
       "name": "ZippyPaws Skinny Peltz No Stuffing Dog Toy Pack",
       "image": "https://m.media-amazon.com/images/I/41alNBBXcUL._SL500_.jpg"
     },
@@ -165,7 +336,7 @@
         "grooming"
       ],
       "appeal": "high",
-      "epc": 0.68,
+      "epc": 1.58,
       "name": "SleekEZ Dog Brush for Shedding",
       "image": "https://m.media-amazon.com/images/I/31Zp3W7WvzL._SL500_.jpg"
     },
@@ -179,9 +350,64 @@
         "puppy"
       ],
       "appeal": "high",
-      "epc": 0.83,
+      "epc": 0.76,
       "name": "N-Bone Puppy Teething Rings",
       "image": "https://m.media-amazon.com/images/I/51G6VIIVIBL._SL500_.jpg"
+    },
+    {
+      "asin": "B016QT678M",
+      "brand": "Door Buddy",
+      "family": "door-buddy-door",
+      "animal": "cat",
+      "topics": [
+        "door"
+      ],
+      "appeal": "low",
+      "epc": 1.13,
+      "name": "Door Buddy Pet Door Latch for Cats",
+      "image": "https://m.media-amazon.com/images/I/51eErdjitpL._SL500_.jpg"
+    },
+    {
+      "asin": "B0180A1J38",
+      "brand": "Pet MD",
+      "family": "pet-md-wipes",
+      "animal": "multi",
+      "topics": [
+        "wipe",
+        "skin"
+      ],
+      "appeal": "high",
+      "epc": 2.07,
+      "name": "Pet MD Topical Wipes for Cleansing",
+      "image": "https://m.media-amazon.com/images/I/41Fz7ifxiRL._SL500_.jpg"
+    },
+    {
+      "asin": "B0180N6REG",
+      "brand": "Amazing Nutritionals",
+      "family": "amazing-nutritionals-joint",
+      "animal": "dog",
+      "topics": [
+        "joint",
+        "supplement"
+      ],
+      "appeal": "low",
+      "epc": 2.04,
+      "name": "Amazing Turmeric for Dogs",
+      "image": "https://m.media-amazon.com/images/I/41Ylb63eQrL._SL500_.jpg"
+    },
+    {
+      "asin": "B01AMTU1ZM",
+      "brand": "VETIQ",
+      "family": "vetiq-joint",
+      "animal": "dog",
+      "topics": [
+        "joint",
+        "supplement"
+      ],
+      "appeal": "low",
+      "epc": 3.5,
+      "name": "VetIQ Glucosamine Hip & Joint Chews for Dogs",
+      "image": "https://m.media-amazon.com/images/I/51F+ux9k8zL._SL500_.jpg"
     },
     {
       "asin": "B01BKSECWW",
@@ -193,9 +419,36 @@
         "supplement"
       ],
       "appeal": "low",
-      "epc": 1.5,
+      "epc": 0.72,
       "name": "Nutramax Cosequin Small Dog Joint Supplement",
       "image": "https://m.media-amazon.com/images/I/41AwgIwnjzL._SL500_.jpg"
+    },
+    {
+      "asin": "B01C600O0W",
+      "brand": "Cat's Pride",
+      "family": "cats-pride-litter",
+      "animal": "cat",
+      "topics": [
+        "litter"
+      ],
+      "appeal": "high",
+      "epc": 0.19,
+      "name": "Cat's Pride Pure & Fresh Clumping Litter",
+      "image": "https://m.media-amazon.com/images/I/41DySAmLR3L._SL500_.jpg"
+    },
+    {
+      "asin": "B01EX0H12M",
+      "brand": "Full Moon",
+      "family": "full-moon-treats",
+      "animal": "dog",
+      "topics": [
+        "food",
+        "training"
+      ],
+      "appeal": "high",
+      "epc": 0.79,
+      "name": "Full Moon Chicken Jerky Dog Treats",
+      "image": "https://m.media-amazon.com/images/I/41tpUtk3FGL._SL500_.jpg"
     },
     {
       "asin": "B01G2TAV0Q",
@@ -207,7 +460,7 @@
         "yard"
       ],
       "appeal": "high",
-      "epc": 0.92,
+      "epc": 1.07,
       "name": "Simple Green Outdoor Odor Eliminator for Pets",
       "image": "https://m.media-amazon.com/images/I/51Gr1tj5RmL._SL500_.jpg"
     },
@@ -220,9 +473,23 @@
         "odor"
       ],
       "appeal": "high",
-      "epc": 1.4,
+      "epc": 1.46,
       "name": "Good Natured Brand Carpet Deodorizer & Pet Odor Eliminator",
       "image": "https://m.media-amazon.com/images/I/41vPtxjODoL._SL500_.jpg"
+    },
+    {
+      "asin": "B01IRO7WR4",
+      "brand": "Pet MD",
+      "family": "pet-md-wipes",
+      "animal": "dog",
+      "topics": [
+        "ear",
+        "wipe"
+      ],
+      "appeal": "high",
+      "epc": 2.54,
+      "name": "Pet MD Dog Ear Cleaning Wipes",
+      "image": "https://m.media-amazon.com/images/I/41YTlHO0vEL._SL500_.jpg"
     },
     {
       "asin": "B01J5GE3MA",
@@ -233,9 +500,35 @@
         "litter"
       ],
       "appeal": "high",
-      "epc": 1.38,
+      "epc": 1.49,
       "name": "PetSafe ScoopFree Premium Crystal Litter, Fresh Scent",
       "image": "https://m.media-amazon.com/images/I/41wdPOCqlgL._SL500_.jpg"
+    },
+    {
+      "asin": "B01J6JUST8",
+      "brand": "Devil Dog Pet Co",
+      "family": "devil-dog-elk-antlers",
+      "animal": "dog",
+      "topics": [
+        "chew"
+      ],
+      "appeal": "high",
+      "epc": 1.29,
+      "name": "Devil Dog Pet Co Whole Elk Antlers for Dogs, Large",
+      "image": "https://m.media-amazon.com/images/I/513g995o70L._SL500_.jpg"
+    },
+    {
+      "asin": "B01LNB6SA0",
+      "brand": "Temptations",
+      "family": "temptations-treats",
+      "animal": "cat",
+      "topics": [
+        "food"
+      ],
+      "appeal": "high",
+      "epc": 1.59,
+      "name": "Temptations Classic Cat Treats, Chicken",
+      "image": "https://m.media-amazon.com/images/I/519+nrw3+aL._SL500_.jpg"
     },
     {
       "asin": "B01MTCODOT",
@@ -246,7 +539,7 @@
         "litter"
       ],
       "appeal": "high",
-      "epc": 1.44,
+      "epc": 1.47,
       "name": "PetSafe ScoopFree Premium Crystal Litter, Lavender Scent",
       "image": "https://m.media-amazon.com/images/I/41KWGTLsSdL._SL500_.jpg"
     },
@@ -259,36 +552,35 @@
         "paw"
       ],
       "appeal": "low",
-      "epc": 0.16,
+      "epc": 0.3,
       "name": "Dexas MudBuster Portable Dog Paw Cleaner",
       "image": "https://m.media-amazon.com/images/I/41I8iXz1omL._SL500_.jpg"
     },
     {
-      "asin": "B016QT678M",
-      "brand": "Door Buddy",
-      "family": "door-buddy-door",
+      "asin": "B01N30MZJX",
+      "brand": "Cat Crack",
+      "family": "cat-crack-toy",
       "animal": "cat",
       "topics": [
-        "door"
+        "toy"
       ],
-      "appeal": "low",
-      "epc": 1.19,
-      "name": "Door Buddy Pet Door Latch for Cats",
-      "image": "https://m.media-amazon.com/images/I/51eErdjitpL._SL500_.jpg"
+      "appeal": "high",
+      "epc": 1.22,
+      "name": "Cat Crack Catnip",
+      "image": "https://m.media-amazon.com/images/I/516S41WqssL._SL500_.jpg"
     },
     {
-      "asin": "B0180N6REG",
-      "brand": "Amazing Nutritionals",
-      "family": "amazing-nutritionals-joint",
+      "asin": "B01NAZ0CR9",
+      "brand": "Cesar",
+      "family": "cesar-food",
       "animal": "dog",
       "topics": [
-        "joint",
-        "supplement"
+        "food"
       ],
-      "appeal": "low",
-      "epc": 2.4,
-      "name": "Amazing Turmeric for Dogs",
-      "image": "https://m.media-amazon.com/images/I/41Ylb63eQrL._SL500_.jpg"
+      "appeal": "high",
+      "epc": 2.53,
+      "name": "Cesar Filets in Gravy Wet Dog Food Variety Pack",
+      "image": "https://m.media-amazon.com/images/I/51G1m4gwm4L._SL500_.jpg"
     },
     {
       "asin": "B072148P33",
@@ -299,9 +591,35 @@
         "bowl"
       ],
       "appeal": "low",
-      "epc": 0.4,
+      "epc": 0.36,
       "name": "Reopet Silicone Pet Feeding Mat",
       "image": "https://m.media-amazon.com/images/I/41F8GCcc+kL._SL500_.jpg"
+    },
+    {
+      "asin": "B07239T47Y",
+      "brand": "Outward Hound",
+      "family": "outward-hound-puzzle",
+      "animal": "dog",
+      "topics": [
+        "toy"
+      ],
+      "appeal": "high",
+      "epc": 0.89,
+      "name": "Outward Hound Nina Ottosson Dog Tornado Puzzle",
+      "image": "https://m.media-amazon.com/images/I/41+1GWK-zdL._SL500_.jpg"
+    },
+    {
+      "asin": "B072DTFZHL",
+      "brand": "Sheba",
+      "family": "sheba-food",
+      "animal": "cat",
+      "topics": [
+        "food"
+      ],
+      "appeal": "high",
+      "epc": 1.64,
+      "name": "Sheba Perfect Portions Wet Cat Food, 24 Count",
+      "image": "https://m.media-amazon.com/images/I/517oVgkGd0L._SL500_.jpg"
     },
     {
       "asin": "B073F5GQWM",
@@ -313,7 +631,7 @@
         "summer-heat"
       ],
       "appeal": "low",
-      "epc": 0.36,
+      "epc": 0.3,
       "name": "QUMY Dog Shoes for Hot Pavement",
       "image": "https://m.media-amazon.com/images/I/51VUs5CwRsL._SL500_.jpg"
     },
@@ -326,9 +644,36 @@
         "fashion"
       ],
       "appeal": "low",
-      "epc": 0.3,
+      "epc": 0.13,
       "name": "Reversible Bandana, Texas Longhorns",
       "image": "https://m.media-amazon.com/images/I/510ESuJcVDL._SL500_.jpg"
+    },
+    {
+      "asin": "B0759HPX22",
+      "brand": "Furhaven",
+      "family": "furhaven-bed",
+      "animal": "dog",
+      "topics": [
+        "joint",
+        "crate"
+      ],
+      "appeal": "low",
+      "epc": 0.33,
+      "name": "Furhaven Orthopedic Dog Bed for Large Dogs",
+      "image": "https://m.media-amazon.com/images/I/31hZ4QOEO3L._SL500_.jpg"
+    },
+    {
+      "asin": "B075N83693",
+      "brand": "gonicc",
+      "family": "gonicc-grooming",
+      "animal": "multi",
+      "topics": [
+        "grooming"
+      ],
+      "appeal": "low",
+      "epc": 0.79,
+      "name": "gonicc Pet Nail Clippers",
+      "image": "https://m.media-amazon.com/images/I/31nrdilWHtL._SL500_.jpg"
     },
     {
       "asin": "B075SSR5CG",
@@ -340,9 +685,48 @@
         "supplement"
       ],
       "appeal": "low",
-      "epc": 2.44,
+      "epc": 2.85,
       "name": "NaturVet Quiet Moments Calming with Melatonin",
       "image": "https://m.media-amazon.com/images/I/41nRQStGyyL._SL500_.jpg"
+    },
+    {
+      "asin": "B076BXK2NT",
+      "brand": "Best Pet Supplies",
+      "family": "best-pet-supplies-catify-scratch-pad",
+      "animal": "cat",
+      "topics": [
+        "scratch"
+      ],
+      "appeal": "high",
+      "epc": 0.75,
+      "name": "Catify Spin n' Scratch Cat Scratch Pad Refill",
+      "image": "https://m.media-amazon.com/images/I/51+XJQc8cjL._SL500_.jpg"
+    },
+    {
+      "asin": "B076F7HM8T",
+      "brand": "TUG",
+      "family": "tug-leash",
+      "animal": "dog",
+      "topics": [
+        "walk"
+      ],
+      "appeal": "low",
+      "epc": 0.53,
+      "name": "TUG Retractable Dog Leash, 16 ft",
+      "image": "https://m.media-amazon.com/images/I/41Qlfdjpa1L._SL500_.jpg"
+    },
+    {
+      "asin": "B077ZTYKZC",
+      "brand": "wegreeco",
+      "family": "wegreeco-diaper",
+      "animal": "dog",
+      "topics": [
+        "diaper"
+      ],
+      "appeal": "low",
+      "epc": 0.54,
+      "name": "wegreeco Washable Male Dog Belly Wraps, 3 Pack",
+      "image": "https://m.media-amazon.com/images/I/41KwcT+UvXL._SL500_.jpg"
     },
     {
       "asin": "B079J4D965",
@@ -353,9 +737,22 @@
         "weather"
       ],
       "appeal": "low",
-      "epc": 0.38,
+      "epc": 0.43,
       "name": "HDE Dog Raincoat with Hood & Leash Hole",
       "image": "https://m.media-amazon.com/images/I/41jxJk93ePL._SL500_.jpg"
+    },
+    {
+      "asin": "B07CX9STN3",
+      "brand": "Friskies",
+      "family": "friskies-food",
+      "animal": "cat",
+      "topics": [
+        "food"
+      ],
+      "appeal": "high",
+      "epc": 1.41,
+      "name": "Purina Friskies Wet Cat Food Variety Pack",
+      "image": "https://m.media-amazon.com/images/I/51T9CKu0BeL._SL500_.jpg"
     },
     {
       "asin": "B07F45GGPT",
@@ -366,9 +763,22 @@
         "toy"
       ],
       "appeal": "high",
-      "epc": 0.59,
+      "epc": 0.6,
       "name": "MeoHui Cat Toys for Indoor Cats",
       "image": "https://m.media-amazon.com/images/I/41j6j4tYYAL._SL500_.jpg"
+    },
+    {
+      "asin": "B07F6N3RT6",
+      "brand": "Bissell",
+      "family": "bissell-vacuum",
+      "animal": "multi",
+      "topics": [
+        "hair-cleanup"
+      ],
+      "appeal": "low",
+      "epc": 1.04,
+      "name": "Bissell CleanView Swivel Pet Upright Vacuum",
+      "image": "https://m.media-amazon.com/images/I/31ijwDHgpZL._SL500_.jpg"
     },
     {
       "asin": "B07G5WTBZC",
@@ -392,102 +802,87 @@
         "car"
       ],
       "appeal": "low",
-      "epc": 0.67,
+      "epc": 0.53,
       "name": "Active Pets Black Standard Dog Car Hammock",
       "image": "https://m.media-amazon.com/images/I/4185w+Xl+RL._SL500_.jpg"
     },
     {
-      "asin": "B07HMW48SN",
+      "asin": "B07PF1KYYK",
       "brand": "K&H Pet Products",
-      "family": "kandh-pet-products-window",
+      "family": "kandh-self-warming",
       "animal": "cat",
       "topics": [
-        "window"
+        "weather"
       ],
       "appeal": "low",
-      "epc": 0.63,
-      "name": "K&H Cat Window Perch",
-      "image": "https://m.media-amazon.com/images/I/41bA49VvGsL._SL500_.jpg"
+      "epc": 0.48,
+      "name": "K&H Self-Warming Cat Bed Pad",
+      "image": "https://m.media-amazon.com/images/I/41ccxquPjUL._SL500_.jpg"
     },
     {
-      "asin": "B01J6JUST8",
-      "brand": "Devil Dog Pet Co",
-      "family": "devil-dog-elk-antlers",
-      "animal": "dog",
-      "topics": [
-        "chew"
-      ],
-      "appeal": "high",
-      "epc": 1.0,
-      "name": "Devil Dog Pet Co Whole Elk Antlers for Dogs, Large",
-      "image": "https://m.media-amazon.com/images/I/513g995o70L._SL500_.jpg"
-    },
-    {
-      "asin": "B01N30MZJX",
-      "brand": "Cat Crack",
-      "family": "cat-crack-toy",
-      "animal": "cat",
-      "topics": [
-        "toy"
-      ],
-      "appeal": "high",
-      "epc": 1.34,
-      "name": "Cat Crack Catnip",
-      "image": "https://m.media-amazon.com/images/I/516S41WqssL._SL500_.jpg"
-    },
-    {
-      "asin": "B09SGWL7B6",
-      "brand": "Best Pet Supplies",
-      "family": "best-pet-supplies-voyager-harness",
-      "animal": "dog",
-      "topics": [
-        "walk"
-      ],
-      "appeal": "low",
-      "epc": 0.33,
-      "name": "Voyager Step-in Air Dog Vest Harness - Black",
-      "image": "https://m.media-amazon.com/images/I/41sa20nE8fL._SL500_.jpg"
-    },
-    {
-      "asin": "B01IRO7WR4",
-      "brand": "Pet MD",
-      "family": "pet-md-wipes",
-      "animal": "dog",
-      "topics": [
-        "ear",
-        "wipe"
-      ],
-      "appeal": "high",
-      "epc": 2.46,
-      "name": "Pet MD Dog Ear Cleaning Wipes",
-      "image": "https://m.media-amazon.com/images/I/41YTlHO0vEL._SL500_.jpg"
-    },
-    {
-      "asin": "B0180A1J38",
-      "brand": "Pet MD",
-      "family": "pet-md-wipes",
-      "animal": "multi",
-      "topics": [
-        "wipe",
-        "skin"
-      ],
-      "appeal": "high",
-      "epc": 1.68,
-      "name": "Pet MD Topical Wipes for Cleansing",
-      "image": "https://m.media-amazon.com/images/I/41Fz7ifxiRL._SL500_.jpg"
-    },
-    {
-      "asin": "B008CAGE3M",
-      "brand": "Prevue Pet Products",
-      "family": "prevue-pet-products-small-pet",
+      "asin": "B07PGNH335",
+      "brand": "Amakunft",
+      "family": "amakunft-small-pet",
       "animal": "small-pet",
       "topics": [
         "small-pet"
       ],
       "appeal": "low",
-      "epc": 0.05,
-      "name": "Prevue Pet Products Nature's Hideaway Grass Hut",
-      "image": "https://m.media-amazon.com/images/I/41cpx74kJeL._SL500_.jpg"
+      "epc": 0.26,
+      "name": "Amakunft Small Animal Playpen",
+      "image": "https://m.media-amazon.com/images/I/415YbNiSVQL._SL500_.jpg"
+    },
+    {
+      "asin": "B07Q1TKTP9",
+      "brand": "Capstar",
+      "family": "capstar-flea",
+      "animal": "cat",
+      "topics": [
+        "parasite"
+      ],
+      "appeal": "low",
+      "epc": 2.02,
+      "name": "Capstar Oral Flea Tablets for Cats",
+      "image": "https://m.media-amazon.com/images/I/41KHf8+qc-L._SL500_.jpg"
+    },
+    {
+      "asin": "B07W85ZPL1",
+      "brand": "Casfuy",
+      "family": "casfuy-grooming",
+      "animal": "dog",
+      "topics": [
+        "grooming"
+      ],
+      "appeal": "low",
+      "epc": 0.89,
+      "name": "Casfuy Dog Nail Grinder",
+      "image": "https://m.media-amazon.com/images/I/31ixrPRbekL._SL500_.jpg"
+    },
+    {
+      "asin": "B07X836SW9",
+      "brand": "COOYOO",
+      "family": "cooyoo-car",
+      "animal": "dog",
+      "topics": [
+        "car"
+      ],
+      "appeal": "low",
+      "epc": 0.55,
+      "name": "COOYOO Dog Seat Belt, 3 Pack",
+      "image": "https://m.media-amazon.com/images/I/51MbzjtYgbL._SL500_.jpg"
+    },
+    {
+      "asin": "B07ZK9J6V4",
+      "brand": "WePet",
+      "family": "wepet-litter-scoop",
+      "animal": "cat",
+      "topics": [
+        "litter"
+      ],
+      "appeal": "high",
+      "epc": 0.39,
+      "name": "WePet Aluminum Cat Litter Scoop",
+      "image": "https://m.media-amazon.com/images/I/41W9OpoD5dL._SL500_.jpg"
     },
     {
       "asin": "B07ZT9W31M",
@@ -503,6 +898,33 @@
       "image": "https://m.media-amazon.com/images/I/51CyqkwAdWL._SL500_.jpg"
     },
     {
+      "asin": "B084WCBB6X",
+      "brand": "Perky-Pet",
+      "family": "perky-pet-hummingbird-feeder",
+      "animal": "bird",
+      "topics": [
+        "bird-feeder",
+        "hummingbird"
+      ],
+      "appeal": "low",
+      "epc": 0.16,
+      "name": "Perky-Pet Glass Hummingbird Feeders for Outdoors",
+      "image": "https://m.media-amazon.com/images/I/41itECwKO4L._SL500_.jpg"
+    },
+    {
+      "asin": "B086PCQ3HQ",
+      "brand": "tobeDRI",
+      "family": "tobedri-harness",
+      "animal": "dog",
+      "topics": [
+        "walk"
+      ],
+      "appeal": "low",
+      "epc": 0.48,
+      "name": "tobeDRI No Pull Dog Harness",
+      "image": "https://m.media-amazon.com/images/I/51LMtmvX6OL._SL500_.jpg"
+    },
+    {
       "asin": "B08CCGYTDR",
       "brand": "Best Pet Supplies",
       "family": "best-pet-supplies-voyager-harness",
@@ -511,22 +933,63 @@
         "walk"
       ],
       "appeal": "low",
-      "epc": 0.32,
+      "epc": 0.4,
       "name": "Voyager Step-in Air Dog Vest Harness - Baby Blue",
       "image": "https://m.media-amazon.com/images/I/51LSHS9jKjL._SL500_.jpg"
     },
     {
-      "asin": "B071DBBYYB",
-      "brand": "Pet Parents",
-      "family": "pet-parents-diaper",
+      "asin": "B08CWY3TLW",
+      "brand": "Oxyfresh",
+      "family": "oxyfresh-dental",
+      "animal": "multi",
+      "topics": [
+        "dental"
+      ],
+      "appeal": "high",
+      "epc": 1.42,
+      "name": "Oxyfresh Pet Dental Water Additive",
+      "image": "https://m.media-amazon.com/images/I/41NgK0qs45L._SL500_.jpg"
+    },
+    {
+      "asin": "B097BQYZC5",
+      "brand": "BLUETREE",
+      "family": "bluetree-training",
       "animal": "dog",
       "topics": [
+        "training",
         "diaper"
       ],
       "appeal": "low",
-      "epc": 0.69,
-      "name": "Washable Dog Diapers",
-      "image": "https://m.media-amazon.com/images/I/41ySh+thxIL._SL500_.jpg"
+      "epc": 0.37,
+      "name": "BLUETREE Dog Potty Training Doorbells",
+      "image": "https://m.media-amazon.com/images/I/41h19slVTnL._SL500_.jpg"
+    },
+    {
+      "asin": "B098P6164W",
+      "brand": "Aumuca",
+      "family": "aumuca-grooming",
+      "animal": "cat",
+      "topics": [
+        "grooming",
+        "hair-cleanup"
+      ],
+      "appeal": "high",
+      "epc": 0.38,
+      "name": "Aumuca Cat Brush for Shedding",
+      "image": "https://m.media-amazon.com/images/I/41KLVMlxkfL._SL500_.jpg"
+    },
+    {
+      "asin": "B09SGWL7B6",
+      "brand": "Best Pet Supplies",
+      "family": "best-pet-supplies-voyager-harness",
+      "animal": "dog",
+      "topics": [
+        "walk"
+      ],
+      "appeal": "low",
+      "epc": 0.39,
+      "name": "Voyager Step-in Air Dog Vest Harness - Black",
+      "image": "https://m.media-amazon.com/images/I/41sa20nE8fL._SL500_.jpg"
     },
     {
       "asin": "B0BPJLJPSX",
@@ -537,115 +1000,9 @@
         "toy"
       ],
       "appeal": "high",
-      "epc": 0.4,
+      "epc": 0.26,
       "name": "2-in-1 Stuffless Squeaky Dog Toy",
       "image": "https://m.media-amazon.com/images/I/41dImuMHXCL._SL500_.jpg"
-    },
-    {
-      "asin": "B00486UBI8",
-      "brand": "Hyper Pet",
-      "family": "hyper-pet-toy",
-      "animal": "dog",
-      "topics": [
-        "toy"
-      ],
-      "appeal": "high",
-      "epc": 0.24,
-      "name": "Hyper Pet MINI Tennis Balls for Dogs",
-      "image": "https://m.media-amazon.com/images/I/51DSjVeH33L._SL500_.jpg"
-    },
-    {
-      "asin": "B0021WXRPK",
-      "brand": "Advance Pet Products",
-      "family": "advance-pet-products-water",
-      "animal": "multi",
-      "topics": [
-        "water",
-        "yard"
-      ],
-      "appeal": "low",
-      "epc": 0.12,
-      "name": "Heavy Stainless Steel Round Bucket",
-      "image": "https://m.media-amazon.com/images/I/410Ob25+sTL._SL500_.jpg"
-    },
-    {
-      "asin": "B076BXK2NT",
-      "brand": "Best Pet Supplies",
-      "family": "best-pet-supplies-catify-scratch-pad",
-      "animal": "cat",
-      "topics": [
-        "scratch"
-      ],
-      "appeal": "high",
-      "epc": 0.66,
-      "name": "Catify Spin n' Scratch Cat Scratch Pad Refill",
-      "image": "https://m.media-amazon.com/images/I/51+XJQc8cjL._SL500_.jpg"
-    },
-    {
-      "asin": "B00LCIV210",
-      "brand": "PET STANDARD",
-      "family": "pet-standard-fountain-filters",
-      "animal": "multi",
-      "topics": [
-        "water"
-      ],
-      "appeal": "low",
-      "epc": 0.18,
-      "name": "Premium Charcoal Filters for PetSafe Drinkwell",
-      "image": "https://m.media-amazon.com/images/I/41Wb+b-ScIL._SL500_.jpg"
-    },
-    {
-      "asin": "B000UCH02O",
-      "brand": "Pet Corrector",
-      "family": "pet-corrector-training",
-      "animal": "dog",
-      "topics": [
-        "training"
-      ],
-      "appeal": "low",
-      "epc": 0.18,
-      "name": "Pet Corrector Dog Trainer",
-      "image": "https://m.media-amazon.com/images/I/41jlOuE4KIL._SL500_.jpg"
-    },
-    {
-      "asin": "B01N7N0UCU",
-      "brand": "PET STANDARD",
-      "family": "pet-standard-fountain-filters",
-      "animal": "multi",
-      "topics": [
-        "water"
-      ],
-      "appeal": "low",
-      "epc": 0.37,
-      "name": "PET Standard Charcoal Filters for Petmate",
-      "image": "https://m.media-amazon.com/images/I/411LhuhadvL._SL500_.jpg"
-    },
-    {
-      "asin": "B000HHLHK8",
-      "brand": "Perky-Pet",
-      "family": "perky-pet-wild-bird-seed-feeder",
-      "animal": "bird",
-      "topics": [
-        "bird-feeder"
-      ],
-      "appeal": "low",
-      "epc": 0.13,
-      "name": "Perky-Pet Red Cardinal Wild Bird Feeder",
-      "image": "https://m.media-amazon.com/images/I/51h6O1EZhAL._SL500_.jpg"
-    },
-    {
-      "asin": "B084WCBB6X",
-      "brand": "Perky-Pet",
-      "family": "perky-pet-hummingbird-feeder",
-      "animal": "bird",
-      "topics": [
-        "bird-feeder",
-        "hummingbird"
-      ],
-      "appeal": "low",
-      "epc": 0.1,
-      "name": "Perky-Pet Glass Hummingbird Feeders for Outdoors",
-      "image": "https://m.media-amazon.com/images/I/41itECwKO4L._SL500_.jpg"
     }
   ]
 }
