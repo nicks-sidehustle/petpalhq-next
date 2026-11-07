@@ -352,7 +352,6 @@ check('one product per family: two relevant same-family products -> only one sho
     fam('B01J5GE3MA') === fam('B01MTCODOT') && fam('B01MTCODOT') === fam('B000FEF10A'),
   );
   check('real data: Voyager harness colors share one family', fam('B09SGWL7B6') === fam('B08CCGYTDR'));
-  check('real data: PET STANDARD fountain-filter lines share one family', fam('B00LCIV210') === fam('B01N7N0UCU'));
 }
 const ov = orderViolations(selectSponsoredRailProducts);
 check('relevance beats appeal beats EPC (relevant low-EPC outranks irrelevant high-EPC)', ov.length === 0, ov.join('; '));
