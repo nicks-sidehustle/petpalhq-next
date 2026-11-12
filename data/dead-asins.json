@@ -300,6 +300,15 @@
       "flying-with-a-pet-airline-carrier-prep-checklist-2026.md"
     ]
   },
+  "B0H95MKFX3": {
+    "status": "dead",
+    "pick": "ELECANE Teacup Bark Collar for Small Dogs 2-15lbs",
+    "reason": "Page Not Found -- live read 2026-11-12 (owner Chrome, /dp page fetch) returned HTTP 404, no product page (https://www.amazon.com/dp/B0H95MKFX3). Truly gone pick (CLAUDE.md §4): removed from best-bark-collars-anti-bark-devices-2026 in the same PR; replacement research needed.",
+    "lastVerified": "2026-11-12",
+    "guides": [
+      "best-bark-collars-anti-bark-devices-2026.md"
+    ]
+  },
   "best-reef-aquarium-sumps-refugiums-2026#4": {
     "status": "no_listing",
     "pick": "Eshopps RS-100 Reef Sump",
