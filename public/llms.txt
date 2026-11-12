@@ -10,7 +10,7 @@ Cross-domain: PetPalHQ shares editorial direction with the established sister si
 
 Contact: editor@petpalhq.com
 
-Generated: 2026-10-05
+Generated: 2026-11-12
 
 ## AI Agent API (Model Context Protocol)
 
@@ -132,7 +132,7 @@ Cluster guides that synthesize expert consensus on a topic. Each hub links to th
 
 ### Cat & Dog Behavior, Anxiety & Enrichment
 
-- [Best Bark Collars and Anti-Bark Devices for Dogs, and How to Use Them Humanely (2026)](https://petpalhq.com/guides/best-bark-collars-anti-bark-devices-2026): Seven no-shock bark collars and stand-alone anti-bark units ranked on upkeep, fit and trigger control, with the ASPCA, VCA and AVSAB caveats that come with every one.
+- [Best Bark Collars and Anti-Bark Devices for Dogs, and How to Use Them Humanely (2026)](https://petpalhq.com/guides/best-bark-collars-anti-bark-devices-2026): Six no-shock bark collars and stand-alone anti-bark units ranked on upkeep, fit and trigger control, with the ASPCA, VCA and AVSAB caveats that come with every one.
 - [Best Cat Pheromone Diffusers and Calming Products: Multi-Cat Tension, Vet Visits, Moving (2026)](https://petpalhq.com/guides/best-cat-pheromone-diffusers-calming-2026): For cats, calming starts with environment, not sedatives. Pheromone diffusers, travel sprays, calming chews, and safe-place beds support the AAFP/ISFM five-pillar framework — but…
 - [Best Cat Scratching Posts and Furniture Alternatives (2026)](https://petpalhq.com/guides/best-cat-enrichment-toys-scratchers-2026): Scratching is normal feline behavior — AAFP and ASPCA both oppose declawing as a furniture-protection solution. The SmartCat Pioneer Pet Ultimate Scratching Post anchors the…
 - [Best Chew-Proof Dog Beds for Heavy Chewers and Large Dogs (2026)](https://petpalhq.com/guides/best-chew-proof-dog-beds-2026): No bed is chewproof, and the maker of the top pick says so itself. Six chew-resistant beds and crate pads ranked on what their Amazon listings state about the frame, the fabric…
