@@ -1,7 +1,7 @@
 ---
 title: "Best Bark Collars and Anti-Bark Devices for Dogs, and How to Use Them Humanely (2026)"
-description: "No-shock bark collars and anti-bark devices for dogs — vibration collars, a small-dog collar, a spray collar and indoor and outdoor ultrasonic units — ranked on upkeep, fit, trigger control and price, and read against ASPCA, VCA, AVSAB and Humane World for Animals guidance on barking."
-excerpt: "Seven no-shock bark collars and stand-alone anti-bark units ranked on upkeep, fit and trigger control, with the ASPCA, VCA and AVSAB caveats that come with every one."
+description: "No-shock bark collars and anti-bark devices for dogs — vibration collars, a spray collar and indoor and outdoor stand-alone units — ranked on upkeep, fit, trigger control and price, and read against ASPCA, VCA, AVSAB and Humane World for Animals guidance on barking."
+excerpt: "Six no-shock bark collars and stand-alone anti-bark units ranked on upkeep, fit and trigger control, with the ASPCA, VCA and AVSAB caveats that come with every one."
 category: "Cats & Dogs"
 keywords:
   - "bark collar"
@@ -15,15 +15,15 @@ keywords:
   - "shock collar for barking"
 pillar: "expert-care"
 publishDate: "2026-10-03"
-updatedDate: "2026-10-03"
+updatedDate: "2026-11-12"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/best-bark-collars-anti-bark-devices-2026.webp"
 heroImage: "/images/guides/best-bark-collars-anti-bark-devices-2026.webp"
 heroAlt: "A medium-sized dog sitting calmly on a porch wearing a slim bark collar, with a small ultrasonic unit mounted on a nearby post"
 products: []
-reviewMethod: "Editorial synthesis of ASPCA, VCA Animal Hospitals, the American Veterinary Society of Animal Behavior (AVSAB) 2021 humane dog training position statement and Humane World for Animals guidance on barking, read against manufacturer-supplied Amazon listing specifications read September 28, 2026, with every price checked on Amazon October 3, 2026. Rankings follow the published PetPal Bark Device Score weights. No first-hand product testing."
-lastProductCheck: "2026-10-03"
+reviewMethod: "Editorial synthesis of ASPCA, VCA Animal Hospitals, the American Veterinary Society of Animal Behavior (AVSAB) 2021 humane dog training position statement and Humane World for Animals guidance on barking, read against manufacturer-supplied Amazon listing specifications read September 28, 2026, with every price checked on Amazon November 12, 2026. Rankings follow the published PetPal Bark Device Score weights. No first-hand product testing."
+lastProductCheck: "2026-11-12"
 expertSourceCount: 4
 
 hub: "cat-dog-behavior-anxiety-enrichment"
@@ -31,7 +31,7 @@ guideType: "spoke"
 
 species: ["dog"]
 speciesPrimary: "dog"
-shortAnswer: "Start with why the dog barks, not with a collar. The ASPCA calls anti-bark collars punishment devices that are not a first choice, and AVSAB recommends only reward-based training. If you still want a device, this guide picks no shock collars. The DogRook rechargeable beep and vibration collar ranks first for its stated 12 to 110 lb fit and up to 14 days per charge; the PetSafe Spray Bark Collar is the spray option; the PetSafe Indoor Ultrasonic unit works on a stand or in the hand; and the ELECANE Teacup collar is sized for 2 to 15 lb dogs. Every collar only works while the dog wears it, and VCA warns that a spray collar whose reservoir or battery runs out can teach a dog to bark through it."
+shortAnswer: "Start with why the dog barks, not with a collar. The ASPCA calls anti-bark collars punishment devices that are not a first choice, and AVSAB recommends only reward-based training. If you still want a device, this guide picks no shock collars. The DogRook rechargeable beep and vibration collar ranks first for its stated 12 to 110 lb fit and up to 14 days per charge; the PetSafe Spray Bark Collar is the spray option; the PetSafe Outdoor Birdhouse hangs in the yard on a stated battery life; and the PetSafe Indoor Ultrasonic unit works on a stand or in the hand. Every collar only works while the dog wears it, and VCA warns that a spray collar whose reservoir or battery runs out can teach a dog to bark through it."
 
 topPicks:
   - name: "DogRook Humane No Shock Rechargeable Beep & Vibration Bark Collar"
@@ -45,7 +45,7 @@ topPicks:
     sources: ["ASPCA — Barking", "VCA Animal Hospitals — Barking in Dogs", "PetSafe listing specifications"]
     verifiedDate: "2026-10-03"
   - name: "PetSafe Indoor Ultrasonic Dog Bark Control, Up to 25 ft"
-    pickRef: "r3"
+    pickRef: "r4"
     keyFeature: "A stand-alone ultrasonic unit that runs freestanding or hand-held, in automatic or manual mode, with an indoor range of up to 25 feet."
     sources: ["VCA Animal Hospitals — Barking in Dogs", "PetSafe listing specifications"]
     verifiedDate: "2026-10-03"
@@ -89,7 +89,7 @@ picks:
 
       Runtime is not a convenience point here. Writing about citronella spray collars, VCA Animal Hospitals warns: "In addition, if the reservoir empties out or the battery runs out, then the dog may learn to bark while wearing the collar, making it ineffective even when refilled." VCA gives this warning about spray collars; the same risk is why we credit a stated runtime on any collar. A collar that tells you how long a charge lasts is easier to keep from going flat.
 
-      Two limits apply. At 12 lbs and up it is too big for toy breeds, which is where the ELECANE Teacup fits. And its verified listing text says nothing about how it detects barking or guards against false triggers, so in a home with more than one dog, read the ASPCA's caution on microphone-triggered collars in the multi-dog section below before buying it. At $29.99 it is one of the two lowest prices on this page.
+      Two limits apply. At 12 lbs and up it is too big for toy breeds, and no pick on this page is sized for dogs under 8 lbs. And its verified listing text says nothing about how it detects barking or guards against false triggers, so in a home with more than one dog, read the ASPCA's caution on microphone-triggered collars in the multi-dog section below before buying it. At $29.99 it ties the PetSafe Birdhouse for the lowest price on this page.
     pros:
       - "Beep and vibration only; no shock mode named in the title"
       - "Stated fit of 12 to 110 lbs and up to 22 inches"
@@ -105,7 +105,7 @@ picks:
     name: "PetSafe Spray Bark Collar"
     brand: "PetSafe"
     score: 7.5
-    price: "$59.50"
+    price: "$57.99"
     aliases: ["the PetSafe Spray collar"]
     asin: "B07H3T4P2Z"
     image: "https://m.media-amazon.com/images/I/41f2HYp7bTL._SL500_.jpg"
@@ -155,11 +155,52 @@ picks:
     verdict: "Choose the PetSafe Spray collar if you want a spray collar for a dog of 8 lbs or more and will keep both the spray and the battery topped up."
 
   - rank: 3
+    label: "HANGING YARD UNIT"
+    name: "PetSafe Outdoor Bark Control, Hanging Birdhouse"
+    brand: "PetSafe"
+    score: 7.3
+    price: "$29.99"
+    aliases: ["the PetSafe Birdhouse"]
+    asin: "B000UZNLGA"
+    image: "https://m.media-amazon.com/images/I/41IBfMbSr4L._SL500_.jpg"
+    keyFeatures:
+      - "Hangs in a tree, on a fence post or anywhere in the yard"
+      - "Covers up to a 1/4-acre area"
+      - "Runs on one 9-volt alkaline battery (not included), lasting up to 2 months"
+    authoritySources:
+      - outlet: "PetSafe (Amazon listing)"
+        url: "https://www.amazon.com/dp/B000UZNLGA"
+        stat: "1/4-Acre Coverage: Hang the birdhouse in a tree, on a fence post or anywhere in your yard to cover up to a 1/4-acre area; if you need to cover more space simply purchase additional units"
+        claim: "Covers up to 1/4 acre"
+        supports: "spec"
+        accessed: "2026-09-28"
+      - outlet: "PetSafe (Amazon listing)"
+        url: "https://www.amazon.com/dp/B000UZNLGA"
+        stat: "Battery-Powered: Unit uses 1 9-volt alkaline battery (not included); battery lasts up to 2 months depending on how often the dog barks"
+        claim: "Runs on one 9V battery (not included), up to 2 months"
+        supports: "spec"
+        accessed: "2026-09-28"
+    body: |
+      The PetSafe Birdhouse is the outdoor unit for an owner who wants something that hangs and stays put. Its listing says to hang it in a tree, on a fence post or anywhere in the yard, and that one unit covers up to a 1/4-acre area. For more ground, PetSafe says to add more units.
+
+      It is the only stand-alone pick here whose verified listing text states its power: one 9-volt alkaline battery, not included, lasting up to 2 months depending on how often the dog barks. Buy the battery with it, and note the date it goes in.
+
+      It ranks third on the published weights, ahead of both ultrasonic units, on its stated battery life and its $29.99 price, which ties the DogRook for the lowest on this page. Its verified listing text says nothing about sensitivity or a manual mode, so it scores lower on trigger control than the PetSafe Indoor unit or the Dog Silencer MAX. Its verified listing text also does not state what stimulus it uses, and none of this guide's sources rates a hanging unit.
+    pros:
+      - "Hangs in a tree or on a post; covers up to 1/4 acre"
+      - "Power stated: one 9V battery lasting up to 2 months"
+    cons:
+      - "The 9V battery is not included"
+      - "Its verified listing text describes no sensitivity setting or manual mode"
+      - "Its verified listing text does not state its stimulus, and no source here rates hanging units"
+    verdict: "Hang the PetSafe Birdhouse in a yard up to 1/4 acre where you want an outdoor unit with a stated battery life, and buy the 9V with it."
+
+  - rank: 4
     label: "BEST STAND-ALONE — INDOOR OR HAND-HELD"
     name: "PetSafe Indoor Ultrasonic Dog Bark Control, Up to 25 ft"
     brand: "PetSafe"
-    score: 7.0
-    price: "$26.00"
+    score: 6.8
+    price: "$31.49"
     aliases: ["the PetSafe Indoor unit"]
     asin: "B00068R98C"
     image: "https://m.media-amazon.com/images/I/31L8CbnYiPL._SL500_.jpg"
@@ -198,66 +239,23 @@ picks:
 
       The manual button is the reason it scores well on trigger control. The listing says a microphone detects barking to prevent false corrections, and switching to manual puts the timing in your hands, so the tone does not follow every bark in the house.
 
-      Expect less certainty from ultrasound than from the collars. VCA writes that "Audible and ultrasonic training collars are occasionally effective, but they are usually neither sufficiently unpleasant nor consistent enough to be a reliable deterrent." That sentence is about collars, and none of this guide's sources rates a stand-alone unit, so treat it as an experiment rather than a fix. Its verified listing text does not state its power source. At $26.00 it is the lowest price on this page.
+      Expect less certainty from ultrasound than from the collars. VCA writes that "Audible and ultrasonic training collars are occasionally effective, but they are usually neither sufficiently unpleasant nor consistent enough to be a reliable deterrent." That sentence is about collars, and none of this guide's sources rates a stand-alone unit, so treat it as an experiment rather than a fix. Its verified listing text does not state its power source. At $31.49 it costs a little more than the DogRook and the PetSafe Birdhouse. It ties the Dog Silencer MAX at 6.8 and ranks ahead of it on the lower price.
     pros:
       - "Nothing for the dog to wear"
       - "Freestanding or hand-held"
       - "Automatic mode or a manual button"
-      - "Lowest price on this page"
     cons:
       - "VCA says ultrasonic collars are usually not a reliable deterrent, and none of this guide's sources rates stand-alone units"
       - "Indoor range of up to 25 feet, so it covers one room or area"
       - "Its verified listing text does not state its power source"
     verdict: "Get the PetSafe Indoor unit to try a no-collar option in one room, using the manual button when more than one dog is barking."
 
-  - rank: 4
-    label: "BEST FOR SMALL DOGS (2-15 LBS)"
-    name: "ELECANE Teacup Bark Collar for Small Dogs 2-15lbs"
-    brand: "ELECANE"
-    score: 6.8
-    price: "$31.75"
-    aliases: ["the ELECANE Teacup"]
-    asin: "B0H95MKFX3"
-    image: "https://m.media-amazon.com/images/I/41S28cS4GOL._SL500_.jpg"
-    keyFeatures:
-      - "Sized for 2 to 15 lb dogs"
-      - "0.57 oz unit measuring 1.0 x 0.8 x 0.6 inches"
-      - "Three modes: beep, vibration, or beep plus vibration; no shock"
-    authoritySources:
-      - outlet: "ELECANE (Amazon listing)"
-        url: "https://www.amazon.com/dp/B0H95MKFX3"
-        stat: "Designed for Tiny Necks (2–15 lbs) : TEACUP is ultra-small and lightweight (0.57 oz) with a compact unit (1.0”x0.8”x0.6”) to help your toy breed feel comfortable during everyday wear ."
-        claim: "For 2-15 lb dogs; 0.57 oz unit"
-        supports: "spec"
-        accessed: "2026-09-28"
-      - outlet: "ELECANE (Amazon listing)"
-        url: "https://www.amazon.com/dp/B0H95MKFX3"
-        stat: "No Shock, Gentle Training Modes: Humane anti-bark support with 3 modes—Beep, Vibration , or Beep + Vibration—to help interrupt barking and redirect attention without harsh correction ."
-        claim: "Beep, vibration, or both; no shock"
-        supports: "spec"
-        accessed: "2026-09-28"
-    body: |
-      The other collars here start at 8 or 12 lbs or state only a neck size, which leaves toy breeds out. The ELECANE Teacup is built for them: its listing says it is designed for tiny necks, 2 to 15 lbs, with a unit that weighs 0.57 oz and measures 1.0 x 0.8 x 0.6 inches. It offers three modes, beep, vibration, or beep plus vibration, and the listing states there is no shock.
-
-      It scores top marks on fit for that reason and loses ground on upkeep. Its verified listing text does not say how it is powered or how long it runs, and VCA's warning about spray collars that run out, that the dog may learn to bark while wearing the collar, is why we would rather know the runtime. Check the power details on the listing and keep it charged.
-
-      It ties the Dog Silencer MAX on score and ranks ahead of it on the lower price.
-    pros:
-      - "Sized for 2 to 15 lb dogs, the weight band most collars here skip"
-      - "0.57 oz unit"
-      - "Beep, vibration, or both; no shock, per the listing"
-    cons:
-      - "Not for dogs over 15 lbs"
-      - "Its verified listing text does not state its power source or runtime"
-      - "Its verified listing text does not describe how it detects barking or limits false triggers"
-    verdict: "Buy the ELECANE Teacup for a toy or small dog of 2 to 15 lbs that needs a no-shock collar light enough to wear all day."
-
   - rank: 5
     label: "LONGEST-RANGE OUTDOOR UNIT"
     name: "Dog Silencer MAX Outdoor Ultrasonic Bark Control"
     brand: "Good Life, Inc"
     score: 6.8
-    price: "$119.95"
+    price: "$129.95"
     aliases: ["the Dog Silencer MAX"]
     asin: "B0B94KNBK8"
     image: "https://m.media-amazon.com/images/I/31-u3P5qL8L._SL500_.jpg"
@@ -290,7 +288,7 @@ picks:
 
       Placement decides whether the sound reaches the dog at all. Per the listing, the sound usually passes through chain-link or other open fencing but not wood fences, walls, glass or dense hedges, and the unit should be aimed directly at the barking area. Walk the yard before buying: a solid fence between the unit and the dog blocks it.
 
-      It ties for the top Fit or Coverage score and has the highest Trigger Control score here, thanks to that sensitivity adjustment and remote-only mode. It ties the ELECANE Teacup at 6.8 and ranks fifth on the tie-break, because it has the higher price. Its score is held down by the highest price on this page (Value 4) and by listing text that does not state its power source (Power & Upkeep 4). As with every ultrasonic pick, VCA's caution that ultrasonic collars are usually not a reliable deterrent is the closest source on record, though VCA does not address stand-alone units.
+      It has the top Fit or Coverage score and the highest Trigger Control score here, thanks to that sensitivity adjustment and remote-only mode. It ties the PetSafe Indoor unit at 6.8 and ranks fifth on the tie-break, because it has the higher price. Its score is held down by the highest price on this page (Value 4) and by listing text that does not state its power source (Power & Upkeep 4). As with every ultrasonic pick, VCA's caution that ultrasonic collars are usually not a reliable deterrent is the closest source on record, though VCA does not address stand-alone units.
     pros:
       - "Detects barking up to 75 ft away; projects up to 300 ft in open areas"
       - "Adjustable sensitivity and a remote-only mode"
@@ -302,52 +300,11 @@ picks:
     verdict: "Choose the Dog Silencer MAX for a large, open yard with chain-link or open fencing, and plan on remote-only mode if other loud sounds set it off."
 
   - rank: 6
-    label: "HANGING YARD UNIT"
-    name: "PetSafe Outdoor Bark Control, Hanging Birdhouse"
-    brand: "PetSafe"
-    score: 6.7
-    price: "$79.99"
-    aliases: ["the PetSafe Birdhouse"]
-    asin: "B000UZNLGA"
-    image: "https://m.media-amazon.com/images/I/41IBfMbSr4L._SL500_.jpg"
-    keyFeatures:
-      - "Hangs in a tree, on a fence post or anywhere in the yard"
-      - "Covers up to a 1/4-acre area"
-      - "Runs on one 9-volt alkaline battery (not included), lasting up to 2 months"
-    authoritySources:
-      - outlet: "PetSafe (Amazon listing)"
-        url: "https://www.amazon.com/dp/B000UZNLGA"
-        stat: "1/4-Acre Coverage: Hang the birdhouse in a tree, on a fence post or anywhere in your yard to cover up to a 1/4-acre area; if you need to cover more space simply purchase additional units"
-        claim: "Covers up to 1/4 acre"
-        supports: "spec"
-        accessed: "2026-09-28"
-      - outlet: "PetSafe (Amazon listing)"
-        url: "https://www.amazon.com/dp/B000UZNLGA"
-        stat: "Battery-Powered: Unit uses 1 9-volt alkaline battery (not included); battery lasts up to 2 months depending on how often the dog barks"
-        claim: "Runs on one 9V battery (not included), up to 2 months"
-        supports: "spec"
-        accessed: "2026-09-28"
-    body: |
-      The PetSafe Birdhouse is the outdoor unit for an owner who wants something that hangs and stays put. Its listing says to hang it in a tree, on a fence post or anywhere in the yard, and that one unit covers up to a 1/4-acre area. For more ground, PetSafe says to add more units.
-
-      It is the only stand-alone pick here whose verified listing text states its power: one 9-volt alkaline battery, not included, lasting up to 2 months depending on how often the dog barks. Buy the battery with it, and note the date it goes in.
-
-      It ranks below the Dog Silencer MAX because its verified listing text says nothing about sensitivity or a manual mode, so it scores lower on trigger control. Its verified listing text also does not state what stimulus it uses, and none of this guide's sources rates a hanging unit.
-    pros:
-      - "Hangs in a tree or on a post; covers up to 1/4 acre"
-      - "Power stated: one 9V battery lasting up to 2 months"
-    cons:
-      - "The 9V battery is not included"
-      - "Its verified listing text describes no sensitivity setting or manual mode"
-      - "Its verified listing text does not state its stimulus, and no source here rates hanging units"
-    verdict: "Hang the PetSafe Birdhouse in a yard up to 1/4 acre where you want an outdoor unit with a stated battery life, and buy the 9V with it."
-
-  - rank: 7
     label: "VIBRATION-ONLY COLLAR, REPLACEABLE BATTERY"
     name: "PetSafe Vibration Bark Collar"
     brand: "PetSafe"
     score: 6.4
-    price: "$74.95"
+    price: "$75.99"
     aliases: ["the PetSafe Vibration collar"]
     asin: "B004S5P918"
     image: "https://m.media-amazon.com/images/I/41d7k9D1hPL._SL500_.jpg"
@@ -379,7 +336,7 @@ picks:
 
       A replaceable battery suits owners who would rather swap a cell than remember a charger, but its verified listing text gives no runtime, so there is no figure to plan around. Keep a spare RFA-188 on hand. VCA gives its run-out warning about spray collars; the same risk is why we would not let this battery go flat.
 
-      It ranks last on the published weights. Its listing gives a neck size but no weight range, it states no runtime, and at $74.95 it costs more than the DogRook at $29.99, which also offers a vibration mode.
+      It ranks last on the published weights. Its listing gives a neck size but no weight range, it states no runtime, and at $75.99 it costs more than the DogRook at $29.99, which also offers a vibration mode.
     pros:
       - "Vibration only, in 10 combinations"
       - "Replaceable RFA-188 battery included, with an on/off switch"
@@ -393,25 +350,25 @@ picks:
 comparison:
   rows:
     - label: "Type"
-      values: ["Collar", "Collar", "Stand-alone, indoor or hand-held", "Collar", "Stand-alone, outdoor", "Stand-alone, outdoor (hanging)", "Collar"]
+      values: ["Collar", "Collar", "Stand-alone, outdoor (hanging)", "Stand-alone, indoor or hand-held", "Stand-alone, outdoor", "Collar"]
     - label: "Stimulus (per the listing)"
-      values: ["Beep and vibration; no shock", "Spray", "Ultrasonic tone", "Beep, vibration, or both; no shock", "Ultrasonic sound", "Not stated in verified listing text", "Vibration only"]
+      values: ["Beep and vibration; no shock", "Spray", "Not stated in verified listing text", "Ultrasonic tone", "Ultrasonic sound", "Vibration only"]
     - label: "Fit or coverage stated"
-      values: ["12-110 lbs; up to 22 in", "8 lbs and up; necks up to 27 in", "Up to 25 ft indoors", "2-15 lbs; 0.57 oz unit", "Detects to 75 ft; projects to 300 ft in open areas", "Up to 1/4 acre", "Necks up to 28 in"]
+      values: ["12-110 lbs; up to 22 in", "8 lbs and up; necks up to 27 in", "Up to 1/4 acre", "Up to 25 ft indoors", "Detects to 75 ft; projects to 300 ft in open areas", "Necks up to 28 in"]
     - label: "Power stated"
-      values: ["Rechargeable; up to 14 days per charge", "Rechargeable; 2-hour recharge, up to 40 hours of use", "Not stated in verified listing text", "Not stated in verified listing text", "Not stated in verified listing text", "One 9V battery (not included); up to 2 months", "RFA-188 battery (included); on/off switch"]
+      values: ["Rechargeable; up to 14 days per charge", "Rechargeable; 2-hour recharge, up to 40 hours of use", "One 9V battery (not included); up to 2 months", "Not stated in verified listing text", "Not stated in verified listing text", "RFA-188 battery (included); on/off switch"]
     - label: "Trigger controls stated"
-      values: ["None stated", "None stated", "Microphone bark detection; manual button mode", "None stated", "Adjustable sensitivity; remote-only mode", "None stated", "None stated"]
+      values: ["None stated", "None stated", "None stated", "Microphone bark detection; manual button mode", "Adjustable sensitivity; remote-only mode", "None stated"]
     - label: "Score: Power & Upkeep (0-10, × 0.30)"
-      values: ["9", "8", "4", "4", "4", "6", "7"]
+      values: ["9", "8", "6", "4", "4", "7"]
     - label: "Score: Fit or Coverage (0-10, × 0.30)"
-      values: ["9", "9", "8", "10", "10", "9", "7"]
+      values: ["9", "9", "9", "8", "10", "7"]
     - label: "Score: Trigger Control (0-10, × 0.20)"
-      values: ["5", "5", "8", "5", "9", "5", "5"]
+      values: ["5", "5", "5", "8", "9", "5"]
     - label: "Score: Value (0-10, × 0.20)"
-      values: ["9", "7", "9", "8", "4", "6", "6"]
+      values: ["9", "7", "9", "8", "4", "6"]
     - label: "PetPal Bark Device Score"
-      values: ["8.2", "7.5", "7.0", "6.8", "6.8", "6.7", "6.4"]
+      values: ["8.2", "7.5", "7.3", "6.8", "6.8", "6.4"]
 
 methodology:
   formula: "PetPal Bark Device Score = (Power & Upkeep × 0.30) + (Fit or Coverage × 0.30) + (Trigger Control × 0.20) + (Value × 0.20), each factor scored 0-10 and the total rounded to one decimal; ties rank the lower price first. Only no-shock devices are eligible."
@@ -427,7 +384,7 @@ methodology:
       definition: "What the verified listing text says about limiting false triggers. The ASPCA says microphone-triggered collars should not be used in a multi-dog home because any dog's bark can set them off. Scoring: 9 for a stated sensitivity adjustment plus a manual- or remote-only mode; 8 for stated bark detection plus a manual mode; 5 when the verified listing text describes no trigger control."
     - name: "Value"
       weight: 20
-      definition: "The Amazon current price each card shows, checked October 3, 2026. Scoring: 9 under $30; 8 from $30 to $50; 7 from $50 to $70; 6 from $70 to $100; 4 over $100. Weighted below upkeep and fit because a cheap device that runs flat or does not fit saves nothing. The per-factor scores for every pick are printed in the comparison table."
+      definition: "The Amazon current price each card shows, checked November 12, 2026. Scoring: 9 under $30; 8 from $30 to $50; 7 from $50 to $70; 6 from $70 to $100; 4 over $100. Weighted below upkeep and fit because a cheap device that runs flat or does not fit saves nothing. The per-factor scores for every pick are printed in the comparison table."
 
 whenNotToBuy: |
   Do not buy any device here before you know why the dog is barking. Humane World for Animals puts it plainly: "If your dog is barking incessantly, they’re trying to tell you they have an unmet need or need to be removed from a scary or overwhelming situation." If the barking starts when you leave, read the separation anxiety routines guide first; no collar on this page treats fear or anxiety. Do not put a bark-triggered collar on one dog in a multi-dog home: the ASPCA says microphone collars "should not be used in a multidog home because any dog’s bark can activate the collar." Do not buy a shock or static collar for barking; AVSAB lists electronic shock collars among training tools that involve pain, and this guide picks none. And do not expect any collar to work once it comes off: VCA notes that "Most importantly, bark collars only work when they are on the dog."
@@ -435,9 +392,8 @@ whenNotToBuy: |
 bottomLine:
   - "Get the DogRook collar for one dog of 12 to 110 lbs: beep and vibration with no shock, and up to 14 days per charge."
   - "Get the PetSafe Spray collar if you want a spray collar for a dog of 8 lbs or more, and keep both the spray and the battery topped up."
+  - "Get the PetSafe Birdhouse for a yard of up to 1/4 acre with a stated battery life, or the Dog Silencer MAX for a large open yard with chain-link fencing."
   - "Get the PetSafe Indoor unit to try a no-collar option in one room, freestanding or hand-held."
-  - "Get the ELECANE Teacup for a dog of 2 to 15 lbs."
-  - "Get the Dog Silencer MAX for a large open yard with chain-link fencing, or the PetSafe Birdhouse for a yard of up to 1/4 acre with a stated battery life."
   - "Get the PetSafe Vibration collar for vibration only with a swappable battery."
   - "Whatever you buy, the ASPCA calls anti-bark collars punishment devices that are not a first choice, and AVSAB recommends only reward-based training. Pair any device with reward-based training on the cause of the barking."
 
@@ -447,7 +403,7 @@ sources:
     - "VCA Animal Hospitals — Barking in Dogs"
     - "AVSAB — Humane Dog Training Position Statement (2021)"
     - "Humane World for Animals — How to Get Your Dog to Stop Barking"
-    - "Manufacturer-supplied Amazon listing specifications for DogRook, PetSafe, ELECANE and Good Life, Inc (Dog Silencer MAX), read September 28, 2026; prices checked October 3, 2026"
+    - "Manufacturer-supplied Amazon listing specifications for DogRook, PetSafe and Good Life, Inc (Dog Silencer MAX), read September 28, 2026; prices checked November 12, 2026"
   verifiedDate: "2026-10-03"
   authorBio: "Nick Miles is the chief editor of PetPalHQ. This guide is an editorial synthesis of barking guidance from the ASPCA, VCA Animal Hospitals, AVSAB and Humane World for Animals, read against manufacturer-supplied Amazon listing specifications. PetPalHQ does not run a testing lab, and no device here has been tested by us. Fit, range and battery figures are manufacturer specifications, not independent measurements. The PetPal Bark Device Score is a weighted composite of published guidance and published specifications, and the ranking follows the weights as published. The per-factor scores for each pick are printed in the comparison table, so each total can be recomputed."
 
@@ -461,7 +417,7 @@ related:
   - "best-gps-dog-training-e-collar-systems-2026"
 ---
 
-A barking dog is telling you something, and the device you buy should come after you know what. This guide compares no-shock bark collars and stand-alone anti-bark units and ranks seven picks: a rechargeable beep and vibration collar, a spray collar, an indoor ultrasonic unit that also works in the hand, a collar sized for 2 to 15 lb dogs, two outdoor stand-alone units, and a vibration-only collar with a replaceable battery.
+A barking dog is telling you something, and the device you buy should come after you know what. This guide compares no-shock bark collars and stand-alone anti-bark units and ranks six picks: a rechargeable beep and vibration collar, a spray collar, two outdoor stand-alone units, an indoor ultrasonic unit that also works in the hand, and a vibration-only collar with a replaceable battery.
 
 The veterinary and welfare sources are cautious about all of them. The ASPCA says: "Anti-bark collars are punishment devices and are not recommended as a first choice for dealing with a barking problem." AVSAB's 2021 position statement goes further: "Based on current scientific evidence, AVSAB recommends that only reward-based training methods are used for all dog training, including the treatment of behavior problems." Read the picks with that in mind. A device may interrupt a bark; it cannot tell you why the dog started.
 
@@ -496,7 +452,10 @@ A: Sometimes, and mostly while worn. The ASPCA says virtually all dogs become co
 A: The sources here do not single out vibration. The ASPCA classes anti-bark collars in general as punishment devices that are not a first choice, and AVSAB recommends only reward-based training for all dog training, including behavior problems. AVSAB names electronic shock collars as tools that involve pain; the sources cited here do not address vibration collars directly. A vibration collar is still not a reward-based method, so pair it with training on the cause.
 
 **Q: What is the best bark collar for a small dog with no shock?**
-A: The ELECANE Teacup is the only pick sized for dogs of 2 to 15 lbs, with a 0.57 oz unit and beep, vibration or both. The DogRook starts at 12 lbs and the PetSafe Spray collar at 8 lbs.
+A: No collar on this page is sized for toy breeds under 8 lbs. The PetSafe Spray collar has the lowest stated fit here, dogs 8 lbs and up with necks up to 27 inches, and the DogRook starts at 12 lbs. For a smaller dog, a stand-alone unit such as the PetSafe Indoor unit puts nothing on the dog at all.
+
+**Q: What dog barking control devices work without a collar?**
+A: Three picks here put nothing on the dog. The PetSafe Birdhouse hangs in a tree or on a fence post and covers up to a 1/4-acre area on one 9-volt battery that lasts up to 2 months. The PetSafe Indoor unit works freestanding or hand-held indoors, with an automatic mode or a manual button and a range of up to 25 feet. The Dog Silencer MAX detects barking up to 75 ft away and projects ultrasonic sound up to 300 ft in open areas, with adjustable sensitivity or a remote-only mode. VCA says audible and ultrasonic collars are usually not a reliable deterrent, and none of this guide's sources rates a stand-alone unit, so treat any of them as an experiment alongside reward-based training on the cause of the barking.
 
 **Q: Can I use a bark collar if I have two dogs?**
 A: The ASPCA says microphone-triggered collars should not be used in a multi-dog home because any dog's bark can activate the collar. If you have more than one dog, a stand-alone unit with a manual button, like the PetSafe Indoor unit, lets you choose when the tone fires instead of reacting to every bark; its tone still reaches any dog in range.
