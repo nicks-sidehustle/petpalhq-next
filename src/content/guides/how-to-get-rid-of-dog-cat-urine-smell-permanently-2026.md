@@ -14,7 +14,7 @@ keywords:
   - "permanent pet odor removal protocol"
 pillar: "expert-care"
 publishDate: "2026-07-11"
-updatedDate: "2026-08-07"
+updatedDate: "2026-11-12"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/how-to-get-rid-of-dog-cat-urine-smell-permanently-2026.webp"
@@ -265,7 +265,7 @@ picks:
     name: "LEVOIT Vital 200S Air Purifier"
     brand: "Levoit"
     score: 8.3
-    price: "$169.97"
+    price: "$169.96"
     image: "https://m.media-amazon.com/images/I/51hhi9xOdrL._SL500_.jpg"
     asin: "B0BGPF71Q6"
     keyFeatures:

@@ -15,7 +15,7 @@ keywords:
   - "feline degenerative joint disease home care"
 pillar: "cat-essentials"
 publishDate: "2026-05-05"
-updatedDate: "2026-09-02"
+updatedDate: "2026-11-12"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/senior-cat-accessibility-setup.webp"
@@ -351,7 +351,7 @@ The {{pickCountWord}} picks above solve the everyday accessibility problems most
 
 If your senior cat still wants real vertical space and the Feandrea ramped tree above is not enough climbing room, our [large cat trees guide](/guides/best-cat-trees-large-cats-2026) covers taller, sturdier towers built for bigger cats — its top pick is a 72-inch solid-wood tower at $243.58, well above the Feandrea's 33.8-inch footprint. Match any taller tower to the same rule this page follows: a ramp or graded route beats a single big leap, so check that a taller tree still offers a climbable path rather than one dramatic jump.
 
-On the litter side, if the Petmate low-entry pan above is not enough — say, a multi-cat household that also wants automatic waste removal — our [self-cleaning litter boxes for large and multi-cat homes guide](/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026) includes a pick built around this exact audience: the Neakasa M1 Plus at $399.99, an open-top automatic box AAHA/AAFP guidance and the ASPCA both support for large or senior cats, since its low edge avoids the climb-in problem a hooded or top-entry automatic box would reintroduce. Not every self-cleaning box belongs on a senior-cat page — most are enclosed globes with exactly the climbing motion this guide warns against — so if you go looking on your own, apply the same low-entry rule to an automatic box that this page applies to a manual one.
+On the litter side, if the Petmate low-entry pan above is not enough — say, a multi-cat household that also wants automatic waste removal — our [self-cleaning litter boxes for large and multi-cat homes guide](/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026) includes a pick built around this exact audience: the Neakasa M1 Plus at $449.99, an open-top automatic box AAHA/AAFP guidance and the ASPCA both support for large or senior cats, since its low edge avoids the climb-in problem a hooded or top-entry automatic box would reintroduce. Not every self-cleaning box belongs on a senior-cat page — most are enclosed globes with exactly the climbing motion this guide warns against — so if you go looking on your own, apply the same low-entry rule to an automatic box that this page applies to a manual one.
 
 ## How to set up safely
 

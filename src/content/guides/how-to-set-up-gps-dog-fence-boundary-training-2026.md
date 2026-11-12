@@ -15,7 +15,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-16"
-updatedDate: "2026-09-26"
+updatedDate: "2026-11-12"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.webp"
@@ -50,7 +50,7 @@ picks:
     name: "PetSafe Guardian GPS Dog Fence (No Subscription)"
     brand: "PetSafe"
     score: 8.7
-    price: "$389.99"
+    price: "$352.99"
     image: "https://m.media-amazon.com/images/I/41h8lp038jL._SL500_.jpg"
     asin: "B0D83MQBZ3"
     aliases:
@@ -143,7 +143,7 @@ picks:
     name: "PetSafe Guardian GPS 2.0 Dog Fence + Tracking"
     brand: "PetSafe"
     score: 8.5
-    price: "$319.99"
+    price: "$299.00"
     image: "https://m.media-amazon.com/images/I/41fFHoo-ivL._SL500_.jpg"
     asin: "B0DZYH7DFF"
     aliases:
@@ -159,7 +159,7 @@ picks:
     body: |
       The Guardian 2.0 is the fork where the honesty axis matters most, because it is the one people conflate with Halo. Both "require a subscription," but the resemblance ends there. On the 2.0 the plan buys live tracking only — PetSafe is explicit that "your collar can still function without cellular service by using stored GPS data to maintain a virtual fence, but you won't be able to track your dog's live location or receive notifications without a connection." Let the plan lapse and the dog is still fenced; you lose the live map, not the boundary. That is the opposite of Halo, where the plan gates the fence itself.
 
-      Positioned between the other two forks, it sells at $319.99 on Amazon as of September 26, 2026, adds a live GPS layer the no-subscription Guardian does not have, and reaches dogs the no-sub model cannot — it adjusts to necks as small as 8 inches and is built for breeds 10 pounds and up, on lots half an acre or larger. Training follows the same PetSafe family: tone and vibration first, static escalated one level at a time and only if the dog does not react. That boundary correction is a narrow job — teaching a dog where the line is — and it is distinct from a handheld remote trainer for recall and obedience; if that off-leash control is what you are really after, [GPS dog-training e-collar systems](/guides/best-gps-dog-training-e-collar-systems-2026) are the separate tool for it. The plan runs $9.99 a month or $99 a year with a one-month free trial. Buy it when live tracking earns its keep — an escape-prone dog, an open rural line — and treat the monthly fee as the price of the map, not the fence.
+      Positioned between the other two forks, it sells at $299.00 on Amazon as of November 12, 2026, adds a live GPS layer the no-subscription Guardian does not have, and reaches dogs the no-sub model cannot — it adjusts to necks as small as 8 inches and is built for breeds 10 pounds and up, on lots half an acre or larger. Training follows the same PetSafe family: tone and vibration first, static escalated one level at a time and only if the dog does not react. That boundary correction is a narrow job — teaching a dog where the line is — and it is distinct from a handheld remote trainer for recall and obedience; if that off-leash control is what you are really after, [GPS dog-training e-collar systems](/guides/best-gps-dog-training-e-collar-systems-2026) are the separate tool for it. The plan runs $9.99 a month or $99 a year with a one-month free trial. Buy it when live tracking earns its keep — an escape-prone dog, an open rural line — and treat the monthly fee as the price of the map, not the fence.
     pros:
       - "Containment survives a lapsed plan — you only lose live tracking"
       - "Fits smaller dogs the no-subscription Guardian rules out (10 lb+, 8-in neck)"
