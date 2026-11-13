@@ -17,7 +17,7 @@ species: ["dog"]
 guideType: "spoke"
 hub: "gps-containment-and-pet-tracking-systems"
 publishDate: "2026-06-10"
-updatedDate: "2026-09-30"
+updatedDate: "2026-11-12"
 readTime: "13 min"
 featured: false
 image: "/images/guides/best-dog-gps-trackers-2026.webp"
@@ -383,13 +383,13 @@ The Apple AirTag gets asked about constantly, and we passed because it is not a 
 
 It is not a more expensive tracker. The category genuinely tops out around the Fi's $189.00 hardware — past that point, more money buys prevention, not better recovery. A tracker tells you where the dog went after the gate failed; a GPS fence collar draws the boundary and intervenes before the escape becomes a search. For the household that keeps re-living the bolt — the fence-jumper, the gate-dasher, the rural property with no physical fence — the real upgrade is layering containment on top of the tracker, and that tier starts where this guide's prices end.
 
-The premium containment decision is mostly a subscription decision, which will feel familiar after reading this guide. The [SpotOn GPS Dog Collar Nova Edition](https://www.amazon.com/dp/B0GN3R31ZW?tag=petpalhq08-20) ($999.00 at our latest check) costs the most upfront but requires no subscription for containment — SpotOn's own site states "No subscription required. GPS fences work always and everywhere right out of the box," with tracking sold as an optional paid add-on, so the fence keeps working when a billing cycle ends. The [Halo Collar 5](https://www.amazon.com/dp/B0FMLGHHJ7?tag=petpalhq08-20) ($524.00 at our latest check) is the top pick in our [GPS wireless dog fence roundup](/guides/best-gps-wireless-dog-fences-2026), costs roughly half as much to buy, and per Halo's own documentation requires an active plan for its fence and tracking to work at all. If you already resent the Tractive's $5-a-month plan or Fi's prepaid blocks, that architecture difference is the whole premium-tier argument — we compare it head-to-head in the [premium GPS fence collar guide](/guides/best-premium-gps-dog-fence-collars-2026).
+The premium containment decision is mostly a subscription decision, which will feel familiar after reading this guide. The [SpotOn GPS Dog Collar Nova Edition](/go/B0GN3R31ZW) ($999.00 at our latest check) costs the most upfront but requires no subscription for containment — SpotOn's own site states "No subscription required. GPS fences work always and everywhere right out of the box," with tracking sold as an optional paid add-on, so the fence keeps working when a billing cycle ends. The [Halo Collar 5](/go/B0FMLGHHJ7) ($524.00 at our latest check) is the top pick in our [GPS wireless dog fence roundup](/guides/best-gps-wireless-dog-fences-2026), costs roughly half as much to buy, and per Halo's own documentation requires an active plan for its fence and tracking to work at all. If you already resent the Tractive's $5-a-month plan or Fi's prepaid blocks, that architecture difference is the whole premium-tier argument — we compare it head-to-head in the [premium GPS fence collar guide](/guides/best-premium-gps-dog-fence-collars-2026).
 
 Sticker price is the wrong number to compare across that tier, for exactly the reason this guide already taught you about trackers: the plan is the product. Here is what the containment options cost over the windows a dog is usually alive for, using each brand's own published rates:
 
 | Containment system | Hardware | Required plan | 5-year total |
 | --- | --- | --- | --- |
-| PetSafe Guardian GPS | $389.99 | None | $389.99 |
+| PetSafe Guardian GPS | $352.99 | None | $352.99 |
 | Halo Collar 5 | $524.00 ($599.00 list) | Required — **from $9.99/mo Bronze, per collar** | **$1,198.40** at the list price |
 | SpotOn Nova Edition | $999.00 | None (tracking add-on optional) | $999.00 |
 | Garmin Alpha 300i | $1,223.98 | None for dog tracking | $1,223.98 |

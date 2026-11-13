@@ -17,7 +17,7 @@ pillar: "expert-care"
 hub: "automatic-litter-box-systems"
 guideType: "spoke"
 publishDate: "2026-06-25"
-updatedDate: "2026-09-07"
+updatedDate: "2026-11-12"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.webp"
@@ -153,7 +153,7 @@ picks:
     name: "Neakasa M1 Plus Open-Top Self-Cleaning Litter Box"
     brand: "Neakasa"
     score: 8.6
-    price: "$399.99"
+    price: "$449.99"
     image: "https://m.media-amazon.com/images/I/41gmEtUbi+L._SL500_.jpg"
     asin: "B0CSKBWBF6"
     aliases: ["Neakasa M1 Plus", "Neakasa M1", "Neakasa", "the Neakasa"]

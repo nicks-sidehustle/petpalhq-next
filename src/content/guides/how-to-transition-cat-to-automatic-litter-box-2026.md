@@ -14,7 +14,7 @@ keywords:
   - "unscented clumping litter transition"
 pillar: "expert-care"
 publishDate: "2026-07-11"
-updatedDate: "2026-09-30"
+updatedDate: "2026-11-12"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/how-to-transition-cat-to-automatic-litter-box-2026.webp"
@@ -95,7 +95,7 @@ picks:
     name: "Neakasa M1 Plus (open-top)"
     brand: "Neakasa"
     score: 8.6
-    price: "$399.99"
+    price: "$449.99"
     image: "https://m.media-amazon.com/images/I/41rWWO4lIhL._SL500_.jpg"
     asin: "B0CSKBWBF6"
     authoritySources:

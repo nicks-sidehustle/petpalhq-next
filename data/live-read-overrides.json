@@ -90,14 +90,14 @@
     "lane": "petpal-live-read"
   },
   "B00068R98C": {
-    "price": 26,
+    "price": 31.49,
     "currency": "USD",
     "availability": "IN_STOCK",
-    "merchant": null,
+    "merchant": "Amazon.com",
     "condition": "New",
-    "readAt": "2026-10-03",
+    "readAt": "2026-11-12T23:18:56.663Z",
     "source": "https://www.amazon.com/dp/B00068R98C",
-    "lane": "petpal-live-read"
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0006L2UC4": {
     "price": 4.96,
@@ -130,14 +130,24 @@
     "lane": "petpal-live-read"
   },
   "B000UZNLGA": {
-    "price": 79.99,
+    "price": 29.99,
     "currency": "USD",
     "availability": "IN_STOCK",
-    "merchant": null,
+    "merchant": "Amazon.com",
     "condition": "New",
-    "readAt": "2026-10-03",
+    "readAt": "2026-11-12T23:19:13.298Z",
     "source": "https://www.amazon.com/dp/B000UZNLGA",
-    "lane": "petpal-live-read"
+    "lane": "bf-refresh-2026-11-12"
+  },
+  "B000Y905XE": {
+    "price": 389.75,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "OJCommerce",
+    "condition": "New",
+    "readAt": "2026-11-12T23:23:45.419Z",
+    "source": "https://www.amazon.com/dp/B000Y905XE",
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0017JVT7G": {
     "price": 225.87,
@@ -199,6 +209,16 @@
     "source": "https://www.amazon.com/dp/B0032G6VVQ",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
+  "B003BYQ1RI": {
+    "price": 156.2,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-12T23:20:38.206Z",
+    "source": "https://www.amazon.com/dp/B003BYQ1RI",
+    "lane": "bf-refresh-2026-11-12"
+  },
   "B003LW0BV2": {
     "price": 1574,
     "currency": "USD",
@@ -250,14 +270,24 @@
     "lane": "petpal-0913-chrome-samesite"
   },
   "B004S5P918": {
-    "price": 74.95,
+    "price": 75.99,
     "currency": "USD",
     "availability": "IN_STOCK",
-    "merchant": null,
+    "merchant": "Amazon.com",
     "condition": "New",
-    "readAt": "2026-10-03",
+    "readAt": "2026-11-12T23:19:30.440Z",
     "source": "https://www.amazon.com/dp/B004S5P918",
-    "lane": "petpal-live-read"
+    "lane": "bf-refresh-2026-11-12"
+  },
+  "B0055L8RRC": {
+    "price": 250.44,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-12T23:26:18.304Z",
+    "source": "https://www.amazon.com/dp/B0055L8RRC",
+    "lane": "bf-refresh-2026-11-12"
   },
   "B005CO91TK": {
     "price": 179.95,
@@ -389,6 +419,16 @@
     "source": "https://www.amazon.com/dp/B00FW8HL0C",
     "lane": "petpal-live-read"
   },
+  "B00H67VZJ0": {
+    "price": 18.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B00H67VZJ0",
+    "lane": "petpal-live-read"
+  },
   "B00I9A8CW6": {
     "price": null,
     "currency": "USD",
@@ -510,14 +550,14 @@
     "lane": "petpal-live-read"
   },
   "B01C9RIACG": {
-    "price": 369.49,
+    "price": 640.2,
     "currency": "USD",
     "availability": "IN_STOCK",
     "merchant": "Amazon.com",
     "condition": "New",
-    "readAt": "2026-09-26T15:50:16.449Z",
+    "readAt": "2026-11-12T23:22:20.310Z",
     "source": "https://www.amazon.com/dp/B01C9RIACG",
-    "lane": "petpal-live-read"
+    "lane": "bf-refresh-2026-11-12"
   },
   "B01CRLQBXO": {
     "price": 199.99,
@@ -643,11 +683,11 @@
     "price": 29.99,
     "currency": "USD",
     "availability": "IN_STOCK",
-    "merchant": null,
+    "merchant": "DogRook",
     "condition": "New",
-    "readAt": "2026-10-03",
+    "readAt": "2026-11-12T23:19:47.080Z",
     "source": "https://www.amazon.com/dp/B072DS462V",
-    "lane": "petpal-live-read"
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0738L5GNR": {
     "price": null,
@@ -760,14 +800,14 @@
     "lane": "petpal-live-read"
   },
   "B07H3T4P2Z": {
-    "price": 59.5,
+    "price": 57.99,
     "currency": "USD",
     "availability": "IN_STOCK",
-    "merchant": null,
+    "merchant": "Amazon.com",
     "condition": "New",
-    "readAt": "2026-10-03",
+    "readAt": "2026-11-12T23:20:03.990Z",
     "source": "https://www.amazon.com/dp/B07H3T4P2Z",
-    "lane": "petpal-live-read"
+    "lane": "bf-refresh-2026-11-12"
   },
   "B07H8MYGB1": {
     "price": 125.89,
@@ -979,6 +1019,26 @@
     "source": "https://www.amazon.com/dp/B08MFQSW7F",
     "lane": "petpal-live-read"
   },
+  "B08MQ3567G": {
+    "price": 71.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-12T23:20:55.254Z",
+    "source": "https://www.amazon.com/dp/B08MQ3567G",
+    "lane": "bf-refresh-2026-11-12"
+  },
+  "B08T5VKCND": {
+    "price": 239.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "OFIKA",
+    "condition": "New",
+    "readAt": "2026-11-12T23:24:02.399Z",
+    "source": "https://www.amazon.com/dp/B08T5VKCND",
+    "lane": "bf-refresh-2026-11-12"
+  },
   "B08TGMJLND": {
     "price": null,
     "currency": "USD",
@@ -1039,6 +1099,16 @@
     "source": "https://www.amazon.com/dp/B09L1PBFTH",
     "lane": "petpal-dark-liveread-2026-09-08"
   },
+  "B09LL9S99B": {
+    "price": 599,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Casa Leo Pet",
+    "condition": "New",
+    "readAt": "2026-11-12T23:24:53.204Z",
+    "source": "https://www.amazon.com/dp/B09LL9S99B",
+    "lane": "bf-refresh-2026-11-12"
+  },
   "B09MSL1H21": {
     "price": null,
     "currency": "USD",
@@ -1068,6 +1138,16 @@
     "readAt": "2026-10-03T22:20:46.325Z",
     "source": "https://www.amazon.com/dp/B09MVMW4F2",
     "lane": "petpal-live-read"
+  },
+  "B09NQYDYQH": {
+    "price": 57.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Yaheetech",
+    "condition": "New",
+    "readAt": "2026-11-12T23:21:12.387Z",
+    "source": "https://www.amazon.com/dp/B09NQYDYQH",
+    "lane": "bf-refresh-2026-11-12"
   },
   "B09WC6TJCM": {
     "price": 36.7,
@@ -1120,14 +1200,24 @@
     "lane": "petpal-live-read"
   },
   "B0B94KNBK8": {
-    "price": 119.95,
+    "price": 129.95,
     "currency": "USD",
     "availability": "IN_STOCK",
-    "merchant": null,
+    "merchant": "Good Life Inc.",
     "condition": "New",
-    "readAt": "2026-10-03",
+    "readAt": "2026-11-12T23:20:20.982Z",
     "source": "https://www.amazon.com/dp/B0B94KNBK8",
-    "lane": "petpal-live-read"
+    "lane": "bf-refresh-2026-11-12"
+  },
+  "B0B993FRDD": {
+    "price": 129.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Pet-Family",
+    "condition": "New",
+    "readAt": "2026-11-12T23:24:19.321Z",
+    "source": "https://www.amazon.com/dp/B0B993FRDD",
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0BBMDHL27": {
     "price": null,
@@ -1148,6 +1238,16 @@
     "readAt": "2026-09-27T01:47:34.577Z",
     "source": "https://www.amazon.com/dp/B0BGG1M5MR",
     "lane": "petpal-live-read"
+  },
+  "B0BGPF71Q6": {
+    "price": 169.96,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-12T23:22:37.225Z",
+    "source": "https://www.amazon.com/dp/B0BGPF71Q6",
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0BJ11CBTH": {
     "price": 100,
@@ -1179,15 +1279,25 @@
     "source": "https://www.amazon.com/dp/B0BMQWP1YP",
     "lane": "refresh-a-orchestrator-2026-09-26"
   },
+  "B0BMQY39R5": {
+    "price": 599.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Lucky Duck",
+    "condition": "New",
+    "readAt": "2026-11-12T23:24:35.921Z",
+    "source": "https://www.amazon.com/dp/B0BMQY39R5",
+    "lane": "bf-refresh-2026-11-12"
+  },
   "B0BN2MGV5H": {
-    "price": 349,
+    "price": 216.49,
     "currency": "USD",
     "availability": "IN_STOCK",
     "merchant": "Amazon.com",
     "condition": "New",
-    "readAt": "2026-09-26T15:50:30.793Z",
+    "readAt": "2026-11-12T23:22:54.053Z",
     "source": "https://www.amazon.com/dp/B0BN2MGV5H",
-    "lane": "petpal-live-read"
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0BSHS996Y": {
     "price": 30.99,
@@ -1239,6 +1349,26 @@
     "source": "https://www.amazon.com/dp/B0C5N8CP21",
     "lane": "petpal-live-read"
   },
+  "B0C67WP5HC": {
+    "price": 159.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "OJCommerce",
+    "condition": "New",
+    "readAt": "2026-11-12T23:21:29.144Z",
+    "source": "https://www.amazon.com/dp/B0C67WP5HC",
+    "lane": "bf-refresh-2026-11-12"
+  },
+  "B0C81V3PWN": {
+    "price": 199.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Nordic Beast",
+    "condition": "New",
+    "readAt": "2026-11-12T23:21:46.431Z",
+    "source": "https://www.amazon.com/dp/B0C81V3PWN",
+    "lane": "bf-refresh-2026-11-12"
+  },
   "B0CBPKR4Z2": {
     "price": null,
     "currency": "USD",
@@ -1248,6 +1378,16 @@
     "readAt": "2026-09-09T00:56:50Z",
     "source": "https://www.amazon.com/dp/B0CBPKR4Z2",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
+  },
+  "B0CFRY7VYN": {
+    "price": 99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-12T23:25:10.491Z",
+    "source": "https://www.amazon.com/dp/B0CFRY7VYN",
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0CGRPFZM9": {
     "price": 78.29,
@@ -1298,6 +1438,16 @@
     "readAt": "2026-09-25T22:15:06.851Z",
     "source": "https://www.amazon.com/dp/B0CPFBBHP4",
     "lane": "petpal-live-read"
+  },
+  "B0CSKBWBF6": {
+    "price": 449.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Neakasa",
+    "condition": "New",
+    "readAt": "2026-11-12T23:25:27.348Z",
+    "source": "https://www.amazon.com/dp/B0CSKBWBF6",
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0CSSLBF9Q": {
     "price": 174.95,
@@ -1390,6 +1540,16 @@
     "source": "https://www.amazon.com/dp/B0D2HMV3S6",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
+  "B0D4GHS7V6": {
+    "price": 340,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-12T23:25:44.384Z",
+    "source": "https://www.amazon.com/dp/B0D4GHS7V6",
+    "lane": "bf-refresh-2026-11-12"
+  },
   "B0D4QVKV3Z": {
     "price": 59.99,
     "currency": "USD",
@@ -1410,6 +1570,16 @@
     "source": "https://www.amazon.com/dp/B0D547KMH5",
     "lane": "dead-asins-cleanup-2026-09-08"
   },
+  "B0D6YRRCVZ": {
+    "price": 105.95,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Truemark",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B0D6YRRCVZ",
+    "lane": "petpal-live-read"
+  },
   "B0D7K2B7RW": {
     "price": null,
     "currency": "USD",
@@ -1419,6 +1589,36 @@
     "readAt": "2026-09-27T01:51:27.612Z",
     "source": "https://www.amazon.com/dp/B0D7K2B7RW",
     "lane": "petpal-live-read"
+  },
+  "B0D7XQ8ZZX": {
+    "price": 59.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Ruffwear, Inc.",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B0D7XQ8ZZX",
+    "lane": "petpal-live-read"
+  },
+  "B0D7Y3MR9R": {
+    "price": 69.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Ruffwear, Inc.",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B0D7Y3MR9R",
+    "lane": "petpal-live-read"
+  },
+  "B0D83MQBZ3": {
+    "price": 352.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-12T23:26:35.212Z",
+    "source": "https://www.amazon.com/dp/B0D83MQBZ3",
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0DBHCDPPZ": {
     "price": 249.99,
@@ -1449,6 +1649,16 @@
     "readAt": "2026-09-28",
     "source": "https://www.amazon.com/dp/B0DBQHLRK7",
     "lane": "petpal-live-read"
+  },
+  "B0DGKR5MMP": {
+    "price": 94.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Globlazer",
+    "condition": "New",
+    "readAt": "2026-11-12T23:22:03.501Z",
+    "source": "https://www.amazon.com/dp/B0DGKR5MMP",
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0DHCJ571Z": {
     "price": 1299.99,
@@ -1561,14 +1771,14 @@
     "lane": "petpal-0913-chrome-samesite"
   },
   "B0DZYH7DFF": {
-    "price": 319.99,
+    "price": 299,
     "currency": "USD",
     "availability": "IN_STOCK",
     "merchant": "Amazon.com",
     "condition": "New",
-    "readAt": "2026-09-26T15:50:01.998Z",
+    "readAt": "2026-11-12T23:26:52.192Z",
     "source": "https://www.amazon.com/dp/B0DZYH7DFF",
-    "lane": "petpal-live-read"
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0F1CJPHXW": {
     "price": 38.57,
@@ -1650,6 +1860,16 @@
     "source": "https://www.amazon.com/dp/B0FC1R61FX",
     "lane": "petpal-live-read"
   },
+  "B0FFF2Y8R9": {
+    "price": 749,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Spreetail",
+    "condition": "New",
+    "readAt": "2026-11-12T23:26:01.438Z",
+    "source": "https://www.amazon.com/dp/B0FFF2Y8R9",
+    "lane": "bf-refresh-2026-11-12"
+  },
   "B0FHS4FGS8": {
     "price": 165,
     "currency": "USD",
@@ -1659,6 +1879,26 @@
     "readAt": "2026-09-28",
     "source": "https://www.amazon.com/dp/B0FHS4FGS8",
     "lane": "petpal-live-read"
+  },
+  "B0FJPP3R7F": {
+    "price": 94.95,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Truemark",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B0FJPP3R7F",
+    "lane": "petpal-live-read"
+  },
+  "B0FMLGHHJ7": {
+    "price": 524,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Halo Collar",
+    "condition": "New",
+    "readAt": "2026-11-12T23:27:09.190Z",
+    "source": "https://www.amazon.com/dp/B0FMLGHHJ7",
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0FNRMTF5B": {
     "price": 89.99,
@@ -1699,6 +1939,16 @@
     "readAt": "2026-09-28",
     "source": "https://www.amazon.com/dp/B0FYDK7WFM",
     "lane": "petpal-live-read"
+  },
+  "B0G19ZCNP9": {
+    "price": 149.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-12T23:23:10.945Z",
+    "source": "https://www.amazon.com/dp/B0G19ZCNP9",
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0G3XJRKSM": {
     "price": 32.99,
@@ -1800,6 +2050,16 @@
     "source": "https://www.amazon.com/dp/B0GLPR21N9",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
+  "B0GN3R31ZW": {
+    "price": 999,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "SpotOn GPS Fence",
+    "condition": "New",
+    "readAt": "2026-11-12T23:27:26.339Z",
+    "source": "https://www.amazon.com/dp/B0GN3R31ZW",
+    "lane": "bf-refresh-2026-11-12"
+  },
   "B0GVG9W85Y": {
     "price": null,
     "currency": "USD",
@@ -1816,9 +2076,9 @@
     "availability": "IN_STOCK",
     "merchant": "Amazon.com",
     "condition": "New",
-    "readAt": "2026-09-26T15:50:45.140Z",
+    "readAt": "2026-11-12T23:23:28.248Z",
     "source": "https://www.amazon.com/dp/B0GVLNG9DZ",
-    "lane": "petpal-live-read"
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0GVYTYNP7": {
     "price": 1599.99,
@@ -1859,6 +2119,26 @@
     "readAt": "2026-09-09T00:56:50Z",
     "source": "https://www.amazon.com/dp/B0GY332HLC",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
+  },
+  "B0H12ZH5M3": {
+    "price": 139.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Ruffwear, Inc.",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B0H12ZH5M3",
+    "lane": "petpal-live-read"
+  },
+  "B0H137PFD8": {
+    "price": 109.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Ruffwear, Inc.",
+    "condition": "New",
+    "readAt": "2026-10-03",
+    "source": "https://www.amazon.com/dp/B0H137PFD8",
+    "lane": "petpal-live-read"
   },
   "B0H29GCT4C": {
     "price": 379.99,
@@ -1961,14 +2241,14 @@
     "lane": "petpal-live-read"
   },
   "B0H95MKFX3": {
-    "price": 31.75,
+    "price": null,
     "currency": "USD",
-    "availability": "IN_STOCK",
-    "merchant": null,
-    "condition": "New",
-    "readAt": "2026-10-03",
+    "availability": "NOT_FOUND",
+    "merchant": "none (HTTP 404, no product page)",
+    "condition": "not-found",
+    "readAt": "2026-11-12T23:30:37.057Z",
     "source": "https://www.amazon.com/dp/B0H95MKFX3",
-    "lane": "petpal-live-read"
+    "lane": "bf-refresh-2026-11-12"
   },
   "B0HG13YV37": {
     "price": 280.99,
@@ -1979,75 +2259,5 @@
     "readAt": "2026-10-03T22:26:28.796Z",
     "source": "https://www.amazon.com/dp/B0HG13YV37",
     "lane": "petpal-live-read-rabbit-cages-2026-10-03"
-  },
-  "B0D7Y3MR9R": {
-    "price": 69.99,
-    "currency": "USD",
-    "availability": "IN_STOCK",
-    "merchant": "Ruffwear, Inc.",
-    "condition": "New",
-    "readAt": "2026-10-03",
-    "source": "https://www.amazon.com/dp/B0D7Y3MR9R",
-    "lane": "petpal-live-read"
-  },
-  "B0H137PFD8": {
-    "price": 109.99,
-    "currency": "USD",
-    "availability": "IN_STOCK",
-    "merchant": "Ruffwear, Inc.",
-    "condition": "New",
-    "readAt": "2026-10-03",
-    "source": "https://www.amazon.com/dp/B0H137PFD8",
-    "lane": "petpal-live-read"
-  },
-  "B0H12ZH5M3": {
-    "price": 139.99,
-    "currency": "USD",
-    "availability": "IN_STOCK",
-    "merchant": "Ruffwear, Inc.",
-    "condition": "New",
-    "readAt": "2026-10-03",
-    "source": "https://www.amazon.com/dp/B0H12ZH5M3",
-    "lane": "petpal-live-read"
-  },
-  "B0D7XQ8ZZX": {
-    "price": 59.99,
-    "currency": "USD",
-    "availability": "IN_STOCK",
-    "merchant": "Ruffwear, Inc.",
-    "condition": "New",
-    "readAt": "2026-10-03",
-    "source": "https://www.amazon.com/dp/B0D7XQ8ZZX",
-    "lane": "petpal-live-read"
-  },
-  "B0D6YRRCVZ": {
-    "price": 105.95,
-    "currency": "USD",
-    "availability": "IN_STOCK",
-    "merchant": "Truemark",
-    "condition": "New",
-    "readAt": "2026-10-03",
-    "source": "https://www.amazon.com/dp/B0D6YRRCVZ",
-    "lane": "petpal-live-read"
-  },
-  "B0FJPP3R7F": {
-    "price": 94.95,
-    "currency": "USD",
-    "availability": "IN_STOCK",
-    "merchant": "Truemark",
-    "condition": "New",
-    "readAt": "2026-10-03",
-    "source": "https://www.amazon.com/dp/B0FJPP3R7F",
-    "lane": "petpal-live-read"
-  },
-  "B00H67VZJ0": {
-    "price": 18.99,
-    "currency": "USD",
-    "availability": "IN_STOCK",
-    "merchant": "Amazon.com",
-    "condition": "New",
-    "readAt": "2026-10-03",
-    "source": "https://www.amazon.com/dp/B00H67VZJ0",
-    "lane": "petpal-live-read"
   }
 }
