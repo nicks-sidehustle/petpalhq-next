@@ -180,14 +180,14 @@ picks:
     pros:
       - "No static stimulus, so it carries none of the welfare objections"
       - "Live location, which two of the three fences on this page cannot provide at all"
-      - "Cheapest five-year total on the page"
+      - "Cheapest hardware on the page at $79.00"
       - "Works on walks and away from home, not just in one yard"
     cons:
       - "Prevents nothing — the Virtual Fence is a notification"
       - "Unusable without an active plan, because the plan carries the cellular link"
       - "Recovery depends on mobile coverage wherever the dog actually went"
       - "One more device to charge, which is a habit rather than a feature"
-    verdict: "Get the Tractive if the boundary already works and the gap is knowing where the dog is. It is the cheapest complete answer on this page and the only one with nothing aversive in it."
+    verdict: "Get the Tractive if the boundary already works and the gap is knowing where the dog is. At $79.00 it is the cheapest hardware on this page and the only pick with nothing aversive in it."
 
   - rank: 4
     label: "IF YOU NEED PREVENTION WITH NO RECURRING BILL AND HAVE THE ACREAGE"
