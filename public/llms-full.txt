@@ -20593,23 +20593,23 @@ Category: Aquarium  |  Hub: new-aquarium-starter-checklist-first-tank-2026
 > A 20 or 29 gallon kit is easier to keep stable than a small one, and two of the four kits here ship with a heater. Four kits from 10 to 29 gallons, ranked on what ships and what you can confirm.
 
 ### Quick answer
-For most people buying a first mid-size freshwater tank, the Tetra 29 Gallon Complete Tropical Fish Tank Kit is the best pick: Tetra's page for its Complete LED Aquarium Kit 29 lists a Whisper PF 30 filter, a 200-watt heater, a thermometer and a hinged LED hood with a 30 x 12 x 18 inch glass tank, and the University of Florida IFAS Extension says an ideal starter tank is probably a thirty-gallon unit. The Tetra 20 Gallon kit also ships with a heater, per Tetra, for $119.14. The Tetra 10 Gallon kit and the Fluval Flex 15 do not include a heater per their makers' pages, so budget for one if you keep tropical fish.
+For most people buying a first mid-size freshwater tank, the Tetra 29 Gallon Complete Tropical Fish Tank Kit is the best pick: Tetra's page for its Complete LED Aquarium Kit 29 lists a Whisper PF 30 filter, a 200-watt heater, a thermometer and a hinged LED hood with a 30 x 12 x 18 inch glass tank, and the University of Florida IFAS Extension says an ideal starter tank is probably a thirty-gallon unit. The Tetra 20 Gallon kit's Amazon listing also says it includes a heater and thermometer, for $119.14. The Tetra 10 Gallon kit and the Fluval Flex 15 do not include a heater per their makers' pages, so budget for one if you keep tropical fish.
 
 ### Review method
 Editorial synthesis of the University of Florida IFAS Extension's aquarium setup publication (EDIS VM144), the Merck Veterinary Manual's guidance on housing aquarium fish, Texas A&M AgriLife Extension's fact sheet on ammonia, the Ornamental Aquatic Trade Association's freshwater tank care sheet, and the makers' own kit pages from Tetra and Fluval, read against Amazon listings checked November 15, 2026. Rankings follow the published PetPal Mid-Size Tank Score weights. No first-hand product testing.
 
 ### Top picks (winners)
 1. Tetra 29 Gallon Complete Tropical Fish Tank Kit — Tetra's kit page lists a Whisper PF 30 filter, a 200-watt heater, a thermometer and a hinged LED hood with a 30 x 12 x 18 inch glass tank.
-2. Tetra 20 Gallon Complete Tropical Fish Tank Kit — Tetra's kit page lists a Whisper PF 20 filter, a 100-watt heater, a thermometer and a hinged LED hood with a 24 x 12 x 16 inch glass tank.
+2. Tetra 20 Gallon Complete Tropical Fish Tank Kit — Its Amazon listing says the kit includes an internal filter, a heater, a thermometer and a hinged hood with LED lighting, with a 24 x 12 x 16 inch glass tank.
 3. Fluval Flex 15 Gallon Glass Aquarium Kit — A 15-gallon curved-front tank, 16 x 15 x 15 inches, with 3-stage filtration and a 7500K LED, per Fluval; Fluval sells the heater separately.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Mid-Size Tank Score = (Ready to Run × 0.30) + (Volume × 0.25) + (Specs on Record × 0.20) + (Value × 0.15) + (Display Design × 0.10), each factor scored 0-10 and the total rounded to one decimal, halves up; every pick's factor scores are printed in the comparison table
-- Ready to Run (30): How much of a working aquarium ships with the tank, read from the maker's kit page. Scoring: 10 for a kit whose maker page lists a filter, a heater, a thermometer and lighting; 6 for a kit with a filter and lighting but no heater listed or the heater sold separately. Weighted highest because the Merck Veterinary Manual says a heater is necessary for both freshwater and saltwater tropical fish.
-- Volume (25): Nominal volume from the maker's page, read against the University of Florida IFAS Extension line that an ideal starter tank is probably a thirty-gallon unit and OATA's note that larger aquariums are more stable than small ones. Scoring: 10 for 29 gallons; 8 for 20 gallons; 6 for 15 gallons; 5 for 10 gallons.
-- Specs on Record (20): How much of the kit a buyer can confirm before ordering from a verified source. Scoring: 10 when the dimensions and contents come from a maker page captured for this guide; 4 when only the listing title, price and seller were captured. All four picks here have maker pages. Weighted because stand sizing depends on the footprint.
+- Ready to Run (30): How much of a working aquarium ships with the tank, read from the maker's kit page, or from the Amazon listing where no maker page for that model number was captured. Scoring: 10 for a kit whose maker page or listing names a filter, a heater, a thermometer and lighting; 6 for a kit with a filter and lighting but no heater listed or the heater sold separately. Weighted highest because the Merck Veterinary Manual says a heater is necessary for both freshwater and saltwater tropical fish.
+- Volume (25): Nominal volume from the maker's page or, where none was captured, the Amazon listing, read against the University of Florida IFAS Extension line that an ideal starter tank is probably a thirty-gallon unit and OATA's note that larger aquariums are more stable than small ones. Scoring: 10 for 29 gallons; 8 for 20 gallons; 6 for 15 gallons; 5 for 10 gallons.
+- Specs on Record (20): How much of the kit a buyer can confirm before ordering from a verified source. Scoring: 10 when the dimensions and contents come from a maker page captured for this guide for that model number; 4 when no maker page for that model number was captured and the dimensions and contents come only from the Amazon listing. Three picks have maker pages; the Tetra 20 kit (model NV33821) scores 4. Weighted because stand sizing depends on the footprint.
 - Value (15): The Amazon current price shown on each card, checked November 15, 2026, ranked against the other picks: 9 for the lowest price ($76.74); 8 for the second-lowest ($119.14); 6 for the third ($189.99); 5 for the highest ($207.65). Weighted below the factors above because a cheaper kit that needs a heater bought on top is not always the cheaper setup.
-- Display Design (10): The tank shape and lighting stated on the maker page. Scoring: 8 for a curved-front tank with a 7500K LED and published lighting specs; 5 for a rectangular glass tank with a hinged white-LED hood. Weighted lowest because it changes the look, not the fish's welfare.
+- Display Design (10): The tank shape and lighting stated on the maker page or, where none was captured, the Amazon listing. Scoring: 8 for a curved-front tank with a 7500K LED and published lighting specs; 5 for a rectangular glass tank with a hinged LED hood. Weighted lowest because it changes the look, not the fish's welfare.
 
 ### Product picks
 #### Rank 1 — BEST OVERALL — COMPLETE 29-GALLON KIT: Tetra 29 Gallon Complete Tropical Fish Tank Kit
@@ -20631,24 +20631,25 @@ Cons:
 - No stand included; a filled 29-gallon needs one rated for its weight
 Verdict: Buy the Tetra 29 kit for a first mid-size freshwater tank when you have room for a 30-inch stand and want the filter, heater and light decided for you.
 
-#### Rank 2 — BEST VALUE WITH A HEATER — 20-GALLON KIT: Tetra 20 Gallon Complete Tropical Fish Tank Kit
-Brand: Tetra  |  Score: 8.7/10  |  Price: $119.14 (Current price · checked Nov 15, 2026)  |  ASIN: B013BXDZ90
+#### Rank 2 — BEST FOR A 24-INCH SPACE — 20-GALLON KIT: Tetra 20 Gallon Complete Tropical Fish Tank Kit
+Brand: Tetra  |  Score: 7.5/10  |  Price: $119.14 (Current price · checked Nov 15, 2026)  |  ASIN: B013BXDZ90
 Key features:
-- 20-gallon glass tank, 24 inches wide by 12 inches deep by 16 inches high, per Tetra
-- Tetra Whisper PF 20 Power Filter with a Large Bio-Bag Filter Cartridge
-- 100-watt heater and a thermometer
-- Low-profile, hinged hood with white LEDs
-- Lowest price on this page for a kit with a heater
+- 20-gallon glass tank, 24 inches wide by 12 inches deep by 16 inches high, per the Amazon listing
+- Internal filter and filter cartridge, per the Amazon listing
+- Aquarium heater and thermometer, per the Amazon listing, which gives no heater wattage
+- Low-profile, hinged hood with an LED lighting system
+- Lowest price on this page for a kit with a heater listed
 Pros:
-- Filter, 100-watt heater, thermometer and LED hood listed with the tank on Tetra's kit page
-- Lowest price on this page among kits that include a heater
+- Amazon listing includes a filter, heater, thermometer and LED hood with the tank
+- Lowest price on this page among kits with a heater listed
 - 24-inch footprint fits a narrower stand than the 29-gallon kit
 - Sold and shipped by Amazon.com at the November 15 read
 Cons:
-- Contents come from Tetra's kit page; the Amazon listing title does not itemize them
+- Contents and dimensions come only from the Amazon listing; Tetra's page for model NV33821 was not captured for this guide
+- The listing names no heater wattage or filter model
 - Holds 9 gallons less water than the Tetra 29 kit
 - No stand included
-Verdict: Pick the Tetra 20 kit when a 30-inch tank will not fit or the budget is tighter, and you still want the heater in the box.
+Verdict: Pick the Tetra 20 kit when a 30-inch tank will not fit or the budget is tighter and you want a heater listed in the box; confirm the contents on the listing before ordering.
 
 #### Rank 3 — BEST COMPACT DESIGN — 15-GALLON CURVED FRONT: Fluval Flex 15 Gallon Glass Aquarium Kit
 Brand: Fluval  |  Score: 7/10  |  Price: $189.99 (Current price · checked Nov 15, 2026)  |  ASIN: B01N53XPQ8
@@ -20685,11 +20686,12 @@ Cons:
 - Tetra's kit page lists no heater or thermometer
 - Smallest volume on this page, the least stable size here per UF/IFAS and OATA
 - Contents come from Tetra's kit page; the Amazon listing title does not itemize them
+- Amazon's bullets describe an internal filter; Tetra's page for the same model number (NV33832) lists the Whisper PF 10.
 Verdict: Get the Tetra 10 kit when space or budget rules out a 20-gallon, and add a heater and thermometer before tropical fish go in.
 
 ### Bottom line
 Get the Tetra 29 Gallon Complete kit for a first mid-size freshwater tank. Tetra's kit page lists a filter, a 200-watt heater, a thermometer and an LED hood with the tank; confirm the contents on the listing.
-Get the Tetra 20 Gallon Complete kit when a 30-inch tank will not fit; Tetra lists a 100-watt heater in the box, and it is the lowest price here for a kit with one.
+Get the Tetra 20 Gallon Complete kit when a 30-inch tank will not fit; its Amazon listing includes a heater and thermometer, and it is the lowest price here for a kit with a heater listed.
 Get the Fluval Flex 15 for a compact curved-front display, and add a heater, which Fluval sells separately.
 Get the Tetra LED 10 Gallon kit when space or budget is tight; Tetra's page lists no heater, so buy one for tropical fish.
 
@@ -20697,7 +20699,7 @@ Get the Tetra LED 10 Gallon kit when space or budget is tight; Tetra's page list
 Do not buy any tank on this page before the stand and floor are settled. The Merck Veterinary Manual says the floor and the tank stand or cabinet must be strong, level, and stable, and that 1 gallon of water weighs 8.3 lb; our [aquarium stands guide](/guides/best-aquarium-stands-cabinets-2026) ranks stands by rated capacity. Skip this size class if you want a single betta on a desk, where our [nano aquarium kits guide](/guides/best-nano-aquarium-kits-2026) covers 5-gallon kits. And if a 29-gallon already feels small for the fish you have in mind, our [55 to 75 gallon kits guide](/guides/best-55-75-gallon-freshwater-aquarium-kits-2026) covers the next size up.
 
 ### Sources
-Expert: University of Florida IFAS Extension — Aquarium Setup and Maintenance (EDIS VM144); Merck Veterinary Manual (Pet Owner Version) — Providing a Home for Fish; Texas A&M AgriLife Extension — Ammonia in Aquatic Systems (FA16); Ornamental Aquatic Trade Association — How to set up and look after a freshwater tank / aquarium; Tetra — Complete LED Aquarium Kit 10, 20 and 29 product pages (manufacturer specifications); Fluval — Flex Aquarium Kit product page (manufacturer specifications); Amazon listings for each pick, checked November 15, 2026
+Expert: University of Florida IFAS Extension — Aquarium Setup and Maintenance (EDIS VM144); Merck Veterinary Manual (Pet Owner Version) — Providing a Home for Fish; Texas A&M AgriLife Extension — Ammonia in Aquatic Systems (FA16); Ornamental Aquatic Trade Association — How to set up and look after a freshwater tank / aquarium; Tetra — Complete LED Aquarium Kit 10 and 29 product pages (manufacturer specifications); Fluval — Flex Aquarium Kit product page (manufacturer specifications); Amazon listings for each pick, checked November 15, 2026
 Verified: 2026-11-15
 
 ---
@@ -27443,10 +27445,10 @@ Category: Cats & Dogs
 > A heated bed should warm to your pet's body temperature, let them step off when they get too warm, and keep its cord out of chewing range. Four electric and two self-warming indoor beds, ranked on those.
 
 ### Quick answer
-For a cat or a dog up to 40 pounds, the K&H Thermo-Pet Lounge Sleeper in Medium is the top-scoring pick: K&H rates the Medium for pets up to 40 pounds and says its removable pad warms to your pet's normal body temperature only when the pet is on it, and the bed goes in the washing machine once the pad is out. For a cat that likes to nest, the 4-watt K&H Thermo-Snuggle Cup is completely machine washable once the heater is out. For a large dog, the 60-watt K&H Lectro-Soft pad measures 25 x 36 inches and has a steel-wrapped cord, but K&H says it is not recommended for destructive pets. For a pet that chews cords, skip electric beds: the AKC and PangoVet both point chewers to self-warming beds, such as the FurHaven ThermaNAP mat. Whatever you buy, the pet must be able to get off the heat.
+For a cat or a dog up to 40 pounds, the K&H Thermo-Pet Lounge Sleeper in Medium is the top-scoring pick: K&H rates the Medium for pets up to 40 pounds and says its removable pad warms to your pet's normal body temperature only when the pet is on it, and the bed goes in the washing machine once the pad is out. For a cat that likes to nest, the 4-watt K&H Thermo-Snuggle Cup is completely machine washable once the heater is out. For a large dog, the 60-watt K&H Lectro-Soft pad measures 25 x 36 inches and has a steel-wrapped cord, but K&H says it is not recommended for destructive pets. For a pet that chews cords, skip electric beds: the AKC and The Vet Desk both point chewers to self-warming beds, such as the FurHaven ThermaNAP mat. Whatever you buy, the pet must be able to get off the heat.
 
 ### Review method
-Editorial synthesis of heated-bed and cold-weather guidance from the American Kennel Club, PangoVet, PetMD, PDSA and the ASPCA, read against K&H Pet Products, FurHaven and Mora Pets product pages read November 15, 2026, with every price checked on Amazon November 15, 2026 for the listing named on each card. Rankings follow the published PetPal Heated Bed Score weights. No first-hand product testing.
+Editorial synthesis of heated-bed and cold-weather guidance from the American Kennel Club, The Vet Desk (formerly PangoVet), PetMD, PDSA and the ASPCA, read against K&H Pet Products, FurHaven and Mora Pets product pages read November 15, 2026, with every price checked on Amazon November 15, 2026 for the listing named on each card. Rankings follow the published PetPal Heated Bed Score weights. No first-hand product testing.
 
 ### Top picks (winners)
 1. K&H Heated Pet Bed, Thermo-Pet Lounge Sleeper Indoor, Safety Listed Medium — A bolstered bed whose removable 7-watt pad warms to your pet's normal body temperature only when in use, rated by K&H for pets up to 40 pounds, with a plush bed that goes in the washing machine once the pad is out.
@@ -27454,11 +27456,11 @@ Editorial synthesis of heated-bed and cold-weather guidance from the American Ke
 3. K&H Heating Pad, Lectro-Soft Outdoor Pet Bed, Safety Listed, 36x25in 60W — A 25 x 36 inch, 60-watt heated pad with an orthopedic foam base, a 5½-foot steel-wrapped cord and a free washable fleece cover, the one large-dog-sized heated pick here.
 
 ### PetPal Gear Score methodology
-Formula: PetPal Heated Bed Score = (Warmth & Temperature Control × 0.30) + (Cord & Chew Safety × 0.25) + (Cleaning × 0.20) + (Published Sizing × 0.15) + (Value × 0.10)
-- Warmth & Temperature Control (30): Where the warmth comes from and how the maker says it is controlled. Scoring: 10 for an electric heater the maker says is thermostatically controlled to warm to the pet's body temperature when the pet is using it; 5 for a non-electric bed or mat that reflects or holds the pet's own body heat. Weighted highest because warmth is the reason to buy one of these beds, and the AKC, PangoVet and PDSA all describe the pets that need extra heat.
-- Cord & Chew Safety (25): How much electrical risk the bed brings into the house. Scoring: 10 for no electricity at all, because the AKC and PangoVet both point chewers to self-warming beds; 8 for an electric bed the maker says is safety certified as a whole product and that has a steel-wrapped cord; 6 for an electric bed the maker says is safety certified as a whole product, with no cord protection stated. Weighted second because PangoVet warns that a cat chewing the cord or pad risks burns or electrocution, and the AKC advises a chew-resistant cord kept out of reach.
+Formula: PetPal Heated Bed Score = (Warmth & Temperature Control × 0.30) + (Cord & Chew Safety × 0.25) + (Cleaning × 0.20) + (Published Sizing × 0.15) + (Value × 0.10). Ties on the total are broken by the higher Warmth & Temperature Control score.
+- Warmth & Temperature Control (30): Where the warmth comes from and how the maker says it is controlled. Scoring: 10 for an electric heater the maker says is thermostatically controlled to warm to the pet's body temperature when the pet is using it; 5 for a non-electric bed or mat that reflects or holds the pet's own body heat. Weighted highest because warmth is the reason to buy one of these beds, and the AKC, The Vet Desk and PDSA all describe the pets that need extra heat.
+- Cord & Chew Safety (25): How much electrical risk the bed brings into the house. Scoring: 10 for no electricity at all, because the AKC and The Vet Desk both point chewers to self-warming beds; 8 for an electric bed the maker says is safety certified as a whole product and that has a steel-wrapped cord; 6 for an electric bed the maker says is safety certified as a whole product, with no cord protection stated. Weighted second because The Vet Desk warns that a cat chewing the cord or pad risks burns or electrocution, and the AKC advises a chew-resistant cord kept out of reach.
 - Cleaning (20): What the maker says can go in the washing machine. Scoring: 10 when the whole bed or mat is machine washable (with any heater removed); 8 when a removable cover, or a cover and cushion, is washable but another part is not, or the cover must hang dry.
-- Published Sizing (15): What the maker publishes for the size whose price was checked. Scoring: 10 for dimensions plus a weight recommendation; 8 for dimensions only; 4 when the Amazon title read at the price check did not show which size the price covers.
+- Published Sizing (15): What the maker publishes for the size whose price was checked. Scoring: 10 for dimensions plus a weight recommendation; 8 for dimensions only, from the maker page or, where the maker page does not give them for that size, the Amazon listing; 4 when the Amazon title read at the price check did not show which size the price covers.
 - Value (10): The Amazon current price each card shows, checked November 15, 2026, in bands: under $30 scores 10; $30 to $49.99 scores 8; $50 to $79.99 scores 6; $80 or more scores 4. Weighted last because a bed the pet will not use, or cannot safely use, is no saving. The per-factor scores for every pick are printed in the comparison table, so each total can be recomputed.
 
 ### Product picks
@@ -27472,7 +27474,7 @@ Key features:
 - Tested and certified by MET Labs as a whole product; indoor household use on 110/120 volt current only
 - Price checked November 15, 2026, size Medium, per the listing title
 Pros:
-- K&H publishes a 40-pound weight recommendation for the Medium, the only weight rating among the picks here
+- K&H publishes a 40-pound weight recommendation for the Medium, the only weight rating on a maker's product page among the picks here
 - Pad warms to the pet's normal body temperature only when in use, per K&H
 - Machine-washable bed once the pad is removed
 - Whole product MET certified, per K&H
@@ -27521,7 +27523,25 @@ Cons:
 - K&H publishes size and wattage but no weight rating
 Verdict: Get the Lectro-Soft Large for a big dog that wants heat under stiff joints and does not chew its bedding.
 
-#### Rank 4 — BEST CLASSIC HEATED CAT BED — 6-INCH FOAM WALLS: K&H Heated Cat Bed, Thermo-Kitty Bed Indoor, Safety Listed, Large 20in, 4W
+#### Rank 4 — BEST SELF-WARMING MAT — NO OUTLET, NO CORD: FurHaven ThermaNAP Self Warming Cat Mat, Dog Bed for Crate
+Brand: FurHaven  |  Score: 8.2/10  |  Price: $12.99 (Current price · checked Nov 15, 2026)  |  ASIN: B06XF4YD9Y
+Key features:
+- Works without electricity, per FurHaven
+- Machine washable
+- FurHaven sizes: Small 22 x 17 x 0.25 inches, Large 36 x 24 x 0.25 inches
+- Lightweight, portable mat FurHaven sizes for a cat or a small dog
+- Price checked November 15, 2026 for size Small (22 x 17 x 0.25 in)
+Pros:
+- No cord, which the AKC and The Vet Desk recommend for chewers
+- Machine washable
+- Lowest price among the picks
+- Works anywhere indoors, with no outlet needed
+Cons:
+- No heat of its own; it reflects the pet's body heat
+- 0.25 inches thick in both FurHaven sizes
+Verdict: Use the ThermaNAP for a cord-chewer or a spot with no outlet; the price on this card is for the Small, 22 x 17 inches.
+
+#### Rank 5 — BEST CLASSIC HEATED CAT BED — 6-INCH FOAM WALLS: K&H Heated Cat Bed, Thermo-Kitty Bed Indoor, Safety Listed, Large 20in, 4W
 Brand: K&H Pet Products  |  Score: 7.9/10  |  Price: $70.98 (Current price · checked Nov 15, 2026)  |  ASIN: B07HMVNXXS
 Key features:
 - Large: 20 inches in diameter; K&H says both sizes are great for small dogs too
@@ -27542,34 +27562,15 @@ Cons:
 - Electric, so it needs an outlet within reach of its 5.5-foot cord, without an extension cord
 Verdict: Pick the Thermo-Kitty Bed Large for a cat that likes high foam walls, and plan for hand-washing the foam ring.
 
-#### Rank 5 — BEST SELF-WARMING MAT — NO OUTLET, NO CORD: FurHaven ThermaNAP Self Warming Cat Mat, Dog Bed for Crate
-Brand: FurHaven  |  Score: 7.6/10  |  Price: $12.99 (Current price · checked Nov 15, 2026)  |  ASIN: B06XF4YD9Y
-Key features:
-- Works without electricity, per FurHaven
-- Machine washable
-- FurHaven sizes: Small 22 x 17 x 0.25 inches, Large 36 x 24 x 0.25 inches
-- Lightweight, portable mat FurHaven sizes for a cat or a small dog
-- Price checked November 15, 2026; the listing title was cut off at the check before it named a size
-Pros:
-- No cord, which the AKC and PangoVet recommend for chewers
-- Machine washable
-- Lowest price among the picks
-- Works anywhere indoors, with no outlet needed
-Cons:
-- No heat of its own; it reflects the pet's body heat
-- 0.25 inches thick in both FurHaven sizes
-- The size this price covers was not shown at the check
-Verdict: Use the ThermaNAP for a cord-chewer or a spot with no outlet, and check the size on the listing before ordering.
-
 #### Rank 6 — BEST SELF-WARMING BOLSTER BED — QUIET REFLECTIVE LAYER: Mora Pets Self Warming Cat Bed Self Heating Pet Pad with Bolster
-Brand: Mora Pets  |  Score: 7.2/10  |  Price: $27.99 (Current price · checked Nov 15, 2026)  |  ASIN: B0DBHYS8QC
+Brand: Mora Pets  |  Score: 7.8/10  |  Price: $23.79 (Current price · checked Nov 15, 2026)  |  ASIN: B0DBHYS8QC
 Key features:
 - Thermal reflective layer made of noiseless materials, per Mora Pets
 - Bolster around the edge, filled with 25D foam
 - Sherpa fabric surface
 - Removable, machine-washable cover with a non-slip bottom; Mora Pets says not to tumble dry or iron it
 - Sold by FluffyCare Pet on Amazon at the check
-- Price checked November 15, 2026; the listing title was cut off at the check before it named a size
+- Price checked November 15, 2026 for the listing's stated size, 20 x 17 x 3 inches, per the Amazon listing
 Pros:
 - No cord; a quiet reflective layer, per Mora Pets
 - Foam-filled bolster for a cat that likes to lean
@@ -27577,22 +27578,22 @@ Pros:
 Cons:
 - No heat of its own; it reflects the pet's body heat
 - Cover must hang dry; Mora Pets says not to tumble dry or iron it
-- The size this price covers was not shown at the check
-Verdict: Choose the Mora Pets bed for a cord-chewing cat that likes a bolster, and check the size on the listing before ordering.
+- Its size comes only from the Amazon listing; Mora Pets' own page names Medium and Large without matching either to this listing
+Verdict: Choose the Mora Pets bed for a cord-chewing cat that likes a bolster; the Amazon listing gives it as 20 x 17 x 3 inches.
 
 ### Bottom line
-Get the K&H Thermo-Pet Lounge Sleeper Medium for a cat or a dog up to 40 pounds; K&H publishes the weight rating, and the bed goes in the washer once the pad is out.
+Get the K&H Thermo-Pet Lounge Sleeper Medium for a cat or a dog up to 40 pounds; K&H's product page gives a 40-pound weight rating, and the bed goes in the washer once the pad is out.
 Get the K&H Thermo-Snuggle Cup for a cat that likes to nest; it is completely machine washable once the 4-watt heater is out.
 Get the K&H Lectro-Soft Large for a big dog with stiff joints that does not chew; it is a 25 x 36 inch, 60-watt pad with a steel-wrapped cord.
-Get the K&H Thermo-Kitty Bed Large for a cat that likes high foam walls, and plan to hand-wash the foam ring.
 Get the FurHaven ThermaNAP for a cord-chewer or a spot with no outlet; it is the lowest-priced pick here.
+Get the K&H Thermo-Kitty Bed Large for a cat that likes high foam walls, and plan to hand-wash the foam ring.
 Get the Mora Pets bolster bed for a cord-chewing cat that likes a raised edge to lean on.
 
 ### When not to buy
-Do not buy an electric bed for a pet that chews cords or bedding. PangoVet says "If your cat chews the electric cord or the pad, burns or electrocution might result", and K&H says the Lectro-Soft is not recommended for destructive pets; pick the ThermaNAP or the Mora Pets bed instead. Do not put a heated bed in a crate, carrier or other enclosed space a pet cannot leave: PangoVet says "Your cat should be able to get up and move away from the bed, so try not to place it in an enclosed space, particularly if they are elderly or ill." For a pet with mobility problems, the AKC warns that "your dog could be at risk of overheating or getting burned if they have mobility issues and can’t get up easily", so talk to your vet first and supervise use. Do not use a human heating pad or electric blanket instead: about sharing yours with your dog, the AKC says "this isn’t a good idea." And do not buy any pick here for an outdoor cat or dog: K&H rates the electric beds other than the Lectro-Soft for indoor use only, and K&H says self-warming products are not designed for cold outdoor winter temperatures.
+Do not buy an electric bed for a pet that chews cords or bedding. The Vet Desk says "If your cat chews the electric cord or the pad, burns or electrocution might result", and K&H says the Lectro-Soft is not recommended for destructive pets; pick the ThermaNAP or the Mora Pets bed instead. Do not put a heated bed in a crate, carrier or other enclosed space a pet cannot leave: The Vet Desk says "Your cat should be able to get up and move away from the bed, so try not to place it in an enclosed space, particularly if they are elderly or ill." For a pet with mobility problems, the AKC warns that "your dog could be at risk of overheating or getting burned if they have mobility issues and can’t get up easily", so talk to your vet first and supervise use. Do not use a human heating pad or electric blanket instead: about sharing yours with your dog, the AKC says "this isn’t a good idea." And do not buy any pick here for an outdoor cat or dog: K&H rates the electric beds other than the Lectro-Soft for indoor use only, and K&H says self-warming products are not designed for cold outdoor winter temperatures.
 
 ### Sources
-Expert: American Kennel Club — Are heated beds safe for dogs? (Vet's Corner); PangoVet — Are heated cat beds safe for cats? (DVM-reviewed); PetMD — 7 ways to ease dog arthritis in cooler weather (quoting Dr. Jo Ann Morrison, DVM); PDSA — Arthritis in dogs; ASPCA — Cold weather safety tips; K&H Pet Products product pages for the Thermo-Pet Lounge Sleeper, Thermo-Snuggle Cup, Lectro-Soft Outdoor Heated Bed, Thermo-Kitty Bed and Self-Warming Nuzzle Nest; FurHaven ThermaNAP and Mora Pets Self Warming Bolster Cat Bed product pages; all read November 15, 2026; all prices checked on Amazon November 15, 2026
+Expert: American Kennel Club — Are heated beds safe for dogs? (Vet's Corner); The Vet Desk (formerly PangoVet) — Are heated cat beds safe for cats? (DVM-reviewed); PetMD — 7 ways to ease dog arthritis in cooler weather (quoting Dr. Jo Ann Morrison, DVM); PDSA — Arthritis in dogs; ASPCA — Cold weather safety tips; K&H Pet Products product pages for the Thermo-Pet Lounge Sleeper, Thermo-Snuggle Cup, Lectro-Soft Outdoor Heated Bed, Thermo-Kitty Bed and Self-Warming Nuzzle Nest; FurHaven ThermaNAP and Mora Pets Self Warming Bolster Cat Bed product pages; all read November 15, 2026; all prices checked on Amazon November 15, 2026
 Verified: 2026-11-15
 
 ---

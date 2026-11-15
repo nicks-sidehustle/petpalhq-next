@@ -1811,14 +1811,14 @@
     "lane": "petpal-live-read"
   },
   "B0DBHYS8QC": {
-    "price": 27.99,
+    "price": 23.79,
     "currency": "USD",
     "availability": "IN_STOCK",
     "merchant": "FluffyCare Pet",
     "condition": "New",
-    "readAt": "2026-11-15T16:34:43.948Z",
+    "readAt": "2026-11-15T17:33:56.027Z",
     "source": "https://www.amazon.com/dp/B0DBHYS8QC",
-    "lane": "petpal-1114-live-read"
+    "lane": "w4-pr1-live-read"
   },
   "B0DBMW4YN9": {
     "price": 234.99,
