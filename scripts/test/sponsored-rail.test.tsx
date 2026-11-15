@@ -294,7 +294,7 @@ const notOn: SponsoredRailProduct[] = [
 ];
 check('notOnGuides hides the product on a listed guide', selectSponsoredRailProducts({ slug: 'power-chew-guide', animals: ['dog'] }, notOn).length === 0);
 check('notOnGuides leaves other guides alone', selectSponsoredRailProducts({ slug: 'other-guide', animals: ['dog'] }, notOn).length === 1);
-for (const [asin, slug] of [['B00CPDWT2M', 'best-indestructible-dog-toys-aggressive-chewers-2026'], ['B00CPDWT2M', 'best-dog-chew-toys-anxiety-2026'], ['B076F7HM8T', 'best-dog-leashes-2026']] as const) {
+for (const [asin, slug] of [['B00CPDWT2M', 'best-indestructible-dog-toys-aggressive-chewers-2026'], ['B00CPDWT2M', 'best-dog-chew-toys-anxiety-2026'], ['B076F7HM8T', 'best-dog-leashes-2026'], ['B076F7HM8T', 'best-no-pull-harnesses-leash-manners-2026'], ['B076F7HM8T', 'how-to-stop-your-dog-pulling-on-the-leash-2026']] as const) {
   const shown = selectSponsoredRailProducts({ slug, animals: ['dog'], title: slug.replace(/-/g, ' ') }, SPONSORED_RAIL_PRODUCTS, 50).map((p) => p.asin);
   check(`real data: ${asin} never on ${slug}`, !shown.includes(asin));
 }
