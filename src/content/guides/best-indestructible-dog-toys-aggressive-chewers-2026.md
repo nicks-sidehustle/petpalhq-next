@@ -29,7 +29,7 @@ guideType: "spoke"
 
 species: ["dog"]
 
-shortAnswer: "No dog toy is truly indestructible. VCA Animal Hospitals says some dogs tear even rubber toys apart in a matter of minutes, and KONG, West Paw and Monster K9 each say on their own pages that no toy is indestructible. With that said, the KONG Extreme Large 2-pack is the top-scoring pick here: KONG says its black rubber is specifically designed for power chewers, publishes a weight chart (Large is for dogs between 30 and 65 lbs) and tells owners of power chewers they may need to size up one or two sizes. The West Paw Zogoflex Hurley is the pick for a chewer that also fetches and swims, since West Paw says it floats and is designed for super chewers, and West Paw promises a one-time replacement or refund if a dog damages a Zogoflex toy. Whatever you buy, size up, supervise, and take the toy away once chunks start coming off. Hard nylon chews were left off this list because the AKC and VCA warn that chews that are too hard can fracture teeth."
+shortAnswer: "No dog toy is truly indestructible. VCA Animal Hospitals says some dogs tear even rubber toys apart in a matter of minutes, and KONG and West Paw say on their own pages, and Monster K9 says in its Amazon listing, that no dog toy is truly indestructible. With that said, the KONG Extreme Large 2-pack is the top-scoring pick here: KONG says its black rubber is specifically designed for power chewers, publishes a weight chart (Large is for dogs between 30 and 65 lbs) and tells owners of power chewers they may need to size up one or two sizes. The West Paw Zogoflex Hurley is the pick for a chewer that also fetches and swims, since West Paw says it floats and is designed for super chewers, and West Paw promises a one-time replacement or refund if a dog damages a Zogoflex toy. Whatever you buy, size up, supervise, and take the toy away once chunks start coming off. Hard nylon chews were left off this list because the AKC and VCA warn that chews that are too hard can fracture teeth."
 
 topPicks:
   - name: "KONG Extreme Dog Toy, Natural Rubber Chew, for Large Dogs (Pack of 2)"
@@ -54,7 +54,7 @@ picks:
     name: "KONG Extreme Dog Toy, Natural Rubber Chew, for Large Dogs (Pack of 2)"
     brand: "KONG"
     score: 8.2
-    price: "$29.92"
+    price: "$28.72"
     aliases: ["the KONG Extreme"]
     image: "https://m.media-amazon.com/images/I/61OX9KFJPDL._AC_SL1500_.jpg"
     asin: "B0F7K2S8FX"
@@ -385,7 +385,7 @@ related:
   - "best-chew-proof-dog-beds-2026"
 ---
 
-Search for "indestructible dog toys" and you will find plenty of toys sold that way. None of them is. VCA Animal Hospitals puts it plainly: "Every dog has a different drive to destroy their toys, with some dogs tearing even rubber toys apart in a matter of minutes." The makers on this page agree. KONG, West Paw and Monster K9 each say on their own pages that no dog toy is indestructible.
+Search for "indestructible dog toys" and you will find plenty of toys sold that way. None of them is. VCA Animal Hospitals puts it plainly: "Every dog has a different drive to destroy their toys, with some dogs tearing even rubber toys apart in a matter of minutes." The makers on this page agree. KONG and West Paw say on their own pages, and Monster K9 says in its Amazon listing, that no dog toy is truly indestructible.
 
 What a power chewer needs is a toy built for hard chewing, sized big enough, and taken away when it starts to break. This guide ranks five rubber toys on what can be checked: how the maker rates the toy for chewing, how clearly the maker says to size it, and what the maker promises if a dog damages it. The five are a KONG Extreme 2-pack, the West Paw Zogoflex Hurley, a Monster K9 Ring Ball, the KONG Extreme Goodie Bone and a Goughnuts tug.
 
@@ -422,7 +422,7 @@ Three habits matter more than which toy you buy.
 ## Frequently Asked Questions
 
 **Q: Is any dog toy truly indestructible?**
-A: No. VCA says some dogs tear even rubber toys apart in a matter of minutes, and KONG, West Paw and Monster K9 each say on their own pages that no dog toy is indestructible. Buy a toy built for power chewers, size it up, and supervise.
+A: No. VCA says some dogs tear even rubber toys apart in a matter of minutes, and KONG and West Paw say on their own pages, and Monster K9 says in its Amazon listing, that no dog toy is truly indestructible. Buy a toy built for power chewers, size it up, and supervise.
 
 **Q: Are nylon bones safe for aggressive chewers?**
 A: The sources this guide drew on lean against hard chews. The AKC says "chew toys with some flexibility are generally recommended", and VCA says toys should be soft enough to indent with a fingernail. The ASPCA warns that dogs can wear durable chews down to thin sections that break off and get swallowed. Ask your veterinarian before giving a hard chew to a dog that chews hard.

@@ -2641,12 +2641,12 @@
     "lane": "petpal-1114-live-read"
   },
   "B0F7K2S8FX": {
-    "price": 29.92,
+    "price": 28.72,
     "currency": "USD",
     "availability": "IN_STOCK",
-    "merchant": "Pattern Products",
+    "merchant": "Global Proff",
     "condition": "New",
-    "readAt": "2026-11-15T17:22:36.912Z",
+    "readAt": "2026-11-15T18:08:31.513Z",
     "source": "https://www.amazon.com/dp/B0F7K2S8FX",
     "lane": "petpal-1114-live-read"
   }

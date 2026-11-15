@@ -92,7 +92,7 @@ picks:
       - "The listing does not describe the granules as fine or sand-like"
       - "The multi-cat odor ingredient is proprietary and unnamed"
       - "The listing says not to mix it with a non-clumping litter, which rules out a blended switch from crystal or pellets"
-      - "The highest card price on this page"
+      - "The highest card price on this page, for a 32 lb bag"
     verdict: "Choose World's Best Multiple Cat Unscented for an unscented, low-dust clumping litter in a multi-cat home, and switch to it gradually rather than mixing it with a non-clumping litter."
 
   - rank: 2
@@ -118,7 +118,7 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
       - outlet: "SmartCat — Smart Cat Litter product page"
-        url: "http://smartcatlitter.com/"
+        url: "https://pioneerpet.com/smart-cat-litter/"
         stat: "You may notice some tracking because our SmartCat Natural Litter is so light."
         claim: "SmartCat's own tracking caveat, which is why this pick does not get full tracking credit"
         supports: "limitation"
@@ -237,7 +237,7 @@ picks:
     verdict: "Choose Dr. Elsey's Clean Tracks for an unscented, hard-clumping clay in a single or multi-cat home, if you can lift a 40 lb bag."
 
   - rank: 5
-    label: "LOWEST CARD PRICE — UNSCENTED CLAY WITH ACTIVATED CHARCOAL"
+    label: "LOWEST CARD PRICE (16 LB BAG) — UNSCENTED CLAY WITH ACTIVATED CHARCOAL"
     name: "Purina Tidy Cats Free and Clean Unscented Clumping Cat Litter, 16 lb"
     brand: "Purina Tidy Cats"
     score: 8.2
@@ -253,7 +253,7 @@ picks:
       - "Card price is for the 16 lb bag, checked November 15, 2026"
     authoritySources:
       - outlet: "dvm360 — The latest scoop on litter (Jacqueline C. Neilson, DVM, DACVB; the article's editors' note says the author has received research funding from The Clorox Company, makers of Fresh Step litter)"
-        url: "https://veterinarymedicine.dvm360.com/latest-scoop-litter"
+        url: "https://www.dvm360.com/view/latest-scoop-litter"
         stat: "cats prefer clumping litters and litters with activated carbon."
         claim: "The author's advice favors clumping litters and activated carbon, both of which this listing claims; note the disclosed Clorox funding"
         supports: "recommendation"
@@ -265,13 +265,13 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      Tidy Cats Free & Clean is the lowest card price on this page, and it is an unscented clay. The listing says it is made without fragrances or dyes, forms strong, tight clumps and pours with low dust. Its odor control comes from activated charcoal, per the listing, which is the one additive this guide's sources speak to directly: the dvm360 review advises that "cats prefer clumping litters and litters with activated carbon." Read that with its disclosure. The article's editors' note says its author has received research funding from The Clorox Company, the maker of Fresh Step litter, and the article dates from 2009.
+      Tidy Cats Free & Clean is the lowest card price on this page, for a 16 lb bag, and it is an unscented clay. The listing says it is made without fragrances or dyes, forms strong, tight clumps and pours with low dust. Its odor control comes from activated charcoal, per the listing, which is the one additive this guide's sources speak to directly: the dvm360 review advises that "cats prefer clumping litters and litters with activated carbon." Read that with its disclosure. The article's editors' note says its author has received research funding from The Clorox Company, the maker of Fresh Step litter, and the article dates from 2009.
 
       The listing also promises guaranteed 10-day odor control when used as directed. Treat that as the maker's guarantee, not as permission to scoop less: the ASPCA's standard is a scoop at least once a day.
 
       There are two gaps in what the listing tells you. It gives no dust-free percentage and says nothing about tracking. And Amazon's product details table lists the scent as "Scented", which contradicts the title and the bullet that says it is made without fragrances. This guide goes with the title and bullets, but check the bag when it arrives.
     pros:
-      - "The lowest card price here"
+      - "The lowest card price here, for a 16 lb bag"
       - "Made without fragrances or dyes, per the listing"
       - "Activated charcoal, the additive the dvm360 review favors"
       - "Strong, tight clumps and low dust, per the listing"
@@ -279,7 +279,7 @@ picks:
       - "Amazon's product details list the scent as Scented, contradicting the unscented title"
       - "No dust-free percentage published on the listing"
       - "Tracking is not addressed on the listing"
-    verdict: "Choose Tidy Cats Free & Clean for an unscented clumping clay with activated charcoal at the lowest card price here, and check the bag is the unscented formula."
+    verdict: "Choose Tidy Cats Free & Clean for an unscented clumping clay with activated charcoal at the lowest card price here (a 16 lb bag), and check the bag is the unscented formula."
 
   - rank: 6
     label: "FOR ROBOTIC BOXES — SCENTED MULTI-CAT CLAY"
@@ -304,7 +304,7 @@ picks:
         supports: "limitation"
         accessed: "2026-11-15"
       - outlet: "dvm360 — The latest scoop on litter (Jacqueline C. Neilson, DVM, DACVB; the article's editors' note says the author has received research funding from The Clorox Company, makers of Fresh Step litter)"
-        url: "https://veterinarymedicine.dvm360.com/latest-scoop-litter"
+        url: "https://www.dvm360.com/view/latest-scoop-litter"
         stat: "The impact of fragrance on cats' litter preference is unclear."
         claim: "The scent penalty here is partial, not total, because the evidence on fragrance is mixed"
         supports: "limitation"
@@ -422,7 +422,7 @@ bottomLine:
   - "Get SmartCat's grass litter for the closest listed match to the AAFP/ISFM fine, sand-like, unscented default, and put a mat by the box because SmartCat says it may track."
   - "Get sWheat Scoop Original for a single cat, and fill to the ASPCA's one to two inches before trying the maker's deeper fill."
   - "Get Dr. Elsey's Clean Tracks for an unscented, 100% bentonite clumping clay."
-  - "Get Tidy Cats Free & Clean for an unscented clay with activated charcoal at the lowest card price here, and check the bag says unscented."
+  - "Get Tidy Cats Free & Clean for an unscented clay with activated charcoal at the lowest card price here (a 16 lb bag), and check the bag says unscented."
   - "Get Arm & Hammer Clump & Seal Platinum for a robotic or traditional box only if your cats accept a scented litter, and get the PetSafe crystal litter only for a ScoopFree crystal box."
 
 sources:
