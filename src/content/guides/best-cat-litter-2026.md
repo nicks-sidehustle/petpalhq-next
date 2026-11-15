@@ -29,7 +29,7 @@ guideType: "spoke"
 
 species: ["cat"]
 speciesPrimary: "cat"
-shortAnswer: "World's Best Cat Litter Multiple Cat Unscented scores highest here: a quick-clumping, unscented corn litter whose listing claims 99% dust free and low tracking, though its listing does not describe the granules as fine or sand-like. For the closest match to the AAFP/ISFM default of a fine, sand-like, unscented clumping litter, the SmartCat grass litter's listing describes a soft texture and sand-like appearance. For an unscented clay, Dr. Elsey's Clean Tracks is 100% bentonite clay, and Tidy Cats Free & Clean adds activated charcoal and has the lowest card price here. The scented Arm & Hammer Platinum and PetSafe crystal litters rank last because AAFP/ISFM says cats often find aromatic litter offensive."
+shortAnswer: "World's Best Cat Litter Multiple Cat Unscented scores highest here: a quick-clumping, unscented corn litter whose listing claims 99% dust free and low tracking, though its listing does not describe the granules as fine or sand-like. For the closest match to the AAFP/ISFM default of a fine, sand-like, unscented clumping litter, the SmartCat grass litter's listing describes a soft texture and sand-like appearance. For an unscented clay, Dr. Elsey's Clean Tracks is 100% bentonite clay, and Tidy Cats Free & Clean adds activated charcoal and has the lowest card price here, for a 16 lb bag. The scented Arm & Hammer Platinum and PetSafe crystal litters rank last because AAFP/ISFM says cats often find aromatic litter offensive."
 
 topPicks:
   - name: "World's Best Cat Litter Multiple Cat, Unscented, 32 lb"
