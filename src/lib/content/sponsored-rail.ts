@@ -59,6 +59,13 @@ export interface SponsoredRailProduct {
   epc: number | null;
   name: string;
   image: string;
+  /**
+   * Guide slugs this product must never appear on, because the guide advises
+   * against that product type (e.g. hard nylon chews on the power-chewer toys
+   * guide, a retractable leash on the leash guide). Optional; see notOnNote in
+   * the data file.
+   */
+  notOnGuides?: string[];
 }
 
 export const SPONSORED_RAIL_PRODUCTS: SponsoredRailProduct[] =
@@ -250,7 +257,8 @@ function hashString(s: string): number {
 
 /**
  * Up to `limit` SPCC products for a guide. `multi` campaigns fit dog and cat
- * guides. ASINs in `excludeAsins` (the guide's own picks) are never shown.
+ * guides. ASINs in `excludeAsins` (the guide's own picks) are never shown, and
+ * a product never shows on a guide listed in its `notOnGuides`.
  * Ranking: topical relevance, then appeal, then EPC, then ASIN; exact ties on
  * (relevance, appeal, EPC) rotate by a slug hash. A product whose family is
  * already chosen is skipped. Returns [] when nothing matches the guide's animals.
@@ -273,6 +281,7 @@ export function selectSponsoredRailProducts(
   const scored = products
     .filter((p) => {
       if (!p.animal || exclude.has(p.asin)) return false;
+      if (p.notOnGuides?.includes(args.slug)) return false;
       if (args.animals.includes(p.animal)) return true;
       return p.animal === "multi" && fitsDogOrCat;
     })

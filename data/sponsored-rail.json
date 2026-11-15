@@ -7,6 +7,7 @@
   "appealNote": "appeal = broad everyday-purchase appeal, set from the product type (owner 2026-09-29: the rail's job is to get the Amazon cookie set, so the product most likely to get a click wins). high = consumables and everyday items most owners buy: food, litter, treats/chews, toys and catnip, wipes, shampoo, odor/cleaning sprays, everyday brushes/combs/lint rollers, scratch pad refills. low = niche: supplements and medications, apparel and costumes, device-specific parts/refills (litter trays, fountain filters), and single-purpose accessories (car hammock, door latch, window perch, harness, feeding mat, bucket, paw cleaner, training spray, diapers, bird feeders, small-pet hut, horse kit).",
   "familyNote": "family = the brand product line (owner 2026-09-29: at most ONE product per brand/product family in a guide unit). Variants of the same line share one family: scents, colors, sizes/pack counts, fits of the same filter line (e.g. the three PetSafe ScoopFree crystal litter/tray items, both Voyager harness colors, both Devil Dog antler sizes, both PET STANDARD fountain-filter lines, both Pet MD wipes). Different lines of one brand keep separate families (e.g. Voyager harness vs the Best Pet Supplies stuffless toy; Fancy Feast vs Friskies vs Purina ONE, which the data lists as separate brands). Selection keeps its order and skips a product whose family is already in the unit.",
   "selectionOrder": "Per guide, after the animal-fit filter: (a) topical relevance desc, (b) appeal high before low, (c) epc desc, (d) ASIN; exact ties on (a)-(c) rotate by a hash of the guide slug. Walking that order, a product whose family is already in the unit is skipped (at most one product per family).",
+  "notOnNote": "notOnGuides = guide slugs where a product must never show because that guide advises against its type (added 2026-11-15, W4 #240 note): Benebone Wishbone (hard nylon) is kept off the power-chewer toys guide and the anxiety chew-toys guide, which both advise against hard nylon; the TUG retractable leash is kept off the dog leash guide, which carries AKC's retractable-leash cautions.",
   "products": [
     {
       "asin": "B0000AH3RR",
@@ -301,7 +302,11 @@
       "appeal": "high",
       "epc": 1.28,
       "name": "Benebone Wishbone Dog Chew Toy, Real Bacon",
-      "image": "https://m.media-amazon.com/images/I/31gElQBXzJL._SL500_.jpg"
+      "image": "https://m.media-amazon.com/images/I/31gElQBXzJL._SL500_.jpg",
+      "notOnGuides": [
+        "best-indestructible-dog-toys-aggressive-chewers-2026",
+        "best-dog-chew-toys-anxiety-2026"
+      ]
     },
     {
       "asin": "B00DL7U1KS",
@@ -808,7 +813,10 @@
       "appeal": "low",
       "epc": 0.53,
       "name": "TUG Retractable Dog Leash, 16 ft",
-      "image": "https://m.media-amazon.com/images/I/41Qlfdjpa1L._SL500_.jpg"
+      "image": "https://m.media-amazon.com/images/I/41Qlfdjpa1L._SL500_.jpg",
+      "notOnGuides": [
+        "best-dog-leashes-2026"
+      ]
     },
     {
       "asin": "B077ZTYKZC",
