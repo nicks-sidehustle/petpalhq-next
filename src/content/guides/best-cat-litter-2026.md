@@ -19,6 +19,7 @@ readTime: "12 min read"
 featured: false
 image: "/images/guides/best-cat-litter-2026.webp"
 heroImage: "/images/guides/best-cat-litter-2026.webp"
+heroAlt: "A tabby cat beside an open gray litter box of clumping clay litter, a scoop and a small pile of pellet litter"
 products: []
 reviewMethod: "Editorial synthesis of litter guidance from the 2014 AAFP/ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats, the ASPCA and a dvm360 review by a board-certified veterinary behaviorist, read against Amazon listing text and the World's Best, SmartCat, sWheat Scoop and PetSafe product pages, read November 15, 2026, with every price checked on Amazon November 15, 2026 for the bag size named on each card. Rankings follow the published PetPal Litter Fit Score weights. No first-hand product testing."
 lastProductCheck: "2026-11-15"

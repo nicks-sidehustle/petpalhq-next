@@ -20,6 +20,7 @@ readTime: "12 min read"
 featured: false
 image: "/images/guides/best-dog-leashes-2026.webp"
 heroImage: "/images/guides/best-dog-leashes-2026.webp"
+heroAlt: "A golden dog sitting on an autumn park path on a rope leash, with a flat nylon leash and a rope leash on the ground"
 products: []
 reviewMethod: "Editorial synthesis of leash guidance from the American Kennel Club (retractable leash safety), Whole Dog Journal (long-line training), Zoetis Petcare (night walking) and a study of US emergency-department data in the American Journal of Emergency Medicine, read against Ruffwear and Mendota Pet product pages read November 15, 2026 and the Amazon listings, with every price checked on Amazon November 15, 2026 for the size and color named on each card. Rankings follow the published PetPal Leash Score weights. No first-hand product testing."
 lastProductCheck: "2026-11-15"

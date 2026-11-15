@@ -20,6 +20,7 @@ readTime: "11 min read"
 featured: false
 image: "/images/guides/best-indestructible-dog-toys-aggressive-chewers-2026.webp"
 heroImage: "/images/guides/best-indestructible-dog-toys-aggressive-chewers-2026.webp"
+heroAlt: "A gray pit bull-type dog chewing a black rubber stuffable toy on a rug, with a rubber ring and bone beside it"
 products: []
 reviewMethod: "Editorial synthesis of chew-toy safety guidance from VCA Animal Hospitals, the American Kennel Club and the ASPCA, read against KONG, West Paw, Monster K9 and Goughnuts product, guarantee and FAQ pages and each pick's Amazon listing text, read November 15, 2026, with every price checked on Amazon November 15, 2026 for the size and pack named on each card. Rankings follow the published PetPal Tough Chewer Score weights. No first-hand product testing, and no score on this page measures how long a toy lasts."
 lastProductCheck: "2026-11-15"
