@@ -305,13 +305,13 @@ picks:
 
       It scores fifth because its listing makes no fold-down claim and no multi-cat claim, and it relies on suction alone. It ranks above the sill-mounted perch below on this guide's tie-break, because the two tie at 6.9 and this one has the higher maker weight rating.
 
-      It also needs the largest glass of any pick here: K&H recommends a window glass pane of 30 inches wide and 15 inches high or greater, and says to clean your window and suction cups monthly to ensure a tight seal. Clinician's Brief notes that window seats give indoor cats visual stimulation, but says to "carefully assess what they can see so that they are not distressed by other cats or dogs." The price on this card is for the Gray Kitty Face color.
+      It also needs the widest glass of any pick here: K&H recommends a window glass pane of 30 inches wide and 15 inches high or greater, and says to clean your window and suction cups monthly to ensure a tight seal. Clinician's Brief notes that window seats give indoor cats visual stimulation, but says to "carefully assess what they can see so that they are not distressed by other cats or dogs." The price on this card is for the Gray Kitty Face color.
     pros:
       - "Open-top bed with sides, for a cat that likes to be enclosed"
       - "Washable K&H Amazin' Kitty Pad included"
       - "50 lbs maker rating on the suction cups"
     cons:
-      - "Needs the largest glass here: 30 inches wide by 15 inches high or greater"
+      - "Needs the widest glass here: 30 inches wide by 15 inches high or greater"
       - "Relies on suction cups alone, with no fold-down claim"
       - "Only the cushion is machine washable; the outer shell is spot clean"
     verdict: "Buy the Kitty Face for a cat that prefers an enclosed bed, at a window with a glass pane at least 30 inches wide and 15 inches high."

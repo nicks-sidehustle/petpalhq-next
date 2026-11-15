@@ -60,7 +60,7 @@ picks:
     image: "https://m.media-amazon.com/images/I/71V9mo89YKL._AC_SL1500_.jpg"
     asin: "B0085ZAMN2"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026 (the listing showed no list price); sold by Amazon.com at that check"
+      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
       - "Clamp lid with a silicone gasket that the listing says forms an airtight seal"
       - "Holds 36-44 lb of dry food, sized for typical 40 lb retail bags, per the listing"
       - "Removable BPA-free inner bucket lifts out for cleaning"
@@ -118,7 +118,7 @@ picks:
     image: "https://m.media-amazon.com/images/I/51V1ZgfSMjL._AC_SL1500_.jpg"
     asin: "B003KJDEVA"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026 (the listing showed no list price); sold by BIGFLY at that check"
+      - "Amazon current price checked November 15, 2026; sold by BIGFLY at that check"
       - "Bag-in design: the listing says it dispenses food from the original bag"
       - "Locking seal clasps and gaskets, which the listing says keep food fresh"
       - "Wheels for tilt-and-roll moving and a 1-cup scoop"
@@ -175,7 +175,7 @@ picks:
     image: "https://m.media-amazon.com/images/I/61Hxd4hh7vL._AC_SL1500_.jpg"
     asin: "B0D6WZRSFT"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026 (the listing showed no list price); sold by Amazon.com at that check"
+      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
       - "Airtight seals and snap-lock latches, per the listing"
       - "Holds up to 40 lb of dry food; the listing says capacity varies by food type"
       - "Attachable wheels and a 2-cup scoop with built-in storage in the lid"
@@ -231,7 +231,7 @@ picks:
     image: "https://m.media-amazon.com/images/I/71A5OK3pi4L._AC_SL1500_.jpg"
     asin: "B0GT2MJ79L"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026 (the listing showed no list price); sold by Amazon.com at that check"
+      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
       - "Airtight claim with Gamma Seal Technology, per the listing"
       - "40 lb capacity; the listing advises sizing up for larger kibble"
       - "Stackable, with a scoop included"
@@ -282,7 +282,7 @@ picks:
     image: "https://m.media-amazon.com/images/I/91xwPWieobL._AC_SL1500_.jpg"
     asin: "B09T78KX6G"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026 (the listing showed no list price); sold by Amazon.com at that check"
+      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
       - "Holds up to 6.5 lb of dog food or 4.5 lb of cat food, per the listing"
       - "Push-button lid that the listing says creates an airtight seal"
       - "Lid comes apart for cleaning and is dishwasher safe"
@@ -332,7 +332,7 @@ picks:
     image: "https://m.media-amazon.com/images/I/81N8V4cM2OL._AC_SL1500_.jpg"
     asin: "B00186O0LU"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026 (the listing showed no list price); sold by Amazon.com at that check"
+      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
       - "Airtight seals and snap-lock latches, per the listing"
       - "The listing says it is great for storing 30 lb of dry food"
       - "Attachable casters you can leave off or put on"
@@ -382,7 +382,7 @@ picks:
     image: "https://m.media-amazon.com/images/I/61GkKQv2qeL._AC_SL1500_.jpg"
     asin: "B08WHSVYV6"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026 (the listing showed no list price); sold by Amazon.com at that check"
+      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
       - "Airtight seals and snap-lock latches, per the listing"
       - "Holds 10 lb of dry food; the listing says capacity depends on the food"
       - "Translucent body shows the food level"
@@ -534,7 +534,7 @@ A: Each airtight claim on this page is the seller's own. The AKC says to use a c
 A: Only if it stays cool and dry. Virginia Tech Extension says to store dry pet food below 80°F in a dry place, and the FDA says to keep it somewhere cool and dry.
 
 **Q: Do these containers work for cat food?**
-A: Yes. The IRIS, simplehuman and Vittles Vault listings name cat food among the foods they store, and the OXO listing gives a separate 4.5 lb figure for cat food. The [nutrition, hydration and digestive health guide](/guides/cat-dog-nutrition-hydration-digestive-health) covers what goes in the bowl.
+A: Yes. The IRIS 30 lb, simplehuman and Vittles Vault listings name cat food among the foods they store, and the OXO listing gives a separate 4.5 lb figure for cat food. The [nutrition, hydration and digestive health guide](/guides/cat-dog-nutrition-hydration-digestive-health) covers what goes in the bowl.
 
 **Q: Are the prices on this page current?**
-A: Each card's price is the Amazon current price checked November 15, 2026. None of the listings showed a list price at that check. Prices change, so check the listing before you buy.
+A: Each card's price is the Amazon current price checked November 15, 2026. Prices change, so check the listing before you buy.

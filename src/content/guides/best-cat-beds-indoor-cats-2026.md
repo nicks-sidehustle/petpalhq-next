@@ -96,7 +96,7 @@ picks:
     cons:
       - "This size is rated only for pets up to 15 lbs; the maker sells a Jumbo size for pets up to 25 lbs"
       - "A padded insert rather than deep bolster filling"
-    verdict: "Choose the Meow Hut for a cat up to 15 lbs that likes to hide while it sleeps. It is the most enclosed bed here and the simplest to wash."
+    verdict: "Choose the Meow Hut for a cat up to 15 lbs that likes to hide while it sleeps. It is the most enclosed bed here."
 
   - rank: 2
     label: "BEST CAT HOUSE — DEN PLUS TOP PLATFORM"
