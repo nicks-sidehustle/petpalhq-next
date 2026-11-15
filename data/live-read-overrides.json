@@ -2459,5 +2459,195 @@
     "readAt": "2026-10-03T22:26:28.796Z",
     "source": "https://www.amazon.com/dp/B0HG13YV37",
     "lane": "petpal-live-read-rabbit-cages-2026-10-03"
+  },
+  "B0002AQPAM": {
+    "price": 12.96,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Pattern Products",
+    "condition": "New",
+    "readAt": "2026-11-15T17:23:11.182Z",
+    "source": "https://www.amazon.com/dp/B0002AQPAM",
+    "lane": "petpal-1114-live-read"
+  },
+  "B001B10UAM": {
+    "price": 19.49,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Mendota Pet",
+    "condition": "New",
+    "readAt": "2026-11-15T17:30:02.587Z",
+    "source": "https://www.amazon.com/dp/B001B10UAM",
+    "lane": "petpal-1114-live-read"
+  },
+  "B004A7X21I": {
+    "price": 20.95,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Gamma Seller",
+    "condition": "New",
+    "readAt": "2026-11-15T17:23:45.749Z",
+    "source": "https://www.amazon.com/dp/B004A7X21I",
+    "lane": "petpal-1114-live-read"
+  },
+  "B005MZ3UKA": {
+    "price": 23.49,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Mendota Pet",
+    "condition": "New",
+    "readAt": "2026-11-15T17:29:26.876Z",
+    "source": "https://www.amazon.com/dp/B005MZ3UKA",
+    "lane": "petpal-1114-live-read"
+  },
+  "B00P0H6836": {
+    "price": 29.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-15T17:26:36.735Z",
+    "source": "https://www.amazon.com/dp/B00P0H6836",
+    "lane": "petpal-1114-live-read"
+  },
+  "B011O35ALK": {
+    "price": 28.56,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-15T17:26:20.001Z",
+    "source": "https://www.amazon.com/dp/B011O35ALK",
+    "lane": "petpal-1114-live-read"
+  },
+  "B01J5GE3MA": {
+    "price": 24.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-15T17:27:10.345Z",
+    "source": "https://www.amazon.com/dp/B01J5GE3MA",
+    "lane": "petpal-1114-live-read"
+  },
+  "B07BM9GZ33": {
+    "price": 38.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Mendota Pet",
+    "condition": "New",
+    "readAt": "2026-11-15T17:29:44.684Z",
+    "source": "https://www.amazon.com/dp/B07BM9GZ33",
+    "lane": "petpal-1114-live-read"
+  },
+  "B07NZJ89N8": {
+    "price": 22.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-15T17:27:44.268Z",
+    "source": "https://www.amazon.com/dp/B07NZJ89N8",
+    "lane": "petpal-1114-live-read"
+  },
+  "B084YRYHG2": {
+    "price": 24.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Monster K9 Dog Toys",
+    "condition": "New",
+    "readAt": "2026-11-15T17:24:37.706Z",
+    "source": "https://www.amazon.com/dp/B084YRYHG2",
+    "lane": "petpal-1114-live-read"
+  },
+  "B087QSXS9K": {
+    "price": 42.01,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-15T17:26:03.007Z",
+    "source": "https://www.amazon.com/dp/B087QSXS9K",
+    "lane": "petpal-1114-live-read"
+  },
+  "B0996YDBXX": {
+    "price": 39.68,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Goughnuts Inc.",
+    "condition": "New",
+    "readAt": "2026-11-15T17:23:28.516Z",
+    "source": "https://www.amazon.com/dp/B0996YDBXX",
+    "lane": "petpal-1114-live-read"
+  },
+  "B09P32SSRL": {
+    "price": 17.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-15T17:28:01.006Z",
+    "source": "https://www.amazon.com/dp/B09P32SSRL",
+    "lane": "petpal-1114-live-read"
+  },
+  "B0C7D1QHK8": {
+    "price": 49.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Ruffwear, Inc.",
+    "condition": "New",
+    "readAt": "2026-11-15T17:28:52.189Z",
+    "source": "https://www.amazon.com/dp/B0C7D1QHK8",
+    "lane": "petpal-1114-live-read"
+  },
+  "B0CLB46DSG": {
+    "price": 29.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Ruffwear, Inc.",
+    "condition": "New",
+    "readAt": "2026-11-15T17:29:09.626Z",
+    "source": "https://www.amazon.com/dp/B0CLB46DSG",
+    "lane": "petpal-1114-live-read"
+  },
+  "B0CLB4JS5Z": {
+    "price": 24.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Ruffwear, Inc.",
+    "condition": "New",
+    "readAt": "2026-11-15T17:28:17.851Z",
+    "source": "https://www.amazon.com/dp/B0CLB4JS5Z",
+    "lane": "petpal-1114-live-read"
+  },
+  "B0D2FYM5T3": {
+    "price": 12.5,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-11-15T17:27:27.283Z",
+    "source": "https://www.amazon.com/dp/B0D2FYM5T3",
+    "lane": "petpal-1114-live-read"
+  },
+  "B0D7Y34XM7": {
+    "price": 49.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Ruffwear, Inc.",
+    "condition": "New",
+    "readAt": "2026-11-15T17:28:34.877Z",
+    "source": "https://www.amazon.com/dp/B0D7Y34XM7",
+    "lane": "petpal-1114-live-read"
+  },
+  "B0F7K2S8FX": {
+    "price": 28.72,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Global Proff",
+    "condition": "New",
+    "readAt": "2026-11-15T18:08:31.513Z",
+    "source": "https://www.amazon.com/dp/B0F7K2S8FX",
+    "lane": "petpal-1114-live-read"
   }
 }
