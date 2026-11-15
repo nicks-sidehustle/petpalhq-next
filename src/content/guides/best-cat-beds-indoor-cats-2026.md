@@ -21,7 +21,7 @@ readTime: "10 min read"
 featured: false
 image: "/images/guides/best-cat-beds-indoor-cats-2026.webp"
 heroImage: "/images/guides/best-cat-beds-indoor-cats-2026.webp"
-heroAlt: "A cat curled up inside a soft gray covered cat cave on a living room floor"
+heroAlt: "A tabby cat asleep in a covered cave bed next to a round fluffy donut bed on a living-room rug"
 products: []
 reviewMethod: "Editorial synthesis of resting, hiding and senior-comfort guidance from the Ohio State Indoor Pet Initiative, the ASPCA, Cornell Feline Health Center, Cats Protection and PDSA, read against Outward Hound (Best Friends by Sheri) product pages and the Amazon listing for each pick, with every price checked on Amazon November 15, 2026 for the size and color named on each card. Rankings follow the published PetPal Cat Bed Score weights. No first-hand product testing."
 lastProductCheck: "2026-11-15"

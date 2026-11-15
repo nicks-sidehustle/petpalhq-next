@@ -19,7 +19,7 @@ readTime: "11 min read"
 featured: false
 image: "/images/guides/best-cat-window-perches-2026.webp"
 heroImage: "/images/guides/best-cat-window-perches-2026.webp"
-heroAlt: "A cat resting on a window perch mounted to a sunlit window"
+heroAlt: "A tabby cat lounging on a suction-cup window perch, watching birds at a bird bath outside"
 products: []
 reviewMethod: "Editorial synthesis of feline environmental guidance from the AAFP and ISFM, Ohio State University's Indoor Pet Initiative and Clinician's Brief, and window-fall guidance from the ASPCA and the Animal Medical Center of New York, read against K&H Pet Products' Amazon listing specifications, with every price checked on Amazon November 15, 2026 for the color or style named on each card. Rankings follow the published PetPal Window Perch Score weights. No first-hand product testing."
 lastProductCheck: "2026-11-15"

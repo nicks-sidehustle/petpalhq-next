@@ -19,7 +19,7 @@ readTime: "12 min read"
 featured: false
 image: "/images/guides/best-dog-food-storage-containers-2026.webp"
 heroImage: "/images/guides/best-dog-food-storage-containers-2026.webp"
-heroAlt: "A lidded pet food storage bin next to a bag of dry dog kibble on a pantry floor"
+heroAlt: "A wheeled airtight food bin holding a kibble bag beside a smaller bin and scoop, with a curly dog peeking in"
 products: []
 reviewMethod: "Editorial synthesis of dry pet food storage guidance from the FDA, the American Kennel Club and Virginia Tech Cooperative Extension (FST-433), read November 15, 2026, against the Amazon listing text for each container read the same day, with every price checked on Amazon November 15, 2026. IRIS and simplehuman product pages were read as a cross-check. Rankings follow the published PetPal Food Storage Score weights. No first-hand product testing."
 lastProductCheck: "2026-11-15"
