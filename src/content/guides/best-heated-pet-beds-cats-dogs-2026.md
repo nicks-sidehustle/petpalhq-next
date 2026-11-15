@@ -409,7 +409,7 @@ methodology:
       definition: "What the maker says can go in the washing machine. Scoring: 10 when the whole bed or mat is machine washable (with any heater removed); 8 when a removable cover, or a cover and cushion, is washable but another part is not, or the cover must hang dry."
     - name: "Published Sizing"
       weight: 15
-      definition: "What the maker publishes for the size whose price was checked. Scoring: 10 for dimensions plus a weight recommendation; 8 for dimensions only, from the maker page or, where the maker page does not give them for that size, the Amazon listing; 4 when the Amazon title read at the price check did not show which size the price covers."
+      definition: "What the maker publishes for the size whose price was checked. Scoring: 10 for dimensions plus a weight recommendation (weight recommendations count only from the maker's product page); 8 for dimensions only, from the maker page or, where the maker page does not give them for that size, the Amazon listing; 4 when the Amazon title read at the price check did not show which size the price covers."
     - name: "Value"
       weight: 10
       definition: "The Amazon current price each card shows, checked November 15, 2026, in bands: under $30 scores 10; $30 to $49.99 scores 8; $50 to $79.99 scores 6; $80 or more scores 4. Weighted last because a bed the pet will not use, or cannot safely use, is no saving. The per-factor scores for every pick are printed in the comparison table, so each total can be recomputed."
@@ -434,7 +434,7 @@ sources:
     - "ASPCA — Cold weather safety tips"
     - "K&H Pet Products product pages for the Thermo-Pet Lounge Sleeper, Thermo-Snuggle Cup, Lectro-Soft Outdoor Heated Bed, Thermo-Kitty Bed and Self-Warming Nuzzle Nest; FurHaven ThermaNAP and Mora Pets Self Warming Bolster Cat Bed product pages; all read November 15, 2026; all prices checked on Amazon November 15, 2026"
   verifiedDate: "2026-11-15"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. This guide is an editorial synthesis of heated-bed and cold-weather guidance from the American Kennel Club, The Vet Desk (formerly PangoVet), PetMD, PDSA and the ASPCA, read against K&H Pet Products, FurHaven and Mora Pets product specifications. PetPalHQ does not run a product-testing lab, and wattage, temperature and size figures are maker specifications, not independent measurements. The PetPal Heated Bed Score is a weighted composite of published guidance and published specifications, and the per-factor scores for each pick are printed in the comparison table, so each total can be recomputed."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. This guide is an editorial synthesis of heated-bed and cold-weather guidance from the American Kennel Club, The Vet Desk (formerly PangoVet), PetMD, PDSA and the ASPCA, read against K&H Pet Products, FurHaven and Mora Pets product specifications. PetPalHQ does not run a product-testing lab, and wattage, temperature and size figures are maker specifications (the Mora Pets size is from its Amazon listing), not independent measurements. The PetPal Heated Bed Score is a weighted composite of published guidance and published specifications, and the per-factor scores for each pick are printed in the comparison table, so each total can be recomputed."
 
 ownerVoice: []
 
@@ -451,7 +451,7 @@ This guide is about heated and self-warming beds for cats and dogs that sleep in
 
 Indoors, the starting point is the ASPCA's baseline winter advice: "Make sure your companion animal has a warm place to sleep, off the floor and away from all drafts". For some pets, a warm spot is not enough. The AKC says "senior dogs, short-coated breeds, and dogs with certain medical conditions may need extra help with regulating their body temperature." The Vet Desk says hairless and thin-coated cats, underweight or ill cats, senior cats and kittens can all benefit from a heated bed. This guide ranks six beds for those pets: four low-wattage K&H electric beds and pads, from a 4-watt cat cup to a 60-watt pad for a large dog, and two self-warming beds that need no outlet.
 
-These picks are editorial synthesis. PetPalHQ does not run a product-testing lab, and no bed here was tried out for this guide. Each was chosen by reading the maker's product page against guidance from the AKC, The Vet Desk, PetMD, PDSA and the ASPCA, and every wattage, temperature and size figure on this page is the maker's own. Each card's price was checked on Amazon on November 15, 2026. Confirm current price and availability before buying.
+These picks are editorial synthesis. PetPalHQ does not run a product-testing lab, and no bed here was tried out for this guide. Each was chosen by reading the maker's product page against guidance from the AKC, The Vet Desk, PetMD, PDSA and the ASPCA, and every wattage and temperature figure on this page is the maker's own; size figures are the maker's except the Mora Pets bed, whose size comes from its Amazon listing. Each card's price was checked on Amazon on November 15, 2026. Confirm current price and availability before buying.
 
 ## Electric or Self-Warming
 

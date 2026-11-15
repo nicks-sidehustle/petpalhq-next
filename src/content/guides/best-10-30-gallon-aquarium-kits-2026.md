@@ -327,7 +327,7 @@ The 10 to 30 gallon range is where most first freshwater tanks land: big enough 
 
 Three of the four are Tetra's complete kits, which share a glass tank and a hinged LED hood but differ on the heater. The fourth is the 15-gallon Fluval Flex, a curved-front kit with built-in filtration. Aqueon's Smart Clean starter kits in 10 and 20 gallons turned up in our Amazon research but were left out, because this guide could not confirm their contents or dimensions from a maker page.
 
-These picks are editorial synthesis. PetPalHQ does not run a testing lab, and no tank here was set up by us. Each was chosen by reading its Amazon listing and the maker's own kit page against guidance from UF/IFAS, the Merck Veterinary Manual, Texas A&M AgriLife Extension and OATA. Confirm current price and availability before buying.
+These picks are editorial synthesis. PetPalHQ does not run a testing lab, and no tank here was set up by us. Each was chosen by reading its Amazon listing, and the maker's own kit page where one was captured (not for the Tetra 20 Gallon), against guidance from UF/IFAS, the Merck Veterinary Manual, Texas A&M AgriLife Extension and OATA. Confirm current price and availability before buying.
 
 ## Why Bigger Is Easier
 
