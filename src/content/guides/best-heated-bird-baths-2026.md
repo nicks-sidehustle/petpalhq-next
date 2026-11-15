@@ -20,6 +20,7 @@ readTime: "12 min read"
 featured: false
 image: "/images/guides/best-heated-bird-baths-2026.webp"
 heroImage: "/images/guides/best-heated-bird-baths-2026.webp"
+heroAlt: "Two chickadees drinking from a pedestal bird bath with open water in a snowy garden"
 products: []
 reviewMethod: "Editorial synthesis of winter-water guidance from the National Audubon Society, Project FeederWatch (Cornell Lab of Ornithology) and the National Wildlife Federation, read against Miller Manufacturing (API) and K&H Pet Products product pages read November 15, 2026, with every price checked on Amazon November 15, 2026. Rankings follow the published PetPal Winter Water Score weights. No first-hand product testing."
 lastProductCheck: "2026-11-15"

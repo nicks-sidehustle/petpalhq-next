@@ -19,7 +19,7 @@ readTime: "10 min read"
 featured: false
 image: "/images/guides/best-10-30-gallon-aquarium-kits-2026.webp"
 heroImage: "/images/guides/best-10-30-gallon-aquarium-kits-2026.webp"
-heroAlt: "A mid-size freshwater aquarium with plants and small schooling fish on a low cabinet in a living room"
+heroAlt: "A planted freshwater aquarium with a black hood and small tropical fish on a wooden cabinet"
 products: []
 reviewMethod: "Editorial synthesis of the University of Florida IFAS Extension's aquarium setup publication (EDIS VM144), the Merck Veterinary Manual's guidance on housing aquarium fish, Texas A&M AgriLife Extension's fact sheet on ammonia, the Ornamental Aquatic Trade Association's freshwater tank care sheet, and the makers' own kit pages from Tetra and Fluval, read against Amazon listings checked November 15, 2026. Rankings follow the published PetPal Mid-Size Tank Score weights. No first-hand product testing."
 lastProductCheck: "2026-11-15"

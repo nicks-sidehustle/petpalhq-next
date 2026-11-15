@@ -19,7 +19,7 @@ readTime: "12 min read"
 featured: false
 image: "/images/guides/best-heated-pet-beds-cats-dogs-2026.webp"
 heroImage: "/images/guides/best-heated-pet-beds-cats-dogs-2026.webp"
-heroAlt: "A cat curled up in a round heated bed beside a dog resting on a flat heated pad in a living room"
+heroAlt: "A gray tabby cat asleep on a round plush pet bed with a fleece pad, beside a snowy window"
 products: []
 reviewMethod: "Editorial synthesis of heated-bed and cold-weather guidance from the American Kennel Club, The Vet Desk (formerly PangoVet), PetMD, PDSA and the ASPCA, read against K&H Pet Products, FurHaven and Mora Pets product pages read November 15, 2026, with every price checked on Amazon November 15, 2026 for the listing named on each card. Rankings follow the published PetPal Heated Bed Score weights. No first-hand product testing."
 lastProductCheck: "2026-11-15"

@@ -19,7 +19,7 @@ readTime: "11 min read"
 featured: false
 image: "/images/guides/best-dog-boots-winter-paw-protection-2026.webp"
 heroImage: "/images/guides/best-dog-boots-winter-paw-protection-2026.webp"
-heroAlt: "A dog wearing winter boots on a snowy sidewalk"
+heroAlt: "A brown and white dog wearing four black winter boots on a salted, snowy sidewalk"
 products: []
 reviewMethod: "Editorial synthesis of winter paw-care guidance from VCA Animal Hospitals, the ASPCA, the American Kennel Club and PetMD, read against Ruffwear, Muttluks and PawZ product pages, all read November 15, 2026, with every price checked on Amazon November 15, 2026 for the pack, size and color named on each card. Rankings follow the published PetPal Winter Boot Score weights. No first-hand product testing."
 lastProductCheck: "2026-11-15"
