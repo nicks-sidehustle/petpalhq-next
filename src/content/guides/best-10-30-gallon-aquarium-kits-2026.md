@@ -357,7 +357,7 @@ A: Per Tetra's page, the Tetra 29 Gallon kit includes a 200-watt heater and a th
 A: The water alone is about 240 lb at the Merck Veterinary Manual's figure of 8.3 lb per gallon. Glass, gravel, rock and decor add more. Use a stand rated well above that, on a floor that is strong, level and stable.
 
 **Q: Can I add fish the same day I set up the kit?**
-A: Not many. Texas A&M AgriLife Extension says a new biofilter requires six to eight weeks to build up enough bacteria to reduce ammonia and nitrite, and Merck warns that adding too many fish at once will overwhelm the available bacteria. Stock slowly and test the water while the filter matures.
+A: Texas A&M AgriLife Extension says a new biofilter requires six to eight weeks to build up enough bacteria to reduce ammonia and nitrite, and Merck warns that adding too many fish at once will overwhelm the available bacteria. Stock slowly and test the water while the filter matures.
 
 **Q: Why is the 29 gallon kit ranked above the cheaper 20 gallon kit?**
 A: Both name a filter, a heater, a thermometer and an LED hood (the 29 on Tetra's page, the 20 on its Amazon listing), so they tie on what ships. The 29 holds 9 more gallons, close to the thirty-gallon starter size UF/IFAS suggests, and its contents and dimensions come from a Tetra page for its model number, which this guide did not capture for the 20. Together those outweigh the 20's lower price by 1.3 points. If a 30-inch tank will not fit, the 20 is the better buy.

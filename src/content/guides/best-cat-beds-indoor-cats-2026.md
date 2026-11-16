@@ -184,7 +184,7 @@ picks:
 
       Cleaning is simple. The listing says the entire bed is machine washable, with a water- and dirt-resistant bottom, and the maker's page says the same of the small size. The ASPCA puts it plainly: "Be sure to wash the bedding often." The maker's care notes add one instruction worth following: do not leave the bed to air dry, because the faux fur can tangle and mat.
 
-      It ranks third because it is open on top. Ohio State's guidance on hiding areas favors the covered beds above, and a donut gives a cat walls to lean on but nowhere to disappear. This guide covers non-heated beds only, and nothing on this bed plugs in.
+      It ranks third because it is open on top. Ohio State's guidance on hiding areas is why the covered beds rank above it, and a donut gives a cat walls to lean on but nowhere to disappear. This guide covers non-heated beds only, and nothing on this bed plugs in.
     pros:
       - "Deepest cushioning here: high-loft polyfill with raised-edge bolsters"
       - "Entire bed is machine washable"
@@ -237,7 +237,7 @@ methodology:
       definition: "How much padding the listing describes. Scoring: 9 for a bed filled with high-loft polyfill with raised bolsters; 6 for a padded cushion or insert inside a cave or house structure; 3 for a thin mat. Memory foam would score 10, but no cat-suitable memory foam bed verified for this guide. Price is not scored: each card's figure is for one size and color only. Ties on the total are broken by the higher Enclosure score, then the higher Washability score."
 
 whenNotToBuy: |
-  Skip these beds if what your cat needs is heat. All three are non-heated, and heated and self-warming beds are a separate category. If you are adding warmth for an older cat, Cornell Feline Health Center warns: "Too much heat, though, can potentially burn a cat who can't move quickly, so be sure to think warm, not hot." Skip them, too, for an arthritic cat that needs joint support. PDSA says "Orthopaedic memory foam beds are particularly good for cats with arthritis." None of these three is a memory foam bed, and no cat-suitable orthopedic bed verified for this guide, so talk to your veterinarian, and see the senior cat accessibility setup guide for ramps and easier access. Do not buy the Meow Hut for a cat over 15 lbs in this size, and do not buy any bed here expecting it to replace the cat's own preferred spots: Cats Protection notes cats often prefer an elevated place, which a floor bed alone does not give.
+  Skip these beds if what your cat needs is heat. All three are non-heated, and heated and self-warming beds are a separate category. If you are adding warmth for an older cat, Cornell Feline Health Center warns: "Too much heat, though, can potentially burn a cat who can't move quickly, so be sure to think warm, not hot." For an arthritic cat that needs joint support, PDSA says "Orthopaedic memory foam beds are particularly good for cats with arthritis." None of these three is a memory foam bed, and no cat-suitable orthopedic bed verified for this guide, so talk to your veterinarian, and see the senior cat accessibility setup guide for ramps and easier access. Do not buy the Meow Hut for a cat over 15 lbs in this size, and do not buy any bed here expecting it to replace the cat's own preferred spots: Cats Protection notes cats often prefer an elevated place, which a floor bed alone does not give.
 
 bottomLine:
   - "Get the Best Friends by Sheri Meow Hut, the top scorer, for a cat up to 15 lbs that likes to hide while it sleeps; the maker says the whole bed is machine washable."
@@ -265,6 +265,7 @@ ownerVoice: []
 
 related:
   - "best-heated-outdoor-cat-houses-2026"
+  - "best-heated-pet-beds-cats-dogs-2026"
   - "senior-cat-accessibility-setup"
   - "best-cat-trees-large-cats-2026"
   - "best-cat-pheromone-diffusers-calming-2026"
@@ -273,7 +274,7 @@ related:
 
 Cats spend a lot of the day asleep, but not in one long stretch. The Ohio State Indoor Pet Initiative says cats don't sleep in one block: "Rather, they sleep and wake frequently throughout the day and night." Cats Protection, the UK cat charity, says the same and adds where they like to do it: "Cats rest or sleep intermittently throughout the day and often prefer to sleep in a warm, comfortable, elevated and safe place." A bed gets used over and over, so it is worth choosing one your cat will feel safe in and you can keep clean.
 
-This guide ranks three non-heated beds for indoor cats: a covered cat cave, a cat house with an enclosed den and a top platform, and an open calming donut. Heated and self-warming beds, window perches and cat trees are left out. Three picks is what the data supported. Other candidates were dropped because their Amazon listing is written for dogs only, they could not be verified, or they are heated.
+This guide ranks three non-heated beds for indoor cats: a covered cat cave, a cat house with an enclosed den and a top platform, and an open calming donut. Heated and self-warming beds, [window perches](/guides/best-cat-window-perches-2026) and cat trees are left out. Three picks is what the data supported. Other candidates were dropped because their Amazon listing is written for dogs only, they could not be verified, or they are heated.
 
 These picks are editorial synthesis. PetPalHQ does not run a product-testing lab, and no bed here was tested with a cat. Each was chosen by reading its Amazon listing and, where one was available, the maker's product page, against guidance from Ohio State, the ASPCA, Cornell Feline Health Center, Cats Protection and PDSA. Each card's price is for the one size and color it names. Confirm current price and availability before buying.
 
@@ -291,7 +292,7 @@ Placement matters more as a cat ages. Cornell Feline Health Center says: "Make s
 
 ## No Heat in This Guide
 
-All three beds are non-heated, and nothing here plugs in. Cats Protection notes cats like warm places, and Cornell Feline Health Center adds a caution for older cats: "Too much heat, though, can potentially burn a cat who can't move quickly, so be sure to think warm, not hot." Heated and self-warming beds are a separate category with their own safety questions. For a cat that lives partly outdoors, the [heated outdoor cat houses guide](/guides/best-heated-outdoor-cat-houses-2026) covers that setup.
+All three beds are non-heated, and nothing here plugs in. Cats Protection notes cats like warm places, and Cornell Feline Health Center adds a caution for older cats: "Too much heat, though, can potentially burn a cat who can't move quickly, so be sure to think warm, not hot." Heated and self-warming beds are a separate category with their own safety questions, covered in the [heated and self-warming pet beds guide](/guides/best-heated-pet-beds-cats-dogs-2026). For a cat that lives partly outdoors, the [heated outdoor cat houses guide](/guides/best-heated-outdoor-cat-houses-2026) covers that setup.
 
 ## Frequently Asked Questions
 

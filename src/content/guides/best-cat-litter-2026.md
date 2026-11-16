@@ -30,7 +30,7 @@ guideType: "spoke"
 
 species: ["cat"]
 speciesPrimary: "cat"
-shortAnswer: "World's Best Cat Litter Multiple Cat Unscented scores highest here: a quick-clumping, unscented corn litter whose listing claims 99% dust free and low tracking, though its listing does not describe the granules as fine or sand-like. For the closest match to the AAFP/ISFM default of a fine, sand-like, unscented clumping litter, the SmartCat grass litter's listing describes a soft texture and sand-like appearance. For an unscented clay, Dr. Elsey's Clean Tracks is 100% bentonite clay, and Tidy Cats Free & Clean adds activated charcoal and has the lowest card price here, for a 16 lb bag. The scented Arm & Hammer Platinum and PetSafe crystal litters rank last because AAFP/ISFM says cats often find aromatic litter offensive."
+shortAnswer: "World's Best Cat Litter Multiple Cat Unscented scores highest here: a quick-clumping, unscented corn litter whose listing claims 99% dust free and low tracking. Its listing does not describe the granules as fine or sand-like. For the closest match to the AAFP/ISFM default of a fine, sand-like, unscented clumping litter, the SmartCat grass litter's listing describes a soft texture and sand-like appearance. For an unscented clay, Dr. Elsey's Clean Tracks is 100% bentonite clay, and Tidy Cats Free & Clean adds activated charcoal and has the lowest card price here, for a 16 lb bag. The scented Arm & Hammer Platinum and PetSafe crystal litters rank last because AAFP/ISFM says cats often find aromatic litter offensive."
 
 topPicks:
   - name: "World's Best Cat Litter Multiple Cat, Unscented, 32 lb"
@@ -60,8 +60,8 @@ picks:
     image: "https://m.media-amazon.com/images/I/61RggrUaG+L._AC_SL1500_.jpg"
     asin: "B087QSXS9K"
     keyFeatures:
-      - "Made from whole-kernel corn, unscented, with no artificial perfumes, per the listing"
-      - "Quick clumping, lightweight, 99% dust free and low tracking, per the listing"
+      - "The listing describes whole-kernel corn, unscented, with no artificial perfumes"
+      - "Listed as quick clumping, lightweight, 99% dust free and low tracking"
       - "An added plant-derived ingredient for multi-cat odor control, per World's Best"
       - "Sold in 8, 15, 28 and 32 lb bags, per World's Best"
       - "Card price is for the 32 lb bag, checked November 15, 2026"
@@ -79,15 +79,15 @@ picks:
         supports: "spec"
         accessed: "2026-11-15"
     body: |
-      World's Best Multiple Cat Unscented takes the top score because it clears more of this guide's checks than anything else on the page. The AAFP/ISFM house-soiling guidelines put the default plainly: "Cats most commonly prefer fine-textured unscented clumping litters." This litter is unscented, with no artificial perfumes per its listing, and it is a quick-clumping litter that the listing says needs no chiseling or scraping. The listing also calls it lightweight, 99% dust free and low tracking, and says it is made from whole-kernel corn and naturally free of silica dust.
+      World's Best Multiple Cat Unscented takes the top score because it earns full marks for scent, dust and tracking and loses points only on texture and odor mechanism. The AAFP/ISFM house-soiling guidelines put the default plainly: "Cats most commonly prefer fine-textured unscented clumping litters." Its listing calls it unscented, with no artificial perfumes, and quick clumping, with no chiseling or scraping. It also calls the litter lightweight, 99% dust free and low tracking, and says it is made from whole-kernel corn and naturally free of silica dust.
 
       The multi-cat part is the maker's. World's Best says the Multiple Cat formula adds a proprietary ingredient, derived from a natural plant material, for added odor control in homes with more than one cat. It does not name that ingredient, so the odor-control claim cannot be checked against the activated-carbon evidence discussed below.
 
       Two cautions. The listing describes the litter as loose granules and never as fine or sand-like, which is the one AAFP/ISFM trait it cannot claim. And it does not blend: the listing says "For the best results, do NOT mix with a non-clumping litter." That matters if you are moving a cat off crystal or pellet litter, and the ASPCA warns that a switch can put a cat off the box (see the switching section below). World's Best tells owners to keep 2-3 inches in the box, more than the ASPCA's one to two inches. Households with several cats should also read the [multi-cat litter box setup guide](/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026).
     pros:
-      - "Unscented, with no artificial perfumes, per the listing"
+      - "Listed as unscented, with no artificial perfumes"
       - "Quick clumping, with no chiseling or scraping, per the listing"
-      - "99% dust free and low tracking, per the listing"
+      - "Listing claims 99% dust free and low tracking"
       - "Sold in four bag sizes, per World's Best"
     cons:
       - "The listing does not describe the granules as fine or sand-like"
@@ -107,8 +107,8 @@ picks:
     asin: "B00P0H6836"
     keyFeatures:
       - "Clumping litter made from 100% grass seed grown in the USA, per the listing"
-      - "Soft texture and sand-like appearance, per the listing"
-      - "Unscented and 99% dust free, per the listing"
+      - "Listed with a soft texture and sand-like appearance"
+      - "Listed as unscented and 99% dust free"
       - "Half the weight of traditional clay clumping litters, per SmartCat"
       - "Card price is for the 20 lb bag, checked November 15, 2026"
     authoritySources:
@@ -132,7 +132,7 @@ picks:
       The lightness has a cost, and SmartCat says so itself: its product page warns that owners may notice some tracking because the litter is so light, and suggests a rug in front of the box. The same page elsewhere says the texture minimizes tracking. This guide scores tracking on the more cautious of the two statements. The listing also names no odor-control ingredient, so it gets partial credit there.
     pros:
       - "The only listing here that describes a sand-like appearance"
-      - "Unscented and 99% dust free, per the listing"
+      - "Listed as unscented and 99% dust free"
       - "Clumps that do not stick to the pan, per the listing"
       - "Half the weight of clay clumping litter, per SmartCat"
     cons:
@@ -152,7 +152,7 @@ picks:
     keyFeatures:
       - "Ingredients: wheat only, per sWheat Scoop"
       - "Natural starches and enzymes for odor control, per the listing"
-      - "No added dyes, perfumes or chemicals; 99.5% dust free and low tracking, per the listing"
+      - "Listed with no added dyes, perfumes or chemicals, and as 99.5% dust free and low tracking"
       - "Pitched at single-cat households, per sWheat Scoop and the listing"
       - "Card price is for the 25 lb bag, checked November 15, 2026"
     authoritySources:
@@ -175,15 +175,15 @@ picks:
         supports: "spec"
         accessed: "2026-11-15"
     body: |
-      sWheat Scoop Original is the single-cat pick. The listing headlines single-cat odor control, and sWheat Scoop's own product page says it is the perfect choice for single-cat households. The maker lists the ingredients as nothing but wheat, and the listing says natural starches and enzymes trap odors on contact. It adds no dyes, perfumes or chemicals, per the listing, which also calls it naturally lightweight, 99.5% dust free and low tracking.
+      sWheat Scoop Original is the single-cat pick. The listing headlines single-cat odor control, and sWheat Scoop's own product page says it is the perfect choice for single-cat households. The maker lists the ingredients as nothing but wheat, and the listing says natural starches and enzymes trap odors on contact. The same listing says it adds no dyes, perfumes or chemicals and calls it naturally lightweight, 99.5% dust free and low tracking.
 
       Texture is where it gives ground. Amazon's product details list the item form as pellet, and the AAFP/ISFM default is a fine, sand-like material, so it scores lower on texture than the granular picks. It also is not odor-neutral: sWheat Scoop says the litter smells like a fresh wheat harvest. That is the wheat itself rather than an added perfume, so it gets full scent credit, but a cat that dislikes a new smell may still notice the change.
 
       Check the directions before you fill the box. sWheat Scoop tells owners to fill the box with 4 inches of litter and scoop twice daily. The ASPCA says "Cats usually prefer one to two inches of litter." Start near the ASPCA's depth and watch how your cat uses the box before following the maker's deeper fill.
     pros:
       - "Wheat only, with no added dyes or perfumes, per the maker and listing"
-      - "Named odor mechanism: natural starches and enzymes, per the listing"
-      - "99.5% dust free and low tracking, per the listing"
+      - "Named odor mechanism on the listing: natural starches and enzymes"
+      - "Listed as 99.5% dust free and low tracking"
     cons:
       - "Pellet item form, not the fine, sand-like texture AAFP/ISFM names"
       - "Pitched at single-cat households by its own maker"
@@ -203,8 +203,8 @@ picks:
     keyFeatures:
       - "100% bentonite clay, hard clumping medium grain, per the listing"
       - "Unscented, per the listing's product details"
-      - "Low dust and low tracking, per the listing"
-      - "For single or multi-cat households, per the listing"
+      - "Listed as low dust and low tracking"
+      - "Listed for single or multi-cat households"
       - "Card price is for the 40 lb bag, checked November 15, 2026"
     authoritySources:
       - outlet: "AAFP/ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats (2014)"
@@ -226,10 +226,10 @@ picks:
 
       It comes in a 40 lb bag, the heaviest single bag on this page, so plan for the carry and for storage.
     pros:
-      - "100% bentonite clay, per the listing"
+      - "Listed as 100% bentonite clay"
       - "Unscented, per the listing's product details"
       - "Hard clumps that won't break down, per the listing"
-      - "Low dust and low tracking, per the listing"
+      - "Listed as low dust and low tracking"
     cons:
       - "Medium grain, not the fine texture AAFP/ISFM names"
       - "No dust-free percentage published on the listing"
@@ -248,9 +248,9 @@ picks:
     asin: "B0D2FYM5T3"
     keyFeatures:
       - "Unscented clumping clay made without fragrances or dyes, per the listing"
-      - "Activated charcoal formula, per the listing"
-      - "Low dust; strong, tight clumps, per the listing"
-      - "Guaranteed 10-day odor control when used as directed, per the listing"
+      - "Listed as an activated charcoal formula"
+      - "Listing claims low dust and strong, tight clumps"
+      - "Listing guarantees 10-day odor control when used as directed"
       - "Card price is for the 16 lb bag, checked November 15, 2026"
     authoritySources:
       - outlet: "dvm360 — The latest scoop on litter (Jacqueline C. Neilson, DVM, DACVB; the article's editors' note says the author has received research funding from The Clorox Company, makers of Fresh Step litter)"
@@ -266,14 +266,14 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      Tidy Cats Free & Clean is the lowest card price on this page, for a 16 lb bag, and it is an unscented clay. The listing says it is made without fragrances or dyes, forms strong, tight clumps and pours with low dust. Its odor control comes from activated charcoal, per the listing, which is the one additive this guide's sources speak to directly: the dvm360 review advises that "cats prefer clumping litters and litters with activated carbon." Read that with its disclosure. The article's editors' note says its author has received research funding from The Clorox Company, the maker of Fresh Step litter, and the article dates from 2009.
+      Tidy Cats Free & Clean is the lowest card price on this page, for a 16 lb bag, and it is an unscented clay. The listing says it is made without fragrances or dyes, forms strong, tight clumps and pours with low dust. The listing credits its odor control to activated charcoal, the one additive this guide's sources speak to directly: the dvm360 review advises that "cats prefer clumping litters and litters with activated carbon." Read that with its disclosure. The article's editors' note says its author has received research funding from The Clorox Company, the maker of Fresh Step litter, and the article dates from 2009.
 
       The listing also promises guaranteed 10-day odor control when used as directed. Treat that as the maker's guarantee, not as permission to scoop less: the ASPCA's standard is a scoop at least once a day.
 
       There are two gaps in what the listing tells you. It gives no dust-free percentage and says nothing about tracking. And Amazon's product details table lists the scent as "Scented", which contradicts the title and the bullet that says it is made without fragrances. This guide goes with the title and bullets, but check the bag when it arrives.
     pros:
       - "The lowest card price here, for a 16 lb bag"
-      - "Made without fragrances or dyes, per the listing"
+      - "Listed as made without fragrances or dyes"
       - "Activated charcoal, the additive the dvm360 review favors"
       - "Strong, tight clumps and low dust, per the listing"
     cons:
@@ -293,9 +293,9 @@ picks:
     asin: "B09P32SSRL"
     keyFeatures:
       - "Works in both traditional and robotic litter boxes, per the listing"
-      - "Heavy-duty odor eliminators plus baking soda; 10% more odor eliminators than base formulas, per the listing"
-      - "99.9% dust-free and low tracking, per the listing"
-      - "Freshly scented, per the listing"
+      - "Listing claims heavy-duty odor eliminators plus baking soda, with 10% more odor eliminators than base formulas"
+      - "Listed as 99.9% dust-free and low tracking"
+      - "Listed as freshly scented"
       - "Card price is for the 18 lb box, checked November 15, 2026"
     authoritySources:
       - outlet: "AAFP/ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats (2014)"
@@ -318,7 +318,7 @@ picks:
       The listing does not say which robotic boxes it has been matched to. Before you fill an automatic box, check that box maker's own litter requirements. The [automatic litter box guide](/guides/best-automatic-litter-boxes-2026) and the [transition guide](/guides/how-to-transition-cat-to-automatic-litter-box-2026) cover that side.
     pros:
       - "Listed for both traditional and robotic litter boxes"
-      - "Named odor mechanism: odor eliminators plus baking soda, per the listing"
+      - "Named odor mechanism on the listing: odor eliminators plus baking soda"
       - "99.9% dust-free and low tracking, per the listing"
     cons:
       - "Freshly scented, the litter type AAFP/ISFM says cats often find offensive"
@@ -336,9 +336,9 @@ picks:
     asin: "B01J5GE3MA"
     keyFeatures:
       - "Non-clumping silica gel crystals that absorb liquid and dry solid waste, per the listing"
-      - "Compatible with ScoopFree self-cleaning boxes and standard pans, per the listing"
-      - "Each 4.3 lb bag covers one cat for about a month, per the listing"
-      - "99% dust-free and low tracking, with a fresh scent, per the listing"
+      - "Listed as compatible with ScoopFree self-cleaning boxes and standard pans"
+      - "Listing says each 4.3 lb bag covers one cat for about a month"
+      - "Listed as 99% dust-free and low tracking, with a fresh scent"
       - "Card price is for the 4.3 lb 2-pack, checked November 15, 2026"
     authoritySources:
       - outlet: "AAFP/ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats (2014)"
@@ -362,12 +362,12 @@ picks:
     pros:
       - "Made for ScoopFree crystal boxes, and listed for standard pans too"
       - "About 10 lb replaces 50 lb of clumping clay, per the listing"
-      - "99% dust-free and low tracking, per the listing"
+      - "Listed as 99% dust-free and low tracking"
     cons:
       - "Non-clumping, against the AAFP/ISFM preference for clumping litter"
       - "Carries a fresh scent, the litter type AAFP/ISFM says cats often find offensive"
       - "The listing's odor comparison is PetSafe's own claim and applies only with a ScoopFree crystal box"
-    verdict: "Choose the PetSafe crystal litter if you already own a ScoopFree crystal box; otherwise a clumping, unscented pick above is the closer match to veterinary guidance."
+    verdict: "Choose the PetSafe ScoopFree Premium Crystal litter if you already own a ScoopFree crystal box; otherwise a clumping, unscented pick above is the closer match to veterinary guidance."
 
 comparison:
   rows:

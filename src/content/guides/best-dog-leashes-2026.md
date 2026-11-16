@@ -30,7 +30,7 @@ guideType: "spoke"
 
 species: ["dog"]
 
-shortAnswer: "Start with a standard fixed-length leash: the AKC says to hold off on a retractable until your dog walks politely on a standard six-foot leash. The Ruffwear Knot-a-Leash is the top-scoring leash here and the pick for walks at dawn, dusk or after dark, with reflective rope and an auto-locking, swiveling carabiner. The Ruffwear Front Range Leash is the everyday pick, a 5 ft leash with a lockable clip, a padded handle and a traffic handle for quick restraint. For running or hiking hands-free, the Ruffwear Roamer is a stretch-webbing leash that can be hand-held or worn around the waist. For a dog that has to stay right at your side, Mendota's Traffic Leash is a 16 in handled lead, and for recall practice in open space, Mendota's 15 ft Long Snap Leash is a long line. Every price on this page is for one size and color only."
+shortAnswer: "The Ruffwear Knot-a-Leash is the top-scoring leash here and the pick for walks at dawn, dusk or after dark, with reflective rope and an auto-locking, swiveling carabiner. Whichever you choose, start with a standard fixed-length leash: the AKC says to hold off on a retractable until your dog walks politely on a standard six-foot leash. The Ruffwear Front Range Leash is the everyday pick, a 5 ft leash with a lockable clip, a padded handle and a traffic handle for quick restraint. For running or hiking hands-free, the Ruffwear Roamer is a stretch-webbing leash that can be hand-held or worn around the waist. For a dog that has to stay right at your side, Mendota's Traffic Leash is a 16 in handled lead, and for recall practice in open space, Mendota's 15 ft Long Snap Leash is a long line. Every price on this page is for one size and color only."
 
 topPicks:
   - name: "Ruffwear, Knot-a-Leash, Reflective 5 ft Rope Lead, Blue Pool, Large"
@@ -89,7 +89,7 @@ picks:
 
       The connection is the other reason it ranks first. The listing describes a Ruffwear-designed locking carabiner: "Just twist, lock, and explore without worry." It also says "The auto-locking carabiner swivels to prevent twisting". Ruffwear's product page calls it a tri-action auto-locking carabiner. One thing to know before buying: auto-locking means the carabiner needs a lift-and-twist to open, so clipping on is a two-step motion rather than a single snap.
 
-      It has no traffic handle, which is why it scores below the Front Range Leash and the Roamer on close control. The handle is tubular webbing, which the listing calls "smooth, supportive, and easy to grip". The figure on this card is for size Large in Blue Pool.
+      It has no traffic handle, which is why it scores below the Front Range Leash and the Roamer on close control. The handle is tubular webbing, which the listing calls "smooth, supportive, and easy to grip".
     pros:
       - "Reflective rope, the only reflective pick on this page"
       - "Auto-locking carabiner that swivels to prevent twisting"
@@ -135,11 +135,11 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      The AKC's retractable-leash advice starts from a standard fixed leash: "Until your dog understands how to walk politely using a standard six-foot leash, hold off on the retractable version." The Front Range Leash is this guide's everyday fixed leash. It is a little shorter than the AKC's six-foot benchmark, at 5 ft, and it scores highest of any pick on connection and close control combined.
+      The Front Range Leash is this guide's everyday fixed leash. The AKC's retractable-leash advice starts from a standard fixed leash: "Until your dog understands how to walk politely using a standard six-foot leash, hold off on the retractable version." The Front Range is a little shorter than the AKC's six-foot benchmark, at 5 ft, and it scores highest of any pick on connection and close control combined.
 
       The listing describes "a locking clip designed for one-handed attachment", and Ruffwear's page says the clip swivels. Near the clip end it has a traffic handle, which the listing says gives "quick restraint when needed". At the other end, the listing says "The padded handle is comfortable to hold during extended walks, runs, and hikes", and a built-in accessory loop holds pickup bags or keys.
 
-      Ruffwear does not describe this leash as reflective, so it scores lowest on visibility. For walks after dark, the Knot-a-Leash is the better choice. If your dog also pulls, the leash is only half the setup; the [no-pull harness guide](/guides/best-no-pull-harnesses-leash-manners-2026) covers what it clips to. The figure on this card is for One Size in River Rock Green.
+      Ruffwear does not describe this leash as reflective, so it scores lowest on visibility. For walks after dark, the Knot-a-Leash is the better choice. If your dog also pulls, the leash is only half the setup; the [no-pull harness guide](/guides/best-no-pull-harnesses-leash-manners-2026) covers what it clips to.
     pros:
       - "Locking clip designed for one-handed attachment"
       - "Traffic handle for quick restraint"
@@ -188,7 +188,7 @@ picks:
 
       It keeps a traffic handle for quick restraint, which the Flagline, the other hands-free pick here, does not have. The listing describes the Talon Clip as swiveling, strong and secure, though neither Ruffwear nor the listing calls it locking, so it scores below the Knot-a-Leash and Front Range Leash on the connection itself.
 
-      A waist-worn leash ties a lunging dog to your body. A study of US emergency-department data in the American Journal of Emergency Medicine found that, across all leash types, "The most common type of dog leash-related injuries resulted from a pull followed by a trip/tangle." Mendota Pet's leash-choosing guide gives a similar caution for any hands-free leash: make sure your dog is not prone to lunging or weaving around your legs. Use the Roamer waist-worn with a dog that already runs beside you, and hand-held with one that doesn't. The figure on this card is for size 5.5'-7' in Yellow Snow.
+      A waist-worn leash ties a lunging dog to your body. A study of US emergency-department data in the American Journal of Emergency Medicine found that, across all leash types, "The most common type of dog leash-related injuries resulted from a pull followed by a trip/tangle." Mendota Pet's leash-choosing guide gives a similar caution for any hands-free leash: make sure your dog is not prone to lunging or weaving around your legs. Use the Roamer waist-worn with a dog that already runs beside you, and hand-held with one that doesn't.
     pros:
       - "Stretch webbing that absorbs shock"
       - "Traffic handle for quick restraint"
@@ -212,8 +212,8 @@ picks:
     keyFeatures:
       - "A short 1.5 foot handled snap lead, 1/2 in x 16 in, per the listing"
       - "Waterproof multi-filament polypropylene rope"
-      - "Hand made in the USA, per the listing"
-      - "Mendota's lifetime-of-your-pet guarantee, per the listing"
+      - "Listed as hand made in the USA"
+      - "Listing cites Mendota's lifetime-of-your-pet guarantee"
       - "Card price is for 1/2 in x 16 in, color Orange, checked November 15, 2026; other colors may be priced differently"
     authoritySources:
       - outlet: "Mendota Pet — Traffic Leash product page"
@@ -231,11 +231,11 @@ picks:
     body: |
       A traffic lead is the shortest way to hold a dog. The listing calls this one "A short 1.5 foot handled snap lead for situations where you need your dog close at all times." Mendota Pet's leash-choosing guide names those situations: walking a dog in the city, crowded events, training, and large dogs or dogs that tend to bolt from cars or doors. The AKC's list of times to skip a retractable in favor of a standard leash includes "When there are crowds of people."
 
-      It is a close-control tool, not a walking leash. At 16 in, it keeps a dog right at your side and nothing more. It scores fourth because it earns full marks on close control but has a plain snap rather than a locking clip, is not described as reflective, and has no accessory loop. The listing describes the rope as waterproof multi-filament polypropylene and says Mendota guarantees it "for the life of your pet". The figure on this card is for 1/2 in x 16 in in Orange.
+      It is a close-control tool, not a walking leash. At 16 in, it keeps a dog right at your side and nothing more. It scores fourth because it earns full marks on close control but has a plain snap rather than a locking clip, is not described as reflective, and has no accessory loop. The listing describes the rope as waterproof multi-filament polypropylene and says Mendota guarantees it "for the life of your pet".
     pros:
       - "Keeps a dog right at your side"
       - "Waterproof polypropylene rope"
-      - "Lifetime-of-your-pet guarantee, per the listing"
+      - "Lifetime-of-your-pet guarantee, as listed"
     cons:
       - "Too short to be a dog's only leash"
       - "Plain snap, not described as locking"
@@ -273,11 +273,11 @@ picks:
     body: |
       The Flagline is the light, packable alternative to the Roamer. The listing says it is "Inspired by climbing slings" and that it "slips into a pocket when your pup is off-leash". An "Adjustable side-release buckle transforms from waist-worn to handheld", and the clip is Ruffwear's "strong, lockable Crux Clip hardware".
 
-      It ranks behind the Roamer because it has no traffic handle and no stretch section, and because neither the listing nor Ruffwear's page describes a padded handle. What it has instead is a low-profile stash pocket near the handle for pick-up bags. The same hands-free caution applies as for the Roamer: a dog that lunges or weaves can pull a waist-worn leash, and the person wearing it, off balance. The figure on this card is for One Size in Basalt Gray.
+      It ranks behind the Roamer because it has no traffic handle and no stretch section, and because neither the listing nor Ruffwear's page describes a padded handle. What it has instead is a low-profile stash pocket near the handle for pick-up bags. The same hands-free caution applies as for the Roamer: a dog that lunges or weaves can pull a waist-worn leash, and the person wearing it, off balance.
     pros:
       - "Lockable clip"
       - "Waist-worn or handheld"
-      - "Packs small enough for a pocket, per the listing"
+      - "Listed as packing small enough for a pocket"
       - "Stash pocket for pick-up bags"
     cons:
       - "No traffic handle"
@@ -316,7 +316,7 @@ picks:
     body: |
       A long line gives a dog room to roam while you keep hold of the other end. The trainer who wrote Whole Dog Journal's long-line article says: "A long line is also an incredible tool for teaching a terrific recall." The Mendota Long Snap is this guide's long line. The listing says "This 15 foot snap lead is longer than your traditional leash which is perfect for walking along the beach, training or field use". Mendota's leash-choosing guide adds that its 8 ft to 15 ft leads can be draped around the waist or over a shoulder for hands-free walking.
 
-      Two things to know. First, it is shorter than the line in Whole Dog Journal's own recall exercise, which starts with a "20-footer, great treats, big park, and a sniffari." Mendota does not describe this lead as a recall tool; 15 ft is what it is. Second, it has a plain snap rather than a locking clip, no traffic handle, and no reflective claim, which is why it scores in the lower half. Mendota says the rope is soft on the hands, and the 1/2 in width on this card is the size Mendota recommends for dogs over 50 pounds; a narrower size is made for smaller dogs. The figure on this card is for 1/2 in x 15 ft in Black.
+      Two things to know. First, it is shorter than the line in Whole Dog Journal's own recall exercise, which starts with a "20-footer, great treats, big park, and a sniffari." Mendota does not describe this lead as a recall tool; 15 ft is what it is. Second, it has a plain snap rather than a locking clip, no traffic handle, and no reflective claim, which is why it scores in the lower half. Mendota says the rope is soft on the hands, and the 1/2 in width on this card is the size Mendota recommends for dogs over 50 pounds; a narrower size is made for smaller dogs.
     pros:
       - "15 ft of line for recall practice and open space"
       - "Waterproof rope Mendota says is soft on the hands"
@@ -325,7 +325,7 @@ picks:
       - "Plain snap, not described as locking"
       - "Shorter than the 20 ft line in Whole Dog Journal's recall exercise"
       - "Too long for sidewalks and crowds"
-    verdict: "Get the Mendota Long Snap for recall practice and beach or field walks in open space, not for city sidewalks."
+    verdict: "Get the Mendota Long Snap Leash for recall practice and beach or field walks in open space, not for city sidewalks."
 
   - rank: 7
     label: "BEST CLASSIC ROPE LEASH — 6 FT FOR LARGER DOGS"
@@ -339,8 +339,8 @@ picks:
     keyFeatures:
       - "1/2 in x 6 ft braided polypropylene rope, for dogs over 50 pounds, per the listing"
       - "Waterproof; machine wash and air dry"
-      - "Hand made in the USA, per the listing"
-      - "Mendota's lifetime-of-your-pet guarantee, per the listing"
+      - "Listed as hand made in the USA"
+      - "Listing cites Mendota's lifetime-of-your-pet guarantee"
       - "Card price is for 1/2 in x 6 ft, color Black, checked November 15, 2026; other sizes and colors may be priced differently"
     authoritySources:
       - outlet: "Mendota Pet — Snap Leash (Large) product page"
@@ -358,12 +358,12 @@ picks:
     body: |
       This is the only pick at exactly the length the AKC uses as its benchmark, a "standard six-foot leash". Mendota Pet's leash-choosing guide says the 6 ft lead is ideal for everyday walking and is the most common length it sells. The listing describes a braided rope leash that is "soft on the hands with a “Broken in Feel”" and "pliable enough to fit in your coat pocket", made of waterproof multi-filament polypropylene that can be machine washed and air dried. The 1/2 in width on this card is the listing's size "for dogs over 50 pounds", and Mendota's page says the 1/2 in size is strongly recommended for powerful, strong dogs.
 
-      It ranks last on the PetPal Leash Score because it is the plainest leash here: a snap clip not described as locking, no traffic handle, no reflective claim and no accessory loop. None of that stops it being a sound everyday leash for a larger dog; it just has fewer of the features this guide scores. The listing says Mendota guarantees it "for the life of your pet". The figure on this card is for 1/2 in x 6 ft in Black.
+      It ranks last on the PetPal Leash Score because it is the plainest leash here: a snap clip not described as locking, no traffic handle, no reflective claim and no accessory loop. None of that stops it being a sound everyday leash for a larger dog; it just has fewer of the features this guide scores. The listing says Mendota guarantees it "for the life of your pet".
     pros:
       - "Six-foot length, the AKC's benchmark"
       - "Waterproof, machine-washable rope"
       - "Sized for dogs over 50 pounds"
-      - "Lifetime-of-your-pet guarantee, per the listing"
+      - "Lifetime-of-your-pet guarantee, as listed"
     cons:
       - "Plain snap, not described as locking"
       - "No traffic handle or accessory loop"

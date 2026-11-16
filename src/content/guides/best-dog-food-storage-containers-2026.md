@@ -30,7 +30,7 @@ guideType: "spoke"
 
 species: ["dog"]
 
-shortAnswer: "Start with the bag, not the bin. The FDA says to store pet food in the original container or bag, and if you use another container, to put the entire bag into the container rather than pour the kibble directly into it. Virginia Tech Extension adds that the original packaging keeps the UPC code and lot number at hand in case of a recall. For a bin that the whole bag goes into, the simplehuman X-Large Pet Food Can is the top-scoring pick: its listing describes a silicone gasket and clamp lid that form an airtight seal, a removable inner bucket for washing, and a 36-44 lb capacity sized for typical 40 lb bags. The Buddeez 80-Quart Roll-Away is the only pick whose listing describes dispensing straight from the original bag. For a plastic bin with wheels at a lower card price, the IRIS up-to-40 lb container lists airtight seals, snap-lock latches, wheels and a 2-cup scoop. Every capacity on this page is the seller's own figure, and IRIS says capacity varies by food type."
+shortAnswer: "The simplehuman X-Large Pet Food Can is the top-scoring pick, a bin the whole bag can go into: its listing describes a silicone gasket and clamp lid that form an airtight seal, a removable inner bucket for washing, and a 36-44 lb capacity sized for typical 40 lb bags. Start with the bag, not the bin, though. The FDA says to store pet food in the original container or bag, and if you use another container, to put the entire bag into the container rather than pour the kibble directly into it. Virginia Tech Extension adds that the original packaging keeps the UPC code and lot number at hand in case of a recall. The Buddeez 80-Quart Roll-Away is the only pick whose listing describes dispensing straight from the original bag. For a plastic bin with wheels at a lower card price, the IRIS up-to-40 lb container lists airtight seals, snap-lock latches, wheels and a 2-cup scoop. Every capacity on this page is the seller's own figure, and IRIS says capacity varies by food type."
 
 topPicks:
   - name: "simplehuman 35 Liter, 40 lb X-Large Pet Food Storage Container, Brushed Stainless Steel"
@@ -60,12 +60,12 @@ picks:
     image: "https://m.media-amazon.com/images/I/71V9mo89YKL._AC_SL1500_.jpg"
     asin: "B0085ZAMN2"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
       - "Clamp lid with a silicone gasket that the listing says forms an airtight seal"
       - "Holds 36-44 lb of dry food, sized for typical 40 lb retail bags, per the listing"
       - "Removable BPA-free inner bucket lifts out for cleaning"
       - "Measuring scoop attaches magnetically under the lid"
       - "Brushed stainless steel; 18.1 x 10.4 x 27.4 inches; model CW1889"
+      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
     authoritySources:
       - outlet: "simplehuman (Amazon listing)"
         url: "https://www.amazon.com/dp/B0085ZAMN2"
@@ -100,7 +100,7 @@ picks:
     pros:
       - "Only pick whose listing names a gasket, a locking clamp lid and an airtight seal together"
       - "Removable inner bucket lifts out for washing between bags"
-      - "Capacity range of 36-44 lb, sized for typical 40 lb bags, per the listing"
+      - "Listed capacity range of 36-44 lb, sized for typical 40 lb bags"
       - "Magnetic scoop stored under the lid"
     cons:
       - "Highest card price on this page (35 L / 40 lb size, checked November 15, 2026)"
@@ -118,12 +118,12 @@ picks:
     image: "https://m.media-amazon.com/images/I/51V1ZgfSMjL._AC_SL1500_.jpg"
     asin: "B003KJDEVA"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026; sold by BIGFLY at that check"
       - "Bag-in design: the listing says it dispenses food from the original bag"
       - "Locking seal clasps and gaskets, which the listing says keep food fresh"
       - "Wheels for tilt-and-roll moving and a 1-cup scoop"
       - "80 quarts (75.71 liters); the listing gives no capacity in pounds"
       - "24.5 x 12 x 26 inches; BPA-free plastic"
+      - "Amazon current price checked November 15, 2026; sold by BIGFLY at that check"
     authoritySources:
       - outlet: "Buddeez (Amazon listing)"
         url: "https://www.amazon.com/dp/B003KJDEVA"
@@ -150,7 +150,7 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      The Buddeez is the pick for owners who want to follow the FDA's advice to the letter. The FDA says: "If you want to store dry pet food in another storage container, put the entire bag into the container rather than pour the kibble directly into it." This is the only pick whose listing is built around that idea. It describes a "BAG IN FEATURE - allows dispensing of seed or food from the original bag while maintaining nutritional information and visible food levels". Keeping the bag means keeping the printed details. Virginia Tech Extension's FST-433 says to "Store pet foods and treats in the original container", because the package carries the UPC code and lot number you need if there is a recall.
+      The Buddeez is the pick for owners who want to follow the FDA's bag-in advice. The FDA says: "If you want to store dry pet food in another storage container, put the entire bag into the container rather than pour the kibble directly into it." This is the only pick whose listing is built around that idea. It describes a "BAG IN FEATURE - allows dispensing of seed or food from the original bag while maintaining nutritional information and visible food levels". Keeping the bag means keeping the printed details. Virginia Tech Extension's FST-433 says to "Store pet foods and treats in the original container", because the package carries the UPC code and lot number you need if there is a recall.
 
       It also scores well on handling. The listing names wheels for tilt-and-roll moving, a 1-cup scoop and visible food levels, and describes a slim shape for out-of-the-way storage. The listing gives its size as 24.5 x 12 x 26 inches.
 
@@ -158,7 +158,7 @@ picks:
     pros:
       - "Only pick whose listing describes dispensing from the original bag"
       - "Keeps the bag's printed details, including the lot number, with the food"
-      - "Wheels, a 1-cup scoop and visible food levels, per the listing"
+      - "Listed with wheels, a 1-cup scoop and visible food levels"
     cons:
       - "The listing names gaskets and locking clasps but makes no airtight claim"
       - "Capacity is given only as 80 quarts (75.71 liters), with no figure in pounds"
@@ -175,11 +175,11 @@ picks:
     image: "https://m.media-amazon.com/images/I/61Hxd4hh7vL._AC_SL1500_.jpg"
     asin: "B0D6WZRSFT"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
       - "Airtight seals and snap-lock latches, per the listing"
       - "Holds up to 40 lb of dry food; the listing says capacity varies by food type"
       - "Attachable wheels and a 2-cup scoop with built-in storage in the lid"
       - "18.63 x 11.31 x 21.13 inches (19.56 inches tall without wheels); BPA-free polypropylene"
+      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
     authoritySources:
       - outlet: "IRIS USA (Amazon listing)"
         url: "https://www.amazon.com/dp/B0D6WZRSFT"
@@ -212,7 +212,7 @@ picks:
 
       It ties with the Vittles Vault at 7.8 and ranks ahead of it on this guide's tie-break, the lower card price, since the two score the same on every factor. Its listing names snap-lock latches but no gasket, which is why it scores below the simplehuman on seal. It names no bag-in or cleaning feature, so if you pour the kibble in, follow the FDA's conditions: clean, dry, and a lid that fits snugly.
     pros:
-      - "Airtight seals and snap-lock latches, per the listing"
+      - "Listed with airtight seals and snap-lock latches"
       - "Wheels plus a 2-cup scoop stored in the lid"
       - "Up to 40 lb capacity, with IRIS's own note that it varies by food type"
     cons:
@@ -231,12 +231,12 @@ picks:
     image: "https://m.media-amazon.com/images/I/71A5OK3pi4L._AC_SL1500_.jpg"
     asin: "B0GT2MJ79L"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
       - "Airtight claim with Gamma Seal Technology, per the listing"
       - "40 lb capacity; the listing advises sizing up for larger kibble"
       - "Stackable, with a scoop included"
-      - "Food-grade HDPE plastic, made in the USA by Gamma2, per the listing"
+      - "Listed as food-grade HDPE plastic, made in the USA by Gamma2"
       - "Listed for indoor, covered outdoor or climate-controlled use"
+      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
     authoritySources:
       - outlet: "Gamma2 (Amazon listing)"
         url: "https://www.amazon.com/dp/B0GT2MJ79L"
@@ -257,14 +257,14 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      The Vittles Vault is the pick for owners who want to stack bins, for example dog food under cat food or treats. The listing calls it an airtight container that keeps food fresh "with its Gamma Seal Technology", says the sealed lid keeps pests out, and lists it as stackable with a scoop included. Gamma2 makes it in the USA from food-grade HDPE plastic, per the listing.
+      The Vittles Vault is the pick for owners who want to stack bins, for example dog food under cat food or treats. The listing calls it an airtight container that keeps food fresh "with its Gamma Seal Technology", says the sealed lid keeps pests out, and lists it as stackable with a scoop included. The listing adds that Gamma2 makes it in the USA from food-grade HDPE plastic.
 
       Its capacity note is the most useful one on this page. The listing gives 40 lb, then says to "Choose the right size dog food container based on your pet's kibble shape and density" and, for larger kibble, to go a size or two above the weight of the food. Take that at face value: for big kibble, a 40 lb bag may need a bigger bin.
 
       It ties with the IRIS 40 lb bin at 7.8. The two score the same on every factor, so the IRIS ranks ahead on this guide's tie-break, the lower card price. Like the IRIS, its listing names no gasket and no bag-in or cleaning feature, and it gives no dimensions, so measure your bag against the bin before ordering if you plan to keep the food in its bag. The listing says it suits indoor, covered outdoor or climate-controlled use, so it is not listed for uncovered outdoor use.
     pros:
       - "Stackable, with a scoop included"
-      - "Airtight claim with a named Gamma Seal lid, per the listing"
+      - "A named Gamma Seal lid with a listed airtight claim"
       - "The listing's own sizing advice for larger kibble"
     cons:
       - "No dimensions on the listing"
@@ -282,11 +282,11 @@ picks:
     image: "https://m.media-amazon.com/images/I/91xwPWieobL._AC_SL1500_.jpg"
     asin: "B09T78KX6G"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
       - "Holds up to 6.5 lb of dog food or 4.5 lb of cat food, per the listing"
       - "Push-button lid that the listing says creates an airtight seal"
       - "Lid comes apart for cleaning and is dishwasher safe"
       - "Detachable ½ cup scoop; square footprint for stacking"
+      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
     authoritySources:
       - outlet: "OXO (Amazon listing)"
         url: "https://www.amazon.com/dp/B09T78KX6G"
@@ -309,11 +309,11 @@ picks:
     body: |
       The OXO POP is a small container, and that is the point of it. The listing says it "Holds up to 6.5 pounds of dog food or 4.5 pounds of cat food", which suits a small dog, a cat, or a second food kept beside the main bin. It is not a home for a standard large bag.
 
-      It scores well on cleaning. The listing says the "Lid comes apart for easy cleaning, dishwasher safe", which helps with the FDA's advice to wash and dry the container between bags. The push-button lid, per the listing, "creates an airtight seal to keep food fresh and pests out", and a detachable ½ cup scoop and square footprint for stacking round it out.
+      It scores well on cleaning. The listing says the "Lid comes apart for easy cleaning, dishwasher safe", which helps with the FDA's advice to wash and dry the container between bags. It adds that the push-button lid "creates an airtight seal to keep food fresh and pests out", and a detachable ½ cup scoop and square footprint for stacking round it out.
 
       Mind the listing's own warning: "Always use the button to open and close; do not carry Container by the lid". Its small capacity is the reason it ranks fifth: it scores lowest on capacity of the seven.
     pros:
-      - "Lid comes apart and is dishwasher safe, per the listing"
+      - "Listed as dishwasher safe, with a lid that comes apart"
       - "Airtight seal claim with a push-button lid"
       - "Separate capacity figures for dog food and cat food"
       - "Stacks, with a detachable scoop"
@@ -332,11 +332,11 @@ picks:
     image: "https://m.media-amazon.com/images/I/81N8V4cM2OL._AC_SL1500_.jpg"
     asin: "B00186O0LU"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
       - "Airtight seals and snap-lock latches, per the listing"
       - "The listing says it is great for storing 30 lb of dry food"
       - "Attachable casters you can leave off or put on"
       - "16.38 x 10.88 x 18.44 inches (16.88 inches tall without casters); BPA-free polypropylene; made in USA"
+      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
     authoritySources:
       - outlet: "IRIS USA (Amazon listing)"
         url: "https://www.amazon.com/dp/B00186O0LU"
@@ -363,9 +363,9 @@ picks:
 
       Wherever it goes, the FDA's placement advice applies: "Store dry pet food in a cool and dry place."
     pros:
-      - "Airtight seals and snap-lock latches, per the listing"
+      - "Listed with airtight seals and snap-lock latches"
       - "Casters you can put on or leave off"
-      - "Sized for a bag of about 30 lb, per the listing"
+      - "Listed as sized for a bag of about 30 lb"
     cons:
       - "No scoop named on the listing"
       - "No note on this listing that capacity varies by food, although another IRIS 30 lb listing warns not all 30 lb bags will fit"
@@ -382,11 +382,11 @@ picks:
     image: "https://m.media-amazon.com/images/I/61GkKQv2qeL._AC_SL1500_.jpg"
     asin: "B08WHSVYV6"
     keyFeatures:
-      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
       - "Airtight seals and snap-lock latches, per the listing"
       - "Holds 10 lb of dry food; the listing says capacity depends on the food"
       - "Translucent body shows the food level"
       - "Wide top for opening, scooping and cleaning; 11.62 x 9.07 x 12.40 inches; made in USA, BPA-free"
+      - "Amazon current price checked November 15, 2026; sold by Amazon.com at that check"
     authoritySources:
       - outlet: "IRIS USA (Amazon listing)"
         url: "https://www.amazon.com/dp/B08WHSVYV6"
@@ -411,7 +411,7 @@ picks:
 
       It ranks last because a 10 lb bin scores low on capacity and its listing names no wheels or scoop. At 11.62 x 9.07 x 12.40 inches it fits a pantry shelf or cabinet. Keep it somewhere cool: Virginia Tech Extension says to store dry pet food "in a cool (below 80°F) and dry place."
     pros:
-      - "Airtight seals and snap-lock latches, per the listing"
+      - "Listed with airtight seals and snap-lock latches"
       - "See-through body shows how much food is left"
       - "Wide top for scooping and cleaning, per the listing"
     cons:
@@ -513,7 +513,7 @@ The simplehuman listing gives a range instead of one number, 36-44 lb, and says 
 
 The FDA says: "Store dry pet food in a cool and dry place." Virginia Tech Extension gives a number: "Store dry pet food, and unopened, canned wet pet food in a cool (below 80°F) and dry place." A garage or shed that gets hot in summer does not meet that, whatever bin you use.
 
-Wash the bin between bags. The FDA says: "Wash and dry the storage container between finishing up one bag of kibble and filling it with another to get residual fat and crumbs off the container’s surfaces." That is why this guide scores cleaning features: the simplehuman's inner bucket lifts out, the OXO's lid comes apart and is dishwasher safe, and the 10 lb IRIS has a wide top. If you store the food in its bag, the bin stays cleaner, which is one more reason to keep the bag. For feeding the food once it leaves the bin, see the [automatic pet feeders guide](/guides/best-automatic-pet-feeders-2026) and the [slow feeders guide](/guides/best-slow-feeders-anti-gulp-bowls-2026).
+Wash the bin between bags. The FDA says: "Wash and dry the storage container between finishing up one bag of kibble and filling it with another to get residual fat and crumbs off the container’s surfaces." That is why this guide scores cleaning features: the simplehuman's inner bucket lifts out, the OXO's lid comes apart and is dishwasher safe, and the 10 lb IRIS has a wide top. For feeding the food once it leaves the bin, see the [automatic pet feeders guide](/guides/best-automatic-pet-feeders-2026) and the [slow feeders guide](/guides/best-slow-feeders-anti-gulp-bowls-2026).
 
 ## What We Passed On
 
@@ -528,13 +528,13 @@ A: Keep it in the bag. The FDA says to put the entire bag into the container rat
 A: Start with a bin rated for at least 40 lb, then leave room. The simplehuman X-Large listing says it is sized for typical 40 lb bags and holds 36-44 lb, the IRIS 40 lb listing says capacity varies by food type, and the Vittles Vault listing says to size up for larger kibble.
 
 **Q: Do airtight containers keep dog food fresh?**
-A: Each airtight claim on this page is the seller's own. The AKC says to use a container that is airtight, clean and dry, and Dr. Larsen, quoted by the AKC, says the safest approach is to keep the sealed bag inside the container. Wash the container between bags, as the FDA advises, so old fat and crumbs do not stay in it.
+A: Each airtight claim on this page is the seller's own. The AKC says to use a container that is airtight, clean and dry, and Dr. Larsen, quoted by the AKC, says that for added protection the whole sealed bag can go inside a container. Wash the container between bags, as the FDA advises, so old fat and crumbs do not stay in it.
 
 **Q: Can I keep dog food in the garage?**
 A: Only if it stays cool and dry. Virginia Tech Extension says to store dry pet food below 80°F in a dry place, and the FDA says to keep it somewhere cool and dry.
 
 **Q: Do these containers work for cat food?**
-A: Yes. The IRIS 30 lb, simplehuman and Vittles Vault listings name cat food among the foods they store, and the OXO listing gives a separate 4.5 lb figure for cat food. The [nutrition, hydration and digestive health guide](/guides/cat-dog-nutrition-hydration-digestive-health) covers what goes in the bowl.
+A: Some do. The IRIS 30 lb, simplehuman and Vittles Vault listings name cat food among the foods they store, and the OXO listing gives a separate 4.5 lb figure for cat food. The [nutrition, hydration and digestive health guide](/guides/cat-dog-nutrition-hydration-digestive-health) covers what goes in the bowl.
 
 **Q: Are the prices on this page current?**
 A: Each card's price is the Amazon current price checked November 15, 2026. Prices change, so check the listing before you buy.

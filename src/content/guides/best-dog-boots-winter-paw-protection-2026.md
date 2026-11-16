@@ -175,7 +175,7 @@ picks:
 
       They score below the Polar Trex for two reasons. Muttluks' Snow Mushers page does not say the boots are waterproof, and the sizing method was not among the facts this guide drew on: Muttluks sizes its boots by number on its own site and keeps the method on a separate boot sizing page, while the Amazon listing uses letter sizes. Check Muttluks' boot sizing chart before ordering.
 
-      Like the Ruffwear boots, the Snow Mushers come 2 to a package, so four paws take two packages. PetMD's caution about rubber boots, covered under the PawZ pick below, is about boots made of latex or rubber; the Snow Mushers have rubber soles, and Muttluks' page does not name the upper material. The figure on this card is for the 2 Pack in Purple, size Small.
+      Like the Ruffwear boots, the Snow Mushers come 2 to a package, so four paws take two packages. PetMD's caution about rubber boots, covered under the PawZ pick below, is about boots made of latex or rubber; the Snow Mushers have rubber soles, and Muttluks' page does not name the upper material. This card's price covers the 2 Pack in Purple, size Small.
     pros:
       - "Fleece inner lining"
       - "Rubber soles with traction treads"
@@ -240,7 +240,7 @@ picks:
 
       What it does well is stay on. Ruffwear says the closure combines hook-and-loop with hardware, cinching around the narrowest part of the dog's leg, and that the cinch closure "maintains holding power when wet". A gusset gives it a wide opening for getting it on. That fits VCA's advice on boots: "Make sure they’re easy to get on and off, but not too easy—you don’t want your dog kicking them off as soon as you strap them on!" Sizing follows the same Ruffwear method as the Polar Trex: measure across the widest part of the paw while the dog bears weight, measure all paws, and size down between sizes.
 
-      Ruffwear sells it as a "Set of TWO boots", so four paws take two sets. Treat it as a traction and abrasion boot for cold, dry pavement and trails rather than a boot for slush and wet snow. The figure on this card is for the 2-count set in Obsidian Black, size 2.00 in.
+      Ruffwear sells it as a "Set of TWO boots", so four paws take two sets. Treat it as a traction and abrasion boot for cold, dry pavement and trails rather than a boot for slush and wet snow. Its card price is for the 2-count set in Obsidian Black, size 2.00 in.
     pros:
       - "Lugged Vibram outsole"
       - "A cinch closure that Ruffwear says holds when wet"
@@ -305,7 +305,7 @@ picks:
 
       Read the caution before buying. PetMD, in an article by Jennifer Coates, DVM, advises: "It’s best to stay away from latex or rubber boots as they can trap moisture and cause itchy paws." PawZ's own page says the boots are made from natural latex. PawZ also limits wear time itself: "We generally recommend removing them after one or two hours." It adds that they are not to be left on while a dog is resting or sleeping.
 
-      They rank last because they have no lining and no strap closure, and PawZ's traction claim is about grip on hard floors rather than a lugged outsole. They suit short walks over salted sidewalks for a dog that tolerates them, with the wear-time limit in mind. The Amazon listing title read for this card was cut off before the size and color, so the figure on this card is for the 12-boot pack only; confirm the price for your dog's size on the listing.
+      They rank last because they have no lining and no strap closure, and PawZ's traction claim is about grip on hard floors rather than a lugged outsole. They suit short walks over salted sidewalks for a dog that tolerates them, with the wear-time limit in mind. The Amazon listing title read for this card was cut off before the size and color, so the card price covers the 12-boot pack only; confirm the price for your dog's size on the listing.
     pros:
       - "12 boots per pack"
       - "PawZ calls them waterproof and names ice-melting chemicals among the hazards they block"
@@ -389,7 +389,7 @@ A dog not used to the cold needs time as well as gear. VCA says: "However, if yo
 
 ## Why Salt and Ice Melt Matter
 
-Deicers are a paw problem and a swallowing problem. VCA says: "Not only are rock salt and other salt-based deicers toxic if eaten directly off the ground or licked off paws once inside, but these deicers are also very drying to your dog’s paw pads and delicate skin between their toes." It adds: "Sometimes deicers even include ethylene glycol (antifreeze), which is poisonous to pets." The ASPCA calls antifreeze lethal for dogs and cats. A boot keeps that off the paw on the walk, which also keeps it out of the dog's mouth when it licks its feet at home.
+Deicers are a paw problem and a swallowing problem. VCA says: "Not only are rock salt and other salt-based deicers toxic if eaten directly off the ground or licked off paws once inside, but these deicers are also very drying to your dog’s paw pads and delicate skin between their toes." It adds: "Sometimes deicers even include ethylene glycol (antifreeze), which is poisonous to pets." The ASPCA calls antifreeze lethal for dogs and cats. A boot keeps that off the paw on the walk.
 
 ## How to Measure for Boots
 
