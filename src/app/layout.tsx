@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Source_Serif_4 } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { buildOrganizationEntity, buildWebSiteEntity, SITE_URL } from "@/lib/schema";
@@ -11,18 +11,31 @@ import Header from "@/components/layout/Header";
 import PrimeDaysBanner from "@/components/layout/PrimeDaysBanner";
 import Footer from "@/components/layout/Footer";
 
-const inter = Inter({
-  subsets: ["latin"],
+// Fonts are bundled in src/app/fonts (Fontsource 5.x, SIL OFL 1.1) so builds
+// never fetch fonts.googleapis.com — a Google Fonts blip failed the CI build on
+// #242 (2026-11-15). Same families, weights, styles and CSS variables as the old
+// next/font/google calls (latin subset).
+const inter = localFont({
+  src: "./fonts/inter-latin-wght-normal.woff2",
+  weight: "100 900",
+  style: "normal",
   variable: "--font-inter",
   display: "swap",
 });
 
-const sourceSerif = Source_Serif_4({
-  subsets: ["latin"],
+const sourceSerif = localFont({
+  src: [
+    { path: "./fonts/source-serif-4-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/source-serif-4-latin-400-italic.woff2", weight: "400", style: "italic" },
+    { path: "./fonts/source-serif-4-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/source-serif-4-latin-600-italic.woff2", weight: "600", style: "italic" },
+    { path: "./fonts/source-serif-4-latin-700-normal.woff2", weight: "700", style: "normal" },
+    { path: "./fonts/source-serif-4-latin-700-italic.woff2", weight: "700", style: "italic" },
+  ],
   variable: "--font-source-serif",
-  weight: ["400", "600", "700"],
-  style: ["normal", "italic"],
   display: "swap",
+  // Match next/font/google's serif fallback metrics (Times New Roman base).
+  adjustFontFallback: "Times New Roman",
 });
 
 export const metadata: Metadata = {
