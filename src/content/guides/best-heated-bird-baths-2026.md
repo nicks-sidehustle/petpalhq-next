@@ -502,7 +502,7 @@ A heater in water is an electrical appliance outdoors, and the safety rules come
 
 Never use chemicals to stop the freeze. Project FeederWatch says "Never add anti-freeze; it is poisonous to all animals, including birds." The NWF warns against glycerin as well: "Avoid adding glycerin to a birdbath as antifreeze; if birds ingest too much, it can dangerously elevate their blood-sugar levels."
 
-Mind the bath material. Audubon says "Avoid ceramic baths; they can crack in cold weather." And mind the water level: the NWF notes that "More recent models will turn off if the water in the bath dries up." Of the picks here, only the API Bird Bath De-Icer lists an auto shutoff, and K&H says its Ice Eliminator "is designed to be submerged in water at all times."
+Mind the bath material. Audubon says "Avoid ceramic baths; they can crack in cold weather." And mind the water level: K&H says its Ice Eliminator "is designed to be submerged in water at all times."
 
 ## Keeping a Heated Bath Clean and Full
 
@@ -529,7 +529,7 @@ A: No. Project FeederWatch says "Never add anti-freeze; it is poisonous to all a
 A: Yes. The National Wildlife Federation says to add a ground-fault interrupted circuit with any bath heater to prevent electric shorts, and Miller's instructions for its item 650 heated bath say to use a GFCI. Keep cords and outlets sheltered from snow and ice.
 
 **Q: What happens if a de-icer runs dry?**
-A: It depends on the model. Miller lists an auto shutoff for the API Bird Bath De-Icer. K&H says its Ice Eliminator is designed to be submerged at all times and to unplug it if the bath will run dry on a regular basis. Audubon warns that winter water evaporates quickly in dry air, so check the level often.
+A: Check each maker's instructions. K&H says its Ice Eliminator is designed to be submerged at all times and to unplug it if the bath will run dry on a regular basis. Audubon warns that winter water evaporates quickly in dry air, so check the level often.
 
 **Q: How often should I clean a heated bird bath?**
 A: Audubon's Great Lakes office suggests freshening the water every other day if possible and scrubbing the bath with a solution of 9 parts water to 1 part vinegar. Unplug a de-icer before cleaning around it.
