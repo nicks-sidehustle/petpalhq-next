@@ -303,7 +303,7 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      The Thermo-Kitty Bed is the round heated cat bed K&H calls one of its best-selling cat beds. The Large is 20 inches in diameter, with 6-inch-tall soft foam walls, and K&H says both sizes are great for small dogs too. A removable 4-watt heater sits inside the cushion. K&H says the heater's thermostat automatically warms to your pet's body temperature when in use.
+      The Thermo-Kitty Bed is the round heated cat bed K&H calls one of its best-selling cat beds. The Large is 20 inches in diameter, with 6-inch-tall soft foam walls, and K&H says both sizes are great for small dogs too. A removable 4-watt heater sits inside the cushion, and its thermostat, the maker says, automatically warms to your pet's body temperature when in use.
 
       K&H publishes the numbers behind that: "The surface of the bed will be about 15°F above ambient air temperature until the pet lies on the bed. Then it will warm to about 102°F, which is the natural body temperature of dogs and cats." So an empty bed feeling only slightly warm is how it is meant to work. The Vet Desk names the cats most likely to want it: "Hairless cat breeds like the Sphynx or cats with short or thin hair can benefit from extra heat in the winter."
 
@@ -415,7 +415,7 @@ methodology:
       definition: "The Amazon current price each card shows, checked November 15, 2026, in bands: under $30 scores 10; $30 to $49.99 scores 8; $50 to $79.99 scores 6; $80 or more scores 4. Weighted last because a bed the pet will not use, or cannot safely use, is no saving. The per-factor scores for every pick are printed in the comparison table, so each total can be recomputed."
 
 whenNotToBuy: |
-  Do not buy an electric bed for a pet that chews cords or bedding. The Vet Desk says "If your cat chews the electric cord or the pad, burns or electrocution might result", and K&H says the Lectro-Soft is not recommended for destructive pets; pick the ThermaNAP or the Mora Pets bed instead. Do not put a heated bed in a crate, carrier or other enclosed space a pet cannot leave: The Vet Desk says "Your cat should be able to get up and move away from the bed, so try not to place it in an enclosed space, particularly if they are elderly or ill." For a pet with mobility problems, the AKC warns that "your dog could be at risk of overheating or getting burned if they have mobility issues and can’t get up easily", so talk to your vet first and supervise use. Do not use a human heating pad or electric blanket instead: about sharing yours with your dog, the AKC says "this isn’t a good idea." And do not buy any pick here for an outdoor cat or dog: K&H rates the electric beds other than the Lectro-Soft for indoor use only, and K&H says self-warming products are not designed for cold outdoor winter temperatures.
+  Do not buy an electric bed for a pet that chews cords or bedding. The Vet Desk says "If your cat chews the electric cord or the pad, burns or electrocution might result", and K&H says the Lectro-Soft is not recommended for destructive pets; pick the ThermaNAP or the Mora Pets bed instead. Do not put a heated bed in a crate, carrier or other enclosed space a pet cannot leave: The Vet Desk says "Your cat should be able to get up and move away from the bed, so try not to place it in an enclosed space, particularly if they are elderly or ill." For a pet with mobility problems, the AKC warns that "your dog could be at risk of overheating or getting burned if they have mobility issues and can’t get up easily", so talk to your vet first and supervise use. Do not use a human heating pad or electric blanket instead: about sharing yours with your dog, the AKC says "this isn’t a good idea." And do not buy any pick here for an outdoor cat or dog: K&H rates the electric beds other than the Lectro-Soft for indoor use only, and K&H says its own self-warming products are not designed for cold outdoor winter temperatures.
 
 bottomLine:
   - "Get the K&H Thermo-Pet Lounge Sleeper Medium for a cat or a dog up to 40 pounds; K&H's product page gives a 40-pound weight rating, and the bed goes in the washer once the pad is out."
@@ -445,9 +445,10 @@ related:
   - "best-dog-beds-large-xl-dogs-2026"
   - "best-chew-proof-dog-beds-2026"
   - "best-premium-dog-winter-coats-2026"
+  - "best-cat-beds-indoor-cats-2026"
 ---
 
-This guide is about heated and self-warming beds for cats and dogs that sleep indoors. If your cat or dog lives outside, a bed is not enough on its own: the [heated outdoor cat houses guide](/guides/best-heated-outdoor-cat-houses-2026) and the [insulated and heated dog houses guide](/guides/best-insulated-heated-dog-houses-2026) cover shelters built for the weather.
+This guide is about heated and self-warming beds for cats and dogs that sleep indoors. If your cat or dog lives outside, a bed is not enough on its own: the [heated outdoor cat houses guide](/guides/best-heated-outdoor-cat-houses-2026) and the [insulated and heated dog houses guide](/guides/best-insulated-heated-dog-houses-2026) cover shelters built for the weather. For a cat that does not need heat, the [cat beds for indoor cats guide](/guides/best-cat-beds-indoor-cats-2026) covers non-heated caves, cat houses and donut beds.
 
 Indoors, the starting point is the ASPCA's baseline winter advice: "Make sure your companion animal has a warm place to sleep, off the floor and away from all drafts". For some pets, a warm spot is not enough. The AKC says "senior dogs, short-coated breeds, and dogs with certain medical conditions may need extra help with regulating their body temperature." The Vet Desk says hairless and thin-coated cats, underweight or ill cats, senior cats and kittens can all benefit from a heated bed. This guide ranks six beds for those pets: four low-wattage K&H electric beds and pads, from a 4-watt cat cup to a 60-watt pad for a large dog, and two self-warming beds that need no outlet.
 
@@ -461,7 +462,7 @@ A self-warming bed has no power at all. The Vet Desk explains: "Self-warming bed
 
 ## The Pet Must Be Able to Step Off the Heat
 
-Every vet source in this guide makes the same point. PetMD quotes Dr. Jo Ann Morrison, DVM: "Your pet needs to be able to quickly and easily move away from the heat if it becomes too warm." She adds: "Never allow them to lie directly on top of a supplemental heat source." The AKC says "It’s important to supervise your dog any time they’re using a heated dog bed or pet heating pad." Its warning about mobility is direct: a dog that can't get up easily is at risk of overheating or burns.
+PetMD, the AKC and The Vet Desk make the same point. PetMD quotes Dr. Jo Ann Morrison, DVM: "Your pet needs to be able to quickly and easily move away from the heat if it becomes too warm." The AKC says "It’s important to supervise your dog any time they’re using a heated dog bed or pet heating pad." Its warning about mobility is direct: a dog that can't get up easily is at risk of overheating or burns.
 
 So put a heated bed in an open spot, never in a closed crate or carrier, and leave room around it. K&H's Thermo-Kitty Bed page says the same: "Always allow your pet enough space to be able choose if they want to rest on the pad or off the pad." For a dog whose main problem is stiff, sore joints rather than cold, the [orthopedic dog beds guide](/guides/best-orthopedic-dog-beds-senior-pets-2026) covers supportive foam beds without heat.
 

@@ -93,7 +93,7 @@ picks:
     body: |
       The Universal Mount Bed takes the top score because it is the only pick that pairs the highest maker weight rating on this page with a second form of support. K&H says its "3 industrial-strength K&H EZ Mount suction cups hold over 60 lbs", and the perch also has adjustable snap-in legs "for additional support". Every other suction pick here hangs on its suction cups alone. The 60 lbs figure is K&H's own rating, not a measurement, but no other pick on this page carries a higher one.
 
-      It also asks the least of the window. The listing says it fits window glass 17 inches wide and larger, with 24 inches of total space width required, the narrowest glass requirement here, and K&H says it mounts to virtually any glass window or door with no tools. That makes it the pick for a narrower window that the 27-inch-plus EZ Mount picks below will not fit.
+      It also asks the least of the window. The listing says it fits window glass 17 inches wide and larger, with 24 inches of total space width required, the narrowest glass requirement here, and that it mounts to virtually any glass window or door with no tools. That makes it the pick for a narrower window that the 27-inch-plus EZ Mount picks below will not fit.
 
       The trade-offs: the listing makes no claim that it folds out of the way for blinds, and it is a single-level perch with no stated room for a second cat. The AAFP and ISFM guidelines say a cat's indoor resting areas "should include a location that allows the cat visibility of the outdoors", and this is the sturdiest way on this page to give one cat that spot. K&H sells it in original, hooded and scratcher ball track styles; the price on this card is for the Original Fleece style.
     pros:
@@ -142,9 +142,9 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      The EZ Mount Kitty Sill is the pick for a window you still want to cover at night. K&H says it "Folds up to window so blinds and drapery can function normally", and it is one of only two picks here whose listing says it folds out of the way. It hangs from industrial-strength EZ Mount suction cups that K&H rates to hold up to 50 pounds, on a reinforced steel frame, with no tool assembly.
+      The EZ Mount Kitty Sill is the pick for a window you still want to cover at night. K&H says it "Folds up to window so blinds and drapery can function normally", and it is one of only two picks here whose listing says it folds out of the way. It hangs from industrial-strength EZ Mount suction cups rated to hold up to 50 pounds, on a reinforced steel frame, with no tool assembly.
 
-      It scores second because it relies on suction alone, where the Universal Mount Bed adds legs, and because its 50-pound rating is below that perch's 60 lbs. It edges the two hammocks below because K&H says it "can accommodate multiple cats" and it folds up, a combination neither hammock's listing claims.
+      It scores second because it relies on suction alone, where the Universal Mount Bed adds legs, and because its 50-pound rating is below that perch's 60 lbs. It edges the two hammocks below because its listing says it "can accommodate multiple cats" and it folds up, a combination neither hammock's listing claims.
 
       The sleeping area is super soft fleece measuring 23in x 12in, and the shelf covers come off for the washing machine. The listing title says it fits 27in W x 23in H glass spaces, so measure the glass, not the frame, before ordering. Ohio State's Indoor Pet Initiative lists perches "that attach to the windowsill" among the options for indoor cats; this one attaches to the glass instead. It has the lowest card price on this page: $36.98 for the Gray color, checked November 15, 2026.
     pros:
@@ -199,11 +199,11 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      The Double Cat Window Hammock puts two perches on one suction mount. The top level is a flat sleeping surface and the bottom level is a hammock, with an opening in the top level for access, and K&H calls it "Great for multi-cat households". That matches the AAFP and ISFM guidelines, which say "Giving cats in multi-cat households choices through provision of multiple locations for hiding, perching, toileting, and food and water access will reduce fear and convey a sense of control." Ohio State adds that "More than one perch allows them to look outside at different angles."
+      The EZ Mount Double Cat Window Hammock puts two perches on one suction mount. The top level is a flat sleeping surface and the bottom level is a hammock, with an opening in the top level for access, and K&H calls it "Great for multi-cat households". That matches the AAFP and ISFM guidelines, which say "Giving cats in multi-cat households choices through provision of multiple locations for hiding, perching, toileting, and food and water access will reduce fear and convey a sense of control." Ohio State adds that "More than one perch allows them to look outside at different angles."
 
-      It ties the single hammock below at 7.7 and ranks above it on this guide's tie-break, because the two score the same on weight rating and mount support and this one scores higher on room for more than one cat. K&H rates its steel frame and heavy-duty suction cups to support up to 50 lbs; that is the maker's figure for the whole perch, so two large cats together may be close to it. Its listing makes no fold-down claim.
+      It ties the single hammock below at 7.7 and ranks above it on this guide's tie-break, because the two score the same on weight rating and mount support and this one scores higher on room for more than one cat. Its steel frame and heavy-duty suction cups are rated to support up to 50 lbs; that is the maker's figure for the whole perch, shared by both levels. Its listing makes no fold-down claim.
 
-      Check the window first. It needs an unobstructed, smooth glass surface of 29.5in L x 14in W x 12.5in H or larger, and K&H says it is not recommended for textured, louvered, or windows with divided panes. Amazon first listed it on April 23, 2026, so it has a short track record. The price on this card is for the Gray color, and it is the highest card price on this page.
+      Check the window first. It needs an unobstructed, smooth glass surface of 29.5in L x 14in W x 12.5in H or larger, and the listing says it is not recommended for textured, louvered, or windows with divided panes. Amazon first listed it on April 23, 2026, so it has a short track record. The price on this card is for the Gray color, and it is the highest card price on this page.
     pros:
       - "Two levels on one mount, for two cats at one window"
       - "Hammock-style bottom level and flat top level"
@@ -251,11 +251,11 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      The Cat Window Hammock is the single-level version of the double above: a true hammock on a steel frame, with "no cords, no ropes, and tool-free installation". K&H rates its frame and heavy-duty suction cups to support up to 50 lbs. Unlike the double, its listing says it folds down in seconds so you can still lower your blinds or shades, which makes it the other pick here that works with a covered window.
+      The EZ Mount Cat Window Hammock is the single-level version of the double above: a true hammock on a steel frame, with "no cords, no ropes, and tool-free installation". K&H rates its frame and heavy-duty suction cups to support up to 50 lbs. Unlike the double, its listing says it folds down in seconds so you can still lower your blinds or shades, which makes it the other pick here that works with a covered window.
 
       It ties the double at 7.7 and sits behind it on the tie-break because the double has room for a second cat. It ranks below the Kitty Sill because its listing makes no multi-cat claim.
 
-      It has the same window limits as the double: an unobstructed, smooth glass surface of 29.5in L x 14in W x 9.5in H or larger, and K&H says it is not recommended for textured, louvered, or windows with divided panes. For the best hold, K&H says to clean the suction cups and window surface once a month. Like the double, Amazon first listed it on April 23, 2026. To give a cat more to watch from it, Ohio State suggests a bird feeder in the yard or flowers that attract insects. The price on this card is for the Gray color.
+      It has the same window limits as the double: an unobstructed, smooth glass surface of 29.5in L x 14in W x 9.5in H or larger, and the listing says it is not recommended for textured, louvered, or windows with divided panes. For the best hold, K&H says to clean the suction cups and window surface once a month. Like the double, Amazon first listed it on April 23, 2026. To give a cat more to watch from it, Ohio State suggests a bird feeder in the yard or flowers that attract insects. The price on this card is for the Gray color.
     pros:
       - "True hammock with no cords or ropes"
       - "Folds down so blinds or shades can still be lowered"
@@ -301,7 +301,7 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      The Kitty Face is a window bed rather than a shelf: an open-top pod that K&H says "provides a safe and private cat space", for a cat that likes to be surrounded while it watches. It hangs from industrial-strength EZ Mount suction cups that K&H rates to hold up to 50 lbs, and it comes with a washable K&H Amazin' Kitty Pad; K&H says to spot clean the outer shell and machine wash the cushion only.
+      The EZ Mount Kitty Face is a window bed rather than a shelf: an open-top pod that K&H says "provides a safe and private cat space", for a cat that likes to be surrounded while it watches. It hangs from industrial-strength EZ Mount suction cups rated to hold up to 50 lbs, and it comes with a washable K&H Amazin' Kitty Pad; the listing says to spot clean the outer shell and machine wash the cushion only.
 
       It scores fifth because its listing makes no fold-down claim and no multi-cat claim, and it relies on suction alone. It ranks above the sill-mounted perch below on this guide's tie-break, because the two tie at 6.9 and this one has the higher maker weight rating.
 
@@ -360,9 +360,9 @@ picks:
     body: |
       The Unheated Kitty Sill is the only pick here that does not touch the glass. It mounts on the window sill with the included adhesive strips, no tools needed, or with the included screws for a more permanent install, and its legs hang 8in below the sill. That makes it the option for a window where suction cups are a poor fit, as long as there is a sill: the listing says it needs a 24in long and 2in deep window sill.
 
-      K&H says it has a "Super-supportive orthopedic foam base" that "provides comfort for cats with arthritis or other joint issues". That is K&H's claim, not a veterinary finding, but no other pick here lists a foam base. A firm, low perch at sill height may suit an older cat better than a hammock.
+      K&H says it has a "Super-supportive orthopedic foam base" that "provides comfort for cats with arthritis or other joint issues". That is K&H's claim, not a veterinary finding, but no other pick here lists a foam base.
 
-      It ranks last on the score because K&H rates it to support up to 40 pounds, the lowest maker rating on this page, and its listing makes no fold-away or multi-cat claim. It ties the Kitty Face at 6.9 and loses the tie-break on that weight rating. The AAFP and ISFM guidelines note that "Access to an elevated area increases the cat’s vertical space and allows it to monitor its environment." The price on this card is for the Fleece color.
+      It ranks last on the score because it is rated to support up to 40 pounds, the lowest maker rating on this page, and its listing makes no fold-away or multi-cat claim. It ties the Kitty Face at 6.9 and loses the tie-break on that weight rating. The AAFP and ISFM guidelines note that "Access to an elevated area increases the cat’s vertical space and allows it to monitor its environment." The price on this card is for the Fleece color.
     pros:
       - "Sill mount with adhesive strips or screws, no suction needed"
       - "Orthopedic foam base, which K&H says helps cats with arthritis or other joint issues"
@@ -371,7 +371,7 @@ picks:
       - "Lowest maker weight rating here: up to 40 pounds"
       - "Needs a window sill at least 24in long and 2in deep"
       - "No fold-away or multi-cat claim in the listing"
-    verdict: "Buy the Unheated Kitty Sill for a window with a deep enough sill, where suction cups won't suit, or for an older cat that may do better on a firm foam base."
+    verdict: "Buy the Unheated Kitty Sill for a window with a deep enough sill, where suction cups won't suit."
 
 comparison:
   rows:
@@ -420,7 +420,7 @@ bottomLine:
   - "Get the K&H EZ Mount Kitty Sill for a window with blinds or curtains; it folds up to the glass, and K&H rates it to hold up to 50 pounds."
   - "Get the K&H EZ Mount Double Cat Window Hammock for two cats at one smooth, undivided window."
   - "Get the K&H EZ Mount Cat Window Hammock for one cat that likes a true hammock, and the K&H Kitty Face for a cat that likes an enclosed bed."
-  - "Get the K&H Unheated Kitty Sill where suction cups won't suit and there is a sill at least 24in long and 2in deep, or for an older cat that may do better on its foam base."
+  - "Get the K&H Unheated Kitty Sill where suction cups won't suit and there is a sill at least 24in long and 2in deep."
   - "Whatever you buy, keep a snug, sturdy screen in the window."
 
 sources:
@@ -467,7 +467,7 @@ The Universal Mount Bed adds adjustable snap-in legs to its suction cups, and th
 
 ## More Than One Cat
 
-The AAFP and ISFM guidelines say "Giving cats in multi-cat households choices through provision of multiple locations for hiding, perching, toileting, and food and water access will reduce fear and convey a sense of control." Ohio State adds that "More than one perch allows them to look outside at different angles." The Double Cat Window Hammock puts two levels on one mount, and K&H says the EZ Mount Kitty Sill can accommodate multiple cats. In a home with several cats, two perches at two different windows also give each cat its own view.
+The AAFP and ISFM guidelines say "Giving cats in multi-cat households choices through provision of multiple locations for hiding, perching, toileting, and food and water access will reduce fear and convey a sense of control." Ohio State adds that "More than one perch allows them to look outside at different angles." The Double Cat Window Hammock puts two levels on one mount, and the EZ Mount Kitty Sill's listing says it can accommodate multiple cats. In a home with several cats, two perches at two different windows also give each cat its own view.
 
 ## Window Safety Comes First
 

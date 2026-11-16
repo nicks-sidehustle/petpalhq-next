@@ -26,7 +26,7 @@ reviewMethod: "Editorial synthesis of winter-water guidance from the National Au
 lastProductCheck: "2026-11-15"
 expertSourceCount: 3
 
-shortAnswer: "If you already own a bird bath, add a de-icer rather than buying a new bath. The API Bird Bath De-Icer is the top-scoring pick: Miller Manufacturing lists a built-in thermostat, an auto shutoff and a stainless steel guard that keeps wildlife off the heating element, for baths of 15 gallons or less. The API BDT250 has the longest cord here at 10 feet and Miller says it is safe in plastic baths. For a new heated bath, the K&H Thermo-Birdbath sits on the ground with a thermostatically controlled 80-watt heater, and the API 600 is a 20-inch heated bath for a deck rail, pedestal or pole. Whatever you buy, plug it into a ground-fault (GFCI) circuit, as the National Wildlife Federation advises, and never add antifreeze: Project FeederWatch says it is poisonous to all animals, including birds."
+shortAnswer: "The API Bird Bath De-Icer is the top-scoring pick, a de-icer for a bird bath you already own: Miller Manufacturing lists a built-in thermostat, an auto shutoff and a stainless steel guard that keeps wildlife off the heating element, for baths of 15 gallons or less. If you already own a bath, add a de-icer rather than buying a new one. The API BDT250 has the longest cord here at 10 feet and Miller says it is safe in plastic baths. For a new heated bath, the K&H Thermo-Birdbath sits on the ground with a thermostatically controlled 80-watt heater, and the API 600 is a 20-inch heated bath for a deck rail, pedestal or pole. Whatever you buy, plug it into a ground-fault (GFCI) circuit, as the National Wildlife Federation advises, and never add antifreeze: Project FeederWatch says it is poisonous to all animals, including birds."
 
 topPicks:
   - name: "API Bird Bath De-Icer, Compatible with Most Bird Baths"
@@ -85,11 +85,11 @@ picks:
       - outlet: "National Wildlife Federation — water for birds in winter"
         url: "https://blog.nwf.org/2014/12/dont-forget-water-for-birds-in-winter/"
         stat: "More recent models will turn off if the water in the bath dries up."
-        claim: "The NWF describes the shutoff feature this de-icer lists"
+        claim: "The NWF notes that more recent bath heaters turn off if the bath dries up"
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      The API Bird Bath De-Icer is the top-scoring pick because its maker lists every safety feature this guide scores. Miller Manufacturing, which sells API products, says "The De-icer features a stainless steel guard that prevents wildlife from contacting the heating element." It adds a built-in thermostat that "conserves energy by only running when the water temperature reaches a set point" and an "Auto shutoff for safety." It is the only pick here whose maker names both a guard and a shutoff. That shutoff is the feature the National Wildlife Federation points to: "More recent models will turn off if the water in the bath dries up."
+      The API Bird Bath De-Icer is the top-scoring pick because its maker lists every safety feature this guide scores. Miller Manufacturing, which sells API products, says "The De-icer features a stainless steel guard that prevents wildlife from contacting the heating element." It adds a built-in thermostat that "conserves energy by only running when the water temperature reaches a set point" and an "Auto shutoff for safety." It is the only pick here whose maker names both a guard and a shutoff.
 
       It drops into a bath you already own. Miller says it "is suitable for pottery, plastic and concrete bird baths of 15 gallons or less", and claims it keeps a bath ice-free "even in sub-zero temperatures." That is the maker's claim, not a measurement. One caution: the National Audubon Society says "Avoid ceramic baths; they can crack in cold weather", so a plastic or concrete bath is the safer pairing, even though Miller lists pottery.
 
@@ -153,7 +153,7 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      The BDT250 is the de-icer for a bath that can't sit right next to an outlet. Miller Manufacturing says it "is safe to use in plastic bird baths and comes with a 10' cord with anti-rub protector." That is the longest cord on this page, and it gives you room to follow the National Wildlife Federation's advice: "Check that cords and outlets are sheltered from snow or ice buildup."
+      The BDT250 is the de-icer for a bath that can't sit right next to an outlet. Miller says it "is safe to use in plastic bird baths and comes with a 10' cord with anti-rub protector." That is the longest cord on this page, and it gives you room to follow the National Wildlife Federation's advice: "Check that cords and outlets are sheltered from snow or ice buildup."
 
       Miller describes "a durable, nonstick-coated, compact aluminum base in a low-profile design", with fins that let it run cooler and channels that, in Miller's words, help "to eliminate mineral buildup." It lists "Multiple thermostat control" and claims the de-icer keeps a bath ice-free even in sub-zero temperatures. Those are the maker's claims. It is the National Audubon Society's second route to winter water: "convert a summer birdbath by adding a heater."
 
@@ -334,7 +334,7 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      The API 600 is the largest bath here, a 20-inch heated bath for a deck rail. Miller Manufacturing says it "Mounts to any deck railing, pedestal or pole (not included) with the included mounting hardware", and that "The heating element is completely enclosed within in the bird bath for safety." The bath is weather-resistant plastic, and Miller describes a 2-inch depth with a gradual slope and a textured, contoured rim.
+      The API 600 is the largest bath here, a 20-inch heated bath for a deck rail. Miller says it "Mounts to any deck railing, pedestal or pole (not included) with the included mounting hardware", and that "The heating element is completely enclosed within in the bird bath for safety." The bath is weather-resistant plastic, and Miller describes a 2-inch depth with a gradual slope and a textured, contoured rim.
 
       Miller rates it at 150 watts and lists a one-year warranty, a 15-inch cord and a CSA listing. The short cord is the main practical limit: the outlet has to be near the rail, and the National Wildlife Federation says to "add a ground-fault interrupted circuit" with any heater.
 
@@ -392,7 +392,7 @@ picks:
         supports: "recommendation"
         accessed: "2026-11-15"
     body: |
-      The API Heated Birdbath with Stand is the compact option: a 12-inch heated bath on a 30-inch metal stand. Miller Manufacturing says "The fully enclosed heating element safely keeps water free from ice all winter long", and you can skip the full stand: "you can use just the top section of the stand and mount this bird bath to your deck rail." Miller describes a 2-inch depth, a contoured rim and a textured surface.
+      The API Heated Birdbath with Stand is the compact option: a 12-inch heated bath on a 30-inch metal stand. Miller says "The fully enclosed heating element safely keeps water free from ice all winter long", and you can skip the full stand: "you can use just the top section of the stand and mount this bird bath to your deck rail." Miller describes a 2-inch depth, a contoured rim and a textured surface.
 
       At 50 watts it draws the least power of any pick here. Miller lists a 15-inch cord, a CSA listing and a one-year warranty. As Project FeederWatch puts it, "In freezing climates, a birdbath heater will keep ice from forming."
 

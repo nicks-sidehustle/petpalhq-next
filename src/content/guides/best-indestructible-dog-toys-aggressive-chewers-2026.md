@@ -30,7 +30,7 @@ guideType: "spoke"
 
 species: ["dog"]
 
-shortAnswer: "No dog toy is truly indestructible. VCA Animal Hospitals says some dogs tear even rubber toys apart in a matter of minutes, and KONG and West Paw say on their own pages, and Monster K9 says in its Amazon listing, that no dog toy is truly indestructible. With that said, the KONG Extreme Large 2-pack is the top-scoring pick here: KONG says its black rubber is specifically designed for power chewers, publishes a weight chart (Large is for dogs between 30 and 65 lbs) and tells owners of power chewers they may need to size up one or two sizes. The West Paw Zogoflex Hurley is the pick for a chewer that also fetches and swims, since West Paw says it floats and is designed for super chewers, and West Paw promises a one-time replacement or refund if a dog damages a Zogoflex toy. Whatever you buy, size up, supervise, and take the toy away once chunks start coming off. Hard nylon chews were left off this list because the AKC and VCA warn that chews that are too hard can fracture teeth."
+shortAnswer: "The KONG Extreme Large 2-pack is the top-scoring pick here: KONG says its black rubber is specifically designed for power chewers, publishes a weight chart (Large is for dogs between 30 and 65 lbs) and tells owners of power chewers they may need to size up one or two sizes. Still, no dog toy is truly indestructible. VCA Animal Hospitals says some dogs tear even rubber toys apart in a matter of minutes, and KONG and West Paw say on their own pages, and Monster K9 says in its Amazon listing, that no dog toy is truly indestructible. The West Paw Zogoflex Hurley is the pick for a chewer that also fetches and swims, since West Paw says it floats and is designed for super chewers, and West Paw promises a one-time replacement or refund if a dog damages a Zogoflex toy. Whatever you buy, size up, supervise, and take the toy away once chunks start coming off. Hard nylon chews were left off this list because VCA warns that toys that are too hard can fracture teeth, and the AKC recommends chews with some flexibility."
 
 topPicks:
   - name: "KONG Extreme Dog Toy, Natural Rubber Chew, for Large Dogs (Pack of 2)"
@@ -102,7 +102,7 @@ picks:
 
       It takes the top score because it is the only pick here with a full sizing system. KONG's chart puts the Large between 30 and 65 lbs, with an X-Large for the next weight group up. KONG also says the widest part of a KONG should be bigger than the back of a dog's mouth, and that power chewers may need to size up one or two sizes. That matches VCA's warning: "A toy should never be so small as to easily fit entirely in your dog’s mouth, as this makes it more likely to be a choking danger." If your dog sits near the top of the Large range and chews hard, look at the [X-Large 2-pack](/go/B00UXLGOD8) instead.
 
-      The center is hollow, so it can be stuffed with kibble or peanut butter for a longer session, and the listing says it is dishwasher safe. This listing is a 2-pack of Large toys made by KONG. Another Large 2-pack listing (B00SVEMNU2) names a different manufacturer, so this guide links the one that names KONG. The figure on this card is for the Large 2-pack.
+      The center is hollow, so it can be stuffed with kibble or peanut butter for a longer session, and the listing says it is dishwasher safe. This listing is a 2-pack of Large toys made by KONG. Another Large 2-pack listing (B00SVEMNU2) names a different manufacturer, so this guide links the one that names KONG, and its card price is for the Large 2-pack.
     pros:
       - "KONG says the black rubber is specifically designed for power chewers"
       - "The only pick with a published weight chart and a size-up rule"
@@ -363,7 +363,7 @@ bottomLine:
   - "Get the Monster K9 Ring Ball as a rubber tennis-ball substitute for a power chewer, after checking its one size against your dog's mouth."
   - "Get the KONG Extreme Goodie Bone as a stuffable chew for a medium dog."
   - "Get the Goughnuts tug for supervised tug-of-war, not as a chew toy."
-  - "Skip hard nylon chews for a power chewer: the AKC and VCA warn that chews that are too hard can fracture teeth."
+  - "Skip hard nylon chews for a power chewer: VCA warns that toys that are too hard can fracture teeth, and the AKC recommends chews with some flexibility."
 
 sources:
   expert:
@@ -408,13 +408,13 @@ Three habits matter more than which toy you buy.
 
 **Size up.** VCA says: "A toy should never be so small as to easily fit entirely in your dog’s mouth, as this makes it more likely to be a choking danger." The ASPCA says: "Pet parents should choose a product size consistent with their pet’s size and chewing habits." KONG tells owners of power chewers they may need to size up one or two sizes.
 
-**Supervise.** The ASPCA says: "Do your best to supervise your dog during all waking hours until you feel confident that his chewing behavior is under control." Every maker on this page also says to supervise.
+**Supervise.** The ASPCA says: "Do your best to supervise your dog during all waking hours until you feel confident that his chewing behavior is under control." KONG, West Paw and Goughnuts also say to supervise.
 
 **Retire damaged toys.** VCA says: "If stuffing is showing, rope is frayed or rubber is broken, it’s time to retire that toy to prevent broken bits from being swallowed." The reason is serious. VCA warns that "swallowed chunks of toys can get lodged in the stomach, requiring surgery for removal."
 
 ## What We Passed On
 
-**Hard nylon chews (Benebone Wishbone, Nylabone Power Chew).** Both are popular nylon chews sold for aggressive chewers, and both have Amazon listings. We left them off for the reasons above: the AKC recommends chews with some flexibility, and the AKC and VCA both warn that chews that are too hard can fracture teeth. The ASPCA adds a second concern about durable chews of this kind: "Dogs who find these chews desirable will slowly wear down the ends of the chews, resulting in thin sections that can be broken off and swallowed." Our anxiety chew toy guide gives the same advice to skip hard nylon. If you already use one, try the fingernail test and replace it once the ends wear thin.
+**Hard nylon chews (Benebone Wishbone, Nylabone Power Chew).** Both are popular nylon chews sold for aggressive chewers, and both have Amazon listings. We left them off for the reasons above: the AKC recommends chews with some flexibility, and VCA warns that toys that are too hard can fracture teeth. The ASPCA's advice for durable chews of this kind is to throw them away before the ends wear thin: "Dogs who find these chews desirable will slowly wear down the ends of the chews, resulting in thin sections that can be broken off and swallowed." Our anxiety chew toy guide gives the same advice to skip hard nylon. If you already use one, try the fingernail test and replace it once the ends wear thin.
 
 **Chuckit! Ultra Ball.** It is a popular rubber fetch ball, but its own Amazon listing says it is "not intended as a chew toy or for aggressive chewers". For fetch with a power chewer, the Monster K9 Ring Ball above is sold for the toughest chewers. If fetch is the main game, our [automatic ball launcher guide](/guides/best-automatic-ball-launchers-2026) covers machines and the balls they take.
 
@@ -426,7 +426,7 @@ Three habits matter more than which toy you buy.
 A: No. VCA says some dogs tear even rubber toys apart in a matter of minutes, and KONG and West Paw say on their own pages, and Monster K9 says in its Amazon listing, that no dog toy is truly indestructible. Buy a toy built for power chewers, size it up, and supervise.
 
 **Q: Are nylon bones safe for aggressive chewers?**
-A: The sources this guide drew on lean against hard chews. The AKC says "chew toys with some flexibility are generally recommended", and VCA says toys should be soft enough to indent with a fingernail. The ASPCA warns that dogs can wear durable chews down to thin sections that break off and get swallowed. Ask your veterinarian before giving a hard chew to a dog that chews hard.
+A: The AKC and VCA lean against hard chews. The AKC says "chew toys with some flexibility are generally recommended", and VCA says toys should be soft enough to indent with a fingernail. The ASPCA advises throwing durable chews away before the ends wear down to thin sections that can break off and be swallowed. Ask your veterinarian before giving a hard chew to a dog that chews hard.
 
 **Q: What size toy should I get for a power chewer?**
 A: Bigger than you think. VCA says a toy should never fit entirely in your dog's mouth, and KONG says power chewers may need to size up one or two sizes. For the KONG Extreme, KONG's chart puts the Large between 30 and 65 lbs.
