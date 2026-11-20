@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { AffiliateLink } from "@/components/affiliate/AffiliateLink";
 import { appendGoParams } from "@/lib/affiliate-href";
-import { B2S_RAIL } from "@/config/b2s-rail";
+import { B2S_RAIL, B2S_SEASON_END_UTC } from "@/config/b2s-rail";
 
 /**
  * SeasonalB2SRail — the back-to-school dorm-pet rail (2026 season, through
@@ -16,7 +16,9 @@ import { B2S_RAIL } from "@/config/b2s-rail";
  *  - No product images — pick-image parity untouched.
  *  - Colors are site tokens; CTA is white-on-navy (measured AA).
  */
-export default function SeasonalB2SRail({ slug }: { slug: string }) {
+export default function SeasonalB2SRail({ slug, now = new Date() }: { slug: string; now?: Date }) {
+  // Season over: render nothing. Checked at build time (static pages).
+  if (now.getTime() >= Date.parse(B2S_SEASON_END_UTC)) return null;
   const entry = B2S_RAIL[slug];
   if (!entry) return null;
 

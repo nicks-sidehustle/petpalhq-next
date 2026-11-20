@@ -1,0 +1,970 @@
+{
+  "at-home-pet-health-monitoring-tools": {
+    "fromGuide": "at-home-pet-health-monitoring-tools",
+    "asin": "B07WRSJC77"
+  },
+  "back-to-school-dog-separation-anxiety-routine-2026": {
+    "fromGuide": "back-to-school-dog-separation-anxiety-routine-2026",
+    "asin": "B08D6Q93C4"
+  },
+  "bearded-dragon-terrarium-setup-checklist-2026": {
+    "fromGuide": "bearded-dragon-terrarium-setup-checklist-2026",
+    "asin": "B0FG31G8P2"
+  },
+  "best-10-30-gallon-aquarium-kits-2026": {
+    "fromGuide": "best-10-30-gallon-aquarium-kits-2026",
+    "asin": "B09Y716CJC"
+  },
+  "best-4th-of-july-pet-safety-costumes-2026": {
+    "fromGuide": "best-4th-of-july-pet-safety-costumes-2026",
+    "asin": "B0FVNVQXLX"
+  },
+  "best-55-75-gallon-freshwater-aquarium-kits-2026": {
+    "fromGuide": "best-55-75-gallon-freshwater-aquarium-kits-2026",
+    "asin": "B09WYXZ61D"
+  },
+  "best-air-purifiers-pet-hair-dander-2026": {
+    "fromGuide": "best-air-purifiers-pet-hair-dander-2026",
+    "asin": "B0G19ZCNP9"
+  },
+  "best-airline-approved-pet-carriers-2026": {
+    "fromGuide": "best-airline-approved-pet-carriers-2026",
+    "asin": "B002Z6005M"
+  },
+  "best-aquarium-air-pumps-2026": {
+    "fromGuide": "best-aquarium-air-pumps-2026",
+    "asin": "B09RZMFL35"
+  },
+  "best-aquarium-bacteria-starter-2026": {
+    "fromGuide": "best-aquarium-bacteria-starter-2026",
+    "asin": "B001LULBXI"
+  },
+  "best-aquarium-canister-filters-2026": {
+    "fromGuide": "best-aquarium-canister-filters-2026",
+    "asin": "B00N45GLZQ"
+  },
+  "best-aquarium-chillers-2026": {
+    "fromGuide": "best-aquarium-chillers-2026",
+    "asin": "B07BHHQLKR"
+  },
+  "best-aquarium-cleaning-tools-2026": {
+    "fromGuide": "best-aquarium-cleaning-tools-2026",
+    "asin": "B004RK40VY"
+  },
+  "best-aquarium-co2-systems-2026": {
+    "fromGuide": "best-aquarium-co2-systems-2026",
+    "asin": "B0838KXK5D"
+  },
+  "best-aquarium-filters-and-media-2026": {
+    "fromGuide": "best-aquarium-filters-and-media-2026",
+    "asin": "B00020SVDG"
+  },
+  "best-aquarium-hang-on-back-filters-2026": {
+    "fromGuide": "best-aquarium-hang-on-back-filters-2026",
+    "asin": "B01M6Z59E9"
+  },
+  "best-aquarium-heaters-2026": {
+    "fromGuide": "best-aquarium-heaters-2026",
+    "asin": "B003M7P9YU"
+  },
+  "best-aquarium-return-pumps-2026": {
+    "fromGuide": "best-aquarium-return-pumps-2026",
+    "asin": "B01F7QUZCY"
+  },
+  "best-aquarium-sponge-filters-2026": {
+    "fromGuide": "best-aquarium-sponge-filters-2026",
+    "asin": "B07RKT6QPV"
+  },
+  "best-aquarium-stands-cabinets-2026": {
+    "fromGuide": "best-aquarium-stands-cabinets-2026",
+    "asin": "B0DDY4GLRN"
+  },
+  "best-aquarium-uv-sterilizers-2026": {
+    "fromGuide": "best-aquarium-uv-sterilizers-2026",
+    "asin": "B0064JHW4I"
+  },
+  "best-aquarium-water-conditioner-2026": {
+    "fromGuide": "best-aquarium-water-conditioner-2026",
+    "asin": "B00025694O"
+  },
+  "best-aquarium-water-test-kits-2026": {
+    "fromGuide": "best-aquarium-water-test-kits-2026",
+    "asin": "B003SNCHMA"
+  },
+  "best-auto-replenishing-pet-station-2026": {
+    "fromGuide": "best-auto-replenishing-pet-station-2026",
+    "asin": "B0FFDNZSHT"
+  },
+  "best-automatic-aquarium-ato-systems-2026": {
+    "fromGuide": "best-automatic-aquarium-ato-systems-2026",
+    "asin": "B0DNGDR83C"
+  },
+  "best-automatic-ball-launchers-2026": {
+    "fromGuide": "best-automatic-ball-launchers-2026",
+    "asin": "B0DMQGFWVC"
+  },
+  "best-automatic-litter-boxes-2026": {
+    "fromGuide": "best-automatic-litter-boxes-2026",
+    "asin": "B0CSKBWBF6"
+  },
+  "best-automatic-pet-feeders-2026": {
+    "fromGuide": "best-automatic-pet-feeders-2026",
+    "asin": "B0B5ZGGWBQ"
+  },
+  "best-backyard-chicken-coops-2026": {
+    "fromGuide": "best-backyard-chicken-coops-2026",
+    "asin": "B0FRS92ZWL"
+  },
+  "best-backyard-koi-pond-systems-2026": {
+    "fromGuide": "best-backyard-koi-pond-systems-2026",
+    "asin": "B00GMOI7JE"
+  },
+  "best-ball-python-starter-kits-2026": {
+    "fromGuide": "best-ball-python-starter-kits-2026",
+    "asin": "B01HXM5UAC"
+  },
+  "best-bark-collars-anti-bark-devices-2026": {
+    "fromGuide": "best-bark-collars-anti-bark-devices-2026",
+    "asin": "B072DS462V"
+  },
+  "best-bearded-dragon-starter-kits-2026": {
+    "fromGuide": "best-bearded-dragon-starter-kits-2026",
+    "asin": "B0G3PT1MP2"
+  },
+  "best-bearded-dragon-substrate-2026": {
+    "fromGuide": "best-bearded-dragon-substrate-2026",
+    "asin": "B08T455WGN"
+  },
+  "best-bird-baths-solar-fountains-2026": {
+    "fromGuide": "best-bird-baths-solar-fountains-2026",
+    "asin": "B07K1WY1M4"
+  },
+  "best-bird-feeder-pole-systems-baffles-2026": {
+    "fromGuide": "best-bird-feeder-pole-systems-baffles-2026",
+    "asin": "B0CPKXWVXC"
+  },
+  "best-bird-houses-nesting-boxes-2026": {
+    "fromGuide": "best-bird-houses-nesting-boxes-2026",
+    "asin": "B0GN4LD7CK"
+  },
+  "best-buried-wire-in-ground-dog-fence-systems-2026": {
+    "fromGuide": "best-buried-wire-in-ground-dog-fence-systems-2026",
+    "asin": "B07R3GSW5B"
+  },
+  "best-carpet-extractors-pet-urine-stains-2026": {
+    "fromGuide": "best-carpet-extractors-pet-urine-stains-2026",
+    "asin": "B00667H8CE"
+  },
+  "best-cat-backpack-carriers-2026": {
+    "fromGuide": "best-cat-backpack-carriers-2026",
+    "asin": "B092CJTM4D"
+  },
+  "best-cat-beds-indoor-cats-2026": {
+    "fromGuide": "best-cat-beds-indoor-cats-2026",
+    "asin": "B07VBH8S5S"
+  },
+  "best-cat-brushes-shedding-hairballs": {
+    "fromGuide": "best-cat-brushes-shedding-hairballs",
+    "asin": "B07MZDGF5M"
+  },
+  "best-cat-carriers-hard-sided-top-load-vet-visits-2026": {
+    "fromGuide": "best-cat-carriers-hard-sided-top-load-vet-visits-2026",
+    "asin": "B0062JFGM0"
+  },
+  "best-cat-dna-tests-2026": {
+    "fromGuide": "best-cat-dna-tests-2026",
+    "asin": "B09J2YJHBL"
+  },
+  "best-cat-enrichment-toys-scratchers-2026": {
+    "fromGuide": "best-cat-enrichment-toys-scratchers-2026",
+    "asin": "B000634MH8"
+  },
+  "best-cat-exercise-wheels-2026": {
+    "fromGuide": "best-cat-exercise-wheels-2026",
+    "asin": "B0DJDS3M5W"
+  },
+  "best-cat-litter-2026": {
+    "fromGuide": "best-cat-litter-2026",
+    "asin": "B087QSXS9K"
+  },
+  "best-cat-nail-clippers-grooming-restraints": {
+    "fromGuide": "best-cat-nail-clippers-grooming-restraints",
+    "asin": "B0DNMD3D7S"
+  },
+  "best-cat-pheromone-diffusers-calming-2026": {
+    "fromGuide": "best-cat-pheromone-diffusers-calming-2026",
+    "asin": "B097W651NJ"
+  },
+  "best-cat-ramps-steps-senior-mobility-2026": {
+    "fromGuide": "best-cat-ramps-steps-senior-mobility-2026",
+    "asin": "B0016HNU12"
+  },
+  "best-cat-trees-large-cats-2026": {
+    "fromGuide": "best-cat-trees-large-cats-2026",
+    "asin": "B003BYQ1RI"
+  },
+  "best-cat-wall-shelf-systems-2026": {
+    "fromGuide": "best-cat-wall-shelf-systems-2026",
+    "asin": "B0FQPJ262J"
+  },
+  "best-cat-water-fountain-replacement-filters-2026": {
+    "fromGuide": "best-cat-water-fountain-replacement-filters-2026",
+    "asin": "B09G697C4P"
+  },
+  "best-cat-water-fountains-2026": {
+    "fromGuide": "best-cat-water-fountains-2026",
+    "asin": "B002SB91QS"
+  },
+  "best-cat-water-fountains-multi-cat-households-2026": {
+    "fromGuide": "best-cat-water-fountains-multi-cat-households-2026",
+    "asin": "B002SB91QS"
+  },
+  "best-cat-window-perches-2026": {
+    "fromGuide": "best-cat-window-perches-2026",
+    "asin": "B07CR1DMYG"
+  },
+  "best-cellular-no-wifi-pet-cameras-2026": {
+    "fromGuide": "best-cellular-no-wifi-pet-cameras-2026",
+    "asin": "B0CZ6KW4NP"
+  },
+  "best-ceramic-cat-water-fountains-2026": {
+    "fromGuide": "best-ceramic-cat-water-fountains-2026",
+    "asin": "B00BD3UN8C"
+  },
+  "best-chew-proof-dog-beds-2026": {
+    "fromGuide": "best-chew-proof-dog-beds-2026",
+    "asin": "B0FHS4FGS8"
+  },
+  "best-chicken-brooder-heat-plates-2026": {
+    "fromGuide": "best-chicken-brooder-heat-plates-2026",
+    "asin": "B0BYD4MQHJ"
+  },
+  "best-chicken-nesting-boxes-2026": {
+    "fromGuide": "best-chicken-nesting-boxes-2026",
+    "asin": "B0G8HZHQ8P"
+  },
+  "best-chinchilla-rat-large-cages-2026": {
+    "fromGuide": "best-chinchilla-rat-large-cages-2026",
+    "asin": "B001NJ0DAY"
+  },
+  "best-complete-reef-aquarium-systems-2026": {
+    "fromGuide": "best-complete-reef-aquarium-systems-2026",
+    "asin": "B00TJ2NM96"
+  },
+  "best-crash-tested-dog-car-harnesses-2026": {
+    "fromGuide": "best-crash-tested-dog-car-harnesses-2026",
+    "asin": "B08JQQD5NS"
+  },
+  "best-crash-tested-travel-dog-crates-2026": {
+    "fromGuide": "best-crash-tested-travel-dog-crates-2026",
+    "asin": "B0D8TYMQHJ"
+  },
+  "best-crested-gecko-kits-2026": {
+    "fromGuide": "best-crested-gecko-kits-2026",
+    "asin": "B0F21P6521"
+  },
+  "best-dog-backyard-agility-kits-2026": {
+    "fromGuide": "best-dog-backyard-agility-kits-2026",
+    "asin": "B09FGB1HNN"
+  },
+  "best-dog-beds-large-xl-dogs-2026": {
+    "fromGuide": "best-dog-beds-large-xl-dogs-2026",
+    "asin": "B015WVGKQE"
+  },
+  "best-dog-bike-trailers-2026": {
+    "fromGuide": "best-dog-bike-trailers-2026",
+    "asin": "B01N4RO2F4"
+  },
+  "best-dog-boots-winter-paw-protection-2026": {
+    "fromGuide": "best-dog-boots-winter-paw-protection-2026",
+    "asin": "B0H132BG3V"
+  },
+  "best-dog-brushes-shedding-mats": {
+    "fromGuide": "best-dog-brushes-shedding-mats",
+    "asin": "B00ZGPI3OY"
+  },
+  "best-dog-car-booster-seats-2026": {
+    "fromGuide": "best-dog-car-booster-seats-2026",
+    "asin": "B0DNSLWCG1"
+  },
+  "best-dog-car-seat-covers-cargo-liners-2026": {
+    "fromGuide": "best-dog-car-seat-covers-cargo-liners-2026",
+    "asin": "B07G642RMQ"
+  },
+  "best-dog-cat-ear-cleaners": {
+    "fromGuide": "best-dog-cat-ear-cleaners",
+    "asin": "B01LGSYOGK"
+  },
+  "best-dog-chew-toys-anxiety-2026": {
+    "fromGuide": "best-dog-chew-toys-anxiety-2026",
+    "asin": "B0002AR0I8"
+  },
+  "best-dog-cooling-house-outdoor-shade-2026": {
+    "fromGuide": "best-dog-cooling-house-outdoor-shade-2026",
+    "asin": "B0GVP9K84P"
+  },
+  "best-dog-cooling-vests-mats-2026": {
+    "fromGuide": "best-dog-cooling-vests-mats-2026",
+    "asin": "B003KK60QU"
+  },
+  "best-dog-cooling-vests-summer-2026": {
+    "fromGuide": "best-dog-cooling-vests-summer-2026",
+    "asin": "B0DNGJPVTJ"
+  },
+  "best-dog-dna-tests-2026": {
+    "fromGuide": "best-dog-dna-tests-2026",
+    "asin": "B0CS27PKKT"
+  },
+  "best-dog-food-storage-containers-2026": {
+    "fromGuide": "best-dog-food-storage-containers-2026",
+    "asin": "B0085ZAMN2"
+  },
+  "best-dog-gps-trackers-2026": {
+    "fromGuide": "best-dog-gps-trackers-2026",
+    "asin": "B0CR4D4QRB"
+  },
+  "best-dog-grooming-clippers-2026": {
+    "fromGuide": "best-dog-grooming-clippers-2026",
+    "asin": "B000LRN31A"
+  },
+  "best-dog-leashes-2026": {
+    "fromGuide": "best-dog-leashes-2026",
+    "asin": "B0D7Y34XM7"
+  },
+  "best-dog-lift-harnesses-support-slings-2026": {
+    "fromGuide": "best-dog-lift-harnesses-support-slings-2026",
+    "asin": "B0DN4TKJ3Z"
+  },
+  "best-dog-nail-clippers-grinders": {
+    "fromGuide": "best-dog-nail-clippers-grinders",
+    "asin": "B00UJ2WLB0"
+  },
+  "best-dog-puzzle-toys-treat-dispensing-2026": {
+    "fromGuide": "best-dog-puzzle-toys-treat-dispensing-2026",
+    "asin": "B00N54EGD0"
+  },
+  "best-dog-ramps-stairs-senior-dogs-2026": {
+    "fromGuide": "best-dog-ramps-stairs-senior-dogs-2026",
+    "asin": "B000RUJEUU"
+  },
+  "best-dog-separation-anxiety-routines-2026": {
+    "fromGuide": "best-dog-separation-anxiety-routines-2026",
+    "asin": "B0029PYC3K"
+  },
+  "best-dog-strollers-senior-large-2026": {
+    "fromGuide": "best-dog-strollers-senior-large-2026",
+    "asin": "B0GW9NV3KF"
+  },
+  "best-dog-treadmills-hydrotherapy-conditioning-2026": {
+    "fromGuide": "best-dog-treadmills-hydrotherapy-conditioning-2026",
+    "asin": "B0H2FD8181"
+  },
+  "best-dog-treadmills-large-breed-2026": {
+    "fromGuide": "best-dog-treadmills-large-breed-2026",
+    "asin": "B002PJHDC2"
+  },
+  "best-dog-wheelchairs-mobility-carts-2026": {
+    "fromGuide": "best-dog-wheelchairs-mobility-carts-2026",
+    "asin": "B07MG84PYX"
+  },
+  "best-electric-poultry-netting-fencing-2026": {
+    "fromGuide": "best-electric-poultry-netting-fencing-2026",
+    "asin": "B086DH5FZV"
+  },
+  "best-electronic-dog-doors-large-dogs-2026": {
+    "fromGuide": "best-electronic-dog-doors-large-dogs-2026",
+    "asin": "B0D2M15WSY"
+  },
+  "best-elevated-cooling-dog-cots-2026": {
+    "fromGuide": "best-elevated-cooling-dog-cots-2026",
+    "asin": "B0D3H1P49N"
+  },
+  "best-elevated-raised-dog-feeders-2026": {
+    "fromGuide": "best-elevated-raised-dog-feeders-2026",
+    "asin": "B0BGG1M5MR"
+  },
+  "best-fathers-day-gifts-pet-dads-2026": {
+    "fromGuide": "best-fathers-day-gifts-pet-dads-2026",
+    "asin": "B0CX8VKMD9"
+  },
+  "best-ferret-cages-multi-level-2026": {
+    "fromGuide": "best-ferret-cages-multi-level-2026",
+    "asin": "B001NJ0DAY"
+  },
+  "best-flea-tick-prevention-dogs-2026": {
+    "fromGuide": "best-flea-tick-prevention-dogs-2026",
+    "asin": "B00B8CG602"
+  },
+  "best-freestanding-pet-gates-2026": {
+    "fromGuide": "best-freestanding-pet-gates-2026",
+    "asin": "B07YF53FFD"
+  },
+  "best-furniture-style-dog-crates-large-breeds-2026": {
+    "fromGuide": "best-furniture-style-dog-crates-large-breeds-2026",
+    "asin": "B0FKRZGKDH"
+  },
+  "best-gastrointestinal-digestive-dog-food-2026": {
+    "fromGuide": "best-gastrointestinal-digestive-dog-food-2026",
+    "asin": "B07DSRQQFY"
+  },
+  "best-gps-dog-training-e-collar-systems-2026": {
+    "fromGuide": "best-gps-dog-training-e-collar-systems-2026",
+    "asin": "B0DK2J5MKV"
+  },
+  "best-guinea-pig-cages-habitats-2026": {
+    "fromGuide": "best-guinea-pig-cages-habitats-2026",
+    "asin": "B07CDXJVP2"
+  },
+  "best-hamster-habitats-cages-2026": {
+    "fromGuide": "best-hamster-habitats-cages-2026",
+    "asin": "B0BD4JWKJD"
+  },
+  "best-heated-bird-baths-2026": {
+    "fromGuide": "best-heated-bird-baths-2026",
+    "asin": "B0006HRQMC"
+  },
+  "best-heated-outdoor-cat-houses-2026": {
+    "fromGuide": "best-heated-outdoor-cat-houses-2026",
+    "asin": "B0CGRPFZM9"
+  },
+  "best-heated-pet-beds-cats-dogs-2026": {
+    "fromGuide": "best-heated-pet-beds-cats-dogs-2026",
+    "asin": "B0CYDC2BWX"
+  },
+  "best-heavy-duty-dog-crates-2026": {
+    "fromGuide": "best-heavy-duty-dog-crates-2026",
+    "asin": "B000Y905XE"
+  },
+  "best-heavy-duty-dog-exercise-pens-playpens-2026": {
+    "fromGuide": "best-heavy-duty-dog-exercise-pens-playpens-2026",
+    "asin": "B0DCZ1GDD5"
+  },
+  "best-heavy-duty-outdoor-dog-kennels-runs-2026": {
+    "fromGuide": "best-heavy-duty-outdoor-dog-kennels-runs-2026",
+    "asin": "B00S0531G2"
+  },
+  "best-high-velocity-dog-dryers-2026": {
+    "fromGuide": "best-high-velocity-dog-dryers-2026",
+    "asin": "B00NOVEQ0M"
+  },
+  "best-home-dog-grooming-kits": {
+    "fromGuide": "best-home-dog-grooming-kits",
+    "asin": "B00EVBXI4Y"
+  },
+  "best-hummingbird-feeders-2026": {
+    "fromGuide": "best-hummingbird-feeders-2026",
+    "asin": "B003XL7WZO"
+  },
+  "best-hypoallergenic-cat-food-2026": {
+    "fromGuide": "best-hypoallergenic-cat-food-2026",
+    "asin": "B06XDQBTWR"
+  },
+  "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026": {
+    "fromGuide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+    "asin": "B00079PHVG"
+  },
+  "best-indestructible-dog-toys-aggressive-chewers-2026": {
+    "fromGuide": "best-indestructible-dog-toys-aggressive-chewers-2026",
+    "asin": "B0F7K2S8FX"
+  },
+  "best-indoor-rabbit-cages-pens-2026": {
+    "fromGuide": "best-indoor-rabbit-cages-pens-2026",
+    "asin": "B0D12PJLMS"
+  },
+  "best-indoor-tortoise-enclosures-tables-2026": {
+    "fromGuide": "best-indoor-tortoise-enclosures-tables-2026",
+    "asin": "B00167S5EY"
+  },
+  "best-insulated-heated-dog-houses-2026": {
+    "fromGuide": "best-insulated-heated-dog-houses-2026",
+    "asin": "B0FWJW45ZB"
+  },
+  "best-joint-supplements-dogs-cats-2026": {
+    "fromGuide": "best-joint-supplements-dogs-cats-2026",
+    "asin": "B001FB6ECQ"
+  },
+  "best-large-arboreal-terrariums-paludariums-2026": {
+    "fromGuide": "best-large-arboreal-terrariums-paludariums-2026",
+    "asin": "B0998ZQR6V"
+  },
+  "best-large-outdoor-aviaries-2026": {
+    "fromGuide": "best-large-outdoor-aviaries-2026",
+    "asin": "B075M8R4WP"
+  },
+  "best-large-parrot-flight-cages-2026": {
+    "fromGuide": "best-large-parrot-flight-cages-2026",
+    "asin": "B00KYQUJME"
+  },
+  "best-large-parrot-toys-foraging-enrichment-2026": {
+    "fromGuide": "best-large-parrot-toys-foraging-enrichment-2026",
+    "asin": "B0DSVVYCVV"
+  },
+  "best-leopard-gecko-tank-kits-2026": {
+    "fromGuide": "best-leopard-gecko-tank-kits-2026",
+    "asin": "B08L6GCTPK"
+  },
+  "best-lick-mats-decompression-bath-training-2026": {
+    "fromGuide": "best-lick-mats-decompression-bath-training-2026",
+    "asin": "B089DPFY2F"
+  },
+  "best-limited-ingredient-diets-food-sensitivities-2026": {
+    "fromGuide": "best-limited-ingredient-diets-food-sensitivities-2026",
+    "asin": "B01EY9KQ2Y"
+  },
+  "best-litter-box-enclosure-furniture-2026": {
+    "fromGuide": "best-litter-box-enclosure-furniture-2026",
+    "asin": "B0H5KZZDK4"
+  },
+  "best-luxury-modern-cat-furniture-systems-2026": {
+    "fromGuide": "best-luxury-modern-cat-furniture-systems-2026",
+    "asin": "B0DC5L8K4R"
+  },
+  "best-meal-toppers-picky-eaters-2026": {
+    "fromGuide": "best-meal-toppers-picky-eaters-2026",
+    "asin": "B019QRGDH6"
+  },
+  "best-medicated-anti-itch-dog-shampoos-2026": {
+    "fromGuide": "best-medicated-anti-itch-dog-shampoos-2026",
+    "asin": "B07K6JSBRB"
+  },
+  "best-microchip-cat-doors-2026": {
+    "fromGuide": "best-microchip-cat-doors-2026",
+    "asin": "B00GAZZIMY"
+  },
+  "best-mothers-day-gifts-pet-moms-2026": {
+    "fromGuide": "best-mothers-day-gifts-pet-moms-2026",
+    "asin": "B0GRC841N5"
+  },
+  "best-nano-aquarium-kits-2026": {
+    "fromGuide": "best-nano-aquarium-kits-2026",
+    "asin": "B0089E5VLC"
+  },
+  "best-no-pull-harnesses-leash-manners-2026": {
+    "fromGuide": "best-no-pull-harnesses-leash-manners-2026",
+    "asin": "B0CLB563DB"
+  },
+  "best-orthopedic-dog-beds-senior-pets-2026": {
+    "fromGuide": "best-orthopedic-dog-beds-senior-pets-2026",
+    "asin": "B0GRC841N5"
+  },
+  "best-outdoor-rabbit-hutches-runs-2026": {
+    "fromGuide": "best-outdoor-rabbit-hutches-runs-2026",
+    "asin": "B0F8MVLP8Z"
+  },
+  "best-parakeet-budgie-cockatiel-cages-2026": {
+    "fromGuide": "best-parakeet-budgie-cockatiel-cages-2026",
+    "asin": "B0FBRH57VS"
+  },
+  "best-pet-calming-aids-anxiety-2026": {
+    "fromGuide": "best-pet-calming-aids-anxiety-2026",
+    "asin": "B0029PYC3K"
+  },
+  "best-pet-cosplay-fandom-picks-2026": {
+    "fromGuide": "best-pet-cosplay-fandom-picks-2026",
+    "asin": "B07H7C2Y7D"
+  },
+  "best-pet-dental-care-products-dogs-cats": {
+    "fromGuide": "best-pet-dental-care-products-dogs-cats",
+    "asin": "B00RZDXA7K"
+  },
+  "best-pet-grooming-vacuum-kits-2026": {
+    "fromGuide": "best-pet-grooming-vacuum-kits-2026",
+    "asin": "B093KRX2K1"
+  },
+  "best-pet-hair-vacuums-2026": {
+    "fromGuide": "best-pet-hair-vacuums-2026",
+    "asin": "B0CT97D9R2"
+  },
+  "best-pet-odor-removers-2026": {
+    "fromGuide": "best-pet-odor-removers-2026",
+    "asin": "B00CKFL93K"
+  },
+  "best-pet-pool-swim-summer-gear-2026": {
+    "fromGuide": "best-pet-pool-swim-summer-gear-2026",
+    "asin": "B0GC7JNX22"
+  },
+  "best-pet-probiotics-2026": {
+    "fromGuide": "best-pet-probiotics-2026",
+    "asin": "B001650NNW"
+  },
+  "best-pet-recovery-medication-compliance-aids-2026": {
+    "fromGuide": "best-pet-recovery-medication-compliance-aids-2026",
+    "asin": "B00GPYFA50"
+  },
+  "best-pet-shampoos-wipes-dogs-cats": {
+    "fromGuide": "best-pet-shampoos-wipes-dogs-cats",
+    "asin": "B07DJ5Z44H"
+  },
+  "best-professional-dog-grooming-tables-hydraulic-electric-2026": {
+    "fromGuide": "best-professional-dog-grooming-tables-hydraulic-electric-2026",
+    "asin": "B01GV59TIG"
+  },
+  "best-protein-skimmers-saltwater-reef-2026": {
+    "fromGuide": "best-protein-skimmers-saltwater-reef-2026",
+    "asin": "B003TQ7Z8W"
+  },
+  "best-pvc-reptile-enclosures-bioactive-2026": {
+    "fromGuide": "best-pvc-reptile-enclosures-bioactive-2026",
+    "asin": "B0BQP7S859"
+  },
+  "best-quiet-cat-water-fountains-2026": {
+    "fromGuide": "best-quiet-cat-water-fountains-2026",
+    "asin": "B0FDKVJNXB"
+  },
+  "best-reef-aquarium-led-lighting-2026": {
+    "fromGuide": "best-reef-aquarium-led-lighting-2026",
+    "asin": "B0DGQS4NBC"
+  },
+  "best-reef-calcium-reactors-2026": {
+    "fromGuide": "best-reef-calcium-reactors-2026",
+    "asin": "B01CUSKR7K"
+  },
+  "best-reef-dosing-pumps-2026": {
+    "fromGuide": "best-reef-dosing-pumps-2026",
+    "asin": "B0CNS4WJ3W"
+  },
+  "best-reef-test-kits-monitors-2026": {
+    "fromGuide": "best-reef-test-kits-monitors-2026",
+    "asin": "B006L49S1Q"
+  },
+  "best-reef-wavemakers-powerheads-2026": {
+    "fromGuide": "best-reef-wavemakers-powerheads-2026",
+    "asin": "B08KZT7SMQ"
+  },
+  "best-remote-dog-training-collars-2026": {
+    "fromGuide": "best-remote-dog-training-collars-2026",
+    "asin": "B01H6S8WFI"
+  },
+  "best-reptile-heat-lamps-basking-fixtures-2026": {
+    "fromGuide": "best-reptile-heat-lamps-basking-fixtures-2026",
+    "asin": "B0G6F7VWN1"
+  },
+  "best-reptile-heat-panels-radiant-heat-2026": {
+    "fromGuide": "best-reptile-heat-panels-radiant-heat-2026",
+    "asin": "B0FZWFZD45"
+  },
+  "best-reptile-hygrometers-thermometers-2026": {
+    "fromGuide": "best-reptile-hygrometers-thermometers-2026",
+    "asin": "B07Y36FWTT"
+  },
+  "best-reptile-misting-fogging-systems-2026": {
+    "fromGuide": "best-reptile-misting-fogging-systems-2026",
+    "asin": "B086V3Q5BP"
+  },
+  "best-reptile-thermostats-2026": {
+    "fromGuide": "best-reptile-thermostats-2026",
+    "asin": "B07KC24CKD"
+  },
+  "best-reptile-uvb-bulbs-2026": {
+    "fromGuide": "best-reptile-uvb-bulbs-2026",
+    "asin": "B07PNK42W8"
+  },
+  "best-robot-vacuums-pet-hair-litter-2026": {
+    "fromGuide": "best-robot-vacuums-pet-hair-litter-2026",
+    "asin": "B0GVYTYNP7"
+  },
+  "best-rodi-aquarium-water-systems-2026": {
+    "fromGuide": "best-rodi-aquarium-water-systems-2026",
+    "asin": "B0043FYJ8M"
+  },
+  "best-rv-pet-temperature-monitors-2026": {
+    "fromGuide": "best-rv-pet-temperature-monitors-2026",
+    "asin": "B0FWN1MM1B"
+  },
+  "best-self-cleaning-litter-boxes-large-multi-cat-2026": {
+    "fromGuide": "best-self-cleaning-litter-boxes-large-multi-cat-2026",
+    "asin": "B0FY5X2M15"
+  },
+  "best-senior-dog-cat-diets-vet-recommended-2026": {
+    "fromGuide": "best-senior-dog-cat-diets-vet-recommended-2026",
+    "asin": "B00RP4URR0"
+  },
+  "best-sensitive-stomach-tools-2026": {
+    "fromGuide": "best-sensitive-stomach-tools-2026",
+    "asin": "B00YG05L22"
+  },
+  "best-sliding-glass-door-dog-doors-2026": {
+    "fromGuide": "best-sliding-glass-door-dog-doors-2026",
+    "asin": "B005CO91TK"
+  },
+  "best-slow-feeders-anti-gulp-bowls-2026": {
+    "fromGuide": "best-slow-feeders-anti-gulp-bowls-2026",
+    "asin": "B00L3O4JI6"
+  },
+  "best-smart-bird-feeders-2026": {
+    "fromGuide": "best-smart-bird-feeders-2026",
+    "asin": "B0DHY6B9GY"
+  },
+  "best-smart-pet-feeders-multi-pet-2026": {
+    "fromGuide": "best-smart-pet-feeders-multi-pet-2026",
+    "asin": "B00O0UIPTY"
+  },
+  "best-squirrel-proof-bird-feeders-2026": {
+    "fromGuide": "best-squirrel-proof-bird-feeders-2026",
+    "asin": "B0007LQ3RQ"
+  },
+  "best-stainless-steel-cat-water-fountains-2026": {
+    "fromGuide": "best-stainless-steel-cat-water-fountains-2026",
+    "asin": "B002SB91QS"
+  },
+  "best-standard-litter-boxes-2026": {
+    "fromGuide": "best-standard-litter-boxes-2026",
+    "asin": "B0H3QP5Q7C"
+  },
+  "best-sugar-glider-cages-2026": {
+    "fromGuide": "best-sugar-glider-cages-2026",
+    "asin": "B01M72PNGQ"
+  },
+  "best-summer-pet-bbq-yard-essentials-2026": {
+    "fromGuide": "best-summer-pet-bbq-yard-essentials-2026",
+    "asin": "B006NONHNE"
+  },
+  "best-tortoise-outdoor-enclosures-pens-2026": {
+    "fromGuide": "best-tortoise-outdoor-enclosures-pens-2026",
+    "asin": "B0GZKLD1QS"
+  },
+  "best-travel-setup-for-dog-owners-2026": {
+    "fromGuide": "best-travel-setup-for-dog-owners-2026",
+    "asin": "B08JQQD5NS"
+  },
+  "best-turtle-aquatic-reptile-filtration-2026": {
+    "fromGuide": "best-turtle-aquatic-reptile-filtration-2026",
+    "asin": "B07JHG13WP"
+  },
+  "best-vacation-fish-feeders-2026": {
+    "fromGuide": "best-vacation-fish-feeders-2026",
+    "asin": "B0002AQY8A"
+  },
+  "best-weight-management-tools-2026": {
+    "fromGuide": "best-weight-management-tools-2026",
+    "asin": "B098TVJKZ3"
+  },
+  "cat-litter-box-health-monitoring-early-detection-2026": {
+    "fromGuide": "cat-litter-box-health-monitoring-early-detection-2026",
+    "asin": "B0GTM9P94B"
+  },
+  "dog-crate-training-setup-guide-2026": {
+    "fromGuide": "dog-crate-training-setup-guide-2026",
+    "asin": "B000QFT1R2"
+  },
+  "dog-post-surgery-recovery-station-setup-2026": {
+    "fromGuide": "dog-post-surgery-recovery-station-setup-2026",
+    "asin": "B00F97RJH6"
+  },
+  "first-bird-parakeet-starter-checklist-2026": {
+    "fromGuide": "first-bird-parakeet-starter-checklist-2026",
+    "asin": "B0CJ9H7VWS"
+  },
+  "flying-with-a-pet-airline-carrier-prep-checklist-2026": {
+    "fromGuide": "flying-with-a-pet-airline-carrier-prep-checklist-2026",
+    "asin": "B09YYKFLMQ"
+  },
+  "gps-containment-and-pet-tracking-systems": {
+    "fromGuide": "gps-containment-and-pet-tracking-systems",
+    "asin": "B0GN3R31ZW"
+  },
+  "gps-fence-or-gps-tracker-which-2026": {
+    "fromGuide": "gps-fence-or-gps-tracker-which-2026",
+    "asin": "B0FMLGHHJ7"
+  },
+  "home-dog-grooming-station-setup-2026": {
+    "fromGuide": "home-dog-grooming-station-setup-2026",
+    "asin": "B005THTCYE"
+  },
+  "how-to-build-a-backyard-koi-pond-2026": {
+    "fromGuide": "how-to-build-a-backyard-koi-pond-2026",
+    "asin": "B0F9PVCVMD"
+  },
+  "how-to-create-a-safe-dog-backyard-containment-2026": {
+    "fromGuide": "how-to-create-a-safe-dog-backyard-containment-2026",
+    "asin": "B0001ZWZ8O"
+  },
+  "how-to-get-rid-of-dog-cat-urine-smell-permanently-2026": {
+    "fromGuide": "how-to-get-rid-of-dog-cat-urine-smell-permanently-2026",
+    "asin": "B00CKFL93K"
+  },
+  "how-to-get-rid-of-fleas-in-the-house-permanently-2026": {
+    "fromGuide": "how-to-get-rid-of-fleas-in-the-house-permanently-2026",
+    "asin": "B0002J1FOE"
+  },
+  "how-to-groom-double-coated-dog-at-home-deshedding-2026": {
+    "fromGuide": "how-to-groom-double-coated-dog-at-home-deshedding-2026",
+    "asin": "B06WLQPJ58"
+  },
+  "how-to-introduce-a-puppy-to-an-older-dog-2026": {
+    "fromGuide": "how-to-introduce-a-puppy-to-an-older-dog-2026",
+    "asin": "B0CHZ98T1C"
+  },
+  "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026": {
+    "fromGuide": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026",
+    "asin": "B000P7JKD6"
+  },
+  "how-to-protect-aquarium-from-summer-heat-2026": {
+    "fromGuide": "how-to-protect-aquarium-from-summer-heat-2026",
+    "asin": "B01N1QQ4EH"
+  },
+  "how-to-safely-secure-your-dog-in-the-car-2026": {
+    "fromGuide": "how-to-safely-secure-your-dog-in-the-car-2026",
+    "asin": "B01N55BUXN"
+  },
+  "how-to-set-up-a-ball-python-enclosure-2026": {
+    "fromGuide": "how-to-set-up-a-ball-python-enclosure-2026",
+    "asin": "B0CJB82285"
+  },
+  "how-to-set-up-a-bioactive-reptile-terrarium-2026": {
+    "fromGuide": "how-to-set-up-a-bioactive-reptile-terrarium-2026",
+    "asin": "B0DRSHBP5S"
+  },
+  "how-to-set-up-a-catio-outdoor-cat-enclosure-2026": {
+    "fromGuide": "how-to-set-up-a-catio-outdoor-cat-enclosure-2026",
+    "asin": "B003EGIM3O"
+  },
+  "how-to-set-up-a-chameleon-enclosure-2026": {
+    "fromGuide": "how-to-set-up-a-chameleon-enclosure-2026",
+    "asin": "B014Z4IOC2"
+  },
+  "how-to-set-up-a-large-parrot-flight-cage-2026": {
+    "fromGuide": "how-to-set-up-a-large-parrot-flight-cage-2026",
+    "asin": "B0002AQ228"
+  },
+  "how-to-set-up-a-leopard-gecko-habitat-2026": {
+    "fromGuide": "how-to-set-up-a-leopard-gecko-habitat-2026",
+    "asin": "B08L6GCTPK"
+  },
+  "how-to-set-up-a-neocaridina-shrimp-tank-2026": {
+    "fromGuide": "how-to-set-up-a-neocaridina-shrimp-tank-2026",
+    "asin": "B0089E5VLC"
+  },
+  "how-to-set-up-a-planted-aquarium-aquascaping-2026": {
+    "fromGuide": "how-to-set-up-a-planted-aquarium-aquascaping-2026",
+    "asin": "B0CVBLBRKG"
+  },
+  "how-to-set-up-an-aquatic-turtle-tank-2026": {
+    "fromGuide": "how-to-set-up-an-aquatic-turtle-tank-2026",
+    "asin": "B08BJB7FX4"
+  },
+  "how-to-set-up-an-axolotl-tank-2026": {
+    "fromGuide": "how-to-set-up-an-axolotl-tank-2026",
+    "asin": "B0H3MKJV7B"
+  },
+  "how-to-set-up-an-outdoor-backyard-aviary-2026": {
+    "fromGuide": "how-to-set-up-an-outdoor-backyard-aviary-2026",
+    "asin": "B085C5LQN3"
+  },
+  "how-to-set-up-backyard-chicken-coop-beginners-2026": {
+    "fromGuide": "how-to-set-up-backyard-chicken-coop-beginners-2026",
+    "asin": "B0GS9LVL2P"
+  },
+  "how-to-set-up-gps-dog-fence-boundary-training-2026": {
+    "fromGuide": "how-to-set-up-gps-dog-fence-boundary-training-2026",
+    "asin": "B0DZYH7DFF"
+  },
+  "how-to-set-up-litter-boxes-for-multiple-cats-2026": {
+    "fromGuide": "how-to-set-up-litter-boxes-for-multiple-cats-2026",
+    "asin": "B0FY2RH612"
+  },
+  "how-to-start-a-saltwater-reef-tank-for-beginners-2026": {
+    "fromGuide": "how-to-start-a-saltwater-reef-tank-for-beginners-2026",
+    "asin": "B088PDMQQL"
+  },
+  "how-to-stop-pets-stealing-each-others-food-2026": {
+    "fromGuide": "how-to-stop-pets-stealing-each-others-food-2026",
+    "asin": "B0B5ZGGWBQ"
+  },
+  "how-to-stop-your-dog-pulling-on-the-leash-2026": {
+    "fromGuide": "how-to-stop-your-dog-pulling-on-the-leash-2026",
+    "asin": "B07GVCFQV6"
+  },
+  "how-to-transition-cat-to-automatic-litter-box-2026": {
+    "fromGuide": "how-to-transition-cat-to-automatic-litter-box-2026",
+    "asin": "B0CSKBWBF6"
+  },
+  "how-to-trim-your-dogs-nails-at-home-paw-care-2026": {
+    "fromGuide": "how-to-trim-your-dogs-nails-at-home-paw-care-2026",
+    "asin": "B00UJ2WLB0"
+  },
+  "introducing-a-second-cat-multi-cat-home-setup-2026": {
+    "fromGuide": "introducing-a-second-cat-multi-cat-home-setup-2026",
+    "asin": "B01AVHPFDS"
+  },
+  "koi-pond-summer-care-algae-oxygen-fix-2026": {
+    "fromGuide": "koi-pond-summer-care-algae-oxygen-fix-2026",
+    "asin": "B0G4P5YC3V"
+  },
+  "late-summer-pet-travel-checklist-road-trip-2026": {
+    "fromGuide": "late-summer-pet-travel-checklist-road-trip-2026",
+    "asin": "B0CD2P7KGM"
+  },
+  "litter-robot-5-vs-litter-robot-4-2026": {
+    "fromGuide": "litter-robot-5-vs-litter-robot-4-2026",
+    "asin": "B0FFDNZSHT"
+  },
+  "lost-dog-prevention-recovery-plan-2026": {
+    "fromGuide": "lost-dog-prevention-recovery-plan-2026",
+    "asin": "B0FH814ZSL"
+  },
+  "managing-diabetic-dog-cat-at-home-gear-2026": {
+    "fromGuide": "managing-diabetic-dog-cat-at-home-gear-2026",
+    "asin": "B098TVJKZ3"
+  },
+  "modern-hamster-habitat-setup-bigger-is-better-2026": {
+    "fromGuide": "modern-hamster-habitat-setup-bigger-is-better-2026",
+    "asin": "B0D5LG7SV7"
+  },
+  "new-aquarium-starter-checklist-first-tank-2026": {
+    "fromGuide": "new-aquarium-starter-checklist-first-tank-2026",
+    "asin": "B013BXDZ90"
+  },
+  "new-ferret-starter-setup-checklist-2026": {
+    "fromGuide": "new-ferret-starter-setup-checklist-2026",
+    "asin": "B004YCEH1I"
+  },
+  "new-guinea-pig-starter-setup-checklist-2026": {
+    "fromGuide": "new-guinea-pig-starter-setup-checklist-2026",
+    "asin": "B001NJ0DPY"
+  },
+  "new-kitten-checklist-first-supplies-2026": {
+    "fromGuide": "new-kitten-checklist-first-supplies-2026",
+    "asin": "B01KBV4TL8"
+  },
+  "new-puppy-checklist-first-supplies-2026": {
+    "fromGuide": "new-puppy-checklist-first-supplies-2026",
+    "asin": "B000QFT1R2"
+  },
+  "new-rabbit-starter-setup-checklist-2026": {
+    "fromGuide": "new-rabbit-starter-setup-checklist-2026",
+    "asin": "B0133LNLJY"
+  },
+  "new-sugar-glider-starter-setup-checklist-2026": {
+    "fromGuide": "new-sugar-glider-starter-setup-checklist-2026",
+    "asin": "B07PDL6GQ8"
+  },
+  "raising-backyard-chicks-brooder-to-coop-2026": {
+    "fromGuide": "raising-backyard-chicks-brooder-to-coop-2026",
+    "asin": "B0DWF19VL3"
+  },
+  "reducing-pet-allergies-dander-at-home-2026": {
+    "fromGuide": "reducing-pet-allergies-dander-at-home-2026",
+    "asin": "B07MZD93QQ"
+  },
+  "saltwater-reef-tank-maintenance-schedule-2026": {
+    "fromGuide": "saltwater-reef-tank-maintenance-schedule-2026",
+    "asin": "B0CPFVNRQZ"
+  },
+  "senior-cat-accessibility-setup": {
+    "fromGuide": "senior-cat-accessibility-setup",
+    "asin": "B08YGTTB6B"
+  },
+  "senior-dog-arthritis-home-setup-mobility-2026": {
+    "fromGuide": "senior-dog-arthritis-home-setup-mobility-2026",
+    "asin": "B0FVS57FYV"
+  },
+  "weekend-away-pet-automation-checklist-2026": {
+    "fromGuide": "weekend-away-pet-automation-checklist-2026",
+    "asin": "B0B5ZGGWBQ"
+  },
+  "why-is-my-aquarium-water-cloudy-fix-2026": {
+    "fromGuide": "why-is-my-aquarium-water-cloudy-fix-2026",
+    "asin": "B006YG1ZLC"
+  }
+}
