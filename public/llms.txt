@@ -10,7 +10,7 @@ Cross-domain: PetPalHQ shares editorial direction with the established sister si
 
 Contact: editor@petpalhq.com
 
-Generated: 2026-11-16
+Generated: 2026-11-19
 
 ## AI Agent API (Model Context Protocol)
 
