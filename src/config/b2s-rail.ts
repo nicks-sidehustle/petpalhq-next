@@ -20,7 +20,14 @@
  * Measurement: each rail's clicks carry an `st=rail_b2s_{key}` subtag through
  * /go/ (ascsubtag on the Amazon side) plus CLL position tags s={slug}&p=rail_b2s,
  * so CLL can read rail-attributed revenue per page.
+ *
+ * INACTIVE since the season ended (2026-11-19): the in-flow block is gated on
+ * B2S_SEASON_END_UTC below, checked at build time, and B2S is no longer a side-
+ * rail season (src/config/seasonal-rail.ts). The data stays intact for reuse.
  */
+
+/** Exclusive end of the 2026 season (through Labor Day, 2026-09-07), ISO UTC. */
+export const B2S_SEASON_END_UTC = "2026-09-08T00:00:00Z";
 
 export type B2SRailCard = {
   /** Exact product name, as ranked in the source guide. */

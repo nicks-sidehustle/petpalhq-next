@@ -3,29 +3,24 @@
  *
  * Ported from SmartHomeExplorer/DormGearHQ's grid side-rail pilot ("Rail
  * v2"): a single dominant promo card in the xl+ sticky rail. Renders null
- * when getRailPromo() resolves nothing (env kill-switch off, holdout, or no
- * B2S_RAIL entry for this page — see src/lib/content/rail-promo.ts for the
- * full gating chain and the honesty rationale for reusing PetPalHQ's existing
- * back-to-school judgment set instead of a new product pool).
+ * when getRailPromo() resolves nothing (env kill-switch off, no season window
+ * open at build time, holdout, no map entry, or the mapped pick is no longer
+ * eligible — see src/lib/content/rail-promo.ts and src/config/seasonal-rail.ts).
  *
- * ADAPTATION vs SHE/dormgear: those cards are image-led (a live consensus-
- * data product photo). B2S_RAIL's cards are deliberately image-free (see
- * src/config/b2s-rail.ts's docstring — "Cards carry no images, so pick-image
- * parity is untouched"), a pre-existing PetPalHQ design decision this port
- * does not override. The card is text-led instead: eyebrow, the B2S_RAIL
- * entry's own `heading` (the cross-species justification — e.g. why a betta
- * tank pick is relevant on a hamster-habitat guide), product name, note,
- * a "From our {fromGuide} guide" backlink (mirrors SeasonalB2SRail.tsx's own
- * pattern so a reader can trace the pick to its source review), optional
- * "Prices checked" freshness line, a one-line proximate affiliate disclosure,
- * then the CTA.
+ * The card is text-led and image-free: season eyebrow (e.g. "Black Friday
+ * week"), product name, note (the pick's own verdict sentence, verbatim), a
+ * "From our {fromGuide} guide" backlink to the pick's deep dive so a reader
+ * can trace the pick to its source review, the CTA, then a one-line proximate
+ * affiliate disclosure. Owner 2026-11-19: no price figure, no deal / % off /
+ * save / cheapest claim and no availability language — so no "Prices checked"
+ * line either (the source guide's lastProductCheck is a content stamp, not a
+ * price read). scripts/test/seasonal-rail-card.test.ts gates the built HTML.
  *
  * `data-seasonal-promo="rail"` is the marker SurfaceImpressionTracker
  * (src/lib/analytics/surface-impression.ts) locates via querySelector.
  *
- * ATTRIBUTION: uses position "rail_v2" (distinct from SeasonalB2SRail's
- * "rail_b2s") — see rail-promo.ts's subtag docstring for why the two
- * surfaces must never share a tracking identity.
+ * ATTRIBUTION: position "rail_v2" + subtag `rail_v2_<season key>` (distinct
+ * from SeasonalB2SRail's "rail_b2s") — see rail-promo.ts.
  */
 
 import Link from "next/link";
@@ -56,10 +51,7 @@ export function SeasonalPromoRail({ pageSlug }: { pageSlug: string }) {
         className="text-[11px] font-semibold uppercase tracking-widest mb-2"
         style={{ color: "var(--color-navy)" }}
       >
-        Back to school 2026
-      </p>
-      <p className="text-xs font-medium mb-2 leading-snug" style={{ color: "var(--color-navy)" }}>
-        {promo.heading}
+        {promo.label}
       </p>
       <p className="text-sm font-semibold mb-1" style={{ color: "var(--color-text)" }}>
         {promo.productName}
@@ -68,23 +60,12 @@ export function SeasonalPromoRail({ pageSlug }: { pageSlug: string }) {
         {promo.note}
       </p>
       <Link
-        href={`/guides/${promo.fromGuideSlug}`}
+        href={`/guides/${promo.fromGuideSlug}#${promo.fromGuideAnchor}`}
         className="text-xs font-medium underline block mb-3"
         style={{ color: "var(--color-navy)", textDecorationColor: "var(--color-coral)" }}
       >
         From our {promo.fromGuideTitle} guide
       </Link>
-      {promo.pricesCheckedDate && (
-        <p className="text-[10px] mb-2" style={{ color: "var(--color-text-muted)" }}>
-          Prices checked{" "}
-          {new Date(promo.pricesCheckedDate).toLocaleDateString("en-US", {
-            month: "short",
-            day: "numeric",
-            year: "numeric",
-            timeZone: "UTC",
-          })}
-        </p>
-      )}
       <AffiliateLink
         href={href}
         productName={promo.productName}

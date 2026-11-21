@@ -582,12 +582,10 @@ export default async function GuidePage({ params }: PageProps) {
         html={guide.forCatsHtml}
       />
 
-      {/* Hidden at xl+: GuideSideRail's SeasonalPromoRail (sibling, below)
-          covers the same B2S_RAIL judgment set on that breakpoint with its
-          own distinct rail_v2_* subtag — showing both at once would be a
-          redundant duplicate CTA for the same product with colliding
-          attribution if they ever shared a subtag. Below xl this in-flow
-          block is the only promo surface and is unaffected by this PR. */}
+      {/* In-flow back-to-school block, below xl only. Renders nothing since
+          the 2026 B2S season ended (B2S_SEASON_END_UTC, checked at build).
+          At xl+ GuideSideRail's SeasonalPromoRail is the seasonal surface
+          (its own rail_v2_* subtag; season set in src/config/seasonal-rail.ts). */}
       <div className="xl:hidden">
         <SeasonalB2SRail slug={guide.slug} />
       </div>
